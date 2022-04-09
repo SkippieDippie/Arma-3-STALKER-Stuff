@@ -1,0 +1,850 @@
+/*%FSM<COMPILE "scriptedFSM.cfg, Formation">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Init",0,4346,-225.000000,-187.661865,-125.000000,-137.661865,0.000000,"Init"};
+item1[] = {"Ready",4,218,-225.000000,-87.661865,-125.000000,-37.661865,0.000000,"Ready"};
+item2[] = {"Move",2,250,-113.752289,405.437012,-13.752289,455.437012,0.000000,"Move"};
+item3[] = {"Start",2,250,-225.000000,7.787140,-125.000000,57.787140,0.000000,"Start"};
+item4[] = {"Timeout",4,218,-225.000061,90.044800,-125.000061,140.044800,0.000000,"Timeout"};
+item5[] = {"New_WP__1_",4,218,-223.164276,328.730316,-123.164253,378.730316,1.000000,"New WP (1)"};
+item6[] = {"_",2,250,-223.763657,159.969666,-123.763657,209.969666,0.000000,""};
+item7[] = {"Completed",4,218,78.661095,404.971863,178.661087,454.971863,0.000000,"Completed"};
+item8[] = {"",7,210,124.294373,28.429962,132.294403,36.429962,0.000000,""};
+item9[] = {"DC__2_",4,218,-80.491821,158.947205,19.508179,208.947205,2.000000,"DC (2)"};
+item10[] = {"",7,210,124.399590,179.072220,132.399597,187.072250,0.000000,""};
+item11[] = {"Force_DC__1_",4,218,-637.843323,267.750763,-537.843323,317.750671,1.000000,"Force DC (1)"};
+item12[] = {"Check",2,250,-780.977722,159.603958,-680.977661,209.603958,0.000000,"Check"};
+item13[] = {"Always",8,218,-780.974060,9.230423,-680.974304,59.230423,0.000000,"Always"};
+item14[] = {"DC",2,250,-782.951782,-87.215012,-682.951721,-37.215012,0.000000,"DC"};
+item15[] = {"",7,210,-861.951660,-66.215012,-853.951660,-58.215012,0.000000,""};
+item16[] = {"",7,210,-861.896362,180.794785,-853.896484,188.794785,0.000000,""};
+item17[] = {"Always",8,218,-907.951660,12.784988,-807.951904,62.784988,0.000000,"Always"};
+item18[] = {"",7,210,-735.982178,288.800201,-727.982239,296.800201,0.000000,""};
+item19[] = {"Attacked__3_",4,218,-638.705688,159.836395,-538.705688,209.836304,3.000000,"Attacked (3)"};
+item20[] = {"Anim",2,250,-220.508041,484.388916,-130.508026,534.388916,0.000000,"Anim"};
+item21[] = {"true",8,218,-74.851410,245.216156,15.148590,295.216156,0.000000,"true"};
+item22[] = {"",7,210,124.183327,266.094696,132.183350,274.094696,0.000000,""};
+item23[] = {"Follow__3_",4,218,-113.943787,328.765045,-13.943665,378.765350,3.000000,"Follow (3)"};
+item24[] = {"Wait__2_",4,218,-6.455544,328.170715,93.544579,378.171021,2.000000,"Wait (2)"};
+item25[] = {"",7,210,124.648514,348.432434,132.648499,356.432404,0.000000,""};
+item26[] = {"Follow_For__3_",4,218,-335.476013,327.935883,-235.475891,377.936188,3.000000,"Follow For (3)"};
+item27[] = {"",7,210,-289.429626,426.451141,-281.429688,434.451111,0.000000,""};
+item28[] = {"Force_DC__1_",4,218,-371.615448,159.977631,-271.615845,209.977539,1.000000,"Force DC (1)"};
+item29[] = {"Check_1",2,250,-497.429443,160.307404,-407.429413,210.307419,0.000000,"Check"};
+item30[] = {"true",8,218,-364.089233,245.351074,-274.089233,295.351074,0.000000,"true"};
+item31[] = {"Idle",2,250,-223.088120,244.930908,-123.088127,294.930908,0.000000,"Idle"};
+item32[] = {"Arrows__2_",4,218,-638.682495,212.657959,-538.682495,262.657867,2.000000,"Arrows (2)"};
+item33[] = {"",7,210,-735.478821,234.163788,-727.478821,242.163788,0.000000,""};
+item34[] = {"Done",4,218,-109.248016,486.159973,-19.248016,536.159973,0.000000,"Done"};
+link0[] = {0,1};
+link1[] = {1,14};
+link2[] = {2,7};
+link3[] = {3,4};
+link4[] = {4,6};
+link5[] = {5,20};
+link6[] = {6,9};
+link7[] = {6,28};
+link8[] = {7,25};
+link9[] = {8,3};
+link10[] = {9,10};
+link11[] = {10,8};
+link12[] = {11,18};
+link13[] = {12,13};
+link14[] = {13,3};
+link15[] = {14,15};
+link16[] = {15,17};
+link17[] = {16,12};
+link18[] = {17,16};
+link19[] = {18,33};
+link20[] = {19,12};
+link21[] = {20,34};
+link22[] = {21,22};
+link23[] = {22,10};
+link24[] = {23,2};
+link25[] = {24,25};
+link26[] = {25,22};
+link27[] = {26,27};
+link28[] = {27,2};
+link29[] = {28,29};
+link30[] = {29,11};
+link31[] = {29,19};
+link32[] = {29,30};
+link33[] = {29,32};
+link34[] = {30,31};
+link35[] = {31,5};
+link36[] = {31,21};
+link37[] = {31,23};
+link38[] = {31,24};
+link39[] = {31,26};
+link40[] = {32,33};
+link41[] = {33,12};
+link42[] = {34,2};
+globals[] = {0.000000,0,0,0,0,640,480,1,217,6316128,1,-470.566101,167.337067,502.842224,-357.391846,614,828,1};
+window[] = {2,-1,-1,-1,-1,702,78,1278,78,3,632};
+*//*%FSM</HEAD>*/
+class FSM
+{
+        fsmName = "Formation";
+        class States
+        {
+                /*%FSM<STATE "Init">*/
+                class Init
+                {
+                        name = "Init";
+                        itemno = 0;
+                        init = /*%FSM<STATEINIT""">*/"/*" \n
+                         "	Author: Aloe (itfruit@mail.ru)" \n
+                         "	Mutants-formation: Formation.fsm" \n
+                         "" \n
+                         "*/" \n
+                         "" \n
+                         "" \n
+                         "_thisUnit = _this;" \n
+                         "_debugState = {" \n
+                         "	//[_thisUnit, format [""State Formation: %1"", _this]] call ARMST_fnc_mutDebugState;" \n
+                         "};" \n
+                         "" \n
+                         """Init"" call _debugState;" \n
+                         "" \n
+                         "_this addRating -10000;" \n
+                         "" \n
+                         "_this disableAI ""AUTOCOMBAT"";" \n
+                         "_this disableAI ""COVER"";" \n
+                         "_this disableAI ""SUPPRESSION"";" \n
+                         "" \n
+                         "_this setBehaviour ""CARELESS"";" \n
+                         "_this setUnitPosWeak ""UP"";" \n
+                         "_this setVariable [""BIS_noCoreConversations"", true, true];" \n
+                         "_this disableConversation true;" \n
+                         "_this setSpeaker ""NoVoice"";" \n
+                         "_this allowSprint true;" \n
+                         "_this switchMove """";" \n
+                         "" \n
+                         "//INITIALIZATION" \n
+                         "// - Character Parameters" \n
+                         "_config = configFile >> ""cfgVehicles"" >> typeOf _this;" \n
+                         "_characterConfig = _config >> ""Character"";" \n
+                         "_parentConfig =  configName (inheritsFrom _config);" \n
+                         "" \n
+                         "_this setVariable [""ARM_ParentCfg"", _parentConfig, true];" \n
+                         "//_this setVariable [""ARM_AttackFSM"", (_config >> ""fsmAttack"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_DangerFSM"", (_config >> ""fsmDanger"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_InspectFSM"", (_config >> ""fsmInspect"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_MoveFSM"", (_config >> ""fsmMove"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_DeadFSM"", (_config >> ""fsmDead"") call BIS_fnc_getCfgData];" \n
+                         "" \n
+                         "_this setVariable [""ARM_Home"", getPosATL _this];" \n
+                         "_this setVariable [""ARM_Radius"", (_characterConfig >> ""radius"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_Detection"", (_characterConfig >> ""detectionRadius"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_Chase"", (_characterConfig >> ""chaseDistance"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_CoverRadius"", (_characterConfig >> ""coverRadius"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_EscapeRadius"", (_characterConfig >> ""escapeRadius"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_Damage"", (_characterConfig >> ""damage"") call BIS_fnc_getCfgData, true];" \n
+                         "_this setVariable [""ARM_DamageHitPoints"", (_characterConfig >> ""damageHitPoints"") call BIS_fnc_getCfgData, true];" \n
+                         "_this setVariable [""ARM_Armor"", (_characterConfig >> ""armor"") call BIS_fnc_getCfgData, true];" \n
+                         "_this setVariable [""ARM_AttackDistances"", (_characterConfig >> ""attackDistances"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_AllowWalk"", (_characterConfig >> ""allowWalk"") call BIS_fnc_getCfgDataBool];" \n
+                         "" \n
+                         "//Use {min 1} !!!" \n
+                         "_this setVariable [""ARM_Courage"", (_characterConfig >> ""courage"") call BIS_fnc_getCfgData];" \n
+                         "_this setVariable [""ARM_Curious"", ((_characterConfig >> ""curious"") call BIS_fnc_getCfgData) min 1];" \n
+                         "_this setVariable [""ARM_Cowardice"", ((_characterConfig >> ""cowardice"") call BIS_fnc_getCfgData) min 1];" \n
+                         "_this setVariable [""ARM_Secrecy"", ((_characterConfig >> ""secrecy"") call BIS_fnc_getCfgData) min 1];" \n
+                         "_this setVariable [""ARM_Aggressive"", ((_characterConfig >> ""aggressive"") call BIS_fnc_getCfgData) min 1];" \n
+                         "_this setVariable [""ARM_Societal"", ((_characterConfig >> ""societal"") call BIS_fnc_getCfgData) min 1];" \n
+                         "_this setVariable [""ARM_Tactful"", (_characterConfig >> ""tactful"") call BIS_fnc_getCfgDataBool];" \n
+                         "" \n
+                         "/*" \n
+                         "// - Sounds" \n
+                         "_this setVariable [""ARM_IdleSounds"", (_characterConfig >> ""Sounds"" >> ""idle"") call BIS_fnc_getCfgData, true];" \n
+                         "_this setVariable [""ARM_AttackSounds"", (_characterConfig >> ""Sounds"" >> ""attack"") call BIS_fnc_getCfgData, true];" \n
+                         "_this setVariable [""ARM_HitSounds"", (_characterConfig >> ""Sounds"" >> ""hit"") call BIS_fnc_getCfgData, true];" \n
+                         "_this setVariable [""ARM_OtherSounds"", ((_characterConfig >> ""Sounds"" >> ""other"") call BIS_fnc_getCfgData) select 0, true];" \n
+                         "" \n
+                         "// - Animations" \n
+                         "_this setVariable [""ARM_AnimAttack1"", [_this, (_characterConfig >> ""Animations"" >> ""attack_1"") call BIS_fnc_getCfgData] call ARMST_fnc_mutGetAnimsPair, true];" \n
+                         "_this setVariable [""ARM_AnimAttack2"", [_this, (_characterConfig >> ""Animations"" >> ""attack_2"") call BIS_fnc_getCfgData] call ARMST_fnc_mutGetAnimsPair, true];" \n
+                         "_this setVariable [""ARM_AnimAttack3"", [_this, (_characterConfig >> ""Animations"" >> ""attack_3"") call BIS_fnc_getCfgData] call ARMST_fnc_mutGetAnimsPair, true];" \n
+                         "_this setVariable [""ARM_AnimAgry"", [_this, (_characterConfig >> ""Animations"" >> ""agry"") call BIS_fnc_getCfgData] call ARMST_fnc_mutGetAnimsPair, true];" \n
+                         "_this setVariable [""ARM_AnimEat"", [_this, (_characterConfig >> ""Animations"" >> ""eat"") call BIS_fnc_getCfgData] call ARMST_fnc_mutGetAnimsPair, true];" \n
+                         "_this setVariable [""ARM_AnimIdle"", [_this, (_characterConfig >> ""Animations"" >> ""idle"") call BIS_fnc_getCfgData] call ARMST_fnc_mutGetAnimsPair, true];" \n
+                         "*/" \n
+                         "_sounds = [_this] call ARMST_fnc_mutGetConfigSounds;" \n
+                         "_animations = [_this] call ARMST_fnc_mutGetConfigAnims;" \n
+                         "" \n
+                         "_this setVariable [""ARM_selections"", [], true];" \n
+                         "_this setVariable [""ARM_gethit"", [], true];" \n
+                         "" \n
+                         "_this setVariable [""ARM_FriendlyClasses"", (_characterConfig >> ""friendly"") call BIS_fnc_getCfgData];" \n
+                         "" \n
+                         "[_this, ""COMBAT""] call ARMST_fnc_mutBehaviourSet;" \n
+                         "" \n
+                         "_forceDCTimeout = time;" \n
+                         "_idleWpTimeMin = 15;" \n
+                         "_idleWpTimeMax = 45;" \n
+                         "_idleWpTimeOut = time;" \n
+                         "_waitCommandTimeOut = 0;" \n
+                         "" \n
+                         "" \n
+                         "_movePos = getPosATL _this;" \n
+                         "_followTo = objNull;" \n
+                         "_hearArrows = [];" \n
+                         "_attackedAnother = objNull;" \n
+                         "" \n
+                         "_allClients = if (isMultiplayer) then {-2} else {0};" \n
+                         "" \n
+                         "/*" \n
+                         "_debug = true;" \n
+                         "if (_debug) then {" \n
+                         "	_markerCover = createMarker [""CoverPos"",[0,0]];" \n
+                         "	_markerCover setMarkerShape ""ICON"";" \n
+                         "	_markerCover setMarkerType ""hd_dot"";" \n
+                         "	_markerCover setMarkerText ""Cover"";" \n
+                         "" \n
+                         "	_markerDanger = createMarker [""DangerPos"",[0,0]];" \n
+                         "	_markerDanger setMarkerShape ""ICON"";" \n
+                         "	_markerDanger setMarkerType ""hd_dot"";" \n
+                         "	_markerDanger setMarkerText ""Danger"";" \n
+                         "" \n
+                         "	_this setVariable [""MarkerCover"", _markerCover];" \n
+                         "	_this setVariable [""MarkerDanger"", _markerDanger];" \n
+                         "};" \n
+                         "*/" \n
+                         "" \n
+                         "" \n
+                         "//EVENTHANDLERS" \n
+                         "" \n
+                         "_EHFNearIdx = _this addEventHandler [""FiredNear"", {" \n
+                         "	" \n
+                         "	params  [""_unit"", ""_shooter"", ""_distance"", ""_weapon"", ""_muzzle"", ""_mode"", ""_ammo""];" \n
+                         "	" \n
+                         "	if (time > (_unit getVariable [""ARM_FNearCheckTime"", 0])) then {" \n
+                         "		" \n
+                         "		_unit setVariable [""ARM_FNearCheckTime"", time + 5];" \n
+                         "		" \n
+                         "		_hearArrows =  _unit getVariable [""hearArrows"", []];" \n
+                         "		" \n
+                         "		if (count _hearArrows < 10) then {" \n
+                         "			_hearArrows pushBackUnique (getPosATL _shooter);" \n
+                         "		} else {" \n
+                         "			_hearArrows = [getPosATL _shooter];" \n
+                         "		};" \n
+                         "" \n
+                         "		_unit setVariable [""hearArrows"", _hearArrows];" \n
+                         "		" \n
+                         "		//Failed" \n
+                         "		_unit setVariable [""ARM_InspectFailed"", true];" \n
+                         "	" \n
+                         "	};" \n
+                         "" \n
+                         "}];" \n
+                         "" \n
+                         "/*" \n
+                         "_this removeAllEventHandlers ""HandleDamage"";" \n
+                         "_EHHDamIdx = _this addEventHandler [""HandleDamage"", {" \n
+                         "	params [""_unit"", ""_selection"", ""_damage""];" \n
+                         "" \n
+                         "	private _selections = _unit getVariable [""ARM_selections"", []];" \n
+                         "	private _gethit = _unit getVariable [""ARM_gethit"", []];" \n
+                         "	private _armor = 	_unit getVariable [""ARM_Armor"", 1];" \n
+                         "" \n
+                         "	if !(_selection in _selections) then {" \n
+                         "		_selections pushBack _selection;" \n
+                         "		_gethit pushBack 0;" \n
+                         "	};" \n
+                         "" \n
+                         "	private _i = _selections find _selection;" \n
+                         "	private _olddamage = _gethit select _i;" \n
+                         "" \n
+                         "	_damage = _olddamage + (_damage - _olddamage) * (1 / _armor);" \n
+                         "	_gethit set [_i, _damage];" \n
+                         "" \n
+                         "	_damage;" \n
+                         "}];" \n
+                         "*/" \n
+                         "_EHHDamIdx = 0;" \n
+                         "" \n
+                         "_EHHitIdx = _this addEventHandler [""Hit"", {" \n
+                         "	//Voice" \n
+                         "	_attacked = _this select 0;" \n
+                         "	_attacker = _this select 1;" \n
+                         "	/*" \n
+                         "	if (_attacked distance _attacker <= _attacked getVariable [""ARM_Chase"", 0]) then {" \n
+                         "		_attacked setVariable [""victimAgressor"", _attacker];" \n
+                         "	};" \n
+                         "	*/" \n
+                         "	if (_attacked getVariable [""ARM_LastHitVoice"", 0] < time && getDammage _attacked > 0.5) then {" \n
+                         "		[_attacked, (_attacked getVariable [""ARM_HitSounds"",[]]) call BIS_fnc_selectRandom, 50] call CBA_fnc_globalSay3d;" \n
+                         "		_attacked setVariable [""ARM_LastHitVoice"", time + 10];" \n
+                         "	};" \n
+                         "" \n
+                         "	//FIX BUG" \n
+                         "	if (_attacked getVariable [""agm_isunconscious"", false]) then {" \n
+                         "		_attacked setDammage 1;" \n
+                         "	};" \n
+                         "	" \n
+                         "	//Pseudo dog" \n
+                         "	/**/" \n
+                         "	if (_attacked getVariable [""ARM_ParentCfg"", """"] isEqualTo ""pseudodog_old_test"") then {" \n
+                         "		if (random 1 > 0.5) then {" \n
+                         "			_attacked setPosATL (_attacked getPos [20, random 360]);" \n
+                         "			_attacked setDir ([" \n
+                         "				_attacked, " \n
+                         "				_attacked getVariable [""Victim"", objNull]" \n
+                         "			] call BIS_fnc_dirTo);" \n
+                         "		};" \n
+                         "	};" \n
+                         "	" \n
+                         "	if (getDammage _attacked > 0.5) then {" \n
+                         "        if ((_attacked getVariable [""ARM_CowardiceDefault"", -1]) isEqualTo -1) then {" \n
+                         "            _attacked setVariable [""ARM_CowardiceDefault"", _attacked getVariable [""ARM_Cowardice"", 0]];" \n
+                         "        };" \n
+                         "        private _cowardice = _attacked getVariable [""ARM_Cowardice"", 0];" \n
+                         "        _attacked setVariable [""ARM_Cowardice"", _cowardice + 0.1];" \n
+                         "   };" \n
+                         "" \n
+                         "	//Failed" \n
+                         "	_attacked setVariable [""ARM_AmbushFailed"", true];" \n
+                         "	_attacked setVariable [""ARM_InspectFailed"", true];" \n
+                         "" \n
+                         "" \n
+                         "}];" \n
+                         "" \n
+                         "/*" \n
+                         "_EHADoneIdx = _this addEventHandler [""AnimDone"", {" \n
+                         "	" \n
+                         "	params [""_unit"", ""_anim""];" \n
+                         "	" \n
+                         "	_anims = [];" \n
+                         "	_anims append (_unit getVariable [""ARM_AnimAttack1"", []]);" \n
+                         "	_anims append (_unit getVariable [""ARM_AnimAttack2"", []]);" \n
+                         "	_anims append (_unit getVariable [""ARM_AnimAttack3"", []]);" \n
+                         "	_anims append (_unit getVariable [""ARM_AnimAgry"", []]);" \n
+                         "	_anims append (_unit getVariable [""ARM_AnimEat"", []]);" \n
+                         "" \n
+                         "	if (_anim in _anims) then {" \n
+                         "		_unit setVariable [""ARM_HandAttackDone"", true];" \n
+                         "	};" \n
+                         "" \n
+                         "}];" \n
+                         "*/" \n
+                         "" \n
+                         "" \n
+                         "_EHKillIdx = _this addEventHandler [""Killed"", {" \n
+                         "	" \n
+                         "	params [""_unit""];" \n
+                         "	" \n
+                         "	[_unit] execFSM (_unit getVariable ""ARM_DeadFSM"");" \n
+                         "	" \n
+                         "	{" \n
+                         "		_unit removeEventHandler [_x select 0, _x select 1];" \n
+                         "	} foreach (_unit getVariable [""ARM_EventHandlers"", []]);" \n
+                         "" \n
+                         "}];" \n
+                         "" \n
+                         "" \n
+                         "_this setVariable [""ARM_EventHandlers"", [" \n
+                         "	[""FiredNear"", _EHFNearIdx]," \n
+                         "	[""HandleDamage"", _EHHDamIdx]," \n
+                         "	[""Hit"", _EHHitIdx]," \n
+                         "	//[""AnimDone"", _EHADoneIdx]," \n
+                         "	[""Killed"", _EHKillIdx]" \n
+                         "]];" \n
+                         "" \n
+                         "_this setVariable [""ARM_InitalizedAI"", true];" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Ready">*/
+                                class Ready
+                                {
+                                        itemno = 1;
+                                        priority = 0.000000;
+                                        to="DC";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"unitReady _this"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Move">*/
+                class Move
+                {
+                        name = "Move";
+                        itemno = 2;
+                        init = /*%FSM<STATEINIT""">*/"""Move"" call _debugState;" \n
+                         "" \n
+                         "//Застревает падла " \n
+                         "//_this setDestination [_movePos, ""LEADER PLANNED"", true];" \n
+                         "//_this setDestination [_movePos, ""DoNotPlanFormation"", true];" \n
+                         "" \n
+                         "if !((_this getVariable [""ARM_CowardiceDefault"", -1]) isEqualTo -1) then {" \n
+                         "    _this setVariable [""ARM_Cowardice"", _this getVariable [""ARM_CowardiceDefault"", 0]];" \n
+                         "    _this setVariable [""ARM_CowardiceDefault"", nil];" \n
+                         "};" \n
+                         "" \n
+                         "_this stop false;" \n
+                         "" \n
+                         "_handleFSM = [_this, _movePos] execFSM (_this getVariable [""ARM_MoveFSM"", """"]);" \n
+                         "" \n
+                         "_this setVariable [""ARM_CurrentDestinaton"", _movePos];" \n
+                         "_this setVariable [""ARM_WaitCommand"", false, true];"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Completed">*/
+                                class Completed
+                                {
+                                        itemno = 7;
+                                        priority = 0.000000;
+                                        to="Start";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"completedFSM _handleFSM"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Start">*/
+                class Start
+                {
+                        name = "Start";
+                        itemno = 3;
+                        init = /*%FSM<STATEINIT""">*/"_timeOut = time;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Timeout">*/
+                                class Timeout
+                                {
+                                        itemno = 4;
+                                        priority = 0.000000;
+                                        to="_";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time - _timeOut > 1"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "_">*/
+                class _
+                {
+                        name = "_";
+                        itemno = 6;
+                        init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "DC__2_">*/
+                                class DC__2_
+                                {
+                                        itemno = 9;
+                                        priority = 2.000000;
+                                        to="Start";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"_this getVariable [""DC"", false]"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Force_DC__1_">*/
+                                class Force_DC__1_
+                                {
+                                        itemno = 28;
+                                        priority = 1.000000;
+                                        to="Check_1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!(_this getVariable [""DC"", false])"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Check">*/
+                class Check
+                {
+                        name = "Check";
+                        itemno = 12;
+                        init = /*%FSM<STATEINIT""">*/"""Check force:"" call _debugState;" \n
+                         "" \n
+                         "_detectionRadius = _this getVariable [""ARM_Detection"", 0];" \n
+                         "_enties = [_this, _detectionRadius, [""CAManBase""], []] call ARMST_fnc_mutFindUnits;" \n
+                         "_allies = _enties select 0;" \n
+                         "_enemies = _enties select 1;" \n
+                         "" \n
+                         "//Check Safe Behaviour for Dog`s etc.." \n
+                         "if ([_this, ""SAFE""] call ARMST_fnc_mutBehaviour) then {" \n
+                         "	_enemies = [];" \n
+                         "};" \n
+                         "" \n
+                         "" \n
+                         "//Attacked by another AI bushback to enemies" \n
+                         "if (!isNull _attackedAnother) then {" \n
+                         "" \n
+                         "	_enemies pushBackUnique _attackedAnother;" \n
+                         "	" \n
+                         "	_this setDir (_this getDir _attackedAnother);" \n
+                         "	" \n
+                         "	_this setVariable [""ARM_AttackedAnother"", nil, true];" \n
+                         "	" \n
+                         "	[_this, ""AWARE""] call ARMST_fnc_mutBehaviourSet;" \n
+                         "};" \n
+                         "" \n
+                         "_enemies = _enemies - [objNull];" \n
+                         "" \n
+                         "//Detect enemies " \n
+                         "if (count _enemies > 0) then {" \n
+                         "	_dangerObj = _enemies select 0;" \n
+                         "" \n
+                         "	if (([position _this, getdir _this, 190, position _dangerObj] call BIS_fnc_inAngleSector) " \n
+                         "	|| _attackedAnother in _enemies || !(_hearArrows isEqualTo [])) then {" \n
+                         "		" \n
+                         "		""Detect Enemies"" call _debugState;" \n
+                         "" \n
+                         "		_this setVariable [""ARM_WaitCommand"", false, true];		" \n
+                         "" \n
+                         "		_handle = _this execFSM (_this getVariable [""ARM_DangerFSM"", """"]);" \n
+                         "		_handle setFSMVariable [""_queue"", [[3, getPosATL _dangerObj, 5, _dangerObj]]];" \n
+                         "		_handle setFSMVariable [""_dangerCause"", 0];" \n
+                         "" \n
+                         "	};" \n
+                         "" \n
+                         "} else {" \n
+                         "" \n
+                         "	if !(_hearArrows isEqualTo []) then {" \n
+                         "" \n
+                         "		""No Enemies (Hear arrows)"" call _debugState;" \n
+                         "" \n
+                         "		//Sort arrows" \n
+                         "		_hearArrowsSorted = _hearArrows apply {[_this distance _x, _x]};" \n
+                         "		_hearArrowsSorted sort true;" \n
+                         "" \n
+                         "		_dangerPos = _hearArrowsSorted select 0 select 1;" \n
+                         "" \n
+                         "		_handle = _this execFSM (_this getVariable [""ARM_DangerFSM"", """"]);" \n
+                         "		_handle setFSMVariable [""_queue"", [[1, _dangerPos, 5]]];" \n
+                         "		_handle setFSMVariable [""_dangerCause"", 0];" \n
+                         "" \n
+                         "		//Clear" \n
+                         "		_this setVariable [""hearArrows"", []];" \n
+                         "" \n
+                         "	};" \n
+                         "" \n
+                         "" \n
+                         "};" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Always">*/
+                                class Always
+                                {
+                                        itemno = 13;
+                                        priority = 0.000000;
+                                        to="Start";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "DC">*/
+                class DC
+                {
+                        name = "DC";
+                        itemno = 14;
+                        init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Always">*/
+                                class Always
+                                {
+                                        itemno = 17;
+                                        priority = 0.000000;
+                                        to="Check";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Anim">*/
+                class Anim
+                {
+                        name = "Anim";
+                        itemno = 20;
+                        init = /*%FSM<STATEINIT""">*/"" \n
+                         "_idleAnimScriptHandle = [" \n
+                         "	_this," \n
+                         "	objNull," \n
+                         "	_allClients," \n
+                         "	[_animations, ""idle"", []] call BIS_fnc_getFromPairs," \n
+                         "	[[_sounds, ""idle"", []] call BIS_fnc_getFromPairs, 500]," \n
+                         "	false" \n
+                         "] spawn ARMST_fnc_mutPlayAttackRemote;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Done">*/
+                                class Done
+                                {
+                                        itemno = 34;
+                                        priority = 0.000000;
+                                        to="Move";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"scriptDone _idleAnimScriptHandle"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"" \n
+                                         "_idleWpTimeOut = time + random (_idleWpTimeMax - _idleWpTimeMin) + _idleWpTimeMin;" \n
+                                         "" \n
+                                         "[_this, """"] remoteExecCall [""switchMove"", 0];"/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Check_1">*/
+                class Check_1
+                {
+                        name = "Check_1";
+                        itemno = 29;
+                        init = /*%FSM<STATEINIT""">*/"_hearArrows = _this getVariable [""hearArrows"", []];" \n
+                         "_attackedAnother = _this getVariable [""ARM_AttackedAnother"", objNull];"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Attacked__3_">*/
+                                class Attacked__3_
+                                {
+                                        itemno = 19;
+                                        priority = 3.000000;
+                                        to="Check";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!(isNull (_this getVariable [""ARM_AttackedAnother"", objNull]))"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Arrows__2_">*/
+                                class Arrows__2_
+                                {
+                                        itemno = 32;
+                                        priority = 2.000000;
+                                        to="Check";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!(_hearArrows isEqualTo [])"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Force_DC__1_">*/
+                                class Force_DC__1_
+                                {
+                                        itemno = 11;
+                                        priority = 1.000000;
+                                        to="Check";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time - _forceDCTimeout > 3"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"_forceDCTimeout = time;"/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "true">*/
+                                class true
+                                {
+                                        itemno = 30;
+                                        priority = 0.000000;
+                                        to="Idle";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Idle">*/
+                class Idle
+                {
+                        name = "Idle";
+                        itemno = 31;
+                        init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Follow_For__3_">*/
+                                class Follow_For__3_
+                                {
+                                        itemno = 26;
+                                        priority = 3.000000;
+                                        to="Move";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!((_this getVariable [""ARM_FollowFor"", []]) isEqualTo [])"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"""Follow For"" call _debugState;" \n
+                                         "" \n
+                                         "//_this setVariable [""ARM_FollowTo"", objNull, true];" \n
+                                         "_this setVariable [""ARM_WaitCommand"", false, true];" \n
+                                         "_this forceWalk false;" \n
+                                         "_this allowSprint false;" \n
+                                         "" \n
+                                         "_followFor = (_this getVariable [""ARM_FollowFor"", []]) select 0;" \n
+                                         "_followTo = (_this getVariable [""ARM_FollowFor"", []]) select 1;" \n
+                                         "" \n
+                                         "if (" \n
+                                         "	_this distance _followTo > 10 " \n
+                                         "	&& _this distance _followFor < 50 " \n
+                                         "	&& !isNull _followFor " \n
+                                         "	&& {alive _followFor && !isNull _followTo} " \n
+                                         ") then {" \n
+                                         "" \n
+                                         "	_movePos = _followTo getPos [1, [_followTo, _this] call BIS_fnc_dirTo];" \n
+                                         "" \n
+                                         "} else {" \n
+                                         "	" \n
+                                         "	//_followTo = _followFor;" \n
+                                         "	_this setVariable [""ARM_FollowFor"", [], true];" \n
+                                         "	_this setVariable [""ARM_FollowTo"", _followFor, true];" \n
+                                         "" \n
+                                         "	[" \n
+                                         "		_this," \n
+                                         "		objNull," \n
+                                         "		_allClients," \n
+                                         "		[]," \n
+                                         "		[[_sounds, ""idle"", []] call BIS_fnc_getFromPairs]," \n
+                                         "		false" \n
+                                         "	] spawn ARMST_fnc_mutPlayAttackRemote;" \n
+                                         "	" \n
+                                         "}; " \n
+                                         "" \n
+                                         ""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Follow__3_">*/
+                                class Follow__3_
+                                {
+                                        itemno = 23;
+                                        priority = 3.000000;
+                                        to="Move";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/"_followTo = _this getVariable [""ARM_FollowTo"", objNull];"/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!isNull _followTo && {alive _followTo}"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"""Follow"" call _debugState;" \n
+                                         "" \n
+                                         "_this setVariable [""ARM_FollowFor"", [], true];" \n
+                                         "_this setVariable [""ARM_WaitCommand"", false, true];" \n
+                                         "" \n
+                                         "_this allowSprint true;" \n
+                                         "" \n
+                                         "if (_this distance _followTo > 3) then {" \n
+                                         "" \n
+                                         "	_movePos = getPosATL _followTo;" \n
+                                         "	" \n
+                                         "	_this forceWalk false;" \n
+                                         "" \n
+                                         "} else {" \n
+                                         "" \n
+                                         "	_movePos = _followTo getPos [10, random 360];" \n
+                                         "" \n
+                                         "	_this forceWalk true;" \n
+                                         "" \n
+                                         "};" \n
+                                         ""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Wait__2_">*/
+                                class Wait__2_
+                                {
+                                        itemno = 24;
+                                        priority = 2.000000;
+                                        to="Start";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/"_waitCommand = _this getVariable [""ARM_WaitCommand"", false];" \n
+                                         "if (_waitCommand && _waitCommandTimeOut isEqualTo 0) then {" \n
+                                         "	_waitCommandTimeOut = time + 300; " \n
+                                         "};"/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"_waitCommand"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"""Wait"" call _debugState;" \n
+                                         "" \n
+                                         "_this stop true;" \n
+                                         "" \n
+                                         "if (time > _waitCommandTimeOut) then {" \n
+                                         "	_this setVariable [""ARM_WaitCommand"", false, true];" \n
+                                         "	_waitCommandTimeOut = 0;" \n
+                                         "};" \n
+                                         ""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "New_WP__1_">*/
+                                class New_WP__1_
+                                {
+                                        itemno = 5;
+                                        priority = 1.000000;
+                                        to="Anim";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time > _idleWpTimeOut || _this distance _movePos < 5"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"""New waypoint"" call _debugState;" \n
+                                         "" \n
+                                         "if (_this getVariable [""ARM_AllowWalk"", false]) then {" \n
+                                         "	_this forceWalk true;" \n
+                                         "};" \n
+                                         "" \n
+                                         "" \n
+                                         "//Next waypoint by societality" \n
+                                         "_home = _this getVariable ""ARM_Home"";" \n
+                                         "_radius = _this getVariable [""ARM_Radius"", 1];" \n
+                                         "/**/" \n
+                                         "if (random 1 < (_this getVariable [""ARM_Societal"", 0]) && random 1 >= 0.5) then {" \n
+                                         "	" \n
+                                         "	_enties = [_this, _detectionRadius, [""CAManBase""], []] call ARMST_fnc_mutFindUnits;" \n
+                                         "	_allies = _enties select 0;" \n
+                                         "	_enemies = _enties select 1;" \n
+                                         "" \n
+                                         "	{" \n
+                                         "		if (_x isKindOf _parentConfig && alive _x) exitWith {" \n
+                                         "			_home = getPosATL _x;" \n
+                                         "			_radius = 30;" \n
+                                         "		};" \n
+                                         "	} foreach _allies;" \n
+                                         "" \n
+                                         "};" \n
+                                         "" \n
+                                         "//Generate position" \n
+                                         "_movePos = [" \n
+                                         "	_home, " \n
+                                         "	1," \n
+                                         "	_radius," \n
+                                         "	5," \n
+                                         "	0," \n
+                                         "	0.5," \n
+                                         "	0" \n
+                                         "] call BIS_fnc_findSafePos;" \n
+                                         "" \n
+                                         ""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "true">*/
+                                class true
+                                {
+                                        itemno = 21;
+                                        priority = 0.000000;
+                                        to="Start";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+        };
+        initState="Init";
+        finalStates[] =
+        {
+        };
+};
+/*%FSM</COMPILE>*/

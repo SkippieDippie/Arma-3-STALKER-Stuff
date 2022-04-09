@@ -1,0 +1,100 @@
+/*%FSM<COMPILE "scriptedFSM.cfg, Move">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Begin",0,4346,-75.000000,-100.000000,25.000000,-50.000000,0.000000,"Begin"};
+item1[] = {"Always",8,218,-75.000000,-25.000000,25.000000,25.000000,0.000000,"Always"};
+item2[] = {"Move",2,250,-75.000000,50.000000,25.000000,100.000000,0.000000,"Move"};
+item3[] = {"Timeout",4,218,-200.000000,50.000000,-100.000000,100.000000,0.000000,"Timeout"};
+item4[] = {"End",1,250,-325.000000,50.000000,-225.000000,100.000000,0.000000,"End"};
+link0[] = {0,1};
+link1[] = {1,2};
+link2[] = {2,3};
+link3[] = {3,4};
+globals[] = {0.000000,0,0,0,0,640,480,1,7,6316128,1,-356.739807,290.126221,409.564606,-319.038544,736,828,1};
+window[] = {2,-1,-1,-1,-1,796,78,1038,78,3,754};
+*//*%FSM</HEAD>*/
+class FSM
+{
+        fsmName = "Move";
+        class States
+        {
+                /*%FSM<STATE "Begin">*/
+                class Begin
+                {
+                        name = "Begin";
+                        itemno = 0;
+                        init = /*%FSM<STATEINIT""">*/"" \n
+                         "_unit = _this select 0;" \n
+                         "_position = _this select 1;" \n
+                         "" \n
+                         "_unit disableAI ""FSM"";" \n
+                         "" \n
+                         "_debugState = {" \n
+                         "	//[_unit, format [""State Move: %1"", _this]] call ARMST_fnc_mutDebugState;" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Always">*/
+                                class Always
+                                {
+                                        itemno = 1;
+                                        priority = 0.000000;
+                                        to="Move";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Move">*/
+                class Move
+                {
+                        name = "Move";
+                        itemno = 2;
+                        init = /*%FSM<STATEINIT""">*/"""Move"" call _debugState;" \n
+                         "" \n
+                         "_unit doMove _position;" \n
+                         "" \n
+                         "_moveTimeout = time + 1;" \n
+                         "" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Timeout">*/
+                                class Timeout
+                                {
+                                        itemno = 3;
+                                        priority = 0.000000;
+                                        to="End";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time > _moveTimeout"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "End">*/
+                class End
+                {
+                        name = "End";
+                        itemno = 4;
+                        init = /*%FSM<STATEINIT""">*/"_unit enableAI ""FSM"";"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+        };
+        initState="Begin";
+        finalStates[] =
+        {
+                "End",
+        };
+};
+/*%FSM</COMPILE>*/

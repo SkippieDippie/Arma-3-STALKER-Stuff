@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="armst1">
+  <Package name="armst1">
+	
+	<Key ID="STR_bandage_blue">
+		<Original>Arm Band</Original>
+		<English>Arm Band</English>
+		<Russian>Опозновательная повязка</Russian>
+	</Key>
+	<Key ID="STR_nakolenniki">
+		<Original>Kneepads</Original>
+		<English>Kneepads</English>
+		<Russian>Наколенники</Russian>
+	</Key>
+	<Key ID="STR_water_coat">
+		<Original>Water coat</Original>
+		<English>Water coat</English>
+		<Russian>Плащ</Russian>
+	</Key>
+</Package>
+</Project>

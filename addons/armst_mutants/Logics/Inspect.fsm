@@ -1,0 +1,341 @@
+/*%FSM<COMPILE "scriptedFSM.cfg, Inspect">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Begin",0,4346,-50.000000,-75.000000,50.000000,-25.000000,0.000000,"Begin"};
+item1[] = {"Always",8,218,-50.000000,25.000000,50.000000,75.000000,0.000000,"Always"};
+item2[] = {"Select_action",2,250,100.000000,300.000000,200.000000,350.000000,0.000000,"Select action"};
+item3[] = {"Always",8,218,250.000000,300.000000,350.000000,350.000000,0.000000,"Always"};
+item4[] = {"Select",2,250,-50.000000,125.000000,50.000000,175.000000,0.000000,"Select"};
+item5[] = {"Body__1_",4,218,100.000000,200.000000,200.000000,250.000000,1.000000,"Body (1)"};
+item6[] = {"Move",2,250,250.000000,200.000000,350.000000,250.000000,0.000000,"Move"};
+item7[] = {"TimeOut",4,218,250.000000,125.000000,350.000000,175.000000,0.000000,"TimeOut"};
+item8[] = {"Close__1_",4,218,100.000000,400.000000,200.000000,450.000000,1.000000,"Close (1)"};
+item9[] = {"Inspect",2,250,100.000000,500.000000,200.000000,550.000000,0.000000,"Inspect"};
+item10[] = {"Timeout",4,218,-50.000000,500.000000,50.000000,550.000000,0.000000,"Timeout"};
+item11[] = {"Always",8,218,-200.000000,125.000000,-100.000000,175.000000,0.000000,"Always"};
+item12[] = {"End",1,250,-350.000000,125.000000,-250.000000,175.000000,0.000000,"End"};
+item13[] = {"Stuck__3_",4,218,-200.000000,200.000000,-100.000000,250.000000,3.000000,"Stuck (3)"};
+item14[] = {"Check",2,250,-200.000000,300.000000,-100.000000,350.000000,0.000000,"Check"};
+item15[] = {"Reset__1_",4,218,-350.000000,300.000000,-250.000000,350.000000,1.000000,"Reset (1)"};
+item16[] = {"Always",8,218,-200.000000,400.000000,-100.000000,450.000000,0.000000,"Always"};
+item17[] = {"",7,210,-4.000008,421.000000,4.000008,428.999969,0.000000,""};
+link0[] = {0,1};
+link1[] = {1,4};
+link2[] = {2,3};
+link3[] = {2,8};
+link4[] = {3,6};
+link5[] = {4,5};
+link6[] = {4,11};
+link7[] = {4,13};
+link8[] = {5,2};
+link9[] = {6,7};
+link10[] = {7,4};
+link11[] = {8,9};
+link12[] = {9,10};
+link13[] = {10,17};
+link14[] = {11,12};
+link15[] = {13,14};
+link16[] = {14,15};
+link17[] = {14,16};
+link18[] = {15,12};
+link19[] = {16,17};
+link20[] = {17,4};
+globals[] = {0.000000,0,0,0,0,640,480,1,25,6316128,1,-330.202209,368.696472,892.183228,-195.576233,532,828,1};
+window[] = {2,-1,-1,-1,-1,796,78,1038,78,3,550};
+*//*%FSM</HEAD>*/
+class FSM
+{
+        fsmName = "Inspect";
+        class States
+        {
+                /*%FSM<STATE "Begin">*/
+                class Begin
+                {
+                        name = "Begin";
+                        itemno = 0;
+                        init = /*%FSM<STATEINIT""">*/"/*" \n
+                         "	Author: Aloe (itfruit@mail.ru)" \n
+                         "	Mutants-inspect: inspect.fsm" \n
+                         "" \n
+                         "*/" \n
+                         "" \n
+                         "_unit = _this select 0;" \n
+                         "_position = _this select 1;" \n
+                         "" \n
+                         "" \n
+                         "_debugState = {" \n
+                         "	//[_unit, format [""State Inspect: %1"", _this]] call ARMST_fnc_mutDebugState;" \n
+                         "};" \n
+                         "" \n
+                         "" \n
+                         """Begin"" call _debugState;" \n
+                         "" \n
+                         "_unit setVariable [""ARM_InspectFailed"", false];" \n
+                         "" \n
+                         "_unit disableAI ""TARGET"";" \n
+                         "_unit disableAI ""AUTOTARGET"";" \n
+                         "_unit disableAI ""FSM"";" \n
+                         "" \n
+                         "_unit setBehaviour ""CARELESS"";" \n
+                         "" \n
+                         "if (_unit getVariable [""ARM_AllowWalk"", false]) then {" \n
+                         "	_unit forceWalk true;" \n
+                         "};" \n
+                         "" \n
+                         "private _inspectAnims = [([_unit] call ARMST_fnc_mutGetConfigAnims), ""eat"", []] call BIS_fnc_getFromPairs;" \n
+                         "private _thisPos = getPosATL _unit;" \n
+                         "private _resetInspect = false;" \n
+                         "private _stuckCheck = 0;" \n
+                         "" \n
+                         "private _bodies = [];" \n
+                         "{" \n
+                         "	if (!alive _x && (_x distance _position) < _unit getVariable [""ARM_Detection"", 100]) then {" \n
+                         "		_bodies pushBack _x;" \n
+                         "	};" \n
+                         "} foreach (entities [[""CAManBase""], [], false, false]);" \n
+                         "" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Always">*/
+                                class Always
+                                {
+                                        itemno = 1;
+                                        priority = 0.000000;
+                                        to="Select";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Select_action">*/
+                class Select_action
+                {
+                        name = "Select_action";
+                        itemno = 2;
+                        init = /*%FSM<STATEINIT""">*/"" \n
+                         "_thisPos = getPosATL _unit;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Close__1_">*/
+                                class Close__1_
+                                {
+                                        itemno = 8;
+                                        priority = 1.000000;
+                                        to="Inspect";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"_unit distance _body  <= 2"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Always">*/
+                                class Always
+                                {
+                                        itemno = 3;
+                                        priority = 0.000000;
+                                        to="Move";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Select">*/
+                class Select
+                {
+                        name = "Select";
+                        itemno = 4;
+                        init = /*%FSM<STATEINIT""">*/"" \n
+                         "_body = objNull;" \n
+                         "_bodies = _bodies - [objNull];" \n
+                         "" \n
+                         "if (count _bodies > 0) then {" \n
+                         "	_bodies = [_unit, _bodies] call ARMST_fnc_sortByDistance;" \n
+                         "	_body = _bodies select 0;" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Stuck__3_">*/
+                                class Stuck__3_
+                                {
+                                        itemno = 13;
+                                        priority = 3.000000;
+                                        to="Check";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"_stuckCheck > 50"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Body__1_">*/
+                                class Body__1_
+                                {
+                                        itemno = 5;
+                                        priority = 1.000000;
+                                        to="Select_action";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!(_unit getVariable [""ARM_InspectFailed"", false]) && !isNull _body && (!isNull _unit && {alive _unit && canMove _unit})"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Always">*/
+                                class Always
+                                {
+                                        itemno = 11;
+                                        priority = 0.000000;
+                                        to="End";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Move">*/
+                class Move
+                {
+                        name = "Move";
+                        itemno = 6;
+                        init = /*%FSM<STATEINIT""">*/"" \n
+                         "_unit stop false;" \n
+                         "" \n
+                         "//FIX stuck bug on close-up distance" \n
+                         "//if (_unit distance _body < 2) then {_unit setDir ([_unit, _body] call BIS_fnc_dirTo)};" \n
+                         "" \n
+                         "" \n
+                         "_unit doMove (getPosATL _body);" \n
+                         "_moveTimeout = time + 1;" \n
+                         "_stuckCheck = _stuckCheck + 1;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "TimeOut">*/
+                                class TimeOut
+                                {
+                                        itemno = 7;
+                                        priority = 0.000000;
+                                        to="Select";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time > _moveTimeout"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Inspect">*/
+                class Inspect
+                {
+                        name = "Inspect";
+                        itemno = 9;
+                        init = /*%FSM<STATEINIT""">*/"""Eat body"" call _debugState;" \n
+                         "" \n
+                         "//doStop _unit;" \n
+                         "_unit stop true;" \n
+                         "_unit setDir ([_unit, _body] call BIS_fnc_dirTo);" \n
+                         "" \n
+                         "if !(_inspectAnims isEqualTo []) then {" \n
+                         "	[_unit, (_inspectAnims call BIS_fnc_selectRandom) select 0] remoteExecCall [""switchMove""]" \n
+                         "};" \n
+                         "" \n
+                         "_bodies = _bodies - [_body];" \n
+                         "" \n
+                         "_inspectTimeout = time;" \n
+                         "_stuckCheck = 0;" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Timeout">*/
+                                class Timeout
+                                {
+                                        itemno = 10;
+                                        priority = 0.000000;
+                                        to="Select";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time - _inspectTimeout > 5 || (_unit getVariable [""ARM_InspectFailed"", false])"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "End">*/
+                class End
+                {
+                        name = "End";
+                        itemno = 12;
+                        init = /*%FSM<STATEINIT""">*/"""Exit"" call _debugState;" \n
+                         "" \n
+                         "_unit stop false;" \n
+                         "" \n
+                         "[_unit, """"] remoteExecCall [""switchMove""];" \n
+                         "" \n
+                         "_unit enableAI ""FSM"";"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Check">*/
+                class Check
+                {
+                        name = "Check";
+                        itemno = 14;
+                        init = /*%FSM<STATEINIT""">*/"""Stuck check"" call _debugState;" \n
+                         "" \n
+                         "	_thisPosNow = getPosATL _unit;	" \n
+                         "	_thisPosNowF = [(_thisPosNow select 0) toFixed 3, (_thisPosNow select 1) toFixed 3, (_thisPosNow select 2) toFixed 3];" \n
+                         "	_thisPosF = [(_thisPos select 0) toFixed 3, (_thisPos select 1) toFixed 3, (_thisPos select 2) toFixed 3];" \n
+                         "" \n
+                         "	if (_thisPosNowF isEqualTo _thisPosF) then {" \n
+                         "		""Reset inspect: stuck"" call _debugState;" \n
+                         "		_resetInspect = true;" \n
+                         "	};" \n
+                         "" \n
+                         "_stuckCheck = 0;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Reset__1_">*/
+                                class Reset__1_
+                                {
+                                        itemno = 15;
+                                        priority = 1.000000;
+                                        to="End";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"_resetInspect"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Always">*/
+                                class Always
+                                {
+                                        itemno = 16;
+                                        priority = 0.000000;
+                                        to="Select";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+        };
+        initState="Begin";
+        finalStates[] =
+        {
+                "End",
+        };
+};
+/*%FSM</COMPILE>*/

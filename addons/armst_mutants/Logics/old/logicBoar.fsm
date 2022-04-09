@@ -1,0 +1,1162 @@
+/*%FSM<COMPILE "C:\Program Files (x86)\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, logicBoar">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Begin",0,250,0.000000,-425.000000,100.000000,-375.000000,0.000000,"Begin"};
+item1[] = {"LiveCycle",2,250,0.000000,-125.000000,100.000000,-75.000000,0.000000,"LiveCycle"};
+item2[] = {"Search_victims",2,250,425.000000,175.000000,525.000000,225.000000,0.000000,"Search victims"};
+item3[] = {"idle",4,218,200.000000,325.000000,300.000000,375.000000,0.000000,"idle"};
+item4[] = {"attack",4,218,650.000000,325.000000,750.000000,375.000000,1.000000,"attack"};
+item5[] = {"increment",2,250,425.000000,1025.000000,525.000000,1075.000000,0.000000,"increment"};
+item6[] = {"true",8,218,0.000000,-200.000000,100.000000,-150.000000,0.000000,"true"};
+item7[] = {"End_FSM",1,250,-175.000000,200.000000,-75.000000,250.000000,0.000000,"End FSM"};
+item8[] = {"alive",4,218,425.000000,-125.000000,525.000000,-75.000000,0.000000,"alive"};
+item9[] = {"__alive",4,218,-175.000000,-125.000000,-75.000000,-75.000000,0.000000,"!alive"};
+item10[] = {"Wait",4,218,425.000000,1100.000000,525.000000,1150.000000,0.000000,"Wait"};
+item11[] = {"",7,210,46.000000,1121.000244,54.000000,1128.999756,0.000000,""};
+item12[] = {"Victim",2,250,650.000000,400.000000,750.000000,450.000000,0.000000,"Victim"};
+item13[] = {"_",2,250,200.000000,400.000000,300.000000,450.000000,0.000000,""};
+item14[] = {"Clear",2,250,-175.000000,0.000000,-75.000000,50.000000,0.000000,"Clear"};
+item15[] = {"Timeout",4,218,-350.000000,0.000000,-250.000000,50.000000,0.000000,"Timeout"};
+item16[] = {"Exit",4,218,-175.000000,100.000000,-75.000000,150.000000,1.000000,"Exit"};
+item17[] = {"Delete",2,250,-350.000000,100.000000,-250.000000,150.000000,0.000000,"Delete"};
+item18[] = {"Empy_Group",4,218,-350.000000,200.000000,-250.000000,250.000000,0.000000,"Empy Group"};
+item19[] = {"After_pause",2,250,775.000000,725.000000,875.000000,775.000000,0.000000,"After pause"};
+item20[] = {"Victims",4,218,650.000000,175.000000,750.000000,225.000000,0.000000,"Victims"};
+item21[] = {"Determine_victim",2,250,650.000000,250.000000,750.000000,300.000000,0.000000,"Determine victim"};
+item22[] = {"No_victims",4,218,200.000000,175.000000,300.000000,225.000000,0.000000,"No victims"};
+item23[] = {"No_victim",2,250,200.000000,250.000000,300.000000,300.000000,0.000000,"No victim"};
+item24[] = {"true",8,218,525.000000,250.000000,625.000000,300.000000,0.000000,"true"};
+item25[] = {"Noise_wait",4,218,100.000000,500.000000,200.000000,550.000000,1.000000,"Noise wait"};
+item26[] = {"Noise",2,250,100.000000,575.000000,200.000000,625.000000,0.000000,"Noise"};
+item27[] = {"Do_move",4,218,300.000000,500.000000,400.000000,550.000000,1.000000,"Do move"};
+item28[] = {"Move",2,250,300.000000,575.000000,400.000000,625.000000,0.000000,"Move"};
+item29[] = {"true",8,218,100.000000,650.000000,200.000000,700.000000,0.000000,"true"};
+item30[] = {"true",8,218,300.000000,650.000000,400.000000,700.000000,0.000000,"true"};
+item31[] = {"",7,210,146.000000,1046.000000,154.000000,1054.000000,0.000000,""};
+item32[] = {"Persec",4,218,525.000000,500.000000,625.000000,550.000000,0.000000,"Persec"};
+item33[] = {"Move_1",2,250,525.000000,575.000000,625.000000,625.000000,0.000000,"Move"};
+item34[] = {"Give_up",4,218,425.000000,400.000000,525.000000,450.000000,0.000000,"Give up"};
+item35[] = {"__1",2,250,950.000000,125.000000,1050.000000,175.000000,0.000000,""};
+item36[] = {"Jump_attack",4,218,775.000000,500.000000,875.000000,550.000000,0.000000,"Jump attack"};
+item37[] = {"SetDir",2,250,775.000000,575.000000,875.000000,625.000000,0.000000,"SetDir"};
+item38[] = {"",7,210,571.000000,1046.000000,579.000000,1054.000000,0.000000,""};
+item39[] = {"",7,210,346.000000,1046.000000,354.000000,1054.000000,0.000000,""};
+item40[] = {"is_Alive",4,218,775.000000,800.000000,875.000000,850.000000,1.000000,"is Alive"};
+item41[] = {"Attack_pause",4,218,775.000000,650.000000,875.000000,700.000000,2.000000,"Attack pause"};
+item42[] = {"true",8,218,1000.000000,575.000000,1100.000000,625.000000,0.000000,"true"};
+item43[] = {"Alive_this",2,250,775.000000,875.000000,875.000000,925.000000,0.000000,"Alive this"};
+item44[] = {"Alive_victim",4,218,775.000000,950.000000,875.000000,1000.000000,1.000000,"Alive victim"};
+item45[] = {"Not_Intersect",2,250,775.000000,1175.000000,875.000000,1225.000000,0.000000,"Not Intersect"};
+item46[] = {"No_vehicle",4,218,900.000000,1175.000000,1000.000000,1225.000000,0.000000,"No vehicle"};
+item47[] = {"Attack",2,4346,900.000000,1325.000000,1000.000000,1375.000000,0.000000,"Attack"};
+item48[] = {"In_vehicle",4,218,775.000000,1250.000000,875.000000,1300.000000,0.000000,"In vehicle"};
+item49[] = {"Veh__Attack",2,250,775.000000,1325.000000,875.000000,1375.000000,0.000000,"Veh." \n "Attack"};
+item50[] = {"not_Alive",8,218,625.000000,725.000000,725.000000,775.000000,0.000000,"not Alive"};
+item51[] = {"not_Alive_victim",8,218,625.000000,875.000000,725.000000,925.000000,0.000000,"not Alive victim"};
+item52[] = {"",7,210,1046.000000,1646.000000,1054.000000,1654.000000,0.000000,""};
+item53[] = {"",7,210,571.000000,1646.000122,579.000000,1653.999878,0.000000,""};
+item54[] = {"",7,210,571.000000,746.000000,579.000000,754.000000,0.000000,""};
+item55[] = {"",7,210,571.000000,896.000000,579.000000,904.000000,0.000000,""};
+item56[] = {"true",8,218,775.000000,1425.000000,875.000000,1475.000000,0.000000,"true"};
+item57[] = {"",7,210,946.000000,1646.000122,954.000000,1653.999878,0.000000,""};
+item58[] = {"",7,210,821.000000,1646.000122,829.000000,1653.999878,0.000000,""};
+item59[] = {"true",8,218,200.000000,900.000000,300.000000,950.000000,0.000000,"true"};
+item60[] = {"",7,210,246.000000,1046.000122,254.000000,1053.999878,0.000000,""};
+item61[] = {"Check_agressor",2,250,425.000000,-25.000000,525.000000,25.000000,0.000000,"Check agressor"};
+item62[] = {"CantMove",4,218,200.000000,-25.000000,300.000000,25.000000,2.000000,"CantMove"};
+item63[] = {"true",8,218,425.000000,100.000000,525.000000,150.000000,0.000000,"true"};
+item64[] = {"",7,210,46.000000,-4.000000,54.000000,4.000000,0.000000,""};
+item65[] = {"Agressor",4,218,575.000000,-25.000000,675.000000,25.000000,1.000000,"Agressor"};
+item66[] = {"__2",2,250,950.000000,-25.000000,1050.000000,25.000000,0.000000,""};
+item67[] = {"true",8,218,950.000000,400.000000,1050.000000,450.000000,0.000000,"true"};
+item68[] = {"not_Alive",8,218,1075.000000,-25.000000,1175.000000,25.000000,0.000000,"not Alive"};
+item69[] = {"",7,210,1521.000000,-4.000015,1529.000000,4.000015,0.000000,""};
+item70[] = {"",7,210,1521.000000,1646.000122,1529.000000,1653.999878,0.000000,""};
+item71[] = {"Alive_victim",4,218,950.000000,50.000000,1050.000000,100.000000,1.000000,"Alive victim"};
+item72[] = {"true",8,218,900.000000,1425.000000,1000.000000,1475.000000,0.000000,"true"};
+item73[] = {"Cover_Pos",2,250,900.000000,1500.000000,1000.000000,1550.000000,0.000000,"Cover Pos"};
+item74[] = {"",7,210,121.000000,46.000000,129.000000,54.000000,0.000000,""};
+item75[] = {"",7,210,896.000000,46.000000,904.000000,54.000000,0.000000,""};
+item76[] = {"",7,210,896.000000,421.000000,904.000000,429.000000,0.000000,""};
+item77[] = {"Firer",4,218,75.000000,250.000000,175.000000,300.000000,0.000000,"Firer"};
+item78[] = {"",7,210,1521.000000,146.000000,1529.000000,154.000000,0.000000,""};
+item79[] = {"true",8,218,900.000000,1575.000000,1000.000000,1625.000000,0.000000,"true"};
+item80[] = {"",7,210,696.000000,471.000000,704.000000,479.000000,0.000000,""};
+item81[] = {"true",8,218,525.000000,650.000000,625.000000,700.000000,0.000000,"true"};
+item82[] = {"true",8,218,1175.000000,675.000000,1275.000000,725.000000,0.000000,"true"};
+item83[] = {"Cover",4,218,1175.000000,500.000000,1275.000000,550.000000,1.000000,"Cover"};
+item84[] = {"__3",2,250,1175.000000,575.000000,1275.000000,625.000000,0.000000,""};
+item85[] = {"",7,210,1221.000000,1646.000000,1229.000000,1654.000000,0.000000,""};
+item86[] = {"Alive_victim",2,250,775.000000,1025.000000,875.000000,1075.000000,0.000000,"Alive victim"};
+item87[] = {"Not_Intersect",4,218,775.000000,1100.000000,875.000000,1150.000000,1.000000,"Not Intersect"};
+item88[] = {"Intersect",8,218,625.000000,1025.000000,725.000000,1075.000000,0.000000,"Intersect"};
+item89[] = {"terminate",4,218,125.000000,-425.000000,225.000000,-375.000000,1.000000,"terminate"};
+item90[] = {"End_FSM_1",1,250,250.000000,-425.000000,350.000000,-375.000000,0.000000,"End FSM"};
+item91[] = {"true",8,218,0.000000,-350.000000,100.000000,-300.000000,0.000000,"true"};
+item92[] = {"Init",2,250,0.000000,-275.000000,100.000000,-225.000000,0.000000,"Init"};
+link0[] = {0,89};
+link1[] = {0,91};
+link2[] = {1,8};
+link3[] = {1,9};
+link4[] = {2,20};
+link5[] = {2,22};
+link6[] = {3,13};
+link7[] = {4,12};
+link8[] = {5,10};
+link9[] = {6,1};
+link10[] = {8,61};
+link11[] = {9,14};
+link12[] = {10,11};
+link13[] = {11,64};
+link14[] = {12,34};
+link15[] = {12,80};
+link16[] = {13,25};
+link17[] = {13,27};
+link18[] = {13,59};
+link19[] = {14,15};
+link20[] = {14,16};
+link21[] = {15,17};
+link22[] = {16,7};
+link23[] = {17,18};
+link24[] = {18,7};
+link25[] = {19,40};
+link26[] = {19,50};
+link27[] = {20,21};
+link28[] = {21,4};
+link29[] = {21,24};
+link30[] = {22,23};
+link31[] = {23,3};
+link32[] = {23,77};
+link33[] = {24,23};
+link34[] = {25,26};
+link35[] = {26,29};
+link36[] = {27,28};
+link37[] = {28,30};
+link38[] = {29,31};
+link39[] = {30,39};
+link40[] = {31,60};
+link41[] = {32,33};
+link42[] = {33,81};
+link43[] = {34,2};
+link44[] = {35,67};
+link45[] = {36,37};
+link46[] = {37,41};
+link47[] = {37,42};
+link48[] = {38,5};
+link49[] = {39,5};
+link50[] = {40,43};
+link51[] = {41,19};
+link52[] = {42,52};
+link53[] = {43,44};
+link54[] = {43,51};
+link55[] = {44,86};
+link56[] = {45,46};
+link57[] = {45,48};
+link58[] = {46,47};
+link59[] = {47,72};
+link60[] = {48,49};
+link61[] = {49,56};
+link62[] = {50,54};
+link63[] = {51,55};
+link64[] = {52,57};
+link65[] = {53,38};
+link66[] = {54,55};
+link67[] = {55,38};
+link68[] = {56,58};
+link69[] = {57,58};
+link70[] = {58,53};
+link71[] = {59,60};
+link72[] = {60,39};
+link73[] = {61,62};
+link74[] = {61,63};
+link75[] = {61,65};
+link76[] = {62,64};
+link77[] = {63,2};
+link78[] = {64,1};
+link79[] = {65,66};
+link80[] = {66,68};
+link81[] = {66,71};
+link82[] = {67,76};
+link83[] = {68,69};
+link84[] = {69,78};
+link85[] = {70,85};
+link86[] = {71,35};
+link87[] = {72,73};
+link88[] = {73,79};
+link89[] = {74,75};
+link90[] = {75,76};
+link91[] = {76,12};
+link92[] = {77,74};
+link93[] = {78,70};
+link94[] = {79,57};
+link95[] = {80,32};
+link96[] = {80,36};
+link97[] = {80,83};
+link98[] = {81,54};
+link99[] = {82,85};
+link100[] = {83,84};
+link101[] = {84,82};
+link102[] = {85,52};
+link103[] = {86,87};
+link104[] = {86,88};
+link105[] = {87,45};
+link106[] = {88,38};
+link107[] = {89,90};
+link108[] = {91,92};
+link109[] = {92,6};
+globals[] = {0.000000,0,0,0,0,640,480,1,336,6316128,1,176.346436,1364.561890,1667.160889,524.876099,595,572,1};
+window[] = {2,-1,-1,-1,-1,845,104,1384,104,3,613};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "logicBoar";
+  class States
+  {
+    /*%FSM<STATE "Begin">*/
+    class Begin
+    {
+      name = "Begin";
+      init = /*%FSM<STATEINIT""">*/"/*" \n
+       "	Author: Aloe" \n
+       "	Mutants-Boar: logicBoar.fsm" \n
+       "" \n
+       "*/" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "terminate">*/
+        class terminate
+        {
+          priority = 1.000000;
+          to="End_FSM_1";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!local _this"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="Init";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "LiveCycle">*/
+    class LiveCycle
+    {
+      name = "LiveCycle";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "__alive">*/
+        class __alive
+        {
+          priority = 0.000000;
+          to="Clear";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!alive _this"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "alive">*/
+        class alive
+        {
+          priority = 0.000000;
+          to="Check_agressor";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"alive _this"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Search_victims">*/
+    class Search_victims
+    {
+      name = "Search_victims";
+      init = /*%FSM<STATEINIT""">*/"//Search nearest victims" \n
+       "" \n
+       "_victims=[];" \n
+       "private [""_victimsArray""];" \n
+       "" \n
+       "if(_updateVictimsTimeout <= time) then {" \n
+       "	_victimsArray = (((getPosATL _this) nearEntities [[""Man"", ""Animal""], _detectionRadius]) - [_this]); " \n
+       "	_updateVictimsTimeout = time + 10;" \n
+       "};" \n
+       "" \n
+       "for ""_curIndex"" from 0 to (count (_victimsArray)-1) step 1 do {" \n
+       "" \n
+       "	_curVictim = _victimsArray select _curIndex;" \n
+       "" \n
+       "	if (_this distance vehicle _curVictim < _detectionRadius " \n
+       "		&& alive _curVictim " \n
+       "		&& !(_curVictim isKindOf (configName _parentCfg) or {_curVictim isKindOf _x} count _friendlyClasses > 0)" \n
+       "		&& (count (lineIntersectsWith [eyePos _this, eyePos _curVictim, _this, _curVictim]) < 1)) then {" \n
+       "			_victims set [count _victims, _curVictim];" \n
+       "	};" \n
+       "};" \n
+       "" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "No_victims">*/
+        class No_victims
+        {
+          priority = 0.000000;
+          to="No_victim";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"count _victims == 0"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Victims">*/
+        class Victims
+        {
+          priority = 0.000000;
+          to="Determine_victim";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"count _victims > 0"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_victims = _victims - [objNull];"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "increment">*/
+    class increment
+    {
+      name = "increment";
+      init = /*%FSM<STATEINIT""">*/"_cycleScl= time + 0.5;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Wait">*/
+        class Wait
+        {
+          priority = 0.000000;
+          to="LiveCycle";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time > _cycleScl"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "End_FSM">*/
+    class End_FSM
+    {
+      name = "End_FSM";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Victim">*/
+    class Victim
+    {
+      name = "Victim";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Cover">*/
+        class Cover
+        {
+          priority = 1.000000;
+          to="__3";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"count _coverPos > 0"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Jump_attack">*/
+        class Jump_attack
+        {
+          priority = 0.000000;
+          to="SetDir";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_this distance _victim  <= _jumpAttackDist"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Persec">*/
+        class Persec
+        {
+          priority = 0.000000;
+          to="Move_1";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_this distance _victim  > _jumpAttackDist"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_this distance _victim  > _jumpAttackDist"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Give_up">*/
+        class Give_up
+        {
+          priority = 0.000000;
+          to="Search_victims";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_this distance _victim > _giveUpChase"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "_">*/
+    class _
+    {
+      name = "_";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Do_move">*/
+        class Do_move
+        {
+          priority = 1.000000;
+          to="Move";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time > _wait"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Noise_wait">*/
+        class Noise_wait
+        {
+          priority = 1.000000;
+          to="Noise";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time > _noisewait"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Clear">*/
+    class Clear
+    {
+      name = "Clear";
+      init = /*%FSM<STATEINIT""">*/"_this setVariable [""victim"", objNull];" \n
+       "_this removeAllEventHandlers ""Hit"";" \n
+       "_this removeAllEventHandlers ""FiredNear"";" \n
+       "" \n
+       "_deleteTime = time;" \n
+       "_deleteTimeOut = _this getVariable [""DeleteTimeOut"", 120];" \n
+       "" \n
+       "" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Exit">*/
+        class Exit
+        {
+          priority = 1.000000;
+          to="End_FSM";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_deleteTimeOut < 1"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Timeout">*/
+        class Timeout
+        {
+          priority = 0.000000;
+          to="Delete";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time - _deleteTime > _deleteTimeOut"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Delete">*/
+    class Delete
+    {
+      name = "Delete";
+      init = /*%FSM<STATEINIT""">*/"_deleteTime = time;" \n
+       "_thisGroup = group _this;" \n
+       "" \n
+       "deleteVehicle _this;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Empy_Group">*/
+        class Empy_Group
+        {
+          priority = 0.000000;
+          to="End_FSM";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time - _deleteTime > 1"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"if(count units _thisGroup < 1) then {" \n
+           "	deleteGroup _thisGroup;" \n
+           "};" \n
+           ""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "After_pause">*/
+    class After_pause
+    {
+      name = "After_pause";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "is_Alive">*/
+        class is_Alive
+        {
+          priority = 1.000000;
+          to="Alive_this";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"alive _this"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "not_Alive">*/
+        class not_Alive
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_victim = objNull;"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Determine_victim">*/
+    class Determine_victim
+    {
+      name = "Determine_victim";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "_victims = [_victims, [_this], {_input0 distance _x}, ""ASCEND""] call BIS_fnc_sortBy;" \n
+       "" \n
+       "//Select first visible victim" \n
+       "{" \n
+       "	if !(isNull _x) then {" \n
+       "		if([getPosATL _this, getdir _this, 190, getPosATL _x] call BIS_fnc_inAngleSector)exitWith{" \n
+       "			_victim = _x;" \n
+       "		};" \n
+       "	};" \n
+       "}foreach _victims;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "attack">*/
+        class attack
+        {
+          priority = 1.000000;
+          to="Victim";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!isNull _victim"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_this setVariable [""victim"", _victim];"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="No_victim";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "No_victim">*/
+    class No_victim
+    {
+      name = "No_victim";
+      init = /*%FSM<STATEINIT""">*/"_victim = objNull;" \n
+       "" \n
+       "_nearFirers =  _this getVariable [""nearFirers"", []] - [objNull];" \n
+       "if(count _nearFirers > 0) then {" \n
+       "	_victim  = _nearFirers select (count _nearFirers - 1);" \n
+       "	_this setVariable [""nearFirers"", []];" \n
+       "};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Firer">*/
+        class Firer
+        {
+          priority = 0.000000;
+          to="Victim";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!isNull _victim"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "idle">*/
+        class idle
+        {
+          priority = 0.000000;
+          to="_";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"isNull _victim"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_this setVariable [""victim"", objNull];"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Noise">*/
+    class Noise
+    {
+      name = "Noise";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "[_this,  _idleSounds call BIS_fnc_selectRandom, 100] call CBA_fnc_globalSay3d;" \n
+       "_noisewait= time+5+random 20;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Move">*/
+    class Move
+    {
+      name = "Move";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "if(_this distance _homeZone > _radius)then{" \n
+       "	_this doMove _homeZone;" \n
+       "}else{" \n
+       "	_this doMove ([_homeZone, _radius] call ARMST_fnc_getEmptyRandomPos);" \n
+       "};" \n
+       "" \n
+       "_wait = time + 10 + random 60;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Move_1">*/
+    class Move_1
+    {
+      name = "Move_1";
+      init = /*%FSM<STATEINIT""">*/"_movepos = getPosATL vehicle _victim;" \n
+       "_this doMove _movepos;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "__1">*/
+    class __1
+    {
+      name = "__1";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "if (isNull _victim or (!isNull _victim and {_this distance _victim >= _this distance _victimAgressor})) then {" \n
+       "	_victim = _victimAgressor;" \n
+       "	_this setVariable [""victim"", _victim];" \n
+       "" \n
+       "	_dir2Victim = ((getPos _victim select 0) - (getPos _this select 0)) atan2 ((getPos _victim select 1) - (getPos _this select 1));" \n
+       "	_this setDir _dir2Victim;" \n
+       "" \n
+       "	[_this,  _hitSounds call BIS_fnc_selectRandom, 50] call CBA_fnc_globalSay3d;" \n
+       "};" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="Victim";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "SetDir">*/
+    class SetDir
+    {
+      name = "SetDir";
+      init = /*%FSM<STATEINIT""">*/"_this doWatch _victim;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Attack_pause">*/
+        class Attack_pause
+        {
+          priority = 2.000000;
+          to="After_pause";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time > _attackwait"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Alive_this">*/
+    class Alive_this
+    {
+      name = "Alive_this";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Alive_victim">*/
+        class Alive_victim
+        {
+          priority = 1.000000;
+          to="Alive_victim";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"alive _victim"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "not_Alive_victim">*/
+        class not_Alive_victim
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_victim = objNull;" \n
+           ""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Not_Intersect">*/
+    class Not_Intersect
+    {
+      name = "Not_Intersect";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "In_vehicle">*/
+        class In_vehicle
+        {
+          priority = 0.000000;
+          to="Veh__Attack";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"vehicle _victim !=_victim"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "No_vehicle">*/
+        class No_vehicle
+        {
+          priority = 0.000000;
+          to="Attack";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"vehicle _victim ==_victim"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Attack">*/
+    class Attack
+    {
+      name = "Attack";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "	if(_victim distance _this <= _meleeAttackDist) then {" \n
+       "" \n
+       "		[_this,  _attackSounds call BIS_fnc_selectRandom, 30] call CBA_fnc_globalSay3d;" \n
+       "		[_this, _animMeleeAttacks call BIS_fnc_selectRandom] remoteExecCall [""switchMove""];" \n
+       "" \n
+       "		[_victim, _dammage, [" \n
+       "			[""HitBody"", 0.8]," \n
+       "			[""HitLeftLeg"", 0.4]," \n
+       "			[""HitRightLeg"", 0.4]," \n
+       "			[""HitLeftArm"", 0.3]," \n
+       "			[""HitRightArm"", 0.3]" \n
+       "		]] call ARMST_fnc_setDammageHitPoint;" \n
+       "		" \n
+       "		if(isPlayer _victim) then {" \n
+       "			_victim setVariable [""AGM_Pain"", ((_victim getVariable [""AGM_Pain"", 0]) + _dammage/10) min 1, true];" \n
+       "		};" \n
+       "" \n
+       "		_victim setVariable [""victimAgressor"", _this];" \n
+       "	};" \n
+       "" \n
+       "_attackwait= time + 0.3;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="Cover_Pos";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Veh__Attack">*/
+    class Veh__Attack
+    {
+      name = "Veh__Attack";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "_attackwait=time+1;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Check_agressor">*/
+    class Check_agressor
+    {
+      name = "Check_agressor";
+      init = /*%FSM<STATEINIT""">*/"_victimAgressor = objNull;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "CantMove">*/
+        class CantMove
+        {
+          priority = 2.000000;
+          to="LiveCycle";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"getDammage _this > 0.6"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_this setDammage 1;"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Agressor">*/
+        class Agressor
+        {
+          priority = 1.000000;
+          to="__2";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!isNil {_this getVariable ""victimAgressor""}"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_victimAgressor = _this getVariable ""victimAgressor"";" \n
+           "_this setVariable [""victimAgressor"", nil];"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="Search_victims";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "__2">*/
+    class __2
+    {
+      name = "__2";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Alive_victim">*/
+        class Alive_victim
+        {
+          priority = 1.000000;
+          to="__1";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"alive _victim"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "not_Alive">*/
+        class not_Alive
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_victim = objNull;"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Cover_Pos">*/
+    class Cover_Pos
+    {
+      name = "Cover_Pos";
+      init = /*%FSM<STATEINIT""">*/"if (getDammage _this > 0.7) then {" \n
+       "	_coverPos = [getPosATL _this, 50] call ARMST_fnc_getEmptyRandomPos;" \n
+       "};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "__3">*/
+    class __3
+    {
+      name = "__3";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "_this doMove _coverPos;" \n
+       "" \n
+       "if(_this distance _coverPos < 5 or !isNull _victimAgressor) then {" \n
+       "	_coverPos = [];" \n
+       "};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Alive_victim">*/
+    class Alive_victim
+    {
+      name = "Alive_victim";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Not_Intersect">*/
+        class Not_Intersect
+        {
+          priority = 1.000000;
+          to="Not_Intersect";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"count (lineIntersectsWith [eyePos _this, eyePos _victim, _this, _victim]) < 1"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Intersect">*/
+        class Intersect
+        {
+          priority = 0.000000;
+          to="increment";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_victim = objNull;" \n
+           ""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "End_FSM_1">*/
+    class End_FSM_1
+    {
+      name = "End_FSM_1";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Init">*/
+    class Init
+    {
+      name = "Init";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "_parentCfg = inheritsFrom (configFile >> ""cfgVehicles"" >> typeOf _this);" \n
+       "_friendlyClasses = _this getVariable [""FriendlyClasses"", []];" \n
+       "_jumpAttackDist = 3;" \n
+       "_meleeAttackDist = 1.5;" \n
+       "_homeZone = getPosATL _this;" \n
+       "_victim = objNull;" \n
+       "_coverPos = [];" \n
+       "" \n
+       "_paramsExt = _this getVariable [""UniqueParams"", []];" \n
+       "" \n
+       "[" \n
+       "	[_paramsExt, ""Radius"", 200] call BIS_fnc_getFromPairs," \n
+       "	[_paramsExt, ""DetectionRadius"", 100] call BIS_fnc_getFromPairs," \n
+       "	[_paramsExt, ""DistanceProsecute"", 150] call BIS_fnc_getFromPairs," \n
+       "	[_paramsExt, ""Dammage"", 0.4] call BIS_fnc_getFromPairs" \n
+       "" \n
+       "] params [""_radius"", ""_detectionRadius"",""_giveUpChase"", ""_dammage""];" \n
+       "" \n
+       "_idleSounds = [""boar_idle""]; " \n
+       "_hitSounds = [""boar_pain_1"",""boar_pain_2"",""boar_pain_3"",""boar_pain_4"",""boar_pain_5"",""boar_pain_6"",""boar_pain_7"",""boar_pain_8"",""boar_pain_9"",""boar_pain_10"",""boar_pain_11"",""boar_pain_12""];" \n
+       "_attackSounds = [""boar_agressive""];" \n
+       "" \n
+       "_animMeleeAttacks = [""boar_attack1"",""boar_attack2"",""boar_attack3"",""boar_attack4""]; //must be lower register " \n
+       "" \n
+       "_this addRating -10000;" \n
+       "_this setBehaviour ""CARELESS"";" \n
+       "_this allowFleeing 0;" \n
+       "_this setSkill 1;" \n
+       "_this disableAI ""TARGET"";" \n
+       "_this disableAI ""AUTOTARGET"";" \n
+       "_this disableAI ""FSM"";" \n
+       "_this setFaceAnimation 4;" \n
+       "_this setMimic ""dead"";" \n
+       "_this setUnitPos ""UP"";" \n
+       "_this setVariable [""BIS_noCoreConversations"", true, true];" \n
+       "_this disableConversation true;" \n
+       "_this setSpeedMode ""FULL"";" \n
+       "_this setSpeaker ""noVoice"";" \n
+       "" \n
+       "_cycleScl = time;" \n
+       "_updateVictimsTimeout = time;" \n
+       "_wait = time+random 35;" \n
+       "_noisewait = 5+random 40;" \n
+       "_attackwait = time;" \n
+       "" \n
+       "_this addEventHandler [""Hit"", {" \n
+       "" \n
+       "	params [""_attacked"", ""_attacker""];" \n
+       "" \n
+       "	if(_attacked distance _attacker <= 200) then {" \n
+       "		_attacked setVariable [""victimAgressor"", _attacker];" \n
+       "	};" \n
+       "" \n
+       "}];" \n
+       "" \n
+       "_this addEventHandler [""FiredNear"", {" \n
+       "	" \n
+       "	params  [""_unit"", ""_firer"", ""_distance"", ""_weapon"", ""_muzzle"", ""_mode"", ""_ammo""];" \n
+       "	" \n
+       "	_nearFirers =  _unit getVariable [""nearFirers"", []];	" \n
+       "" \n
+       "	if!(_firer in _nearFirers) then {" \n
+       "		_unit setVariable [""nearFirers"", [_nearFirers, _firer] call BIS_fnc_arrayPush];" \n
+       "	};" \n
+       "	" \n
+       "}];" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "true">*/
+        class true
+        {
+          priority = 0.000000;
+          to="LiveCycle";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="Begin";
+  finalStates[] =
+  {
+    "End_FSM",
+    "End_FSM_1",
+  };
+};
+/*%FSM</COMPILE>*/

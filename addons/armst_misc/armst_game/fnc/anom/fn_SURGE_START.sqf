@@ -1,0 +1,303 @@
+
+[3] call BIS_fnc_earthquake;
+180 setFog [0.30, 0.07, 0.75];
+180 setWindstr 0.50;
+180 setGusts 0.75;
+180 setWindDir (random 360);
+180 setWaves 1;
+180 setRainbow 0.25;
+180 setLightnings 0.75;
+_now = date;
+_hour = _now select 3;
+_min  = _now select 4;
+sleep 10;
+[3] call BIS_fnc_earthquake;
+	_dust = "#particlesource" createVehicleLocal getpos player;
+	_dust setParticleParams [["\A3\data_f\ParticleEffects\Universal\Universal.p3d", 16, 7, 48], "", "Billboard", 1, 5, [0,0,-25],
+					[25, -25, 0], 0.1, 0, 5, 0.5, [5, 5], [[0.1, 0.1, 0.1, 0], 
+					[0.1, 0.1, 0.1, 0.25], [0.15, 0.15, 0.15, 0], [1, 1, 1, 0]], [1,0.5], 0.1, 1, "", "", player,0,false];
+	_dust setParticleRandom [15, [25, 25, 0], [5, 5, 0], 0.1, 0, [0, 0, 0, 0], 8, 0.1];
+	_dust setParticleCircle [15, [0, 0, 0]];
+	_dust setDropInterval 0.01;
+	_Leaves_Green = "#particlesource" createVehicleLocal (getpos player);
+    _Leaves_Green attachto [player];
+    _Leaves_Green setParticleParams [["\A3\data_f\ParticleEffects\Hit_Leaves\Leaves_Green.p3d", 1, 0, 1],"","SpaceObject",1,7,[0,0,0],[0,0,0],1,0.000001,0,1.4,[1],[[0.68,0.68,0.68,1]],[0,1],0.2,1.2,"","",vehicle player];
+    _Leaves_Green setParticleRandom [0, [10, 10, 7], [4, 4, 0], 0, 0.01, [0, 0, 0, 0.1], 0, 0];
+    _Leaves_Green setParticleCircle [0.0, [0, 0, 0]];
+                
+	_Leaves_leaf = "#particlesource" createVehicleLocal (getpos player);
+    _Leaves_leaf attachto [player];
+    _Leaves_leaf setParticleParams [["\A3\data_f\cl_leaf", 1, 0, 1],"","SpaceObject",1,7,[0,0,0],[0,0,0],1,0.000001,0,1.4,[1],[[0.68,0.68,0.68,1]],[0,1],0.2,1.2,"","",vehicle player];
+    _Leaves_leaf setParticleRandom [0, [10, 10, 7], [4, 4, 0], 0, 0.01, [0, 0, 0, 0.1], 0, 0];
+    _Leaves_leaf setParticleCircle [0.0, [0, 0, 0]];
+                			   
+	_WoodParts = "#particlesource" createVehicleLocal (getpos player);
+	_WoodParts attachto [player];
+	_WoodParts setParticleParams [["\A3\data_f\ParticleEffects\Universal\WoodParts_01.p3d", 1, 0, 1],"","SpaceObject",1,7,[0,0,0],[0,0,0],1,0.000001,0,1.4,[1],[[0.68,0.68,0.68,1]],[0,1],0.2,1.2,"","",vehicle player];
+	_WoodParts setParticleRandom [0, [10, 10, 7], [4, 4, 0], 0, 0.01, [0, 0, 0, 0.1], 0, 0];
+	_WoodParts setParticleCircle [0.0, [0, 0, 0]];
+                
+	_leaves_p  = "#particlesource" createVehicleLocal (getpos player);
+	_leaves_p attachto [player];
+	_leaves_p setParticleRandom [0, [10, 10, 7], [4, 4, 5], 2, 0.1, [0, 0, 0, 0.5], 1, 1];
+				
+	_leaves_p setParticleCircle [100, [0, 0, 0]]; 
+	_leaves_p setParticleParams [["\A3\data_f\ParticleEffects\Hit_Leaves\Sticks_Green", 1, 1, 1], "", "SpaceObject", 1,27,[0,0,0],[50,50,10],2,0.000001,0.0,0.1,[0.5+random 5],[[0.68,0.68,0.68,1]],[1.5,1],13,13,"","",vehicle player,0,true,1,[[0,0,0,0]]];
+					
+	_Leaves_Green setDropInterval random 0.3;
+	_Leaves_leaf setDropInterval random 0.3;
+	_WoodParts setDropInterval random 0.3;
+	_leaves_p setDropInterval 3 + random 51;
+sleep 10;
+
+cutText ["","BLACK FADED", 0];
+setdate [2007, 10, 21, 02, 00];
+ARMST_ALARM = ["barmen_surge_phase_1","barmen_surge_phase_2"];
+_ARMST_ALARM = selectRandom ARMST_ALARM;
+playSound "thunder_2";
+cutText ["","BLACK IN", 3];
+enableCamShake true;
+addCamShake [2, 50, 2];
+playSound "thunder_0";
+sleep 3;
+player say2d _ARMST_ALARM;
+[1] call BIS_fnc_earthquake;
+
+sleep 20;
+
+_delay = 180;
+_ColorCorrections = ppEffectCreate ["colorCorrections", 1575];
+_DynamicBlur = ppEffectCreate ["dynamicBlur", 475];
+_DynamicBlur ppEffectEnable true;
+_DynamicBlur ppEffectAdjust [0.05];
+_DynamicBlur ppEffectCommit _delay; 
+_ColorCorrections ppEffectEnable true;
+_ColorCorrections ppEffectAdjust [1, 1, 0, [1,0,0,-0.1], [1,0,0,0], [1,0,0,-10]]; 
+_ColorCorrections ppEffectCommit _delay;
+_DynamicBlur ppEffectAdjust [0.25]; 
+_DynamicBlur ppEffectCommit _delay;
+enableCamShake true;
+addCamShake [2, 30, 5];
+playSound "thunder_1";
+sleep 10;
+[3] call BIS_fnc_earthquake;
+enableCamShake true;
+addCamShake [16, 60, 15];
+_li1 = "#lightpoint" createVehicle getpos player;
+_li1 setLightBrightness 20;
+_li1 setLightDayLight true;
+_li1 setLightAmbient[1,0.6,0.2];
+_li1 setLightColor[1,0,0];
+_li1 setLightUseFlare true;
+_li1 setLightFlareSize 5;
+_li1 lightAttachObject [player, [0,0,1000]];
+
+_li2 = "#lightpoint" createVehicle getpos player;
+_li2 setLightDayLight true;
+_li2 setLightAmbient[1,0.6,0.2];
+_li2 setLightColor[1,0,0];
+_li2 setLightUseFlare true;
+_li2 setLightFlareSize 0;
+_li2 setLightFlareMaxDistance 500;
+_li2 lightAttachObject [player, [0,2,1.5]];
+
+_ps = "#particlesource" createVehicleLocal getpos player;
+_velocity = [random 10,random 10,-1]; 
+_color = [1,1,1]; 
+_alpha = 0.3 + random 0.5; 
+_ps setParticleParams [["\Ca\Data\ParticleEffects\Universal\Universal.p3d",16,12,8],"","Billboard",1,35,[0,0,0],_velocity,1,1.275,1,0,[20],[[0,0,0,0]],[1000],1,0,"","",player]; 
+_ps setParticleRandom [100, [100,100,0], [0,0,0],1,0,[0,0,0,0.01],0,0]; 
+_ps setParticleCircle [100,[0,0,0]]; 
+_ps setDropInterval 0.001;
+
+[getPosATL player, 600, 10] spawn ARMST_fnc_moduleLightingExecute;
+playSound "thunder_2";
+sleep 2;
+0 = ["DynamicBlur", 400, [10]] spawn 
+{
+	params ["_name", "_priority", "_effect", "_handle"];
+	while {
+		_handle = ppEffectCreate [_name, _priority];
+		_handle < 0
+	} do {
+		_priority = _priority + 1;
+	};
+	_handle ppEffectEnable true;
+	_handle ppEffectAdjust _effect;
+	_handle ppEffectCommit 5;
+	waitUntil {ppEffectCommitted _handle};
+	uiSleep 3; 
+	comment "admire effect for a sec";
+	_handle ppEffectEnable false;
+	ppEffectDestroy _handle;
+};
+playSound "thunder_1";
+_li1 setLightBrightness 50;
+sleep 2;
+playSound "thunder_0";
+sleep 2;
+[3] call BIS_fnc_earthquake;
+_li1 setLightBrightness 75;
+playSound "thunder_2";
+sleep 2;
+playSound "thunder_2";
+sleep 2;
+playSound "thunder_1";
+sleep 2;
+playSound "thunder_0";
+_li1 setLightBrightness 100;
+sleep 2;
+playSound "thunder_2";
+sleep 2;
+addCamShake [16, 60, 15];
+playSound "thunder_1";
+sleep 2;
+playSound "thunder_0";
+titleText ["", "WHITE IN", 9];
+[getPosATL player, 600, 10] spawn ARMST_fnc_moduleLightingExecute;
+_li2 setLightBrightness 1;
+_li1 setLightBrightness 150;
+playSound "blowout";
+[3] call BIS_fnc_earthquake;
+playSound "thunder_2";
+sleep 2;
+playSound "thunder_1";
+sleep 2;
+_li1 setLightBrightness 125;
+playSound "thunder_0";
+sleep 2;
+playSound "thunder_2";
+sleep 2;
+addCamShake [16, 60, 15];
+playSound "thunder_1";
+sleep 2;
+playSound "thunder_0";
+titleText ["", "WHITE IN", 9];
+playSound "blowout";
+0 = ["DynamicBlur", 400, [10]] spawn 
+{
+	params ["_name", "_priority", "_effect", "_handle"];
+	while {
+		_handle = ppEffectCreate [_name, _priority];
+		_handle < 0
+	} do {
+		_priority = _priority + 1;
+	};
+	_handle ppEffectEnable true;
+	_handle ppEffectAdjust _effect;
+	_handle ppEffectCommit 5;
+	waitUntil {ppEffectCommitted _handle};
+	uiSleep 3; 
+	comment "admire effect for a sec";
+	_handle ppEffectEnable false;
+	ppEffectDestroy _handle;
+};
+_li1 setLightBrightness 175;
+playSound "thunder_0";
+sleep 2;
+playSound "thunder_2";
+sleep 2;
+playSound "thunder_1";
+sleep 2;
+playSound "thunder_0";
+[3] call BIS_fnc_earthquake;
+[getPosATL player, 600, 10] spawn ARMST_fnc_moduleLightingExecute;
+sleep 2;
+playSound "thunder_1";
+sleep 2;
+playSound "thunder_0";
+sleep 2;
+playSound "thunder_2";
+sleep 2;
+playSound "thunder_2";
+_li1 setLightBrightness 200;
+_li2 setLightFlareSize 10000;
+sleep 2;
+playSound "thunder_1";
+sleep 2;
+playSound "thunder_0";
+sleep 2;
+addCamShake [16, 60, 15];
+playSound "thunder_1";
+sleep 2;
+playSound "thunder_0";
+titleText ["", "WHITE IN", 9];
+playSound "blowout";
+playSound "thunder_2";
+sleep 1;
+addCamShake [16, 60, 10];
+[getPosATL player, 600, 10] spawn ARMST_fnc_moduleLightingExecute;
+playSound "thunder_1";
+sleep 2;playSound "thunder_0";
+titleText ["", "WHITE IN", 9];
+playSound "blowout";
+playSound "thunder_2";
+sleep 1;
+addCamShake [16, 60, 10];
+_li1 setLightBrightness 250;
+playSound "thunder_1";
+sleep 2;
+playSound "thunder_0";
+titleText ["", "WHITE IN", 9];
+playSound "blowout";
+playSound "thunder_1";
+sleep 1;
+addCamShake [16, 60, 15];
+playSound "thunder_1";
+sleep 2;
+playSound "thunder_0";
+titleText ["", "WHITE IN", 9];
+[getPosATL player, 600, 10] spawn ARMST_fnc_moduleLightingExecute;
+_li1 setLightBrightness 300;
+playSound "blowout";
+playSound "thunder_0";
+sleep 2;
+playSound "thunder_2";
+sleep 2;
+playSound "thunder_0";
+sleep 2;
+0 = ["DynamicBlur", 400, [10]] spawn 
+{
+	params ["_name", "_priority", "_effect", "_handle"];
+	while {
+		_handle = ppEffectCreate [_name, _priority];
+		_handle < 0
+	} do {
+		_priority = _priority + 1;
+	};
+	_handle ppEffectEnable true;
+	_handle ppEffectAdjust _effect;
+	_handle ppEffectCommit 5;
+	waitUntil {ppEffectCommitted _handle};
+	uiSleep 3; 
+	comment "admire effect for a sec";
+	_handle ppEffectEnable false;
+	ppEffectDestroy _handle;
+};
+sleep 2;
+playSound "thunder_2";
+sleep 2;
+addCamShake [16, 60, 10];
+playSound "thunder_1";
+sleep 2;
+[3] call BIS_fnc_earthquake;
+playSound "thunder_0";
+titleText ["", "WHITE IN", 9];
+setdate [2007, 10, 21, _hour, _min];
+_li1 setLightBrightness 400;
+playSound "blowout";
+player setvariable ["Surge",0];
+[getPosATL player, 600, 10] spawn ARMST_fnc_moduleLightingExecute;
+[3] call BIS_fnc_earthquake;
+ppEffectDestroy [_DynamicBlur, _ColorCorrections];
+cutText ["","BLACK FADED", 0];
+deleteVehicle _li1;
+deleteVehicle _li2;
+cutText ["","BLACK IN", 3];
+10 setWindForce 0;
+sleep 180;
+deleteVehicle _ps;
+deleteVehicle _leaves_p;
+deleteVehicle _Leaves_Green;
+deleteVehicle _dust;
+deleteVehicle _WoodParts;

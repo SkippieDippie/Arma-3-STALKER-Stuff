@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="armst3">
+  <Package name="armst3">
+	<Key ID="STR_armst_hood">
+		<Original>Hood</Original>
+		<English>Hood</English>
+		<Russian>Капюшон</Russian>
+	</Key>
+	<Key ID="STR_armst_hood_closed">
+		<Original>Hood (tidy up)</Original>
+		<English>Hood(tidy up)</English>
+		<Russian>Капюшон(снятый)</Russian>
+	</Key>
+	<Key ID="STR_armst_hood_full">
+		<Original>Hood(spacious hood)</Original>
+		<English>Hood(spacious hood)</English>
+		<Russian>Капюшон(просторный)</Russian>
+	</Key>
+	<Key ID="STR_armst_hood_mid">
+		<Original>Hood(tied)</Original>
+		<English>Hood(tied)</English>
+		<Russian>Капюшон(стянутый)</Russian>
+	</Key>
+	
+	
+</Package>
+</Project>
