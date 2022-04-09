@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="STALKER Stuff">
+  <Package name="Devices">
+    <Container name="Detector Echo">
+      <Key ID="STR_STST_devices_det_echo_name">
+        <Original>Detector 'Echo'</Original>
+        <English>Detector 'Echo'</English>
+        <Russian>Детектор 'Отклик'</Russian>
+      </Key>
+      <Key ID="STR_STST_devices_det_echo_desc">
+        <Original>placeholder</Original>
+        <English>placeholder</English>
+        <Russian>placeholder</Russian>
+      </Key>
+    </Container>
+    <Container name="Detector Bear">
+      <Key ID="STR_STST_devices_det_bear_name">
+        <Original>Detector 'Bear'</Original>
+        <English>Detector 'Bear'</English>
+        <Russian>Детектор 'Медведь'</Russian>
+      </Key>
+      <Key ID="STR_STST_devices_det_bear_desc">
+        <Original>placeholder</Original>
+        <English>placeholder</English>
+        <Russian>placeholder</Russian>
+      </Key>
+    </Container>
+    <Container name="Detector Veles">
+      <Key ID="STR_STST_devcies_det_veles_name">
+        <Original>Detector 'Veles'</Original>
+        <English>Detector 'Veles'</English>
+        <Russian>Детектор 'Велес'</Russian>
+      </Key>
+      <Key ID="STR_STST_det_veles_desc">
+        <Original>placeholder</Original>
+        <English>placeholder</English>
+        <Russian>placeholder</Russian>
+      </Key>
+    </Container>
+    <Container name="PDA">
+      <Key ID="STR_STST_devices_pda_name">
+        <Original>PDA</Original>
+        <English>PDA</English>
+        <Russian>КПК</Russian>
+      </Key>
+      <Key ID="STR_STST_devices_pda_desc">
+        <Original>placeholder</Original>
+        <English>placeholder</English>
+        <Russian>placeholder</Russian>
+      </Key>
+    </Container>
+    <Container name="Dosimeter DBG-06M">
+      <Key ID="STR_STST_devices_dos_dbg06m_name">
+        <Original>Dosimeter 'DBG-06M'</Original>
+        <English>Dosimeter 'DBG-06M'</English>
+        <Russian>Дозиметр 'DBG-06M'</Russian>
+      </Key>
+    </Container>
+    <Container name="Dosimeter RKS-20">
+      <Key ID="STR_STST_devices_dos_rks20">
+        <Original>Dosimeter RKS-20</Original>
+        <English>Dosimeter RKS-20</English>
+        <Russian>Дозиметр РКС-20</Russian>
+      </Key>
+      <Key ID="STR_STST_devices_dos_rks20_desc">
+        <Original>A basic dosimeter. Can measure the radiation power in range of 0...200 µSv/h</Original>
+        <English>A basic dosimeter. Can measure the radiation power in range of 0...200 µSv/h</English>
+        <Russian>Простой дозиметр. Может измерять мощность ионизирующего излучения в диапазоне 0...200 мкЗв/ч</Russian>
+      </Key>
+    </Container>
+    <Container name="Dosimeter MKS-1009" />
+  </Package>
+  <Package name="Mutants" />
+  <Package name="Weapons" />
+  <Package name="Gear" />
+  <Package name="Items" />
+</Project>
