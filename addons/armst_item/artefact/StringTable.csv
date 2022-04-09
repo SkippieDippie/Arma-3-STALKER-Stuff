@@ -1,0 +1,33 @@
+﻿LANGUAGE, English, Russian
+
+STR_Medusa_Unstab, "Medusa","Медуза"
+STR_GRAVI_Unstab, "Gravi","Грави"
+STR_AMEBA_Unstab, "Ameba","Амеба"
+STR_STONEBLOOD_Unstab, "Blood of stone","Кровь камня"
+STR_MEAT_Unstab, "Meat","Ломоть мяса"
+STR_SOUL_Unstab, "Soul","Душа"
+STR_ELECTRA_Unstab, "Sparkler", "Бенгальский огонь"
+STR_TEARS_Unstab, "Tears","Капля"
+STR_FIRE_Unstab, "Fireball", "Огненный шар"
+STR_SPIKES_Unstab,"Spikes", "Колючка"
+STR_BATTERY_Unstab, "Battery", "Батарейка"
+STR_CRYSTALL_Unstab, "Crystall", "Кристалл"
+STR_EMPTY_Unstab, "Empty", "Пустышка"
+
+
+STR_DAP_BLACKDRIP_INFO, "Artefact Medusa","Нестабильный Артефакт Медуза"
+STR_DAP_GRAVI_INFO, "Artefact Gravi","Нестабильный Артефакт Грави"
+STR_DAP_AMEBA_INFO, "Artefact Ameba","Нестабильный Артефакт Амеба"
+STR_DAP_STONEBLOOD_INFO, "Artefact Blood of stone","Нестабильный Артефакт Кровь камня"
+STR_DAP_MEAT_INFO, "Artefact Meat","Нестабильный Артефакт Ломоть мяса"
+STR_DAP_SOUL_INFO, "Artefact Soul","Нестабильный Артефакт Душа"
+STR_DAP_ELECTRA_INFO, "Artefact Sparkler", "Нестабильный Артефакт Бенгальский огонь"
+STR_DAP_TEARS_INFO, "Artefact Tears","Нестабильный Артефакт Капля"
+STR_DAP_FIRE_INFO, "Artefact Fireball", "Нестабильный Артефакт Огненный шар"
+STR_DAP_SPIKES_INFO,"Artefact Spikes", "Нестабильный Артефакт Колючка"
+STR_DAP_BATTERY_INFO, "Artefact Battery", "Нестабильный Артефакт Батарейка"
+STR_DAP_CRYSTALL_INFO, "Artefact Crystall", "Нестабильный Артефакт Кристалл"
+STR_DAP_EMPTY_INFO, "Artefact Empty", "Нестабильный Артефакт Пустышка"
+
+STR_DAP_PICKUP_ARTEFACT, "Pick up artefact", "Подобрать артефакт"
+STR_DAP_MESSAGE_NOSPACE, "No free space", "Нет свободного места"

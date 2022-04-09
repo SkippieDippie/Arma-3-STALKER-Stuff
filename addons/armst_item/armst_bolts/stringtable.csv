@@ -1,0 +1,34 @@
+﻿LANGUAGE,"English","Russian"
+
+STR_DAP_SUITCASE, "Suitcase","Кейс"
+STR_DAP_NOTES, "Documents","Документы"
+STR_DAP_NOTES_INFO, "Top secret documents","Секретные документы"
+
+STR_DAP_ST_SUITCASE, "Special suitcase","Особый Кейс"
+
+STR_DAP_TENT, "Tent","Палатка"
+STR_DAP_TENT_INFO, "Camping Tent","Туристическая палатка"
+
+STR_DAP_ST_NOTES, "Notes","Записки"
+STR_DAP_ST_NOTES_INFO, "Stalker's notes","Записки сталкера"
+
+STR_DAP_ST_BOLT_OBJECT, "Bolt","Болт"
+
+STR_DAP_ST_BOLT, "Bolts","Болты"
+STR_DAP_ST_BOLT_INFO, "Simple metall bolts","Простые металлические болты"
+STR_DAP_ST_MEDKIT, "Medkit","Аптечка"
+STR_DAP_ST_MEDKIT_INFO, "Field medkit","Полевая аптечка"
+STR_DAP_ST_ANTIRAD, "Antirad","Анти-рад"
+STR_DAP_ST_ANTIRAD_INFO, "Special anti radiation cure","Специальный антирадиационный препарат"
+
+STR_DAP_ST_DOGTAIL, "Tail","Хвост"
+STR_DAP_ST_DOGTAIL_INFO, "Tail of blind dog","Хвост слепого пса"
+STR_DAP_ST_ZOMBIEHAND, "Zombie hand","Рука зомби"
+STR_DAP_ST_ZOMBIEHAND_INFO, "Zombie hand","Отрубленная рука зомби"
+STR_DAP_ST_BLOODSUCKERPALPS, "Palps","Щупальца"
+STR_DAP_ST_BLOODSUCKERPALPS_INFO, "Bloodsucker's palps","Щупальца кровососа"
+
+STR_DAP_ST_MEDACT, "Use medkit","Использовать аптечку"
+STR_DAP_ST_RADACT, "Use antirad","Использовать анти-рад"
+
+STR_STALKER_DEMOMISSION_OVERVIEW, "The hunt for bloodsucker","Охота на кровососа"

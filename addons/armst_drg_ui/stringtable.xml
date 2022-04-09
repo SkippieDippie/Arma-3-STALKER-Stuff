@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="DRG">
+	<Package name="DRG_UI">
+		<Container name="DRG">
+			<Key ID="str_drg_lang">
+				<Original>eng</Original>
+				<English>eng</English>
+				<Russian>ru</Russian>
+			</Key>
+			<Key ID="str_not_can_eat">
+				<Original>I can not do this until I take off the mask / gas mask</Original>
+				<English>I can not do this until I take off the mask / gas mask</English>
+				<Russian>Не могу это сделать, пока не сниму маску\противогаз</Russian>
+			</Key>
+		</Container>
+		<Container name="DRG_new_pda">
+			<Key ID="STR_DRG_pda_tols">
+				<Original>[PDA] PM from</Original>
+				<English>[PDA] PM from</English>
+				<Russian>[КПК] ЛС от</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_tolsa">
+				<Original>[PDA] PM:</Original>
+				<English>[PDA] PM:</English>
+				<Russian>[КПК] ЛС:</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_toall">
+				<Original>[PDA] To all from</Original>
+				<English>[PDA] To all from</English>
+				<Russian>[КПК] Всем от</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_tofaction">
+				<Original>[PDA] To faction from</Original>
+				<English>[PDA] To faction from</English>
+				<Russian>[КПК] Фракции от</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_settings_network_online">
+				<Original>В сети</Original>
+				<English>Online</English>
+				<German>Im Netz</German>
+				<Russian>В сети</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_settings_network_offline">
+				<Original>Не в сети</Original>
+				<English>Offline</English>
+				<German>Offline</German>
+				<Russian>Не в сети</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_settings_network">
+				<Original>Статус сети</Original>
+				<English>Network Status</English>
+				<German>Netzwerkstatus</German>
+				<Russian>Статус сети</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_settings_vd">
+				<Original>Дальность видимости</Original>
+				<English>Range of visibility</English>
+				<German>Sichtweite</German>
+				<Russian>Дальность видимости</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_settings_vdo">
+				<Original>Дальность видимости объектов</Original>
+				<English>Range of visibility of objects</English>
+				<German>Sichtweite von Objekten</German>
+				<Russian>Дальность видимости объектов</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_addfr_nick">
+				<Original>Позывной</Original>
+				<English>Nickname</English>
+				<German>Spitzname</German>
+				<Russian>Позывной</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_empty_message">
+				<Original></Original>
+				<English></English>
+				<German></German>
+				<Russian></Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_no_select">
+				<Original></Original>
+				<English></English>
+				<German></German>
+				<Russian></Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_no_send_me">
+				<Original></Original>
+				<English></English>
+				<German></German>
+				<Russian></Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_myID">
+				<Original>Мой ID</Original>
+				<English>My ID</English>
+				<German>Mein Ausweis</German>
+				<Russian>Мой ID</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_myBalance">
+				<Original>Мой баланс</Original>
+				<English>My balance</English>
+				<German>Meine Balance</German>
+				<Russian>Мой баланс</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_notNetwork">
+				<Original>НЕТ СВЯЗИ СО СПУТНИКАМИ</Original>
+				<English>NO COMMUNICATION WITH SATELLITES</English>
+				<German>KEINE KOMMUNIKATION MIT SATELLITEN</German>
+				<Russian>НЕТ СВЯЗИ СО СПУТНИКАМИ</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_faction">
+				<Original>Фракция</Original>
+				<English>Faction</English>
+				<German>Fraktion</German>
+				<Russian>Фракция</Russian>
+			</Key>
+			<Key ID="STR_DRG_pda_cntDeaths">
+				<Original>Тяжёлые ранения</Original>
+				<English>Severe injuries</English>
+				<German>Schwere Verletzungen</German>
+				<Russian>Тяжёлые ранения</Russian>
+			</Key>
+		</Container>
+
+		<Container name="DRG_trade">
+			<Key ID="DRG_weapon">
+				<Original>Weapons</Original>
+				<English>Weapons</English>
+				<Russian>Оружие</Russian>
+			</Key>
+			 
+			<Key ID="DRG_weapitem">
+				<Original>Weapon Items</Original>
+				<English>Weapon Items</English>
+				<Russian>Обвесы</Russian>
+			</Key>
+			<Key ID="DRG_magazines">
+				<Original>Magazines</Original>
+				<English>Magazines</English>
+				<Russian>Магазины</Russian>
+			</Key>
+			<Key ID="DRG_other">
+				<Original>Other</Original>
+				<English>Other</English>
+				<Russian>Разное</Russian>
+			</Key>
+			 
+			<Key ID="DRG_equipment">
+				<Original>Equipment</Original>
+				<English>Equipment</English>
+				<Russian>Экипировка</Russian>
+			</Key>
+			 
+			<Key ID="DRG_gasmask">
+				<Original>Gas Masks</Original>
+				<English>Gas Masks</English>
+				<Russian>Противогазы</Russian>
+			</Key>
+			 
+			<Key ID="DRG_foodwater">
+				<Original>Food/Water</Original>
+				<English>Food/Water</English>
+				<Russian>Еда/Вода</Russian>
+			</Key>
+			 
+			<Key ID="DRG_medicine">
+				<Original>Irradiation</Original>
+				<English>Irradiation</English>
+				<Russian>иррадиация</Russian>
+			</Key>
+			 
+			<Key ID="DRG_buy">
+				<Original>Buy</Original>
+				<English>Buy</English>
+				<Russian>Купить</Russian>
+			</Key>
+			 
+			<Key ID="DRG_sell">
+				<Original>Sell</Original>
+				<English>Sell</English>
+				<Russian>Продать</Russian>
+			</Key>
+			 
+			<Key ID="DRG_store">
+				<Original>Store</Original>
+				<English>Store</English>
+				<Russian>Магазин</Russian>
+			</Key>
+			 
+			<Key ID="DRG_balance">
+				<Original>Balance</Original>
+				<English>Balance</English>
+				<Russian>Баланс</Russian>
+			</Key>
+			 
+			<Key ID="DRG_price">
+				<Original>Price</Original>
+				<English>Price</English>
+				<Russian>Цена</Russian>
+			</Key>
+			 
+			<Key ID="DRG_amount">
+				<Original>Amount</Original>
+				<English>Amount</English>
+				<Russian>Количество</Russian>
+			</Key>
+			 
+			<Key ID="DRG_exit">
+				<Original>Exit</Original>
+				<English>Exit</English>
+				<Russian>Выход</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_buying">
+				<Original>Purchased</Original>
+				<English>Purchased</English>
+				<Russian>Куплено</Russian>
+			</Key>
+			 
+			<Key ID="DRG_notcanbuying">
+				<Original>You do not have enough room to buy it</Original>
+				<English>You do not have enough room to buy it</English>
+				<Russian>У вас не хватает места чтобы купить это</Russian>
+			</Key>
+			<Key ID="DRG_nohavemoney">
+				<Original>You do not have enough money to buy it!</Original>
+				<English>You do not have enough money to buy it!</English>
+				<Russian>У вас не хватает денег чтобы купить это!</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_selling">
+				<Original>Sales</Original>
+				<English>Sales</English>
+				<Russian>Продано</Russian>
+			</Key>
+			 
+			<Key ID="DRG_notcansell">
+				<Original>You do not have as many items for sale</Original>
+				<English>You do not have as many items for sale</English>
+				<Russian>У вас нет столько предметов для продажи</Russian>
+			</Key>
+		</Container>
+		<Container name="DRG_pda">
+			<Key ID="DRG_back">
+				<Original>Back</Original>
+				<English>Back</English>
+				<Russian>Назад</Russian>
+			</Key>
+			 
+			<Key ID="DRG_delete">
+				<Original>Delete</Original>
+				<English>Delete</English>
+				<Russian>Удалить</Russian>
+			</Key>
+			 
+			<Key ID="DRG_create">
+				<Original>Create</Original>
+				<English>Create</English>
+				<Russian>Создать</Russian>
+			</Key>
+			 
+			<Key ID="DRG_notes">
+				<Original>Notes</Original>
+				<English>Notes</English>
+				<Russian>Заметки</Russian>
+			</Key>
+			 
+			<Key ID="DRG_to_online">
+				<Original>Go online</Original>
+				<English>Go online</English>
+				<Russian>Войти в сеть</Russian>
+			</Key>
+
+			<Key ID="DRG_to_offline">
+				<Original>Go offline</Original>
+				<English>Go offline</English>
+				<Russian>Выйти из сети</Russian>
+			</Key>
+
+			<Key ID="DRG_map">
+				<Original>Map</Original>
+				<English>Map</English>
+				<Russian>Карта</Russian>
+			</Key>
+
+			<Key ID="DRG_burer">
+				<Original>Burer</Original>
+				<English>Burer</English>
+				<Russian>Бюрер</Russian>
+			</Key>
+			<Key ID="DRG_izlom">
+				<Original>Izlom</Original>
+				<English>Izlom</English>
+				<Russian>Излом</Russian>
+			</Key>
+			<Key ID="DRG_boar">
+				<Original>Boar</Original>
+				<English>Boar</English>
+				<Russian>Кабан</Russian>
+			</Key>
+			<Key ID="DRG_controller">
+				<Original>Controller</Original>
+				<English>Controller</English>
+				<Russian>Контролёр</Russian>
+			</Key>
+			<Key ID="DRG_cat">
+				<Original>Cat</Original>
+				<English>Cat</English>
+				<Russian>Кошка</Russian>
+			</Key>
+			<Key ID="DRG_bloodsucker">
+				<Original>Bloodsucker</Original>
+				<English>Bloodsucker</English>
+				<Russian>Кровосос</Russian>
+			</Key>
+			<Key ID="DRG_rat">
+				<Original>Rat</Original>
+				<English>Rat</English>
+				<Russian>Крыса</Russian>
+			</Key>
+			<Key ID="DRG_flesh">
+				<Original>Flesh</Original>
+				<English>Flesh</English>
+				<Russian>Плоть</Russian>
+			</Key>
+			<Key ID="DRG_pseudodog">
+				<Original>Pseudodog</Original>
+				<English>Pseudodog</English>
+				<Russian>Псевдопёс</Russian>
+			</Key>
+			<Key ID="DRG_blinddog">
+				<Original>Blind dogs</Original>
+				<English>Blind dogs</English>
+				<Russian>Слепой пес</Russian>
+			</Key>
+			<Key ID="DRG_snorks">
+				<Original>Snorks</Original>
+				<English>Snorks</English>
+				<Russian>Снорк</Russian>
+			</Key>
+			<Key ID="DRG_tark">
+				<Original>Tark</Original>
+				<English>Tark</English>
+				<Russian>Тарк</Russian>
+			</Key>
+			<Key ID="DRG_rodents">
+				<Original>Rodents</Original>
+				<English>Rodents</English>
+				<Russian>Тушкан</Russian>
+			</Key>
+			<Key ID="DRG_chimera">
+				<Original>Chimera</Original>
+				<English>Chimera</English>
+				<Russian>Химера</Russian>
+			</Key>
+			<Key ID="DRG_wiki">
+				<Original>Wiki</Original>
+				<English>Wiki</English>
+				<Russian>Энциклопедия</Russian>
+			</Key>
+			<Key ID="DRG_main">
+				<Original>Main</Original>
+				<English>Main</English>
+				<Russian>Главная</Russian>
+			</Key>
+			<Key ID="DRG_messages">
+				<Original>Messages</Original>
+				<English>Messages</English>
+				<Russian>Сообщения</Russian>
+			</Key>
+			<Key ID="DRG_settings">
+				<Original>Settings</Original>
+				<English>Settings</English>
+				<Russian>Настройки</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_money">
+				<Original>Money</Original>
+				<English>Money</English>
+				<Russian>Деньги</Russian>
+			</Key>
+			 
+			<Key ID="DRG_faction">
+				<Original>Faction</Original>
+				<English>Faction</English>
+				<Russian>Фракция</Russian>
+			</Key>
+			 
+			<Key ID="DRG_hunger">
+				<Original>Hunger</Original>
+				<English>Hunger</English>
+				<Russian>Голод</Russian>
+			</Key>
+			 
+			<Key ID="DRG_thirst">
+				<Original>Thirst</Original>
+				<English>Thirst</English>
+				<Russian>Жажда</Russian>
+			</Key>
+			 
+			<Key ID="DRG_histmes">
+				<Original>Message History</Original>
+				<English>Message History</English>
+				<Russian>История сообщений</Russian>
+			</Key>
+			 
+			<Key ID="DRG_clearhist">
+				<Original>Clear the history</Original>
+				<English>Clear the history</English>
+				<Russian>Очистить историю</Russian>
+			</Key>
+			<Key ID="DRG_range">
+				<Original>Range of visibility</Original>
+				<English>Range of visibility</English>
+				<Russian>Дальность видимости</Russian>
+			</Key>
+			 
+			<Key ID="DRG_rangeobjs">
+				<Original>The range of visibility of objects</Original>
+				<English>The range of visibility of objects</English>
+				<Russian>Дальность видимости объектов</Russian>
+			</Key>
+			<Key ID="DRG_history">
+				<Original>History</Original>
+				<English>History</English>
+				<Russian>История</Russian>
+			</Key>
+
+			<Key ID="DRG_send">
+				<Original>Send</Original>
+				<English>Send</English>
+				<Russian>Отправить</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_sendan">
+				<Original>Send (Anon)</Original>
+				<English>Send (Anon)</English>
+				<Russian>Отправить(Анон)</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_sendall">
+				<Original>Send to all</Original>
+				<English>Send to all</English>
+				<Russian>Отправить всем</Russian>
+			</Key>
+			<Key ID="DRG_sendfact">
+				<Original>Send to faction</Original>
+				<English>Send to faction</English>
+				<Russian>Отправить Фракции</Russian>
+			</Key>
+			 
+			<Key ID="DRG_nopain">
+				<Original>Nothing hurts</Original>
+				<English>Nothing hurts</English>
+				<Russian>Ничего не болит</Russian>
+			</Key>
+			<Key ID="DRG_bloodnormal">
+				<Original>Blood pressure is normal</Original>
+				<English>Blood pressure is normal</English>
+				<Russian>Кровяное давление в норме</Russian>
+			</Key>
+			 
+			<Key ID="DRG_noradimeter">
+				<Original>No radiometer available</Original>
+				<English>No radiometer available</English>
+				<Russian>Нет радиметра</Russian>
+			</Key>
+			 
+			<Key ID="DRG_irradiation">
+				<Original>Irradiation</Original>
+				<English>Irradiation</English>
+				<Russian>Облучение</Russian>
+			</Key>
+			<Key ID="DRG_litlesore">
+				<Original>A little sore</Original>
+				<English>A little sore</English>
+				<Russian>Немного болит</Russian>
+			</Key>
+			 
+			<Key ID="DRG_bigsore">
+				<Original>Very painful</Original>
+				<English>Very painful</English>
+				<Russian>Очень больно</Russian>
+			</Key>
+			 
+			<Key ID="DRG_lowblood">
+				<Original>Low blood levels, dangerous for life!</Original>
+				<English>Low blood levels, dangerous for life!</English>
+				<Russian>Низкий уровень крови, опасно для жизни!</Russian>
+			</Key>
+			 
+			<Key ID="DRG_lostblood">
+				<Original>I lost some blood.</Original>
+				<English>I lost some blood.</English>
+				<Russian>Потерял немного крови.</Russian>
+			</Key>
+			 
+			 
+			 
+			 
+			 
+			 
+			<Key ID="DRG_temperature">
+				<Original>Temperature</Original>
+				<English>Temperature</English>
+				<Russian>Температура</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_bandagehead">
+				<Original>Bandage head</Original>
+				<English>Bandage head</English>
+				<Russian>Бинтовать голову</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_bandagela">
+				<Original>Bandage left arm</Original>
+				<English>Bandage left arm</English>
+				<Russian>Бинтовать левую руку</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_bandagell">
+				<Original>Bandage left leg</Original>
+				<English>Bandage left leg</English>
+				<Russian>Бинтовать левую ногу</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_bandageb">
+				<Original>Bandage body</Original>
+				<English>Bandage body</English>
+				<Russian>Бинтовать тело</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_bandagera">
+				<Original>Bandage right arm</Original>
+				<English>Bandage right arm</English>
+				<Russian>Бинтовать правую руку</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_bandagerl">
+				<Original>Bandage right leg</Original>
+				<English>Bandage right leg</English>
+				<Russian>Бинтовать правую ногу</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_applymorph">
+				<Original>Enter morphine</Original>
+				<English>Enter morphine</English>
+				<Russian>Ввести морфин</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_enterradx">
+				<Original>Enter RadX</Original>
+				<English>Enter RadX</English>
+				<Russian>Ввести RadX</Russian>
+			</Key>
+			 
+			 
+			<Key ID="DRG_bloodtransf">
+				<Original>Blood transfusion</Original>
+				<English>Blood transfusion</English>
+				<Russian>Перелить кровь</Russian>
+			</Key>
+
+
+			 
+			<Key ID="DRG_emptymes">
+				<Original>You can not send empty messages.</Original>
+				<English>You can not send empty messages.</English>
+				<Russian>Нельзя отправлять пустые сообщения.</Russian>
+			</Key>
+			<Key ID="DRG_nochoose">
+				<Original>You have to choose someone to send a message.</Original>
+				<English>You have to choose someone to send a message.</English>
+				<Russian>Вы должны выбрать кого-нибудь чтобы отправить сообщение.</Russian>
+			</Key>
+			<Key ID="DRG_nomesme">
+				<Original>You can not send a message to yourself.</Original>
+				<English>You can not send a message to yourself.</English>
+				<Russian>Вы не можете отправить себе сообщение.</Russian>
+			</Key>
+			<Key ID="DRG_pmfrom">
+				<Original>PM from</Original>
+				<English>PM from</English>
+				<Russian>ЛС от</Russian>
+			</Key>
+			<Key ID="DRG_pm">
+				<Original>PM</Original>
+				<English>PM</English>
+				<Russian>ЛС</Russian>
+			</Key>
+			<Key ID="DRG_mesallfrom">
+				<Original>Message to everyone from</Original>
+				<English>Message to everyone from</English>
+				<Russian>ВСЕМ от</Russian>
+			</Key>
+			<Key ID="DRG_mestofaction">
+				<Original>Message to my faction from</Original>
+				<English>Message to my faction from</English>
+				<Russian>ГРУППИРОВКЕ от</Russian>
+			</Key>
+			<Key ID="DRG_pda">
+				<Original>PDA</Original>
+				<English>PDA</English>
+				<Russian>КПК</Russian>
+			</Key>
+			 
+		</Container>
+		<Container name="DRG_craft">
+			<Key ID="DRG_craft_notcanadd">
+				<Original>Not successful</Original>
+				<English>Not successful</English>
+				<Russian>Не удачно</Russian>
+			</Key>
+			<Key ID="DRG_craft_created">
+				<Original>Successfully!</Original>
+				<English>Successfully!</English>
+				<Russian>Удачно!</Russian>
+			</Key>
+			<Key ID="DRG_craft_notcanremove">
+				<Original>Not successful</Original>
+				<English>Not successful</English>
+				<Russian>Не удачно</Russian>
+			</Key>
+		</Container>
+		<Container name="DRG_wiki">
+			<Key ID="STR_DRG_wiki_ms1_name">
+				<Original>STR_DRG_wiki_ms1_name</Original>
+				<English>STR_DRG_wiki_ms1_name</English>
+				<Russian>STR_DRG_wiki_ms1_name</Russian>
+			</Key>
+			<Key ID="STR_DRG_wiki_ms1_desc">
+				<Original>STR_DRG_wiki_ms1_desc</Original>
+				<English>STR_DRG_wiki_ms1_desc</English>
+				<Russian>STR_DRG_wiki_ms1_desc</Russian>
+			</Key>
+			<Key ID="STR_DRG_wiki_ms1_s1_name">
+				<Original>STR_DRG_wiki_ms1_s1_name</Original>
+				<English>STR_DRG_wiki_ms1_s1_name</English>
+				<Russian>STR_DRG_wiki_ms1_s1_name</Russian>
+			</Key>
+			<Key ID="STR_DRG_wiki_ms1_s1_desc">
+				<Original>STR_DRG_wiki_ms1_s1_desc</Original>
+				<English>STR_DRG_wiki_ms1_s1_desc</English>
+				<Russian>STR_DRG_wiki_ms1_s1_desc</Russian>
+			</Key>
+		</Container>
+		<Container name="DRG_other">
+			<Key ID="STR_DRG_rank_Garbage">
+				<Original>Garbage</Original>
+				<English>Garbage</English>
+				<Russian>Мусор</Russian>
+			</Key>
+			<Key ID="STR_DRG_rank_Newbie">
+				<Original>Newbie</Original>
+				<English>Newbie</English>
+				<Russian>Новичок</Russian>
+			</Key>
+			<Key ID="STR_DRG_rank_Experienced">
+				<Original>Experienced</Original>
+				<English>Experienced</English>
+				<Russian>Опытный</Russian>
+			</Key>
+			<Key ID="STR_DRG_rank_Master">
+				<Original>Master</Original>
+				<English>Master</English>
+				<Russian>Мастер</Russian>
+			</Key>
+		</Container>
+		<Container name="DRG_new_trade">
+			<Key ID="STR_DRG_nt_cat_weapon">
+				<Original>Weapons</Original>
+				<English>Weapons</English>
+				<Russian>Оружие</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_mags">
+				<Original>Ammo</Original>
+				<English>Ammo</English>
+				<Russian>Патроны</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_weapitems">
+				<Original>Weapon Items</Original>
+				<English>Weapon Items</English>
+				<Russian>Обвесы</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_electrical">
+				<Original>Devices</Original>
+				<English>Devices</English>
+				<Russian>Оборудование</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_medicine">
+				<Original>Medicine</Original>
+				<English>Medicine</English>
+				<Russian>Медицина</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_helm">
+				<Original>Helmets</Original>
+				<English>Helmets</English>
+				<Russian>Шлема</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_gasmask">
+				<Original>Gas masks</Original>
+				<English>Gas masks</English>
+				<Russian>Противогазы</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_vest">
+				<Original>Vests</Original>
+				<English>Vests</English>
+				<Russian>Разгрузки</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_backpack">
+				<Original>Bags</Original>
+				<English>Bags</English>
+				<Russian>Сумки</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_eat">
+				<Original>Food\Water</Original>
+				<English>Food\Water</English>
+				<Russian>Еда\Вода</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_art">
+				<Original>Artifacts</Original>
+				<English>Artifacts</English>
+				<Russian>Арты</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_mutparts">
+				<Original>Mutant parts</Original>
+				<English>Mutant parts</English>
+				<Russian>Части мутантов</Russian>
+			</Key>
+			<Key ID="STR_DRG_nt_cat_other">
+				<Original>Other</Original>
+				<English>Other</English>
+				<Russian>Прочее</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>

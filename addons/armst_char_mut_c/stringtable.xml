@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="armst1">
+  <Package name="armst1">
+
+	<Key ID="STR_armst_mutantss">
+		<Original>New mutants</Original>
+		<English>New mutants</English>
+		<Russian>Новые мутанты</Russian>
+	</Key>
+	<Key ID="STR_armst_mut_new">
+		<Original>New mutants</Original>
+		<English>New mutants</English>
+		<Russian>Новые мутанты</Russian>
+	</Key>
+	<Key ID="STR_armst_blinddog">
+		<Original>Blind dog</Original>
+		<English>Blind dog</English>
+		<Russian>Слепой пёс</Russian>
+	</Key>
+	<Key ID="STR_armst_ameba">
+		<Original>Ameba</Original>
+		<English>Ameba</English>
+		<Russian>Амеба</Russian>
+	</Key>
+	<Key ID="STR_armst_nosach">
+		<Original>Nosach</Original>
+		<English>Nosach</English>
+		<Russian>Носач</Russian>
+	</Key>
+	<Key ID="STR_armst_kikimora">
+		<Original>Kikimora</Original>
+		<English>Kikimora</English>
+		<Russian>Кикимора</Russian>
+	</Key>
+	<Key ID="STR_armst_biomassa">
+		<Original>Biohazard</Original>
+		<English>Biohazard</English>
+		<Russian>Биомасса</Russian>
+	</Key>
+	<Key ID="STR_armst_medved">
+		<Original>Bear</Original>
+		<English>Bear</English>
+		<Russian>Медведь</Russian>
+	</Key>
+	<Key ID="STR_armst_wolf">
+		<Original>Wolf</Original>
+		<English>Wolf</English>
+		<Russian>Волк</Russian>
+	</Key>
+	<Key ID="STR_armst_wolfAlfa">
+		<Original>Alpha Wolf</Original>
+		<English>Alpha Wolf</English>
+		<Russian>Волк Альфа</Russian>
+	</Key>
+	<Key ID="STR_armst_werewolf">
+		<Original>Werewolf</Original>
+		<English>Werewolf</English>
+		<Russian>Оборотень</Russian>
+	</Key>
+	<Key ID="STR_armst_wolfhound">
+		<Original>Wolfhoun</Original>
+		<English>Wolfhoun</English>
+		<Russian>Волкодав</Russian>
+	</Key>
+	<Key ID="STR_armst_upir">
+		<Original>Upir</Original>
+		<English>Upir</English>
+		<Russian>Упырь</Russian>
+	</Key>
+	<Key ID="STR_armst_boar">
+		<Original>Boar</Original>
+		<English>Boar</English>
+		<Russian>Кабан</Russian>
+	</Key>
+	<Key ID="STR_armst_burer">
+		<Original>Burer</Original>
+		<English>Burer</English>
+		<Russian>Бюрер</Russian>
+	</Key>
+	<Key ID="STR_armst_watcher">
+		<Original>Watcher</Original>
+		<English>Watcher</English>
+		<Russian>Страж</Russian>
+	</Key>
+	<Key ID="STR_armst_cat">
+		<Original>Cat</Original>
+		<English>Cat</English>
+		<Russian>Кот</Russian>
+	</Key>
+	<Key ID="STR_armst_Tark">
+		<Original>Tark</Original>
+		<English>Tark</English>
+		<Russian>Тарк</Russian>
+	</Key>
+	<Key ID="STR_armst_bear">
+		<Original>Bear</Original>
+		<English>Bear</English>
+		<Russian>Медведь</Russian>
+	</Key>
+	<Key ID="STR_armst_Controller">
+		<Original>Controller</Original>
+		<English>Controller</English>
+		<Russian>Контроллер</Russian>
+	</Key>
+	<Key ID="STR_armst_Izlom">
+		<Original>Izlom</Original>
+		<English>Izlom</English>
+		<Russian>Излом</Russian>
+	</Key>
+	<Key ID="STR_armst_Rat">
+		<Original>Rat</Original>
+		<English>Rat</English>
+		<Russian>Крыса</Russian>
+	</Key>
+	<Key ID="STR_armst_krovosos">
+		<Original>Bloodsucker</Original>
+		<English>Bloodsucker</English>
+		<Russian>Кровосос</Russian>
+	</Key>
+	<Key ID="STR_armst_Flesh">
+		<Original>Flesh</Original>
+		<English>Flesh</English>
+		<Russian>Псевдоплоть</Russian>
+	</Key>
+	<Key ID="STR_armst_poltergeist">
+		<Original>Poltergeist</Original>
+		<English>Poltergeist</English>
+		<Russian>Полтергейст</Russian>
+	</Key>
+	<Key ID="STR_armst_pseudodog">
+		<Original>Pseudodog</Original>
+		<English>Pseudodog</English>
+		<Russian>Псевдопёс</Russian>
+	</Key>
+	<Key ID="STR_armst_giant">
+		<Original>Pseudogiant</Original>
+		<English>Pseudogiant</English>
+		<Russian>Псевдогигант</Russian>
+	</Key>
+	<Key ID="STR_armst_snork">
+		<Original>Snork</Original>
+		<English>Snork</English>
+		<Russian>Снорк</Russian>
+	</Key>
+	<Key ID="STR_armst_tushkano">
+		<Original>Rodent</Original>
+		<English>Rodent</English>
+		<Russian>Тушканчик</Russian>
+	</Key>
+	<Key ID="STR_armst_tushkano_uran">
+		<Original>Rad-Rodent</Original>
+		<English>Rad-Rodent</English>
+		<Russian>Радиоактивный тушкан/Russian>
+	</Key>
+	
+	<Key ID="STR_armst_chimera">
+		<Original>Chimera</Original>
+		<English>Chimera</English>
+		<Russian>Химера</Russian>
+	</Key>
+	<Key ID="STR_armst_mut_animals">
+		<Original>Animals</Original>
+		<English>Animals</English>
+		<Russian>Животные</Russian>
+	</Key>
+	<Key ID="STR_armst_dog_pastor_black">
+		<Original>Alsatian (Black)</Original>
+		<English>Alsatian (Black)</English>
+		<Russian>Немецкая овчарка (Черный)</Russian>
+	</Key>
+	<Key ID="STR_armst_dog_pastor_sand">
+		<Original>Alsatian (Sand)</Original>
+		<English>Alsatian (Sand)</English>
+		<Russian>Немецкая овчарка (Песочный)</Russian>
+	</Key>
+	<Key ID="STR_armst_dog_pastor_sandblack">
+		<Original>Alsatian (Sand-Black)</Original>
+		<English>Alsatian (Sand-Black)</English>
+		<Russian>Немецкая овчарка (Черно-Песочный)</Russian>
+	</Key>
+	<Key ID="STR_armst_dog_fin_sand">
+		<Original>Hound (Sand)</Original>
+		<English>Hound (Sand)</English>
+		<Russian>Гончая (Песочный)</Russian>
+	</Key>
+	<Key ID="STR_armst_dog_fin_blackwhite">
+		<Original>Hound (Black-White)</Original>
+		<English>Hound (Black-White)</English>
+		<Russian>Гончая (Черно-Белый)</Russian>
+	</Key>
+	<Key ID="STR_armst_dog_fin_ocher">
+		<Original>Hound (Ocher)</Original>
+		<English>Hound (Ocher)</English>
+		<Russian>Гончая (Охра)</Russian>
+	</Key>
+	<Key ID="STR_armst_dog_fin_tricolor">
+		<Original>Hound (Tricolor)</Original>
+		<English>Hound (Tricolor)</English>
+		<Russian>Гончая (Трехцветный)</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_affilation">
+		<Original>Affilation faction</Original>
+		<English>Affilation faction</English>
+		<Russian>Принадлежность фракции</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_command_follow">
+		<Original>Command: Follow</Original>
+		<English>Command: Follow</English>
+		<Russian>Команда: Следование</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_follow">
+		<Original>Follow Me</Original>
+		<English>Follow Me</English>
+		<Russian>За мной</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_walk">
+		<Original>Walk</Original>
+		<English>Walk</English>
+		<Russian>Гулять</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_command_guard">
+		<Original>Command: Guard</Original>
+		<English>Command: Guard</English>
+		<Russian>Команда: Охранять</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_guard">
+		<Original>Guard</Original>
+		<English>Guard</English>
+		<Russian>Охранять</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_command_sit">
+		<Original>Command: Sit</Original>
+		<English>Command: Sit</English>
+		<Russian>Команда: Сидеть</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_sit">
+		<Original>Sit</Original>
+		<English>Sit</English>
+		<Russian>Сидеть</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_search_distance">
+		<Original>Search distance</Original>
+		<English>Search distance</English>
+		<Russian>Дистанция поиска</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_search_peaple_a">
+		<Original>Search people (allies)</Original>
+		<English>Search people (allies)</English>
+		<Russian>Поиск людей (своих)</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_searchpeaple_a">
+		<Original>Search people</Original>
+		<English>Search people</English>
+		<Russian>Искать своих</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_search_peaple_e">
+		<Original>Search people (aliens)</Original>
+		<English>Search people (aliens)</English>
+		<Russian>Поиск людей (чужих)</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_searchpeaple_e">
+		<Original>Search enemies</Original>
+		<English>Search enemies</English>
+		<Russian>Искать чужих</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_search_objects">
+		<Original>Search objects</Original>
+		<English>Search objects</English>
+		<Russian>Поиск предметов</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_searchobjects">
+		<Original>Search things</Original>
+		<English>Search things</English>
+		<Russian>Искать вещи</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_fight_attack">
+		<Original>Combat</Original>
+		<English>Combat</English>
+		<Russian>Нападение</Russian>
+	</Key>	
+	<Key ID="STR_armst_animal_fight_bark">
+		<Original>Aware</Original>
+		<English>Aware</English>
+		<Russian>Настороже</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_fight_quietly">
+		<Original>Safe</Original>
+		<English>Safe</English>
+		<Russian>Спокойно</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_domesticated">
+		<Original>Domesticated</Original>
+		<English>Domesticated</English>
+		<Russian>Приручаемый</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_eat">
+		<Original>Eat</Original>
+		<English>Eat</English>
+		<Russian>Ешь</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_companien_com_mainmenu">
+		<Original>Partner</Original>
+		<English>Partner</English>
+		<Russian>Напарник</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_companien_com_heal">
+		<Original>Heal</Original>
+		<English>Heal</English>
+		<Russian>Лечить</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_companien_com_commandsmenu">
+		<Original>Commands</Original>
+		<English>Commands</English>
+		<Russian>Комманды</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_companien_com_behaviormenu">
+		<Original>Behaviour</Original>
+		<English>Behaviour</English>
+		<Russian>Поведение</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_companien_com_other">
+		<Original>Other</Original>
+		<English>Other</English>
+		<Russian>Другое</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_companien_com_invoke">
+		<Original>Invoke</Original>
+		<English>Invoke</English>
+		<Russian>Призвать</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_companien_com_leave">
+		<Original>Leave</Original>
+		<English>Leave</English>
+		<Russian>Отозвать</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_companien_com_description">
+		<Original>Help</Original>
+		<English>Help</English>
+		<Russian>Помощь</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_companien_com_return">
+		<Original>Cancel</Original>
+		<English>Cancel</English>
+		<Russian>Отмена</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_companien_com_state">
+		<Original>State</Original>
+		<English>State</English>
+		<Russian>Состояние</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_domesticating">
+		<Original>Taming</Original>
+		<English>Taming</English>
+		<Russian>Приручить</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_domesticateConfirm">
+		<Original>Taming %1?</Original>
+		<English>Taming %1?</English>
+		<Russian>Приручить %1?</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_name_pastor">
+		<Original>Pastor</Original>
+		<English>Pastor</English>
+		<Russian>Пастор</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_surname">
+		<Original>Surname</Original>
+		<English>Surname</English>
+		<Russian>Кличка</Russian>
+	</Key>
+	<Key ID="STR_armst_animal_domesticatingHint">
+		<Original>Maximize your loyalty to tame&lt;br/&gt;&lt;t align='left'&gt;Tame:&lt;/t&gt; &lt;t align='right'&gt;%1&lt;/t&gt;</Original>
+		<English>Maximize your loyalty to tame&lt;br/&gt;&lt;t align='left'&gt;Tame:&lt;/t&gt; &lt;t align='right'&gt;%1&lt;/t&gt;</English>
+		<Russian>Для приручения добейтесь максимальной лояльности&lt;br/&gt;&lt;t align='left'&gt;Приручение:&lt;/t&gt; &lt;t align='right'&gt;%1&lt;/t&gt;</Russian>
+	</Key>
+</Package>
+</Project>

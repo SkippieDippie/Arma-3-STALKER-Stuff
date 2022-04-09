@@ -1,0 +1,113 @@
+/*%FSM<COMPILE "scriptedFSM.cfg, Routines">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Start",0,250,725.000000,100.000000,825.000000,150.000000,0.000000,"Start"};
+item1[] = {"Continue",8,218,725.000000,175.000000,825.000000,225.000000,0.000000,"Continue"};
+item2[] = {"Wait",2,250,725.535706,249.566711,825.535706,299.566711,0.000000,"Wait"};
+item3[] = {"Save",4,218,850.000000,250.000000,950.000000,300.000000,0.000000,"Save"};
+item4[] = {"Energy",4,218,600.000000,250.000000,700.000000,300.000000,0.000000,"Energy"};
+item5[] = {"Pain",4,4314,725.133606,326.644745,825.133606,376.644745,0.000000,"Pain"};
+link0[] = {0,1};
+link1[] = {1,2};
+link2[] = {2,3};
+link3[] = {2,4};
+link4[] = {2,5};
+link5[] = {3,2};
+link6[] = {4,2};
+link7[] = {5,2};
+globals[] = {0.000000,0,0,0,0,640,480,1,8,6316128,1,591.644531,962.494751,542.268616,64.719574,643,828,1};
+window[] = {2,-1,-1,-1,-1,890,156,1448,156,3,661};
+*//*%FSM</HEAD>*/
+class FSM
+{
+        fsmName = "Routines";
+        class States
+        {
+                /*%FSM<STATE "Start">*/
+                class Start
+                {
+                        name = "Start";
+                        itemno = 0;
+                        init = /*%FSM<STATEINIT""">*/"_saveInterval = 60 * getNumber (configFile >> ""ARMST_ClientModules"" >> ""Player"" >> ""saveInterval"");" \n
+                         "_saveLastTick = diag_tickTime;" \n
+                         "" \n
+                         "_energyInterval = 60;" \n
+                         "_energyLastTick = diag_tickTime;" \n
+                         "" \n
+                         "_painLastTick = 60;" \n
+                         "_painInterval = diag_tickTime;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Continue">*/
+                                class Continue
+                                {
+                                        itemno = 1;
+                                        priority = 0.000000;
+                                        to="Wait";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Wait">*/
+                class Wait
+                {
+                        name = "Wait";
+                        itemno = 2;
+                        init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Energy">*/
+                                class Energy
+                                {
+                                        itemno = 4;
+                                        priority = 0.000000;
+                                        to="Wait";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(diag_ticktime - _energyLastTick) >= _energyInterval"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"_energyLastTick = diag_tickTime;" \n
+                                         "" \n
+                                         "call ARMST_Player_RoutineEnergy;"/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Pain">*/
+                                class Pain
+                                {
+                                        itemno = 5;
+                                        priority = 0.000000;
+                                        to="Wait";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(diag_ticktime - _painLastTick) >= _painInterval"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"_painLastTick = diag_tickTime;" \n
+                                         "" \n
+                                         "call ARMST_Player_RoutinePain;"/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Save">*/
+                                class Save
+                                {
+                                        itemno = 3;
+                                        priority = 0.000000;
+                                        to="Wait";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(diag_ticktime - _saveLastTick) >= _saveInterval"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"_saveLastTick = diag_tickTime;" \n
+                                         "" \n
+                                         "call ARMST_Player_RoutineSave;"/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+        };
+        initState="Start";
+        finalStates[] =
+        {
+        };
+};
+/*%FSM</COMPILE>*/

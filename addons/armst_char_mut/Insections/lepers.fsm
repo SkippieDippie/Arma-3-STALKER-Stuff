@@ -1,0 +1,643 @@
+/*%FSM<COMPILE "C:\Program Files (x86)\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, TushkanoAttack">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Begin",0,4346,-25.000000,-150.000000,75.000000,-100.000000,0.000000,"Begin"};
+item1[] = {"Loop",2,250,-25.000000,50.000000,75.000000,100.000000,0.000000,"Loop"};
+item2[] = {"Victim__0_",4,218,275.000000,125.000000,375.000000,175.000000,0.000000,"Victim (0)"};
+item3[] = {"Action",2,250,275.000000,225.000000,375.000000,275.000000,0.000000,"Action"};
+item4[] = {"Always__0_",8,218,425.000000,225.000000,525.000000,275.000000,0.000000,"Always (0)"};
+item5[] = {"Close__2_",4,218,275.000000,300.000000,375.000000,350.000000,2.000000,"Close (2)"};
+item6[] = {"Hand_Attack",2,250,275.000000,400.000000,375.000000,450.000000,0.000000,"Hand Attack"};
+item7[] = {"Alive_V__1_",4,218,350.000000,825.000000,450.000000,875.000000,1.000000,"Alive V (1)"};
+item8[] = {"Die_V__0_",8,218,200.000000,825.000000,300.000000,875.000000,0.000000,"Die V (0)"};
+item9[] = {"AttackDone",4,218,275.000000,675.000000,375.000000,725.000000,1.000000,"AttackDone"};
+item10[] = {"Done",2,250,275.000000,750.000000,375.000000,800.000000,0.000000,"Done"};
+item11[] = {"",7,210,596.000000,846.000000,604.000000,854.000000,0.000000,""};
+item12[] = {"Pursue",2,250,425.000000,50.000000,525.000000,100.000000,0.000000,"Pursue"};
+item13[] = {"Move_Wait__0_",4,218,275.000000,50.000000,375.000000,100.000000,0.000000,"Move Wait (0)"};
+item14[] = {"",7,210,596.000000,71.000031,604.000000,78.999969,0.000000,""};
+item15[] = {"",7,210,21.000000,846.000000,29.000000,854.000000,0.000000,""};
+item16[] = {"Always",8,218,-25.000000,-75.000000,75.000000,-25.000000,0.000000,"Always"};
+item17[] = {"End",1,250,-650.000000,-25.000000,-550.000000,25.000000,0.000000,"End"};
+item18[] = {"Alwaays",8,218,-350.000000,300.000000,-250.000000,350.000000,0.000000,"Alwaays"};
+item19[] = {"Angry",2,250,275.000000,-150.000000,375.000000,-100.000000,0.000000,"Angry"};
+item20[] = {"TimeOut",4,218,275.000000,-25.000000,375.000000,25.000000,0.000000,"TimeOut"};
+item21[] = {"Agry__1_",4,218,125.000000,-150.000000,225.000000,-100.000000,1.000000,"Agry (1)"};
+item22[] = {"",7,210,21.000000,-4.000000,29.000000,4.000000,0.000000,""};
+item23[] = {"Update__2_",4,218,-350.000000,50.000000,-250.000000,100.000000,2.000000,"Update (2)"};
+item24[] = {"Update",2,250,-500.000000,50.000000,-400.000000,100.000000,0.000000,"Update"};
+item25[] = {"Select__1_",4,218,-350.000000,125.000000,-250.000000,175.000000,1.000000,"Select (1)"};
+item26[] = {"Select",2,250,-350.000000,225.000000,-250.000000,275.000000,0.000000,"Select"};
+item27[] = {"Reset__1_",4,218,-500.000000,-25.000000,-400.000000,25.000000,1.000000,"Reset (1)"};
+item28[] = {"Available__1_",4,218,-175.000000,225.000000,-75.000000,275.000000,1.000000,"Available (1)"};
+item29[] = {"Always",8,218,-500.000000,125.000000,-400.000000,175.000000,0.000000,"Always"};
+item30[] = {"",7,210,-453.999969,246.000015,-446.000031,254.000000,0.000000,""};
+item31[] = {"",7,210,-604.000000,321.000000,-596.000000,329.000000,0.000000,""};
+item32[] = {"Stuck__3_",4,218,-350.000000,-25.000000,-250.000000,25.000000,3.000000,"Stuck (3)"};
+item33[] = {"Check",2,250,-350.000000,-125.000000,-250.000000,-75.000000,0.000000,"Check"};
+item34[] = {"Reset__1_",4,218,-350.000000,-200.000000,-250.000000,-150.000000,1.000000,"Reset (1)"};
+item35[] = {"",7,210,-604.000000,-179.000000,-596.000000,-171.000000,0.000000,""};
+item36[] = {"Always",8,218,-175.000000,-125.000000,-75.000000,-75.000000,0.000000,"Always"};
+item37[] = {"",7,210,-129.000000,-3.999996,-121.000008,3.999996,0.000000,""};
+link0[] = {0,16};
+link1[] = {0,21};
+link2[] = {1,2};
+link3[] = {1,23};
+link4[] = {1,25};
+link5[] = {1,32};
+link6[] = {2,3};
+link7[] = {3,4};
+link8[] = {3,5};
+link9[] = {4,12};
+link10[] = {5,6};
+link11[] = {6,9};
+link12[] = {7,11};
+link13[] = {8,15};
+link14[] = {9,10};
+link15[] = {10,7};
+link16[] = {10,8};
+link17[] = {11,14};
+link18[] = {12,13};
+link19[] = {13,1};
+link20[] = {14,12};
+link21[] = {15,1};
+link22[] = {16,22};
+link23[] = {18,31};
+link24[] = {19,20};
+link25[] = {20,22};
+link26[] = {21,19};
+link27[] = {22,1};
+link28[] = {23,24};
+link29[] = {24,27};
+link30[] = {24,29};
+link31[] = {25,26};
+link32[] = {26,18};
+link33[] = {26,28};
+link34[] = {27,17};
+link35[] = {28,3};
+link36[] = {29,30};
+link37[] = {30,26};
+link38[] = {31,17};
+link39[] = {32,33};
+link40[] = {33,34};
+link41[] = {33,36};
+link42[] = {34,35};
+link43[] = {35,17};
+link44[] = {36,37};
+link45[] = {37,22};
+globals[] = {0.000000,0,0,0,0,640,480,1,70,6316128,1,-314.377197,476.596985,268.542053,-384.029663,1103,910,1};
+window[] = {2,-1,-1,-1,-1,900,182,1142,182,3,1121};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "TushkanoAttack";
+  class States
+  {
+    /*%FSM<STATE "Begin">*/
+    class Begin
+    {
+      name = "Begin";
+      init = /*%FSM<STATEINIT""">*/"/*" \n
+       "	Author: Aloe" \n
+       "	Mutants-TushkanoAttack: TushkanoAttack.fsm" \n
+       "" \n
+       "*/" \n
+       "" \n
+       "_unit = _this select 0;" \n
+       "_nearEnemies = _this select 1;" \n
+       "" \n
+       "private _behaviour = behaviour _unit;" \n
+       "" \n
+       "_unit disableAI ""TARGET"";" \n
+       "_unit disableAI ""AUTOTARGET"";" \n
+       "_unit disableAI ""FSM"";" \n
+       "_unit setBehaviour ""CARELESS"";" \n
+       "" \n
+       "_unit setObjectMaterialGlobal [0, ""A3\Characters_F\Common\Data\basicbody_injury.rvmat""]; " \n
+       "_unit setObjectMaterialGlobal [1, ""A3\Characters_F\Common\Data\basicbody_injury.rvmat""]; " \n
+       "" \n
+       "" \n
+       "private _damage = _unit getVariable [""ARM_Damage"", 0];" \n
+       "private _damageHitPoints = _unit getVariable [""ARM_DamageHitPoints"", [["""", 0]]];" \n
+       "private _handAttackDist = (_unit getVariable [""ARM_AttackDistances"", 0]) select 0;" \n
+       "private _jumpAttackDist = (_unit getVariable [""ARM_AttackDistances"", 0]) select 1;" \n
+       "private _suckAttackDist = _handAttackDist / 1.5;" \n
+       "private _chase = _unit getVariable [""ARM_Chase"", 0];" \n
+       "" \n
+       "private _attackSounds = _unit getVariable [""ARM_AttackSounds"", []];" \n
+       "" \n
+       "private _animHandAttacks = _unit getVariable [""ARM_AnimAttack1"", [""""]];" \n
+       "private _animDistAttacks = _unit getVariable [""ARM_AnimAttack2"", [""""]];" \n
+       "private _animClutchAttack = _unit getVariable [""ARM_AnimAttack3"", [""""]];" \n
+       "private _animAgry = _unit getVariable [""ARM_AnimAgry"", [""""]];" \n
+       "private _animEat = _unit getVariable [""ARM_AnimEat"", [""""]];" \n
+       "" \n
+       "private _selectTimeout = time;" \n
+       "private _updateTimeout = time;" \n
+       "private _giveTimeout = time;" \n
+       "private _stuckCheck = 0;" \n
+       "private _resetAttack = false;" \n
+       "" \n
+       "private _thisPos = getPosATL _unit;" \n
+       "private _victims = [];" \n
+       "private _victimOwners = [2];" \n
+       "private _victim = objNull;" \n
+       "" \n
+       "_playAnimRemote = {" \n
+       "	params [""_unit"", ""_victim"", ""_owners"", ""_anims"", [""_sounds"", []]];" \n
+       "" \n
+       "	_anim = _anims select floor random count _anims;" \n
+       "	_sound = if !(_sounds isEqualTo []) then {_sounds select floor random count _sounds} else {""""};" \n
+       "	[_unit, _victim, _anim, _sound, _victimOwners] call ARMST_fnc_mutExecuteAttack;" \n
+       "};" \n
+       "" \n
+       "_setDammageRemote = {" \n
+       "	params [""_victim"", ""_damage"", ""_damageHitPoints""];" \n
+       "	[_victim, _damage, _damageHitPoints] remoteExecCall [""ARMST_fnc_setDammageHitPoint"", _victim];" \n
+       "};" \n
+       "" \n
+       "_debugState = {" \n
+       "	format [""State Fight: %1"", _this] call ARMST_fnc_mutDebugState;" \n
+       "};"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Agry__1_">*/
+        class Agry__1_
+        {
+          priority = 1.000000;
+          to="Angry";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!(_animAgry isEqualTo [])"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Always">*/
+        class Always
+        {
+          priority = 0.000000;
+          to="Loop";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Loop">*/
+    class Loop
+    {
+      name = "Loop";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Stuck__3_">*/
+        class Stuck__3_
+        {
+          priority = 3.000000;
+          to="Check";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_stuckCheck > 50"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Update__2_">*/
+        class Update__2_
+        {
+          priority = 2.000000;
+          to="Update";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time - _updateTimeout > 3"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Select__1_">*/
+        class Select__1_
+        {
+          priority = 1.000000;
+          to="Select";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time - _selectTimeout > 1"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Victim__0_">*/
+        class Victim__0_
+        {
+          priority = 0.000000;
+          to="Action";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!isNull _victim"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Action">*/
+    class Action
+    {
+      name = "Action";
+      init = /*%FSM<STATEINIT""">*/"//""Select action"" call _debugState;" \n
+       "" \n
+       "_stuckCheck = _stuckCheck + 1;" \n
+       "" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Close__2_">*/
+        class Close__2_
+        {
+          priority = 2.000000;
+          to="Hand_Attack";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_unit distance _victim  <= _handAttackDist"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Always__0_">*/
+        class Always__0_
+        {
+          priority = 0.000000;
+          to="Pursue";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Hand_Attack">*/
+    class Hand_Attack
+    {
+      name = "Hand_Attack";
+      init = /*%FSM<STATEINIT""">*/"//""Close attack"" call _debugState;" \n
+       "" \n
+       "_unit stop true;" \n
+       "" \n
+       "_thisPos = getPosATL _unit;" \n
+       "_victimPos = getPosATL _victim;" \n
+       "_unit setDir ((_victimPos select 0) - (_thisPos select 0)) atan2 ((_victimPos select 1) - (_thisPos select 1));" \n
+       "" \n
+       "[_unit, _victim, _victimOwners, _animHandAttacks, _attackSounds] call _playAnimRemote;" \n
+       "" \n
+       "_attackDistance = _handAttackDist;" \n
+       "_unit playactionnow ""GestureKrovAttack1"";" \n
+       "_attackAnimTimeOut = time;" \n
+       "" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "AttackDone">*/
+        class AttackDone
+        {
+          priority = 1.000000;
+          to="Done";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"(_unit getVariable [""ARM_HandAttackDone"", false]) || time - _attackAnimTimeOut > 2"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Done">*/
+    class Done
+    {
+      name = "Done";
+      init = /*%FSM<STATEINIT""">*/"""Attack completed"" call _debugState;" \n
+       "" \n
+       "if (_unit distance _victim <= _attackDistance) then {" \n
+       "	/*" \n
+       "	if !(_attackSounds isEqualTo []) then {" \n
+       "		[_unit, _attackSounds select floor random count _attackSounds, 100] call CBA_fnc_globalSay3d;" \n
+       "	};" \n
+       "	*/" \n
+       "	//[_victim, _damage, _damageHitPoints] call ARMST_fnc_setDammageHitPoint;" \n
+       "	[_victim, _damage, _damageHitPoints] call _setDammageRemote;" \n
+       "" \n
+       "	if (isPlayer _victim) then {" \n
+       "		_victim setVariable [""AGM_Pain"", ((_victim getVariable [""AGM_Pain"", 0]) + _damage / 10) min 1, true];" \n
+       "	} else {" \n
+       "		_victim setDammage (getDammage _victim + _damage);" \n
+       "	};" \n
+       "};" \n
+       "" \n
+       "_unit setVariable [""ARM_HandAttackDone"", nil];" \n
+       "" \n
+       "_unit stop false;" \n
+       "" \n
+       "_stuckCheck = 0;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Alive_V__1_">*/
+        class Alive_V__1_
+        {
+          priority = 1.000000;
+          to="Pursue";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!isNull _victim && {alive _victim}"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Die_V__0_">*/
+        class Die_V__0_
+        {
+          priority = 0.000000;
+          to="Loop";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_victim = objNull;"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Pursue">*/
+    class Pursue
+    {
+      name = "Pursue";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "_distance = _unit distance _victim;" \n
+       "" \n
+       "//if (_unit distance _victim  >= _jumpAttackDist) then {" \n
+       "if (_distance  > _handAttackDist) then {" \n
+       "" \n
+       "	//""Pursue"" call _debugState;" \n
+       "" \n
+       "	_thisPos = getPosATL _unit;" \n
+       "	_victimPos = getPosATL _victim;" \n
+       "" \n
+       "	/*" \n
+       "	_dir2Victim = ((_victimPos select 0) - (_thisPos select 0)) atan2 ((_victimPos select 1) - (_thisPos select 1));" \n
+       "	_relPos = (_victim getPos [_handAttackDist, _dir2Victim] select [0, 2]) + [getPos _victim select 2];" \n
+       "	_unit doMove _relPos;" \n
+       "	*/" \n
+       "	_unit doMove _victimPos;" \n
+       "	" \n
+       "};" \n
+       "" \n
+       "//_pursueTimeOut = time + ((round _distance / 10) max 0.3);" \n
+       "_pursueTimeOut = time;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Move_Wait__0_">*/
+        class Move_Wait__0_
+        {
+          priority = 0.000000;
+          to="Loop";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"time - _pursueTimeOut > 0.3"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "End">*/
+    class End
+    {
+      name = "End";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "" \n
+       "//[_unit, """"] remoteExecCall [""switchMove""];" \n
+       "//_unit switchMove """";" \n
+       "" \n
+       "_unit enableAI ""TARGET"";" \n
+       "_unit enableAI ""AUTOTARGET"";" \n
+       "_unit enableAI ""FSM"";" \n
+       "_unit setBehaviour _behaviour;" \n
+       "" \n
+       "_unit setVariable [""Victim"", nil];" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Angry">*/
+    class Angry
+    {
+      name = "Angry";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "_unit stop true;" \n
+       "" \n
+       "_nearEnemies = [_unit, _nearEnemies] call ARMST_fnc_sortByDistance;" \n
+       "" \n
+       "_thisPos = getPosATL _unit;" \n
+       "_victimPos = getPosATL (_nearEnemies select 0);" \n
+       "_unit setDir ((_victimPos select 0) - (_thisPos select 0)) atan2 ((_victimPos select 1) - (_thisPos select 1));" \n
+       "" \n
+       "{" \n
+       "	_victimOwners pushBackUnique (owner _x);" \n
+       "} foreach _nearEnemies;" \n
+       "" \n
+       "" \n
+       "[_unit, _victim, _victimOwners, _animAgry] call _playAnimRemote;" \n
+       "" \n
+       "_angryTimeout = time;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "TimeOut">*/
+        class TimeOut
+        {
+          priority = 0.000000;
+          to="Loop";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"(_unit getVariable [""ARM_HandAttackDone"", false]) || time - _angryTimeout > 2"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/"_unit stop false;" \n
+           "_unit setVariable [""ARM_HandAttackDone"", nil];"/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Update">*/
+    class Update
+    {
+      name = "Update";
+      init = /*%FSM<STATEINIT""">*/"" \n
+       "" \n
+       "// --- UPDATE: enemies became more - exit" \n
+       "_enties = [_unit, 30, [""CAManBase""], []] call ARMST_fnc_mutFindUnits;" \n
+       "{_nearEnemies pushBackUnique _x} foreach (_enties select 1);" \n
+       "" \n
+       "_aspectRatio = [_unit, _nearEnemies, _enties select 0] call ARMST_fnc_mutAspectRatio;" \n
+       "_aspectFight = [_unit, ""AGGRESSIVE"", [_aspectRatio]] call ARMST_fnc_mutAspectCalculate;" \n
+       "" \n
+       "if (_aspectFight < 1) then {" \n
+       "" \n
+       "	""Update victims: Reset"" call _debugState;" \n
+       "	_resetAttack = true;" \n
+       "" \n
+       "} else {" \n
+       "	format [""Update victims: + %1"", {_x in (_enties select 1)} count _nearEnemies] call _debugState;" \n
+       "};" \n
+       "" \n
+       "_updateTimeout = time;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Reset__1_">*/
+        class Reset__1_
+        {
+          priority = 1.000000;
+          to="End";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_resetAttack"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Always">*/
+        class Always
+        {
+          priority = 0.000000;
+          to="Select";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Select">*/
+    class Select
+    {
+      name = "Select";
+      init = /*%FSM<STATEINIT""">*/"""Select victim"" call _debugState;" \n
+       "" \n
+       "//Reset" \n
+       "_victims = [];" \n
+       "_fordelete = [];" \n
+       "_victimOld = _victim;" \n
+       "_victim = objNull;" \n
+       "_thisPosASL = getPosASL _unit;" \n
+       "" \n
+       "// --- Victims list clear" \n
+       "{" \n
+       "	if (isNull _x || !alive _x " \n
+       "	//|| _unit distance _x >= _chase" \n
+       "	//|| [_unit, ""VIEW"", _x] checkVisibility [[_thisPosASL select 0, _thisPosASL select 1, (_thisPosASL select 2) + 1.5], eyePos _x] isEqualTo 0" \n
+       "	) then {" \n
+       "		_fordelete pushBack _x" \n
+       "	};" \n
+       "} foreach _nearEnemies;" \n
+       "" \n
+       "_nearEnemies = _nearEnemies - _fordelete;" \n
+       "" \n
+       "" \n
+       "// --- Select" \n
+       "if (count _nearEnemies > 0) then {" \n
+       "" \n
+       "	// --- Sort list" \n
+       "	_victims = [_unit, _nearEnemies] call ARMST_fnc_sortByDistance;" \n
+       "	{_victimOwners pushBackUnique (owner _x)} foreach _victims;" \n
+       "" \n
+       "	_victim = _victims select 0;" \n
+       "	_unit setVariable [""Victim"", _victim];" \n
+       "};" \n
+       "" \n
+       "if (!isNull _victimOld && !(_victim isEqualTo _victimOld)) then {" \n
+       "	_unit doWatch _victim;" \n
+       "};" \n
+       "" \n
+       "_selectTimeout = time;" \n
+       "" \n
+       "" \n
+       "" \n
+       "" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Available__1_">*/
+        class Available__1_
+        {
+          priority = 1.000000;
+          to="Action";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"!isNull _victim && (!isNull _unit && {alive _unit && canMove _unit})"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Alwaays">*/
+        class Alwaays
+        {
+          priority = 0.000000;
+          to="End";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "Check">*/
+    class Check
+    {
+      name = "Check";
+      init = /*%FSM<STATEINIT""">*/"""Stuck check"" call _debugState;" \n
+       "" \n
+       "if (!isNull _victim) then {" \n
+       "" \n
+       "	_thisPosNow = getPosATL _unit;	" \n
+       "	_thisPosNowF = [(_thisPosNow select 0) toFixed 3, (_thisPosNow select 1) toFixed 3, (_thisPosNow select 2) toFixed 3];" \n
+       "	_thisPosF = [(_thisPos select 0) toFixed 3, (_thisPos select 1) toFixed 3, (_thisPos select 2) toFixed 3];" \n
+       "" \n
+       "	if (_thisPosNowF isEqualTo _thisPosF) then {" \n
+       "		""Reset attack: stuck"" call _debugState;" \n
+       "		_resetAttack = true;" \n
+       "		_unit setDammage 1;" \n
+       "	};" \n
+       "" \n
+       "};" \n
+       "" \n
+       "_stuckCheck = 0;"/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "Reset__1_">*/
+        class Reset__1_
+        {
+          priority = 1.000000;
+          to="End";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"_resetAttack"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+        /*%FSM<LINK "Always">*/
+        class Always
+        {
+          priority = 0.000000;
+          to="Loop";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="Begin";
+  finalStates[] =
+  {
+    "End",
+  };
+};
+/*%FSM</COMPILE>*/

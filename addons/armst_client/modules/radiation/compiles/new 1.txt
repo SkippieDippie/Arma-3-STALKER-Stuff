@@ -1,0 +1,1 @@
+this setVariable ["radiationLevel", 203];this setVariable ["radiationRadius", 30];

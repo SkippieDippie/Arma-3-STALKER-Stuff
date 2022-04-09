@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="armst1">
+  <Package name="armst1">
+		<Key ID="STR_armst_item_pda">
+			<Original>PDA</Original>
+			<English>PDA</English>
+			<Russian>КПК</Russian>
+		</Key>
+		
+		<Key ID="STR_Armst_item_ARMST_shkura">
+			<Original>Skin</Original>
+			<English>Skin</English>
+			<Russian>Шкура</Russian>
+		</Key>
+		
+        <Key ID="STR_armst_name">
+            <Original>ArmStalker</Original>
+            <English>ArmStalker</English>
+            <Russian>АрмСталкер</Russian>
+        </Key>
+        <Key ID="STR_armst_item_ai2">
+            <Original>AI-2</Original>
+            <English>AI-2</English>
+            <Russian>АИ-2</Russian>
+        </Key>
+        <Key ID="STR_armst_item_ai2_ARM">
+            <Original>AI-2 (Army)</Original>
+            <English>AI-2 (Army)</English>
+            <Russian>АИ-2 (Армейская)</Russian>
+        </Key>
+        <Key ID="STR_armst_item_ai2_SCI">
+            <Original>AI-2 (Scientific)</Original>
+            <English>AI-2 (Scientific)</English>
+            <Russian>АИ-2 (Научная)</Russian>
+        </Key>
+        <Key ID="STR_armst_item_map">
+            <Original>Map</Original>
+            <English>MAP</English>
+            <Russian>Карта</Russian>
+        </Key>
+		
+        <Key ID="STR_armst_item_ai2_D">
+            <Original>Обычная универсальная аптечка военного назначения.&lt;br/&gt;Эффект: восстановление здоровья, остановка кровотечений, вывод радионуклидов.</Original>
+        </Key>
+        <Key ID="STR_armst_item_ai2_ARM_D">
+            <Original>Усовершенствованная универсальная аптечка военного назначения.&lt;br/&gt;Эффект: восстановление здоровья, остановка кровотечений, вывод радионуклидов.&lt;br/&gt;Состав: средства для ускорения свертывания крови на основе «Менадиона», обезболивающие, антибиотики и стимуляторы иммунитета.</Original>
+        </Key>
+        <Key ID="STR_armst_item_ai2_SCI_D">
+            <Original>Усовершенствованная универсальная аптечка, разработанная специально для условия Зоны.&lt;br/&gt;Эффект: восстановление здоровья, остановка кровотечений, вывод радионуклидов.&lt;br/&gt;Состав: «Викасол», «Батилол» и С-нафтизин.</Original>
+        </Key>
+		<Key ID="STR_armst_item_detectors_otklick">
+			<Original>Detector 'Echo'</Original>
+			<English>Detector 'Echo'</English>
+			<Russian>Детектор 'Отклик'</Russian>
+		</Key>
+		<Key ID="STR_armst_item_detectors_medved">
+			<Original>Detector 'Bear'</Original>
+			<English>Detector 'Bear'</English>
+			<Russian>Детектор 'Медведь'</Russian>
+		</Key>
+		<Key ID="STR_armst_item_detectors_svarog">
+			<Original>Detector 'Svarog'</Original>
+			<English>Detector 'Svarog'</English>
+			<Russian>Детектор 'Сварог'</Russian>
+		</Key>
+	<Key ID="STR_armst_item_detectors_otklick_info">
+		<Original>Artifact detector 'Echo'. Detection radius: 100m. Detection angle: 90'</Original>
+		<English>Artifact detector 'Echo'. Detection radius: 100m. Detection angle: 90'</English>
+		<Russian>Детектор артефактов Отклик. Радиус обнаружения: 100м. Угол обнаружения: 90.</Russian>
+	</Key>
+	<Key ID="STR_armst_item_detectors_medved_info">
+		<Original>Artifact detector 'Bear'. Detection radius: 100m. Detection angle: 360'</Original>
+		<English>Artifact detector 'Bear'. Detection radius: 100m. Detection angle: 360'</English>
+		<Russian>Детектор артефактов Медведь. Радиус обнаружения: 100м. Угол обнаружения: 360.</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_armst_money100Rub">
+		<Original>100 roubles</Original>
+		<English>100 roubles</English>
+		<Russian>100 рублей</Russian>
+	</Key>
+	<Key ID="STR_armst_money100R">
+		<Original>1000 roubles</Original>
+		<English>1000 roubles</English>
+		<Russian>1000 рублей</Russian>
+	</Key>
+	<Key ID="STR_armst_money5000R">
+		<Original>5000 roubles</Original>
+		<English>5000 roubles</English>
+		<Russian>5000 рублей</Russian>
+	</Key>
+	<Key ID="STR_armst_money10000R">
+		<Original>10000 roubles</Original>
+		<English>10000 roubles</English>
+		<Russian>10000 рублей</Russian>
+	</Key>
+	
+	<Key ID="STR_armst_money50000R">
+		<Original>50000 roubles</Original>
+		<English>50000 roubles</English>
+		<Russian>50000 рублей</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_bred">
+		<Original>Bread</Original>
+		<English>Bread</English>
+		<Russian>Хлеб</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_bred_old">
+		<Original>Old bread</Original>
+		<English>Old bread</English>
+		<Russian>Хлеб старый</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_bred_info">
+		<Original>Imported bread</Original>
+		<English>Imported bread</English>
+		<Russian>Привезенный хлеб.</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_shocolate">
+		<Original>Schocolate «Алёнка»</Original>
+		<English>Schocolate «Алёнка»</English>
+		<Russian>Шоколад «Алёнка»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_shocolate_info">
+		<Original>Schocolate «Алёнка» — the milk chocolate made in the USSR since 1965, later manufactured in Russia.</Original>
+		<English>Schocolate «Алёнка» — the milk chocolate made in the USSR since 1965, later manufactured in Russia.</English>
+		<Russian>Шоколад «Алёнка» — молочный шоколад, изготавливавшийся в СССР с 1965 года, а позднее производимый в России.</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_shocolate2">
+		<Original>Schocolate «Осенний Вальс»</Original>
+		<English>Schocolate «Осенний Вальс»</English>
+		<Russian>Шоколад «Осенний Вальс»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_kolbasa">
+		<Original>Sausage</Original>
+		<English>Sausage</English>
+		<Russian>Колбаса</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_kolbasa_info">
+		<Original>Sausage of unknown origin</Original>
+		<English>Sausage of unknown origin</English>
+		<Russian>Колбаса неизвестного происхождения.</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_snorkers">
+		<Original>Snorkers</Original>
+		<English>Snorkers</English>
+		<Russian>Snorkers</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_snorkers_info">
+		<Original>Piece of chocolate to satisfy hunger. Don't stop, grab a Snorkers!</Original>
+		<English>Piece of chocolate to satisfy hunger. Don't stop, grab a Snorkers!</English>
+		<Russian>Шоколадка для утоления голода. Не тормози, сноркесни.</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_tushonka">
+		<Original>«Tushonka» canned beef</Original>
+		<English>«Tushonka» canned beef</English>
+		<Russian>Консерва «Тушеная говядина»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_tushonka_closed">
+		<Original>«Tushonka» canned beef (Closed)</Original>
+		<English>«Tushonka» canned beef (Closed)</English>
+		<Russian>Консерва «Тушеная говядина» (Закрыта)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_tushonka_info">
+		<Original>«Tushonka» canned beef. Made in Belarussia.</Original>
+		<English>«Tushonka» canned beef. Made in Belarussia.</English>
+		<Russian>Консерва «Тушеная говядина». Белорусского производства</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_can">
+		<Original>Can</Original>
+		<English>Can</English>
+		<Russian>Консерва</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_can_ikra_red">
+		<Original>Can</Original>
+		<English>Can</English>
+		<Russian>Консерва c красной икрой</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_can_sosiski">
+		<Original>Can sausage</Original>
+		<English>Can sausage</English>
+		<Russian>Консерва с сосисками</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_can_closed">
+		<Original>Can (Closed)</Original>
+		<English>Can (Closed)</English>
+		<Russian>Консерва (Закрыта)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_can_empty">
+		<Original>Empty tin can</Original>
+		<English>Empty tin can</English>
+		<Russian>Пустая консерва</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_can_info">
+		<Original>Canned food back from Soviet times. Still edibl.</Original>
+		<English>Canned food back from Soviet times. Still edibl.</English>
+		<Russian>Консерва советских времен. Все еще съедобно.</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Sgushenka">
+		<Original>Milk jam</Original>
+		<English>Milk jam</English>
+		<Russian>Сгущенное молоко</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Sgushenka_closed">
+		<Original>Milk jam (Closed)</Original>
+		<English>Milk jam (Closed)</English>
+		<Russian>Сгущенное молоко (Закрыта)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Sgushenka_info">
+		<Original>Milk jam. Made in Russia.</Original>
+		<English>Milk jam. Made in Russia.</English>
+		<Russian>Сгущенное молоко. Российского производства.</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_rathion">
+		<Original>MRE-C (3)</Original>
+		<English>MRE-C (3)</English>
+		<Russian>ИРП-Б Суточный (3)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_rathion_level2">
+		<Original>MRE-C (2)</Original>
+		<English>MRE-C (2)</English>
+		<Russian>ИРП-Б Суточный (2)</Russian>
+	</Key>
+	<Key ID="Armst_item_rathion_level3">
+		<Original>MRE-C (1)</Original>
+		<English>MRE-C (1)</English>
+		<Russian>ИРП-Б Суточный (1)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_rathion_info">
+		<Original>MEAL READY TO EAT- COMBAT (MRE-C).</Original>
+		<English>MEAL READY TO EAT- COMBAT (MRE-C).</English>
+		<Russian>ИНДИВИДУАЛЬНЫЙ РАЦИОН ПИТАНИЯ — СУТОЧНЫЙ (ИРП-Б).</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_SuhPay">
+		<Original>MRE-R</Original>
+		<English>MRE-R</English>
+		<Russian>ИРП-Р</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_SuhPay_info">
+		<Original>MEAL READY TO EAT- RUSSIAN (MRE-R).</Original>
+		<English>MEAL READY TO EAT- RUSSIAN (MRE-R).</English>
+		<Russian>ИНДИВИДУАЛЬНЫЙ РАЦИОН ПИТАНИЯ — РОССИЙСКИЙ (ИРП-Р).</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_waterbottle">
+		<Original>Flask</Original>
+		<English>Flask</English>
+		<Russian>Фляга</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_waterbottle50">
+		<Original>Flask (50%)</Original>
+		<English>Flask (50%)</English>
+		<Russian>Фляга (50%)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_waterbottleEmpty">
+		<Original>Flask(Empty)</Original>
+		<English>Flask(Empty)</English>
+		<Russian>Фляга (пустая)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_waterbottle_info">
+		<Original>Flask with drinking water.</Original>
+		<English>Flask with drinking water.</English>
+		<Russian>Фляга с питьевой водой.</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_vodka">
+		<Original>«Pshenichnaya» Vodka</Original>
+		<English>«Pshenichnaya» Vodka</English>
+		<Russian>Водка «Пшеничная»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_vodka50">
+		<Original>«Pshenichnaya» Vodka (50%)</Original>
+		<English>«Pshenichnaya» Vodka (50%)</English>
+		<Russian>Водка «Пшеничная» (50%)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_vodkaEmpty">
+		<Original>«Pshenichnaya» Vodka(Empty)</Original>
+		<English>«Pshenichnaya» Vodka(Empty)</English>
+		<Russian>Водка «Пшеничная» (пустая)</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_vodka_finland">
+		<Original>«Finlandia» Vodka</Original>
+		<English>«Finlandia» Vodka</English>
+		<Russian>Водка «Finlandia»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_vodka50_finland">
+		<Original>«Finlandia» Vodka (50%)</Original>
+		<English>«Finlandia» Vodka (50%)</English>
+		<Russian>Водка «Finlandia» (50%)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_vodkaEmpty_finland">
+		<Original>«Finlandia» Vodka(Empty)</Original>
+		<English>«Finlandia» Vodka(Empty)</English>
+		<Russian>Водка «Finlandia» (пустая)</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_Jemeson">
+		<Original>«Jameson» whiskey</Original>
+		<English>«Jameson» whiskey</English>
+		<Russian>Водка «Jameson»</Russian>
+	</Key>
+	<Key ID="STR_armst_item_Jemeson50">
+		<Original>«Jameson» whiskey (50%)</Original>
+		<English>«Jameson» whiskey (50%)</English>
+		<Russian>Водка «Jameson» (50%)</Russian>
+	</Key>
+	<Key ID="armst_item_Jemesonempty">
+		<Original>«Jameson» whiskey(Empty)</Original>
+		<English>«Jameson» whiskey(Empty)</English>
+		<Russian>Водка «Jameson» (пустая)</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_vodka_russianstand">
+		<Original>«Russian standard» Vodka</Original>
+		<English>«Russian standard» Vodka</English>
+		<Russian>Водка «Русский стандарт»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_vodka50_russianstand">
+		<Original>«Russian standard» Vodka (50%)</Original>
+		<English>«Russian standard» Vodka (50%)</English>
+		<Russian>Водка «Русский стандарт» (50%)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_vodkaEmpty_russianstand">
+		<Original>«Russian standard» Vodka(Empty)</Original>
+		<English>«Russian standard» Vodka(Empty)</English>
+		<Russian>Водка «Русский стандарт» (пустая)</Russian>
+	</Key>
+	
+	
+	
+	
+	
+	<Key ID="STR_Armst_item_vodka_info">
+		<Original>Vodka — simple and cheap antiradiation drug among stalkers, you shouldn't drink it too much though.</Original>
+		<English>Vodka — simple and cheap antiradiation drug among stalkers, you shouldn't drink it too much though.</English>
+		<Russian>Водка — простое и недорогое в сталкерском братстве средство борьбы с радиацией, хотя злоупотреблять ей не стоит.</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_beer">
+		<Original>«Obolon'» Beer</Original>
+		<English>«Obolon'» Beer</English>
+		<Russian>Пиво «Оболонь»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer50">
+		<Original>«Obolon'» Beer (50%)</Original>
+		<English>«Obolon'» Beer (50%)</English>
+		<Russian>Пиво «Оболонь» (50%)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beerEmpty">
+		<Original>«Obolon'» Beer(Empty)</Original>
+		<English>«Obolon'» Beer(Empty)</English>
+		<Russian>Пиво «Оболонь»(пустая)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer_baltica">
+		<Original>«Baltica 6» Beer</Original>
+		<English>«Baltica 6» Beer</English>
+		<Russian>Пиво «Балтика 6»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer_baltica50">
+		<Original>«Baltica 6» Beer (50%)</Original>
+		<English>«Baltica 6» Beer (50%)</English>
+		<Russian>Пиво «Балтика 6» (50%)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer_balticaEmpty">
+		<Original>«Baltica 6» Beer(Empty)</Original>
+		<English>«Baltica 6» Beer(Empty)</English>
+		<Russian>Пиво «Балтика»(пустая)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer_chernigov">
+		<Original>«Chernigov» Beer</Original>
+		<English>«Chernigov» Beer</English>
+		<Russian>Пиво «Черниговское»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer_chernigov50">
+		<Original>«Chernigov» Beer (50%)</Original>
+		<English>«Chernigov» Beer (50%)</English>
+		<Russian>Пиво «Черниговское» (50%)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer_chernigovEmpty">
+		<Original>«Chernigov» Beer(Empty)</Original>
+		<English>«Chernigov» Beer(Empty)</English>
+		<Russian>Пиво «Черниговское»(пустая)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer_FAXE">
+		<Original>«FAXE» Beer</Original>
+		<English>«FAXE» Beer</English>
+		<Russian>Пиво «FAXE»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer_FAXE50">
+		<Original>«FAXE» Beer (50%)</Original>
+		<English>«FAXE» Beer (50%)</English>
+		<Russian>Пиво «FAXE» (50%)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer_FAXEEmpty">
+		<Original>«FAXE» Beer(Empty)</Original>
+		<English>«FAXE» Beer(Empty)</English>
+		<Russian>Пиво «FAXE»(пустая)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_beer_info">
+		<Original>The world's oldest and most widely consumed alcoholic drink, it is the third most popular drink overall, after water and tea.</Original>
+		<English>The world's oldest and most widely consumed alcoholic drink, it is the third most popular drink overall, after water and tea.</English>
+		<Russian>Напиток с легким, освежающим вкусовым букетов. Вкус пива составляет ненавязчивая ячменная сладость, которая гармонично уравновешена легкой, округлой хмелевой горчинкой. В результате дегустации вы получите освежающее впечатление с приятной резкостью углекислоты, без послевкусия или кислых нот (calorizator). Пиво имеет светлый медовый цвет и высокую воздушную шапку из густой, белой пены.</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_chigarette">
+		<Original>«Marlboro» Cigarettes</Original>
+		<English>«Marlboro» Cigarettes</English>
+		<Russian>Сигареты «Marlboro»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_chigarette_info">
+		<Original>«Marlboro» — a cigarette brand, manufactured by Philip Morris International Co since 1924 года. Marlboro is the best selling cigarette brand in the world</Original>
+		<English>«Marlboro» — a cigarette brand, manufactured by Philip Morris International Co since 1924 года. Marlboro is the best selling cigarette brand in the world</English>
+		<Russian>«Marlboro» — марка сигарет, выпускаемая компанией Philip Morris International с 1924 года. Marlboro — самая продаваемая марка сигарет в мире.</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_energy">
+		<Original>Energy drink «ArmSTALKER»</Original>
+		<Original>Energy drink «ArmSTALKER»</Original>
+		<Russian>Энергетический напиток «ArmSTALKER»</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_energyEmpty">
+		<Original>Energy drink «ArmSTALKER» (Empty)</Original>
+		<Original>Energy drink «ArmSTALKER» (Empty)</Original>
+		<Russian>Энергетический напиток «ArmSTALKER» (Empty)</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_antirad">
+		<Original>Antiradiation drug RAD-X</Original>
+		<English>Antiradiation drug RAD-X</English>
+		<Russian>Антирад RAD-X</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_antirad_info">
+		<Original>Clears the consumer's organism from radiation. Works instantly and without consequences</Original>
+		<English>Clears the consumer's organism from radiation. Works instantly and without consequences.</English>
+		<Russian>Очищает организм потребителя от заражения радиацией. Работает моментально и без последствий.</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_spicki">
+		<Original>Box of matches</Original>
+		<English>Box of matches</English>
+		<Russian>Спички</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_babywipes">
+		<Original>Wet towel wipes</Original>
+		<English>Wet towel wipes</English>
+		<Russian>Влажные салфетки</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_Book">
+		<Original>Book</Original>
+		<English>Book</English>
+		<Russian>Книга</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_bugspray">
+		<Original>Anti-insect spray</Original>
+		<English>Anti-insect spray</English>
+		<Russian>Спрей от насекомых</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_cards">
+		<Original>Pack of playing cards</Original>
+		<English>Pack of playing cards</English>
+		<Russian>Игральные карты</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_comic">
+		<Original>Comic book</Original>
+		<English>Comic book</English>
+		<Russian>Комикс</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_Condom">
+		<Original>Condom</Original>
+		<English>Condom</English>
+		<Russian>Презерватив</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_dice">
+		<Original>Dices</Original>
+		<English>Dices</English>
+		<Russian>Игральная кость</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_powder">
+		<Original>Battery fluid</Original>
+		<English>Battery fluid</English>
+		<Russian>Электролит</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_eyedrops">
+		<Original>Eye spray</Original>
+		<English>Eye spray</English>
+		<Russian>Капли для глаз</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_gq">
+		<Original>Journal</Original>
+		<English>Journal</English>
+		<Russian>Журнал</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_gum">
+		<Original>Bubble gum</Original>
+		<English>Bubble gum</English>
+		<Russian>Жвачка</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_ID">
+		<Original>ID card</Original>
+		<English>ID card</English>
+		<Russian>ID карта</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_letter_norme">
+		<Original>Letter</Original>
+		<English>Letter</English>
+		<Russian>Письмо</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_letter">
+		<Original>Highly important letter</Original>
+		<English>Highly important letter</English>
+		<Russian>Сверхважное письмо</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_lipbalm">
+		<Original>Marker</Original>
+		<English>Marker</English>
+		<Russian>Маркер</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_Lighter">
+		<Original>Lighter</Original>
+		<English>Lighter</English>
+		<Russian>Зажигалка</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_item_multitool">
+		<Original>Multitool</Original>
+		<English>Multitool</English>
+		<Russian>Мультитул складной</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_Armst_itemdoc">
+		<Original>Documents</Original>
+		<English>Documents</English>
+		<Russian>Документы</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_Familyphoto">
+		<Original>Family photo</Original>
+		<English>Family photo</English>
+		<Russian>Семейное фото</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_girl">
+		<Original>A photo of a girl</Original>
+		<English>A photo of a girl</English>
+		<Russian>Фотка девушки</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_ARMST_socks_greene">
+		<Original>Green socks</Original>
+		<English>Green socks</English>
+		<Russian>Зеленые носки</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_socks_black">
+		<Original>Black socks</Original>
+		<English>Black socks</English>
+		<Russian>Черные носки</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_stuff_animal">
+		<Original>Fluffy toy</Original>
+		<English>Fluffy toy</English>
+		<Russian>Мягкая игрушка</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_ARMST_sudoku">
+		<Original>Sudoku</Original>
+		<English>Sudoku</English>
+		<Russian>Судоку</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_ARMST_sunblock">
+		<Original>Burn cream</Original>
+		<English>Burn cream</English>
+		<Russian>Крем от ожогов</Russian>
+	</Key>
+	
+	
+	
+	<Key ID="STR_Armst_item_tanboxer">
+		<Original>Underpants</Original>
+		<English>Underpants</English>
+		<Russian>Трусы</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_toiletpaper">
+		<Original>Toilet paper</Original>
+		<English>м</English>
+		<Russian>Туалетная бумага</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_towel">
+		<Original>Towel</Original>
+		<English>Towel</English>
+		<Russian>Полотенце</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_usbdrive">
+		<Original>Flash card</Original>
+		<English>Flash card</English>
+		<Russian>Флеш карта</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_vhstape">
+		<Original>Cassette</Original>
+		<English>Cassette</English>
+		<Russian>Касета</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_water_tabs">
+		<Original>Water purification tablets</Original>
+		<English>Water purification tablets</English>
+		<Russian>Таблетки для очистки воды</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_550cord">
+		<Original>Cord</Original>
+		<English>Cord</English>
+		<Russian>Шнур</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_acetone">
+		<Original>Acetone</Original>
+		<English>Acetone</English>
+		<Russian>Ацетон</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_batteries">
+		<Original>Batteries</Original>
+		<English>Batteries</English>
+		<Russian>Батарейки</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_bungeecord">
+		<Original>Towing rope</Original>
+		<English>Towing rope</English>
+		<Russian>Трос</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_camcorder">
+		<Original>Video camera</Original>
+		<English>Video camera</English>
+		<Russian>Видеокамера</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_canopener">
+		<Original>Bottle opener</Original>
+		<English>Bottle opener</English>
+		<Russian>Открывашка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_cigarettes">
+		<Original>Lucky Strike Cigarettes</Original>
+		<English>Lucky Strike Cigarettes</English>
+		<Russian>Сигареты Lucky Strike</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_cigarettes_camel">
+		<Original>Camell Cigarettes</Original>
+		<English>Camell Cigarettes</English>
+		<Russian>Сигареты Camell</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_detcord">
+		<Original>Wire</Original>
+		<English>Wire</English>
+		<Russian>Проволока</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_domo">
+		<Original>Fluffy toy</Original>
+		<English>Fluffy toy</English>
+		<Russian>Мягкая игрушка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ducttape">
+		<Original>Adhesive tape</Original>
+		<English>Adhesive tape</English>
+		<Russian>Изолента</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_dumbphone">
+		<Original>Broken telephone</Original>
+		<English>Broken telephone</English>
+		<Russian>Сломанный телефон</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_dvds">
+		<Original>DVD disks</Original>
+		<English>DVD disks</English>
+		<Russian>DVD диски</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_firestarter">
+		<Original>Ignitor</Original>
+		<English>Ignitor</English>
+		<Russian>Зажигатель</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_hammer">
+		<Original>Hammer</Original>
+		<English>Hammer</English>
+		<Russian>Молоток</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Thermopack">
+		<Original>Thermopack</Original>
+		<English>Thermopack</English>
+		<Russian>Термопакет</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_hexamine">
+		<Original>Hexamethylenetetramine</Original>
+		<English>Hexamethylenetetramine</English>
+		<Russian>Гексаметилентетрамин</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Chlorum">
+		<Original>Chlorum</Original>
+		<English>Chlorum</English>
+		<Russian>Хлор</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_mp3">
+		<Original>МP3 player</Original>
+		<English>МP3 player</English>
+		<Russian>МP3 плеер</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Nails">
+		<Original>Nails</Original>
+		<English>Nails</English>
+		<Russian>Гвозди</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_potatobag">
+		<Original>A sack of potatoes</Original>
+		<English>A sack of potatoes</English>
+		<Russian>Мешок картошки</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_steelpipe">
+		<Original>Steel pipe</Original>
+		<English>Steel pipe</English>
+		<Russian>Стальная трубка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_toxicgas">
+		<Original>Toxic gas</Original>
+		<English>Toxic gas</English>
+		<Russian>Токсичный газ</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_wpnclnkit">
+		<Original>Weapon cleaning kit</Original>
+		<English>Weapon cleaning kit</English>
+		<Russian>Набор для чистки оружия</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_cigar">
+		<Original>Cigar</Original>
+		<English>Cigar</English>
+		<Russian>Сигара</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_goldwatch">
+		<Original>Golden watches</Original>
+		<English>Golden watches</English>
+		<Russian>Золотые часы</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_laptop">
+		<Original>Notebook</Original>
+		<English>Notebook</English>
+		<Russian>Ноутбук</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_socks_black_dirty">
+		<Original>Dirty socks</Original>
+		<English>Dirty socks</English>
+		<Russian>Грязные носки</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_socks_green_dirty">
+		<Original>Dirty socks</Original>
+		<English>Dirty socks</English>
+		<Russian>Грязные носки</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_suitcase">
+		<Original>Case</Original>
+		<English>Case</English>
+		<Russian>Кейс</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_tablet">
+		<Original>Tablet computer</Original>
+		<English>Tablet computer</English>
+		<Russian>Планшет</Russian>
+	</Key>
+	<Key ID="STR_Armst_itemtanboxer_dirty:">
+		<Original>Dirty underpants</Original>
+		<English>Dirty underpants</English>
+		<Russian>Грязные трусы</Russian>
+	</Key>
+	<Key ID="STR_Armst_itemARMST_zippo">
+		<Original>Zippo Lighter</Original>
+		<English>Zippo Lighter</English>
+		<Russian>Зажигалка Zippo</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_airfilter">
+		<Original>Air filter</Original>
+		<English>Air filter</English>
+		<Russian>Воздушный фильтр</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_cellphone">
+		<Original>Telephone</Original>
+		<English>Telephone</English>
+		<Russian>Телефон</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_clutch_disk">
+		<Original>Clutch plate</Original>
+		<English>Clutch plate</English>
+		<Russian>Диск сцепления</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_fanbelte">
+		<Original>Elastic</Original>
+		<English>Elastic</English>
+		<Russian>Резинка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_leaflet">
+		<Original>Piece of paper</Original>
+		<English>Piece of paper</English>
+		<Russian>Бумажка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_piston">
+		<Original>Forcer</Original>
+		<English>Forcer</English>
+		<Russian>Поршень</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_sleepingbag">
+		<Original>Sleeping bag</Original>
+		<English>Sleeping bag</English>
+		<Russian>Спальная сумка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_solderingiron">
+		<Original>Soldering tool</Original>
+		<English>Soldering tool</English>
+		<Russian>Паяльник</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Spoon">
+		<Original>Spoon</Original>
+		<English>Spoon</English>
+		<Russian>Ложка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_steeringwheel">
+		<Original>Steering wheel</Original>
+		<English>Steering wheel</English>
+		<Russian>Руль</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_thermos">
+		<Original>Thermos</Original>
+		<English>Thermos</English>
+		<Russian>Термос</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_valvesprings">
+		<Original>Spring</Original>
+		<English>Spring</English>
+		<Russian>Пружины</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_wirecutter">
+		<Original>Cutting nippers</Original>
+		<English>Cutting nippers</English>
+		<Russian>Кусачки</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_udostoveren">
+		<Original>Identity document</Original>
+		<English>Identity document</English>
+		<Russian>Удостоверение</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_ARMST_akkum">
+		<Original>Accumulator</Original>
+		<English>Accumulator</English>
+		<Russian>Аккумулятор</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_bumag">
+		<Original>Paper</Original>
+		<English>Paper</English>
+		<Russian>Бумага</Russian>
+	</Key>
+	<Key ID="STR_Armst_ARMST_instruments">
+		<Original>Tools</Original>
+		<English>Tools</English>
+		<Russian>Инструменты</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Jerricane">
+		<Original>Jerrican</Original>
+		<English>Jerrican</English>
+		<Russian>Канистра</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Joint">
+		<Original>Joint</Original>
+		<English>Joint</English>
+		<Russian>Косяк</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_JointReagent">
+		<Original>Joint</Original>
+		<English>Joint</English>
+		<Russian>Косяк (c реагентами)</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_matplat">
+		<Original>Board</Original>
+		<English>Board</English>
+		<Russian>Плата</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_propuske">
+		<Original>Pass</Original>
+		<English>Pass</English>
+		<Russian>Пропуск</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_gaz">
+		<Original>Propane</Original>
+		<English>Propane</English>
+		<Russian>Пропан</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_svecha">
+		<Original>Spark plug</Original>
+		<English>Spark plug</English>
+		<Russian>Машинная свеча</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Carburettor">
+		<Original>Carburettor</Original>
+		<English>Carburettor</English>
+		<Russian>Карбюратор</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_brezent">
+		<Original>Piece of canvas</Original>
+		<English>Piece of canvas</English>
+		<Russian>Кусок брезента</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_tkan">
+		<Original>Piece of cloth</Original>
+		<English>Piece of cloth</English>
+		<Russian>Кусок ткани</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_kevlar">
+		<Original>Kevlar plate</Original>
+		<English>Kevlar plate</English>
+		<Russian>Кевларовая пластина</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_lopatka">
+		<Original>Sapper spade</Original>
+		<English>Sapper spade</English>
+		<Russian>Сапёрная лопатка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_skipidar">
+		<Original>Turpentine</Original>
+		<English>Turpentine</English>
+		<Russian>Скипидар</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_broneplastina">
+		<Original>Armor plate</Original>
+		<English>Armor plate</English>
+		<Russian>Бронепластина</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_brokenpda">
+		<Original>Broken PDA</Original>
+		<English>Broken PDA</English>
+		<Russian>Сломанный КПК</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_armst_zeton">
+		<Original>Dog tag</Original>
+		<English>Dog tag</English>
+		<Russian>Именной жетон</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_polhir">
+		<Original>Field Surgery Kit</Original>
+		<English>Field Surgery Kit</English>
+		<Russian>Набор для полевой хирургии</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_medinste">
+		<Original>Medical instruments</Original>
+		<English>Medical instruments</English>
+		<Russian>Медицинские инструменты</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Artifact">
+		<Original>Artifact working tools</Original>
+		<English>Artifact working tools</English>
+		<Russian>Набор для работы с артефактами</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_armst_scaner">
+		<Original>Scientific scanner</Original>
+		<English>Scientific scanner</English>
+		<Russian>Научный сканер</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_medperchatki">
+		<Original>Medical gloves</Original>
+		<English>Medical gloves</English>
+		<Russian>Медицинские перчатки</Russian>
+	</Key>
+	<Key ID="STR_armst_gloves">
+		<Original>Gloves</Original>
+		<English>Gloves</English>
+		<Russian>Перчатки</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_scanerart">
+		<Original>Artifact scanner</Original>
+		<English>Artifact scanner</English>
+		<Russian>Сканер артефактов</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_doska">
+		<Original>Board</Original>
+		<English>Board</English>
+		<Russian>Доска</Russian>
+	</Key>
+	<Key ID="STR_Armst_armst_bochka">
+		<Original>Empty barrel</Original>
+		<English>Empty barrel</English>
+		<Russian>Пустая бочка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_armst_545">
+		<Original>5.45 round</Original>
+		<English>5.45 round</English>
+		<Russian>Патрон калибра 5.45</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_armst_762">
+		<Original>7.62 round</Original>
+		<English>7.62 round</English>
+		<Russian>Патрон калибра 7.62</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_armst_steklo">
+		<Original>Gas mask glass</Original>
+		<English>Gas mask glass</English>
+		<Russian>Стекло для противогаза</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_armst_NO1">
+		<Original>SD:Pressure meter</Original>
+		<English>SD:Pressure meter</English>
+		<Russian>НО:Измеритель давления</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_NO2">
+		<Original>SD:Screens</Original>
+		<English>SD:Screens</English>
+		<Russian>НО:Экраны</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_NO3">
+		<Original>SD:Generator</Original>
+		<English>SD:Generator</English>
+		<Russian>НО:Генератор</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_NO4">
+		<Original>SD:Air analysis device</Original>
+		<English>SD:Air analysis device</English>
+		<Russian>НО:Анализатор воздуха</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_NO5">
+		<Original>SD:Antenna</Original>
+		<English>SD:Antenna</English>
+		<Russian>НО:Антена</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_NO6">
+		<Original>SD:Powerful device</Original>
+		<English>SD:Powerful device</English>
+		<Russian>НО:Мощная установка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_NO7">
+		<Original>НО:Recycling machine</Original>
+		<English>НО:Recycling machine</English>
+		<Russian>НО:Машина переработки</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_BagFence">
+		<Original>Barbed wire hank</Original>
+		<English>Barbed wire hank</English>
+		<Russian>Моток колючей проволоки</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Sandbags">
+		<Original>Sandbags</Original>
+		<English>Sandbags</English>
+		<Russian>Мешки с песком</Russian>
+	</Key>
+	<Key ID="STR_Armst_armst_CampingChair">
+		<Original>Folding chair</Original>
+		<English>Folding chair</English>
+		<Russian>Складной стул</Russian>
+	</Key>
+	<Key ID="STR_Armst_CampingTable">
+		<Original>Folding table</Original>
+		<English>Folding table</English>
+		<Russian>Складной стол</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_tent">
+		<Original>Tent</Original>
+		<English>Tent</English>
+		<Russian>Палатка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_MetalBarrel">
+		<Original>Metal barrel</Original>
+		<English>Metal barrel</English>
+		<Russian>Металлическая бочка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_generator">
+		<Original>Mobile generator</Original>
+		<English>Mobile generator</English>
+		<Russian>Передвижной генератор</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Lampe">
+		<Original>Lamp</Original>
+		<English>Lamp</English>
+		<Russian>Лампа</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_PortableLight">
+		<Original>Mobile lantern</Original>
+		<English>Mobile lantern</English>
+		<Russian>Переносной фонарь</Russian>
+	</Key>
+	<Key ID="STR_Armst_armst_Camper">
+		<Original>Self-made canopy</Original>
+		<English>Self-made canopy</English>
+		<Russian>Самодельный навес</Russian>
+	</Key>
+	<Key ID="STR_Armst_armst_pallet_vertical">
+		<Original>Wooden pallet</Original>
+		<English>Wooden pallet</English>
+		<Russian>Деревянный поддон</Russian>
+	</Key>
+	<Key ID="STR_Armst_armst_armst_korob1">
+		<Original>Wooden box</Original>
+		<English>Wooden box</English>
+		<Russian>Деревянный ящик</Russian>
+	</Key>
+	<Key ID="STR_armst_taynik_big">
+		<Original>Wooden box (Stash)</Original>
+		<English>Wooden box (Stash)</English>
+		<Russian>Деревянный ящик (тайник)</Russian>
+	</Key>
+	<Key ID="STR_Armst_mut_boar">
+		<Original>Boar hoof</Original>
+		<English>Boar hoof</English>
+		<Russian>Копыто Кабана</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_burer">
+		<Original>Burer hand</Original>
+		<English>Burer hand</English>
+		<Russian>Рука Бюрера</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_chimera">
+		<Original>Chimera claws</Original>
+		<English>Chimera claws</English>
+		<Russian>Когти Химеры</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_upir">
+		<Original>Upir hand</Original>
+		<English>Upir hand</English>
+		<Russian>Лапа Упыря</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_watcher">
+		<Original>Watcher hand</Original>
+		<English>Watcher hand</English>
+		<Russian>Лапа Стража</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_wolf">
+		<Original>Wolf hand</Original>
+		<English>Wolf hand</English>
+		<Russian>Лапа волка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_wolfalpha">
+		<Original>Wolf Alpha hand</Original>
+		<English>Wolf Alpha hand</English>
+		<Russian>Лапа Альфа-Волка</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_werewolf">
+		<Original>Werewolf hand</Original>
+		<English>Werewolf hand</English>
+		<Russian>Лапа Оборотня</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_wolfhound">
+		<Original>Wolfhound hand</Original>
+		<English>Wolfhound hand</English>
+		<Russian>Лапа Волкодава</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_kikimora">
+		<Original>Kikimora head</Original>
+		<English>Kikimora head</English>
+		<Russian>Голова Кикиморы</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Controller">
+		<Original>Controller brain</Original>
+		<English>Controller brain</English>
+		<Russian>Мозг Контроллера</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Blind">
+		<Original>Blind dog tail</Original>
+		<English>Blind dog tail</English>
+		<Russian>Хвост Слепого пса</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Cat">
+		<Original>Cat tail</Original>
+		<English>Cat tail</English>
+		<Russian>Хвост Кота</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Fracture">
+		<Original>Fracture hand</Original>
+		<English>Fracture hand</English>
+		<Russian>Рука Излома</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Tushkano">
+		<Original>Tushkano head</Original>
+		<English>Tushkano head</English>
+		<Russian>Голова Тушканчика</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Bloodsucker">
+		<Original>Bloodsucker tentacles</Original>
+		<English>Bloodsucker tentacles</English>
+		<Russian>Щупальца Кровососа</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Deere">
+		<Original>Deer hoof</Original>
+		<English>Deer hoof</English>
+		<Russian>Копыта Оленя</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Spidere">
+		<Original>Spider fang</Original>
+		<English>Spider fang</English>
+		<Russian>Клыки Паука</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Flesh">
+		<Original>Flesh eye</Original>
+		<English>Flesh eye</English>
+		<Russian>Глаз Псевдоплоти</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Poltergeist">
+		<Original>Poltergeist eye</Original>
+		<English>Poltergeist eye</English>
+		<Russian>Глаза Полтергейста</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Pseudodoge">
+		<Original>Pseudodog tail</Original>
+		<English>Pseudodog tail</English>
+		<Russian>Хвост Псевдособаки</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Pseudogiant">
+		<Original>Pseudogiant jaws</Original>
+		<English>Pseudogiant jaws</English>
+		<Russian>Челюсть Псевдогиганта</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_Snork">
+		<Original>Snork foot</Original>
+		<English>Snork foot</English>
+		<Russian>Нога Снорка</Russian>
+	</Key>
+	
+	<Key ID="STR_DETECTOR_DBG06M">
+		<Original>DETECTOR DBG06M</Original>
+		<English>DETECTOR DBG06M</English>
+		<Russian>Дозиметр DBG06M</Russian>
+	</Key>
+	<Key ID="STR_armst_sensor_CRV_Life">
+		<Original>Sensor CRV-Life</Original>
+		<English>Сенсор CRV-Life</English>
+		<Russian>Сенсор CRV-Life</Russian>
+	</Key>
+	<Key ID="STR_DETECTOR_RKS20">
+		<Original>DETECTOR RKS20</Original>
+		<English>DETECTOR RKS20</English>
+		<Russian>Дозиметр RKS20</Russian>
+	</Key>
+	<Key ID="STR_DETECTOR_MKS1009">
+		<Original>DETECTOR MKS1009</Original>
+		<English>DETECTOR MKS1009</English>
+		<Russian>Дозиметр MKS1009</Russian>
+	</Key>
+	<Key ID="STR_DETECTOR_DBG06M_off">
+		<Original>DETECTOR DBG06M (OFF)</Original>
+		<English>DETECTOR DBG06M (OFF)</English>
+		<Russian>Дозиметр DBG06M (OFF)</Russian>
+	</Key>
+	<Key ID="STR_DETECTOR_RKS20_off">
+		<Original>DETECTOR RKS20 (OFF)</Original>
+		<English>DETECTOR RKS20 (OFF)</English>
+		<Russian>Дозиметр RKS20 (OFF)</Russian>
+	</Key>
+	<Key ID="STR_DETECTOR_MKS1009_off">
+		<Original>DETECTOR MKS1009 (OFF)</Original>
+		<English>DETECTOR MKS1009 (OFF)</English>
+		<Russian>Дозиметр MKS1009 (OFF)</Russian>
+	</Key>
+	
+	
+	<Key ID="STR_armst_nashivka_army">
+		<Original>Army patch</Original>
+		<English>Army patch</English>
+		<Russian>Нашивка солдата</Russian>
+	</Key>
+	<Key ID="STR_armst_nashivka_bandit">
+		<Original>Bandit patch</Original>
+		<English>Bandit patch</English>
+		<Russian>Нашивка бандита</Russian>
+	</Key>
+	<Key ID="STR_armst_nashivka_dolg">
+		<Original>Duty patch</Original>
+		<English>Duty patch</English>
+		<Russian>Нашивка долговца</Russian>
+	</Key>
+	<Key ID="STR_armst_nashivka_science">
+		<Original>Science patch</Original>
+		<English>Science patch</English>
+		<Russian>Нашивка ученого</Russian>
+	</Key>
+	<Key ID="STR_armst_nashivka_freedom">
+		<Original>Freedompatch</Original>
+		<English>Freedom patch</English>
+		<Russian>Нашивка свободовца</Russian>
+	</Key>
+	<Key ID="STR_armst_nashivka_merc">
+		<Original>Mercenary patch</Original>
+		<English>Mercenary patch</English>
+		<Russian>Нашивка наёмника</Russian>
+	</Key>
+	<Key ID="STR_armst_nashivka_monolith">
+		<Original>Monolith patch</Original>
+		<English>Monolithpatch</English>
+		<Russian>Нашивка монолитовца</Russian>
+	</Key>
+	<Key ID="STR_armst_nashivka_stalker">
+		<Original>DETECTOR MKS1009</Original>
+		<English>DETECTOR MKS1009</English>
+		<Russian>Нашивка сталкера</Russian>
+	</Key>
+	<Key ID="STR_Armst_item_filter">
+		<Original>Filter for gasmask</Original>
+		<English>Filter for gasmask</English>
+		<Russian>Фильтр для противогаза</Russian>
+	</Key>
+	<Key ID="STR_armst_item_medkit">
+		<Original>Medkit (3)</Original>
+		<English>Medkit (3)</English>
+		<Russian>Медицинский набор (3)</Russian>
+	</Key>
+	<Key ID="STR_armst_item_medkit_level2">
+		<Original>Medkit (2)</Original>
+		<English>Medkit (2)</English>
+		<Russian>Медицинский набор (2)</Russian>
+	</Key>
+	<Key ID="STR_armst_item_medkit_level3">
+		<Original>Medkit (1)</Original>
+		<English>Medkit (1)</English>
+		<Russian>Медицинский набор (1)</Russian>
+	</Key>
+	
+	<Key ID="STR_Armst_item_filterEmpty">
+		<Original>Filter for gasmask (Empty)</Original>
+		<English>Filter for gasmask (Empty)</English>
+		<Russian>Фильтр для противогаза (Empty)</Russian>
+	</Key>
+	
+</Package>
+</Project>

@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project name='Arma3'>
+
+<!-- Connect titles -->
+<Package name='armstalker_client_connect'>
+		<Key ID="str_loadscreen_TitleTop">
+			<Original>Welcome to zone</Original>
+			<English>Welcome to zone</English>
+			<Russian>Добро пожаловать в зону</Russian>
+		</Key>
+		<Key ID="str_loadscreen_LoadingTimeout">
+			<Original>Timeout initialization .. exit</Original>
+			<English>Timeout initialization .. exit</English>
+			<Russian>Таймаут инициализации ... выхожу</Russian>
+		</Key>
+		<Key ID="str_loadscreen_ServerReadyWait">
+			<Original>Waiting for server ready</Original>
+			<English>Waiting for server ready</English>
+			<Russian>Ожидание готовности сервера</Russian>
+		</Key>
+		<Key ID="str_loadscreen_ServerReady">
+			<Original>Server ready</Original>
+			<English>Server ready</English>
+			<Russian>Сервер готов</Russian>
+		</Key>
+		<Key ID="str_loadscreen_ClientReadyWait">
+			<Original>Waiting for client ready</Original>
+			<English>Waiting for client ready</English>
+			<Russian>Ожидание готовности клиента</Russian>
+		</Key>
+		<Key ID="str_loadscreen_ClientReady">
+			<Original>Client ready</Original>
+			<English>Client ready</English>
+			<Russian>Клиент готов</Russian>
+		</Key>
+		<Key ID="str_loadscreen_RequestAuth">
+			<Original>Request authentication</Original>
+			<English>Request authentication</English>
+			<Russian>Запрос авторизации</Russian>
+		</Key>
+		<Key ID="str_loadscreen_ResponseWaiting">
+			<Original>Waiting for response</Original>
+			<English>Waiting for response</English>
+			<Russian>Ожидание ответа</Russian>
+		</Key>
+		<Key ID="str_loadscreen_ResponseReceive">
+			<Original>Response is received</Original>
+			<English>Response is received</English>
+			<Russian>Ответ получен</Russian>
+		</Key>
+		<Key ID="str_loadscreen_ServerNotFinded">
+			<Original>Server addon not found</Original>
+			<English>Server addon not found</English>
+			<Russian>Аддон сервера не найден</Russian>
+		</Key>
+</Package>
+	
+<!-- Module Locations-->	
+<Package name='armstalker_location'>
+	
+		<Key ID="STR_LOCATION_MODULENAME">
+			<Original>Location: Module</Original>
+			<English>Location: Module</English>
+			<Russian>Локация: Модуль</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_YES">
+			<Original>Yes</Original>
+			<English>Yes</English>
+			<Russian>Да</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_NO">
+			<Original>No</Original>
+			<English>No</English>
+			<Russian>Нет</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_NAME">
+			<Original>Name</Original>
+			<English>Name</English>
+			<Russian>Название</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_RADIUS">
+			<Original>Radius</Original>
+			<English>Radius</English>
+			<Russian>Радиус</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_RADIUSDESC">
+			<Original>Location radius</Original>
+			<English>Location radius</English>
+			<Russian>Радиус локации</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_NAMEDESC">
+			<Original>The name for location</Original>
+			<English>The name for location</English>
+			<Russian>Название локации</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_CAPCOEF">
+			<Original>Entrapped ratio</Original>
+			<English>Entrapped ratio</English>
+			<Russian>Коэффициент захвата</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_CAPCOEFDESC">
+			<Original>Ratio of capture location</Original>
+			<English>Ratio of capture location</English>
+			<Russian>Коэффициент захвата локации</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_FLAGCREATE">
+			<Original>Create flag</Original>
+			<English>Create flag</English>
+			<Russian>Создавать флаг</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_FLAGCREATEDESC">
+			<Original>Create flag in location center</Original>
+			<English>Create flag in location center</English>
+			<Russian>Создавать флаг в центре локации</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_RESPAWNCONTESTED">
+			<Original>Respawn (contested)</Original>
+			<English>Respawn (contested)</English>
+			<Russian>Возрождение (при захвате)</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_MODULE_SET_RESPAWNCONTESTEDDESC">
+			<Original>Allow the respawn, during capture</Original>
+			<English>Allow the respawn, during capture</English>
+			<Russian>Разрешить возрождение, во время захвата</Russian>
+		</Key>
+		<!-- Notifications -->
+		<Key ID="STR_LOCATION_NOTIFI_CAPTURED_TITLE">
+			<Original>Location captured</Original>
+			<English>Location captured</English>
+			<Russian>Локация захвачена</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_NOTIFI_CAPTURED_DESC">
+			<Original>&lt;t color='#FFFFFF'&gt; %1 is now under control by faction %2 &lt;/t&gt;</Original>
+			<English>&lt;t color='#FFFFFF'&gt; %1 is now under control by faction %2 &lt;/t&gt;</English>
+			<Russian>&lt;t color='#FFFFFF'&gt; %1 теперь под контролем фракции %2 &lt;/t&gt;</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_NOTIFI_LOST_TITLE">
+			<Original>Location lost</Original>
+			<English>Location lost</English>
+			<Russian>Локация потеряна</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_NOTIFI_LOST_DESC">
+			<Original>&lt;t color='#FFFFFF'&gt; Сontrol location  %1 is lost &lt;/t&gt;</Original>
+			<English>&lt;t color='#FFFFFF'&gt; Сontrol location  %1 is lost &lt;/t&gt;</English>
+			<Russian>&lt;t color='#FFFFFF'&gt; Контроль над локацией %1  утрачен &lt;/t&gt;</Russian>
+		</Key>
+		<!-- Titles -->
+		<Key ID="STR_LOCATION_TITLE_INSECURE">
+			<Original>Insecure</Original>
+			<English>Insecure</English>
+			<Russian>Небезопасно</Russian>
+		</Key>
+		<Key ID="STR_LOCATION_TITLE_SAFELY">
+			<Original>Safely</Original>
+			<English>Safely</English>
+			<Russian>Безопасно</Russian>
+		</Key>
+</Package>
+
+
+<!--Trade module-->
+<Package name='armstalker_trade'>
+	<Key ID="STR_TRADE_SECTION_WEAPONS">
+	  <English>Weapons</English>
+	  <Russian>Оружие</Russian>
+	</Key>
+	<Key ID="STR_TRADE_SECTION_AMMO">
+	  <English>Ammo</English>
+	  <Russian>Патроны</Russian>
+	</Key>
+	<Key ID="STR_TRADE_SECTION_ACCESSORIES">
+	  <English>Accessories</English>
+	  <Russian>Приспособления</Russian>
+	</Key>
+	<Key ID="STR_TRADE_SECTION_VESTS">
+	  <English>Vests</English>
+	  <Russian>Разгрузки</Russian>
+	</Key>
+	<Key ID="STR_TRADE_SECTION_HELMETS">
+	  <English>Helmets</English>
+	  <Russian>Шлемы</Russian>
+	</Key>
+	<Key ID="STR_TRADE_SECTION_BACKPACKS">
+	  <English>Backpacks</English>
+	  <Russian>Рюкзаки</Russian>
+	</Key>
+	<Key ID="STR_TRADE_SECTION_OTHERS">
+	  <English>Other</English>
+	  <Russian>Другое</Russian>
+	</Key>
+	<Key ID="STR_TRADE_SECTION_REMAINS">
+	  <English>Remains</English>
+	  <Russian>Останки</Russian>
+	</Key>
+	<Key ID="STR_TRADE_SECTION_ARTEFACTS">
+	  <English>Artefacts</English>
+	  <Russian>Артефакты</Russian>
+	</Key>
+	<Key ID="STR_TRADE_SECTION_MEDICINE">
+	  <English>Medicine</English>
+	  <Russian>Медицина</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_HINT">
+	  <English>&lt;t color='#FF0000' &gt; Control: &lt;/t&gt; &lt;br/&gt; &lt;br/&gt; Select - A, D &lt;br/&gt; Select section - 2xClick &lt;br/&gt; Confirm - Enter  &lt;br/&gt; Exit - Esc </English>
+	  <Russian>&lt;t color='#FF0000' &gt; Управление: &lt;/t&gt; &lt;br/&gt; &lt;br/&gt; Выбор - A, D &lt;br/&gt; Выбор секции - 2xClick &lt;br/&gt; Принять - Enter &lt;br/&gt; Выйти - Esc</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_TRADEMENU">
+	  <English>Trade</English>
+	  <Russian>Торговля</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_BUYMENU">
+	  <English>Buy items</English>
+	  <Russian>Купить товар</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_TAKEMENU">
+	  <English>Get items</English>
+	  <Russian>Взять товар</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_SALEMENU">
+	  <English>Sale items</English>
+	  <Russian>Продать товар</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_RENTBUNK">
+	  <English>Rent bed occupancy for %1</English>
+	  <Russian>Арендовать койко-место за %1</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_COST">
+	  <English>Cost</English>
+	  <Russian>Цена</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_PURCHASED">
+	  <English>Purchased: %1</English>
+	  <Russian>Куплено: %1</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_SOLD">
+	  <English>Sold: %1</English>
+	  <Russian>Продано: %1</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_NOCASH">
+	  <English>Not enough cash</English>
+	  <Russian>Недостаточно денег</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_CASH">
+	  <English>Cash</English>
+	  <Russian>Наличные</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_REFUSE">
+	  <English>Trader refuses to trade with you</English>
+	  <Russian>Торговец отказывается торговать с вами</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_NOITEMSFORSALE">
+	  <English>You do not have the goods, which are interesting for trader</English>
+	  <Russian>У вас нет товара, который интересует торговца</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_PRICE">
+	  <English>Price: %1</English>
+	  <Russian>Цена: %1</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_PRICENOMONEY">
+	  <English>&lt; t color='#FF0000' &gt; Price: %1 &lt;/t&gt;</English>
+	  <Russian>&lt; t color='#FF0000' &gt; Цена: %1 &lt;/t&gt;</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_MONEY">
+	  <English>Money: %1</English>
+	  <Russian>Деньги: %1</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_TITLENOTINSTOCK">
+	  <English>Not in stock: &lt;t color='#FF0000' &gt; %1 &lt;/t&gt;</English>
+	  <Russian>Нет на складе:&lt;t color='#FF0000' &gt; %1 &lt;/t&gt;</Russian>
+	</Key>
+	<Key ID="STR_DAP_TRADE_BUTTON_FULLBUYLIST">
+	  <English>Buys (full list)</English>
+	  <Russian>Скупает (полный список)</Russian>
+	</Key>
+</Package>
+
+<!--Terminal module-->
+<Package name='armstalker_terminal'>
+
+	<Key ID="STR_TERMINAL_TOOLTIP_SUMMARY">
+		<English>Summary</English>
+		<Russian>Сводка</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_PERSONNEL">
+		<English>Personnel</English>
+		<Russian>Личный состав</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_LOCATIONS">
+		<English>Territories</English>
+		<Russian>Территории</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_BUDGET">
+		<English>Budget</English>
+		<Russian>Бюджет</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_TRANSFER">
+		<English>Transfer</English>
+		<Russian>Перевод</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_COMMUNICATE">
+		<English>Communicate</English>
+		<Russian>Коммуникация</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_ACCESS">
+		<English>Access</English>
+		<Russian>Доступ</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_NOTEBOOK">
+		<English>Journal</English>
+		<Russian>Журнал</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_RESOURCES">
+		<English>Resources</English>
+		<Russian>Ресурсы</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_OBJECTIVES">
+		<English>Objectives</English>
+		<Russian>Задачи</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_BASE">
+		<English>Base</English>
+		<Russian>База</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_EXIT">
+		<English>Exit</English>
+		<Russian>Выйти</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TOOLTIP_DESC">
+		<English>Help</English>
+		<Russian>Помощь</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_APP_REFRESH">
+		<English>Refresh</English>
+		<Russian>Обновить</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_APP_CLOSE">
+		<English>Close</English>
+		<Russian>Закрыть</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_APP_LOADING">
+		<English>Loading...</English>
+		<Russian>Загрузка...</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_AUTH_STATUS_DEFAULT">
+		<English>Authentication is required to change the original software settings</English>
+		<Russian>Требуется аутентификация для изменения исходных параметров программного обеспечения</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_AUTH_STATUS_WAIT">
+		<English>Please wait...</English>
+		<Russian>Пожалуйста подождите...</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_AUTH_STATUS_ERROR_PASSWORD">
+		<English>Error: wrong password</English>
+		<Russian>Ошибка: неверный пароль</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_AUTH_STATUS_ERROR_UNKNOWN">
+		<English>Unknown error</English>
+		<Russian>Неизвестная ошибка</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_AUTH_LOGGEDAS_GUEST">
+		<English>Logged in as guest</English>
+		<Russian>Выполнен вход в качестве гостя</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_AUTH_LOGGEDAS_USER">
+		<English>Logged in as user</English>
+		<Russian>Выполнен вход в качестве пользователя</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_AUTH_LOGGEDAS_ADMIN">
+		<English>Logged in as administrator</English>
+		<Russian>Выполнен вход в качестве администратора</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_BARRACK">
+		<English>Barrack</English>
+		<Russian>Казарма</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_SQUADS">
+		<English>Squads</English>
+		<Russian>Отряды</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_MAP">
+		<English>Map</English>
+		<Russian>Карта</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_RECRUITS">
+		<English>Recruits</English>
+		<Russian>Рекруты</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_BARRACK_FIND">
+		<English>Find</English>
+		<Russian>Найти</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITTLE_PERSONNEL_BARRACK_FIND_DEFAULT">
+		<English>Search in archive</English>
+		<Russian>Поиск в архиве</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_BARRACK_FINDING">
+		<English>Search...</English>
+		<Russian>Поиск...</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITTLE_PERSONNEL_BARRACK_FIND_ERROR">
+		<English>Unknown error</English>
+		<Russian>Неизвестная ошибка</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITTLE_PERSONNEL_BARRACK_FIND_EMPTY">
+		<English>Not found</English>
+		<Russian>Не найдено</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITTLE_PERSONNEL_BARRACK_FINDED">
+		<English>%1 matches found</English>
+		<Russian>Найдено %1 совпадений</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_BARRACK_EXCLUDE">
+		<English>Exclude from faction</English>
+		<Russian>Исключить из фракции</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_HINT_FACTION_EXCLUDEMEMBER">
+		<English>You were removed from faction %1 because of: %2</English>
+		<Russian>Вы были исключены из фракции %1 по причине: %2</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_HINT_FACTION_ASSIGNMEMBER">
+		<English>&lt;img size='4' image='%1' /&gt; &lt;br/&gt; You were accepted into the faction %2</English>
+		<Russian>&lt;img size='4' image='%1' /&gt; &lt;br/&gt; Вы были приняты во фракцию %2</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_HINT_FACTION_REJECTMEMBER">
+		<English>The request to join the faction %1 was rejected</English>
+		<Russian>Запрос на вступление во фракцию %1 был отклонен</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITLE_PERSONNEL_BARRACK_NOSQUAD">
+		<English>Not in squad</English>
+		<Russian>Не в отряде</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_SQUADS_ASSIGN">
+		<English>Assign</English>
+		<Russian>Добавить</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_SQUADS_FORM">
+		<English>Form</English>
+		<Russian>Сформировать</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_SQUADS_DISBAND">
+		<English>Disband</English>
+		<Russian>Рассформировать</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_SQUADS_DISBAND_USER">
+		<English>Exclude</English>
+		<Russian>Исключить</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_SQUADS_SQUAD">
+		<English>Squad</English>
+		<Russian>Отряд</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITLE_PERSONNEL_SQUADS_ISLEADER">
+		<English>(Leader)</English>
+		<Russian>(Лидер)</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_RECRUITS_CONFIRM">
+		<English>Accept</English>
+		<Russian>Принять</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_PERSONNEL_RECRUITS_REJECT">
+		<English>Reject</English>
+		<Russian>Отклонить</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_LOCATIONS_MAP">
+		<English>Map</English>
+		<Russian>Карта</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_LOCATIONS_MANAGE">
+		<English>Manage</English>
+		<Russian>Управление</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_BUDGET_WITHDRAW">
+		<English>Withdraw</English>
+		<Russian>Изъять</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_BUDGET_PLANNING">
+		<English>Planning</English>
+		<Russian>Планирование</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITTLE_BUDGET_WDW_BUDGET">
+		<English>Budget: %1</English>
+		<Russian>Бюджет: %1</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_BUDGET_WDW_WITHDRAW">
+		<English>Withdraw from budget</English>
+		<Russian>Изъять из бюджета</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITLE_BUDGET_WDW_TYPEHISORY_WITHDRAW">
+		<English>Operation: Withdraw</English>
+		<Russian>Операция: Изъятие</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITLE_BUDGET_WDW_TYPEHISORY_REPLENISHMENT">
+		<English>Operation: Replenishment</English>
+		<Russian>Операция: Пополнение</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITLE_BUDGET_WDW_HISTORYFORMAT_W">
+		<English>%1 %2 transfered %4 receiver: %3 </English>
+		<Russian>%1 %2 перевел %4 получатель: %3 </Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITLE_BUDGET_WDW_HISTORYFORMAT_R">
+		<English>%1 %2 replenished the budget of the faction by %3</English>
+		<Russian>%1 %2 пополнил бюджет фракции на %3</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_TRANSFER_CONFIRM">
+		<English>Transfer</English>
+		<Russian>Перевести</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITTLE_TRANSFER_BUDGET">
+		<English>To budget</English>
+		<Russian>В бюджет</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITTLE_ACCESS_USER_ALLOWED">
+		<English>User: allowed</English>
+		<Russian>Пользователь: доступно</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITTLE_ACCESS_USER_DENIED">
+		<English>User: denied</English>
+		<Russian>Пользователь: недоступно</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITTLE_ACCESS_GUEST_ALLOWED">
+		<English>Guest: allowed</English>
+		<Russian>Гость: доступно</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_TITTLE_ACCESS_GUEST_DENIED">
+		<English>Guest: denied</English>
+		<Russian>Гость: недоступно</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_BUTTON_ACCESS_CONFIRM">
+		<English>Apply</English>
+		<Russian>Применить</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_HINT_APP_DEVELOPMENT">
+		<English>Application in development</English>
+		<Russian>Приложение в разработке</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_ABOUTUSER">
+		<English>&lt;t size = '1.1' &gt; Rank: %1 (%2) &lt;br/&gt; Мastery: %3 &lt;br/&gt; Arrival date: &lt;br/&gt; %4 &lt;br/&gt; Date of entry: &lt;br/&gt; %5 &lt;br/&gt;&lt;br/&gt; Squad: %6 &lt;br/&gt; 		&lt;/t&gt;</English>
+		<Russian>&lt;t size = '1.1' &gt; Ранг: %1 (%2) &lt;br/&gt; Мастерство: %3  &lt;br/&gt; Дата прибытия: &lt;br/&gt; %4 &lt;br/&gt; Дата вступления: &lt;br/&gt; %5 &lt;br/&gt;&lt;br/&gt; Отряд: %6 &lt;br/&gt;		&lt;/t&gt;</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_ABOUTUSER_ARCHIVE">
+		<English>&lt;t size = '1.1' &gt; Date of entry: &lt;br/&gt; %1 &lt;br/&gt; 	 Last contact: &lt;br/&gt; %2 &lt;br/&gt; 	&lt;/t&gt;</English>
+		<Russian>&lt;t size = '1.1' &gt; Дата вступления: &lt;br/&gt; %1 &lt;br/&gt;	Выходил на связь: &lt;br/&gt; %2 &lt;br/&gt; 	&lt;/t&gt;</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_ABOUTRECRUIT">
+		<English>&lt;t size = '1.1' &gt; Rank: %1 (%2) &lt;br/&gt; Мastery: %3 &lt;br/&gt; Arrival date: &lt;br/&gt; %4 &lt;br/&gt; Current Faction: %5 &lt;br/&gt; 		&lt;/t&gt;</English>
+		<Russian>&lt;t size = '1.1' &gt; Ранг: %1 (%2) &lt;br/&gt; Мастерство: %3  &lt;br/&gt; Дата прибытия: &lt;br/&gt; %4 &lt;br/&gt; Текущая фракция: %5 &lt;br/&gt; 		 &lt;/t&gt;</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_ABOUTFACTION">
+		<English>&lt;t size = '2' align='left' &gt; %1 &lt;/t&gt; &lt;br/&gt;&lt;t size = '1.1' align='left' &gt;  Founded: %2 &lt;br/&gt;  Rating: %3 &lt;br/&gt;  Contingent: %4 &lt;br/&gt;  Controlled territories: %5 (%6)  &lt;br/&gt;  &lt;br/&gt;  Loyal Factions: %7 &lt;br/&gt;  &lt;/t&gt;</English>
+		<Russian>&lt;t size = '2' align='left' &gt; %1 &lt;/t&gt; &lt;br/&gt;&lt;t size = '1.1' align='left' &gt;  Основана: %2 &lt;br/&gt;  Рейтинг: %3 &lt;br/&gt;  Численность: %4 &lt;br/&gt;  Территорий захвачено: %5 (%6)  &lt;br/&gt; &lt;br/&gt;  Лояльные фракции: %7 &lt;br/&gt;  &lt;/t&gt;</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_ABOUTLOCATION">
+		<English>&lt;t size = '1.1' align='left' &gt; Location: %1 &lt;br/&gt; Dominance: %2  &lt;br/&gt; Owner: %3 &lt;br/&gt; Dealer: %4 &lt;br/&gt;  &lt;/t&gt;</English>
+		<Russian>&lt;t size = '1.1' align='left' &gt; Локация: %1 &lt;br/&gt; Влияние: %2  &lt;br/&gt; Владелец: %3 &lt;br/&gt; Торговец: %4 &lt;br/&gt; &lt;/t&gt;</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_DIPLOMACY_DECLAREWAR">
+		<English>Declare war</English>
+		<Russian>Объявить войну</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_DIPLOMACY_OFFERUNION">
+		<English>offer union</English>
+		<Russian>Предложить союз</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_DIPLOMACY_ACCEPT">
+		<English>Accept</English>
+		<Russian>Принять</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_DIPLOMACY_REFUSE">
+		<English>Refuse</English>
+		<Russian>Отказать</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_DIPLOMACY_CANCEL">
+		<English>Cancel</English>
+		<Russian>Отменить</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_DIPLOMACY_OUTOFFERS">
+		<English>Outgoing offers</English>
+		<Russian>Исходящие предложения</Russian>
+	</Key>
+	<Key ID="STR_TERMINAL_DIPLOMACY_INOFFERS">
+		<English>Incoming offers</English>
+		<Russian>Входящие предложения</Russian>
+	</Key>
+	
+</Package>
+
+<!-- Select Faction -->		
+<Package name='armstalker_selectfaction'>
+	
+	<Key ID="STR_SELECTFACTION_TOOLTIP_FREEDOM">
+		<English>Freedom</English>
+		<Russian>Воля</Russian>
+	</Key>
+	<Key ID="STR_SELECTFACTION_TOOLTIP_DUTY">
+		<English>Duty</English>
+		<Russian>Долг</Russian>
+	</Key>
+	<Key ID="STR_SELECTFACTION_TOOLTIP_MONOLITH">
+		<English>Monolith</English>
+		<Russian>Монолит</Russian>
+	</Key>
+	<Key ID="STR_SELECTFACTION_TOOLTIP_BANDITS">
+		<English>Bandits</English>
+		<Russian>Бандиты</Russian>
+	</Key>
+	<Key ID="STR_SELECTFACTION_TOOLTIP_STALKERS">
+		<English>Stalkers</English>
+		<Russian>Сталкеры</Russian>
+	</Key>
+	
+</Package>
+
+<!-- Hints -->		
+<Package name='armstalker_hints'>
+	<Key ID="STR_HINT_REQUESTFACTIONJOIN">
+		<English>You have sent a request to join a faction %1, is waiting for confirmation</English>
+		<Russian>Вы отправили запрос на вступление во фракцию %1, ожидайте подтверждения</Russian>
+	</Key>
+	<Key ID="STR_HINT_DECLAREWAR_TITLE">
+		<English>&lt;t size = '1.3' color='#FF0000' align='center' &gt; Declared war  &lt;br/&gt; (%1 --> %2)  &lt;/t&gt; &lt;br/&gt; &lt;br/&gt; %3</English>
+		<Russian>&lt;t size = '1.3' color='#FF0000' align='center' &gt; Объявление войны  &lt;br/&gt; (%1 --> %2) &lt;/t&gt; &lt;br/&gt; &lt;br/&gt;  %3</Russian>
+	</Key>
+	<Key ID="STR_HINT_ACCEPTUNION_TITLE">
+		<English>&lt;t size = '1.3' color='#00FF00' align='center' &gt; %1 and %2 concludes alliance  &lt;br/&gt;   &lt;/t&gt;</English>
+		<Russian>&lt;t size = '1.3' color='#00FF00' align='center' &gt; %1 и %2 заключили союз  &lt;br/&gt;  &lt;/t&gt;</Russian>
+	</Key>
+	<Key ID="STR_HINT_PLAYER_HUNGERDEAD">
+		<English>&lt;t size = '1.3' color='#FF0000' align='center' &gt; You died of hunger  &lt;/t&gt;</English>
+		<Russian>&lt;t size = '1.3' color='#FF0000' align='center' &gt; Вы погибли от голода &lt;/t&gt;</Russian>
+	</Key>
+	<Key ID="STR_HINT_PLAYER_THIRSTDEAD">
+		<English>&lt;t size = '1.3' color='#FF0000' align='center' &gt; You died of dehydration &lt;/t&gt;</English>
+		<Russian>&lt;t size = '1.3' color='#FF0000' align='center' &gt; Вы погибли от обезвоживания &lt;/t&gt;</Russian>
+	</Key>
+</Package>
+
+<!-- Actions -->	
+<Package name='armstalker_actions'>
+	<Key ID="STR_ACTION_JOINFACTION">
+		<English>Join to %1</English>
+		<Russian>Присоединиться к %1</Russian>
+	</Key>
+	<Key ID="STR_ACTION_INTERACT">
+		<English>Interact</English>
+		<Russian>Взаимодействовать</Russian>
+	</Key>
+</Package>
+	
+<!-- Other Titles -->
+<Package name='armstalker_client_titles'>
+	<Key ID="str_player_wilderness_title">
+		<Original>Wilderness</Original>
+		<English>Wilderness</English>
+		<Russian>Глушь</Russian>
+	</Key>
+</Package>
+	
+	
+<!-- Other GUI -->
+<Package name='armstalker_client_gui'>
+	<Key ID="str_accessdenied">
+		<English>Access denied</English>
+		<Russian>Доступ запрещён</Russian>
+	</Key>
+	<Key ID="str_accessdenied_wrongnick">
+		<English>-Hey stalker, I recognize you -%1. &lt;br/&gt; -Okay Sidorovich, sorry.</English>
+		<Russian>-Эй сталкер, я тебя узнал - %1. &lt;br/&gt; -Хорошо Сидорович, не обессудь.</Russian>
+	</Key>
+</Package>
+	
+<!--Stashes module-->
+<Package name='armstalker_stash_module'>
+	<Key ID="STR_STASH_ACTION_PLACE">
+		<English>Place</English>
+		<Russian>Разместить</Russian>
+	</Key>
+	<Key ID="STR_STASH_ACTION_ROTATE">
+		<English>Rotate</English>
+		<Russian>Развернуть</Russian>
+	</Key>
+	<Key ID="STR_STASH_ACTION_CANCEL">
+		<English>Cancel</English>
+		<Russian>Отмена</Russian>
+	</Key>
+</Package>
+	
+</Project>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="armst1">
+  <Package name="armst1">
+
+	<Key ID="STR_armst_mutantss">
+		<Original>New mutants</Original>
+		<English>New mutants</English>
+		<Russian>Новые мутанты</Russian>
+	</Key>
+	<Key ID="STR_armst_mut_new">
+		<Original>New mutants</Original>
+		<English>New mutants</English>
+		<Russian>Новые мутанты</Russian>
+	</Key>
+	<Key ID="STR_armst_blinddog">
+		<Original>Blind dog</Original>
+		<English>Blind dog</English>
+		<Russian>Слепой пёс</Russian>
+	</Key>
+	<Key ID="STR_armst_ameba">
+		<Original>Ameba</Original>
+		<English>Ameba</English>
+		<Russian>Амеба</Russian>
+	</Key>
+	<Key ID="STR_armst_nosach">
+		<Original>Nosach</Original>
+		<English>Nosach</English>
+		<Russian>Носач</Russian>
+	</Key>
+	<Key ID="STR_armst_kikimora">
+		<Original>Kikimora</Original>
+		<English>Kikimora</English>
+		<Russian>Кикимора</Russian>
+	</Key>
+	<Key ID="STR_armst_biomassa">
+		<Original>Biohazard</Original>
+		<English>Biohazard</English>
+		<Russian>Биомасса</Russian>
+	</Key>
+	<Key ID="STR_armst_medved">
+		<Original>Bear</Original>
+		<English>Bear</English>
+		<Russian>Медведь</Russian>
+	</Key>
+	<Key ID="STR_armst_wolf">
+		<Original>Wolf</Original>
+		<English>Wolf</English>
+		<Russian>Волк</Russian>
+	</Key>
+	<Key ID="STR_armst_wolfAlfa">
+		<Original>Alpha Wolf</Original>
+		<English>Alpha Wolf</English>
+		<Russian>Волк Альфа</Russian>
+	</Key>
+	<Key ID="STR_armst_werewolf">
+		<Original>Werewolf</Original>
+		<English>Werewolf</English>
+		<Russian>Оборотень</Russian>
+	</Key>
+	<Key ID="STR_armst_wolfhound">
+		<Original>Wolfhoun</Original>
+		<English>Wolfhoun</English>
+		<Russian>Волкодав</Russian>
+	</Key>
+	<Key ID="STR_armst_upir">
+		<Original>Upir</Original>
+		<English>Upir</English>
+		<Russian>Упырь</Russian>
+	</Key>
+	<Key ID="STR_armst_boar">
+		<Original>Boar</Original>
+		<English>Boar</English>
+		<Russian>Кабан</Russian>
+	</Key>
+	<Key ID="STR_armst_burer">
+		<Original>Burer</Original>
+		<English>Burer</English>
+		<Russian>Бюрер</Russian>
+	</Key>
+	<Key ID="STR_armst_watcher">
+		<Original>Watcher</Original>
+		<English>Watcher</English>
+		<Russian>Страж</Russian>
+	</Key>
+	<Key ID="STR_armst_cat">
+		<Original>Cat</Original>
+		<English>Cat</English>
+		<Russian>Кот</Russian>
+	</Key>
+	<Key ID="STR_armst_Tark">
+		<Original>Tark</Original>
+		<English>Tark</English>
+		<Russian>Тарк</Russian>
+	</Key>
+	<Key ID="STR_armst_bear">
+		<Original>Bear</Original>
+		<English>Bear</English>
+		<Russian>Медведь</Russian>
+	</Key>
+	<Key ID="STR_armst_Controller">
+		<Original>Controller</Original>
+		<English>Controller</English>
+		<Russian>Контроллер</Russian>
+	</Key>
+	<Key ID="STR_armst_Izlom">
+		<Original>Izlom</Original>
+		<English>Izlom</English>
+		<Russian>Излом</Russian>
+	</Key>
+	<Key ID="STR_armst_Rat">
+		<Original>Rat</Original>
+		<English>Rat</English>
+		<Russian>Крыса</Russian>
+	</Key>
+	<Key ID="STR_armst_krovosos">
+		<Original>Bloodsucker</Original>
+		<English>Bloodsucker</English>
+		<Russian>Кровосос</Russian>
+	</Key>
+	<Key ID="STR_armst_Flesh">
+		<Original>Flesh</Original>
+		<English>Flesh</English>
+		<Russian>Псевдоплоть</Russian>
+	</Key>
+	<Key ID="STR_armst_poltergeist">
+		<Original>Poltergeist</Original>
+		<English>Poltergeist</English>
+		<Russian>Полтергейст</Russian>
+	</Key>
+	<Key ID="STR_armst_pseudodog">
+		<Original>Pseudodog</Original>
+		<English>Pseudodog</English>
+		<Russian>Псевдопёс</Russian>
+	</Key>
+	<Key ID="STR_armst_giant">
+		<Original>Pseudogiant</Original>
+		<English>Pseudogiant</English>
+		<Russian>Псевдогигант</Russian>
+	</Key>
+	<Key ID="STR_armst_snork">
+		<Original>Snork</Original>
+		<English>Snork</English>
+		<Russian>Снорк</Russian>
+	</Key>
+	<Key ID="STR_armst_tushkano">
+		<Original>Rodent</Original>
+		<English>Rodent</English>
+		<Russian>Тушканчик</Russian>
+	</Key>
+	<Key ID="STR_armst_chimera">
+		<Original>Chimera</Original>
+		<English>Chimera</English>
+		<Russian>Химера</Russian>
+	</Key>
+</Package>
+</Project>
