@@ -8,9 +8,9 @@
         <Russian>Детектор 'Отклик'</Russian>
       </Key>
       <Key ID="STR_STST_devices_det_echo_desc">
-        <Original>placeholder</Original>
-        <English>placeholder</English>
-        <Russian>placeholder</Russian>
+        <Original>Detector 'Echo'</Original>
+        <English>Detector 'Echo'</English>
+        <Russian>Детектор 'Отклик'</Russian>
       </Key>
     </Container>
     <Container name="Detector Bear">
@@ -20,9 +20,9 @@
         <Russian>Детектор 'Медведь'</Russian>
       </Key>
       <Key ID="STR_STST_devices_det_bear_desc">
-        <Original>placeholder</Original>
-        <English>placeholder</English>
-        <Russian>placeholder</Russian>
+        <Original>Detector 'Bear'</Original>
+        <English>Detector 'Bear'</English>
+        <Russian>Детектор 'Медведь'</Russian>
       </Key>
     </Container>
     <Container name="Detector Veles">
@@ -31,10 +31,10 @@
         <English>Detector 'Veles'</English>
         <Russian>Детектор 'Велес'</Russian>
       </Key>
-      <Key ID="STR_STST_det_veles_desc">
-        <Original>placeholder</Original>
-        <English>placeholder</English>
-        <Russian>placeholder</Russian>
+      <Key ID="STR_STST_devcies_det_veles_desc">
+        <Original>Detector 'Veles'</Original>
+        <English>Detector 'Veles'</English>
+        <Russian>Детектор 'Велес'</Russian>
       </Key>
     </Container>
     <Container name="PDA">
@@ -44,9 +44,9 @@
         <Russian>КПК</Russian>
       </Key>
       <Key ID="STR_STST_devices_pda_desc">
-        <Original>placeholder</Original>
-        <English>placeholder</English>
-        <Russian>placeholder</Russian>
+        <Original>PDA</Original>
+        <English>PDA</English>
+        <Russian>КПК</Russian>
       </Key>
     </Container>
     <Container name="Dosimeter DBG-06M">
@@ -55,23 +55,263 @@
         <English>Dosimeter 'DBG-06M'</English>
         <Russian>Дозиметр 'DBG-06M'</Russian>
       </Key>
+      <Key ID="STR_STST_devices_dos_dbg06m_desc">
+        <Original>Dosimeter 'DBG-06M'</Original>
+        <English>Dosimeter 'DBG-06M'</English>
+        <Russian>Дозиметр 'DBG-06M'</Russian>
+      </Key>
     </Container>
     <Container name="Dosimeter RKS-20">
-      <Key ID="STR_STST_devices_dos_rks20">
+      <Key ID="STR_STST_devices_dos_rks20_name">
         <Original>Dosimeter RKS-20</Original>
         <English>Dosimeter RKS-20</English>
         <Russian>Дозиметр РКС-20</Russian>
       </Key>
       <Key ID="STR_STST_devices_dos_rks20_desc">
-        <Original>A basic dosimeter. Can measure the radiation power in range of 0...200 µSv/h</Original>
-        <English>A basic dosimeter. Can measure the radiation power in range of 0...200 µSv/h</English>
-        <Russian>Простой дозиметр. Может измерять мощность ионизирующего излучения в диапазоне 0...200 мкЗв/ч</Russian>
+        <Original>Dosimeter RKS-20</Original>
+        <English>Dosimeter RKS-20</English>
+        <Russian>Дозиметр РКС-20</Russian>
       </Key>
     </Container>
-    <Container name="Dosimeter MKS-1009" />
+    <Container name="Dosimeter MKS-1009">
+      <Key ID="STR_STST_devices_dos_mks1009_name">
+        <Original>Dosimeter MKS-1009</Original>
+        <English>Dosimeter MKS-1009</English>
+        <Russian>Дозиметр МКС-1009</Russian>
+      </Key>
+      <Key ID="STR_STST_devices_dos_mks1009_desc">
+        <Original>Dosimeter MKS-1009</Original>
+        <English>Dosimeter MKS-1009</English>
+        <Russian>Дозиметр МКС-1009</Russian>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Food">
+    <Container name="Bread" />
+    <Container name="Old Bread" />
+    <Container name="Chocolate 'Alenka'" />
+    <Container name="Choclate 'Autumn Dance'" />
+    <Container name="Chocolate Bar" />
+    <Container name="Sausage" />
+    <Container name="Can" />
+    <Container name="Canned Beef" />
+    <Container name="Canned Caviar" />
+    <Container name="Canned Sausage" />
+    <Container name="Condensed Milk" />
+    <Container name="MRE-R" />
+    <Container name="MRE-C" />
+    <Container name="Canteen" />
+    <Container name="Vodka 'Pshenichnaya'" />
+    <Container name="Vodka 'Finlandia'" />
+    <Container name="Vodka 'Russian standard'" />
+    <Container name="Whiskey 'Jameson'" />
+  </Package>
+  <Package name="Gear" />
+  <Package name="Medicine">
+    <Container name="AI-2 Aid Kit">
+      <Key ID="STR_STST_medic_ai2_name">
+        <Original>AI-2</Original>
+        <English>AI-2</English>
+        <Russian>АИ-2</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_ai2_desc">
+        <Original>AI-2</Original>
+        <English>AI-2</English>
+        <Russian>АИ-2</Russian>
+      </Key>
+    </Container>
+    <Container name="AI-2A Aid Kit">
+      <Key ID="STR_STST_medic_ai2a_name">
+        <Original>AI-2A Military</Original>
+        <English>AI-2A Militay</English>
+        <Russian>АИ-2А Армейская</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_ai2a_desc">
+        <Original>AI-2A Military</Original>
+        <English>AI-2A Militay</English>
+        <Russian>АИ-2А Армейская</Russian>
+      </Key>
+    </Container>
+    <Container name="AI-3 Aid Kit">
+      <Key ID="STR_STST_medic_ai3_name">
+        <Original>AI-3 Scientific</Original>
+        <English>AI-3 Scientific</English>
+        <Russian>АИ-3 Научная</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_ai3_desc">
+        <Original>AI-3 Scientific</Original>
+        <English>AI-3 Scientific</English>
+        <Russian>АИ-3 Научная</Russian>
+      </Key>
+    </Container>
+    <Container name="Antirad" />
+  </Package>
+  <Package name="Mutant Parts">
+    <Container name="Bloodsucker">
+      <Key ID="STR_STST_mutpart_bloodsucker_meat_name">
+        <Original>Bloodsucker Meat</Original>
+        <English>Bloodsucker Meat</English>
+        <Russian>Мясо кровососа</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_bloodsucker_pelt_name">
+        <Original>Bloodsucker Pelt</Original>
+        <English>Bloodsucker Pelt</English>
+        <Russian>Шкура кровососа</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_bloodsucker_tentacles_name">
+        <Original>Bloodsucker Tentacles</Original>
+        <English>Bloodsucker Tentacles</English>
+        <Russian>Щупальца кровососа</Russian>
+      </Key>
+    </Container>
+    <Container name="Boar">
+      <Key ID="STR_STST_mutpart_boar_meat_name">
+        <Original>Boar Meat</Original>
+        <English>Boar Meat</English>
+        <Russian>Мясо кабана</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_boar_pelt_name">
+        <Original>Boar Pelt</Original>
+        <English>Boar Pelt</English>
+        <Russian>Шкура кабана</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_boar_hoof_name">
+        <Original>Boar Hoof</Original>
+        <English>Boar Hoof</English>
+        <Russian>Копыто кабана</Russian>
+      </Key>
+    </Container>
+    <Container name="Burer">
+      <Key ID="STR_STST_mutpart_burer_hand_name">
+        <Original>Burer Hand</Original>
+        <English>Burer Hand</English>
+        <Russian>Рука бюрера</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_burer_brain_name">
+        <Original>Burer Brain</Original>
+        <English>Burer Brain</English>
+        <Russian>Мозг бюрера</Russian>
+      </Key>
+    </Container>
+    <Container name="Cat">
+      <Key ID="STR_STST_mutpart_cat_claws_name">
+        <Original>Cat Claws</Original>
+        <English>Cat Claws</English>
+        <Russian>Когти кота</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_cat_meat_name">
+        <Original>Cat Meat</Original>
+        <English>Cat Meat</English>
+        <Russian>Мясо кота</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_cat_tail_name">
+        <Original>Cat Tail</Original>
+        <English>Cat Tail</English>
+        <Russian>Хвост кота</Russian>
+      </Key>
+    </Container>
+    <Container name="Chimera">
+      <Key ID="STR_STST_mutpart_chimera_pelt_name">
+        <Original>Chimera Pelt</Original>
+        <English>Chimera Pelt</English>
+        <Russian>Шкура химеры</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_chimera_meat_name">
+        <Original>Chimera Meat</Original>
+        <English>Chimera Meat</English>
+        <Russian>Мясо химеры</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_chimera_claws_name">
+        <Original>Chimera Claws</Original>
+        <English>Chimera Claws</English>
+        <Russian>Когти химеры</Russian>
+      </Key>
+    </Container>
+    <Container name="Controller">
+      <Key ID="STR_STST_mutpart_controller_brain_name">
+        <Original>Controller Brain</Original>
+        <English>Controller Brain</English>
+        <Russian>Мозг контролёра</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_controller_hand_name">
+        <Original>Controller Hand</Original>
+        <English>Controller Hand</English>
+        <Russian>Рука контролёра</Russian>
+      </Key>
+    </Container>
+    <Container name="Deer" />
+    <Container name="Dog">
+      <Key ID="STR_STST_mutpart_dog_meat_name">
+        <Original>Dog Meat</Original>
+        <English>Dog Meat</English>
+        <Russian>Мясо собаки</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_dog_tail_name">
+        <Original>Dog Tail</Original>
+        <English>Dog Tail</English>
+        <Russian>Хвост собаки</Russian>
+      </Key>
+    </Container>
+    <Container name="Flesh">
+      <Key ID="STR_STST_mutpart_flesh_eye_name">
+        <Original>Flesh Eye</Original>
+        <English>Flesh Eye</English>
+        <Russian>Глаз плоти</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_flesh_meat_name">
+        <Original>Flesh Meat</Original>
+        <English>Flesh Meat</English>
+        <Russian>Мясо плоти</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_flesh_pelt_name">
+        <Original>Flesh Pelt</Original>
+        <English>Flesh Pelt</English>
+        <Russian>Шкура плоти</Russian>
+      </Key>
+    </Container>
+    <Container name="Poltergeist">
+      <Key ID="STR_STST_mutpart_poltergeist_hand_name">
+        <Original>Poltergeist Hand</Original>
+        <English>Poltergeist Hand</English>
+        <Russian>Рука полтергейста</Russian>
+      </Key>
+    </Container>
+    <Container name="Pseudodog">
+      <Key ID="STR_STST_mutpart_pseudodog_tail_name">
+        <Original>Pseudodog Tail</Original>
+        <English>Pseudodog Tail</English>
+        <Russian>Хвост псевдособаки</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_pseudodog_pelt_name">
+        <Original>Pseudodog Pelt</Original>
+        <English>Pseudodog Pelt</English>
+        <Russian>Шкура псевдособаки</Russian>
+      </Key>
+    </Container>
+    <Container name="Pseudogiant">
+      <Key ID="STR_STST_mutpart_pseudogiant_eye_name">
+        <Original>Pseudogiant Eye</Original>
+        <English>Pseudogiant Eye</English>
+        <Russian>Глаз Псевдогиганта</Russian>
+      </Key>
+    </Container>
+    <Container name="Snork">
+      <Key ID="STR_STST_mutpart_snork_foot_name">
+        <Original>Snork Foot</Original>
+        <English>Snork Foot</English>
+        <Russian>Стопа снорка</Russian>
+      </Key>
+    </Container>
+    <Container name="Tushkano" />
+    <Container name="Wolf" />
   </Package>
   <Package name="Mutants" />
-  <Package name="Weapons" />
-  <Package name="Gear" />
-  <Package name="Items" />
+  <Package name="Weapons">
+    <Container name="Binocular" />
+    <Container name="Binocular NV" />
+    <Container name="Bolt" />
+    <Container name="F-1 Grenade" />
+    <Container name="Guitar" />
+    <Container name="RGD-5 Grenade" />
+  </Package>
 </Project>
