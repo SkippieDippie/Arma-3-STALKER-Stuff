@@ -3,38 +3,38 @@
   <Package name="Devices">
     <Container name="Detector Echo">
       <Key ID="STR_STST_devices_det_echo_name">
-        <Original>Detector 'Echo'</Original>
-        <English>Detector 'Echo'</English>
-        <Russian>Детектор 'Отклик'</Russian>
+        <Original>Detector «Echo»</Original>
+        <English>Detector «Echo»</English>
+        <Russian>Детектор «Отклик»</Russian>
       </Key>
       <Key ID="STR_STST_devices_det_echo_desc">
-        <Original>Detector 'Echo'</Original>
-        <English>Detector 'Echo'</English>
-        <Russian>Детектор 'Отклик'</Russian>
+        <Original>Detector «Echo»</Original>
+        <English>Detector «Echo»</English>
+        <Russian>Детектор «Отклик»</Russian>
       </Key>
     </Container>
     <Container name="Detector Bear">
       <Key ID="STR_STST_devices_det_bear_name">
-        <Original>Detector 'Bear'</Original>
-        <English>Detector 'Bear'</English>
-        <Russian>Детектор 'Медведь'</Russian>
+        <Original>Detector «Bear»</Original>
+        <English>Detector «Bear»</English>
+        <Russian>Детектор «Медведь»</Russian>
       </Key>
       <Key ID="STR_STST_devices_det_bear_desc">
-        <Original>Detector 'Bear'</Original>
-        <English>Detector 'Bear'</English>
-        <Russian>Детектор 'Медведь'</Russian>
+        <Original>Detector «Bear»</Original>
+        <English>Detector «Bear»</English>
+        <Russian>Детектор «Медведь»</Russian>
       </Key>
     </Container>
     <Container name="Detector Veles">
       <Key ID="STR_STST_devcies_det_veles_name">
-        <Original>Detector 'Veles'</Original>
-        <English>Detector 'Veles'</English>
-        <Russian>Детектор 'Велес'</Russian>
+        <Original>Detector «Veles»</Original>
+        <English>Detector «Veles»</English>
+        <Russian>Детектор «Велес»</Russian>
       </Key>
       <Key ID="STR_STST_devcies_det_veles_desc">
-        <Original>Detector 'Veles'</Original>
-        <English>Detector 'Veles'</English>
-        <Russian>Детектор 'Велес'</Russian>
+        <Original>Detector «Veles»</Original>
+        <English>Detector «Veles»</English>
+        <Russian>Детектор «Велес»</Russian>
       </Key>
     </Container>
     <Container name="PDA">
@@ -51,14 +51,14 @@
     </Container>
     <Container name="Dosimeter DBG-06M">
       <Key ID="STR_STST_devices_dos_dbg06m_name">
-        <Original>Dosimeter 'DBG-06M'</Original>
-        <English>Dosimeter 'DBG-06M'</English>
-        <Russian>Дозиметр 'DBG-06M'</Russian>
+        <Original>Dosimeter DBG-06M</Original>
+        <English>Dosimeter DBG-06M</English>
+        <Russian>Дозиметр DBG-06M</Russian>
       </Key>
       <Key ID="STR_STST_devices_dos_dbg06m_desc">
-        <Original>Dosimeter 'DBG-06M'</Original>
-        <English>Dosimeter 'DBG-06M'</English>
-        <Russian>Дозиметр 'DBG-06M'</Russian>
+        <Original>Dosimeter DBG-06M</Original>
+        <English>Dosimeter DBG-06M</English>
+        <Russian>Дозиметр DBG-06M</Russian>
       </Key>
     </Container>
     <Container name="Dosimeter RKS-20">
@@ -86,25 +86,268 @@
       </Key>
     </Container>
   </Package>
-  <Package name="Food">
-    <Container name="Bread" />
-    <Container name="Old Bread" />
-    <Container name="Chocolate 'Alenka'" />
-    <Container name="Choclate 'Autumn Dance'" />
-    <Container name="Chocolate Bar" />
-    <Container name="Sausage" />
-    <Container name="Can" />
-    <Container name="Canned Beef" />
-    <Container name="Canned Caviar" />
-    <Container name="Canned Sausage" />
-    <Container name="Condensed Milk" />
-    <Container name="MRE-R" />
-    <Container name="MRE-C" />
-    <Container name="Canteen" />
-    <Container name="Vodka 'Pshenichnaya'" />
-    <Container name="Vodka 'Finlandia'" />
-    <Container name="Vodka 'Russian standard'" />
-    <Container name="Whiskey 'Jameson'" />
+  <Package name="Food&amp;Drinks">
+    <Container name="Beer">
+      <Key ID="STR_STST_food_beer_a_1_name">
+        <Original>Beer «Obolon» (50%)</Original>
+        <English>Beer «Obolon» (50%)</English>
+        <Russian>Пиво «Оболонь» (50%)</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_a_2_name">
+        <Original>Beer «Obolon»</Original>
+        <English>Beer «Obolon»</English>
+        <Russian>Пиво «Оболонь»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_a_desc">
+        <Original>Beer «Obolon»</Original>
+        <English>Beer «Obolon»</English>
+        <Russian>Пиво «Оболонь»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_b_1_name">
+        <Original>Beer «Baltica» (50%)</Original>
+        <English>Beer «Baltica» (50%)</English>
+        <Russian>Пиво «Балтика» (50%)</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_b_2_name">
+        <Original>Beer «Baltica»</Original>
+        <English>Beer «Baltica»</English>
+        <Russian>Пиво «Балтика»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_b_desc">
+        <Original>Beer «Baltica»</Original>
+        <English>Beer «Baltica»</English>
+        <Russian>Пиво «Балтика»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_c_1_name">
+        <Original>Beer «Chernigov» (50%)</Original>
+        <English>Beer «Chernigov» (50%)</English>
+        <Russian>Пиво «Чернигов» (50%)</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_c_2_name">
+        <Original>Beer «Chernigov»</Original>
+        <English>Beer «Chernigov»</English>
+        <Russian>Пиво «Чернигов»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_c_desc">
+        <Original>Beer «Chernigov»</Original>
+        <English>Beer «Chernigov»</English>
+        <Russian>Пиво «Чернигов»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_d_1_name">
+        <Original>Beer «FAXE» (50%)</Original>
+        <English>Beer «FAXE» (50%)</English>
+        <Russian>Пиво «FAXE» (50%)</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_d_2_name">
+        <Original>Beer «FAXE»</Original>
+        <English>Beer «FAXE»</English>
+        <Russian>Пиво «FAXE»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_d_desc">
+        <Original>Beer «FAXE»</Original>
+        <English>Beer «FAXE»</English>
+        <Russian>Пиво «FAXE»</Russian>
+      </Key>
+    </Container>
+    <Container name="Bread">
+      <Key ID="STR_STST_food_bread_name">
+        <Original>Bread</Original>
+        <English>Bread</English>
+        <Russian>Хлеб</Russian>
+      </Key>
+      <Key ID="STR_STST_food_bread_desc">
+        <Original>Bread</Original>
+        <English>Bread</English>
+        <Russian>Хлеб</Russian>
+      </Key>
+      <Key ID="STR_STST_food_bread_old_name">
+        <Original>Bread (Old)</Original>
+        <English>Bread (Old)</English>
+        <Russian>Старый хлеб</Russian>
+      </Key>
+      <Key ID="STR_STST_food_bread_old_desc">
+        <Original>Bread (Old)</Original>
+        <English>Bread (Old)</English>
+        <Russian>Старый хлеб</Russian>
+      </Key>
+    </Container>
+    <Container name="Chocolate">
+      <Key ID="STR_STST_food_choco_a_name">
+        <Original>Chocolate «Alenka»</Original>
+        <English>Chocolate «Alenka»</English>
+        <Russian>Шоколад «Алёнка»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_choco_a_desc">
+        <Original>Chocolate «Alenka»</Original>
+        <English>Chocolate «Alenka»</English>
+        <Russian>Шоколад «Алёнка»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_choco_b_name">
+        <Original>Chocolate «Autumn Waltz»</Original>
+        <English>Chocolate «Autumn Waltz»</English>
+        <Russian>Шоколад «Осенний вальс»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_choco_b_desc">
+        <Original>Chocolate «Autumn Waltz»</Original>
+        <English>Chocolate «Autumn Waltz»</English>
+        <Russian>Шоколад «Осенний вальс»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_choco_c_name">
+        <Original>Chocolate bar «Snorkers»</Original>
+        <English>Chocolate bar «Snorkers»</English>
+        <Russian>Шоколадный батончик «Snorkers»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_choco_c_desc">
+        <Original>Chocolate bar «Snorkers»</Original>
+        <English>Chocolate bar «Snorkers»</English>
+        <Russian>Шоколадный батончик «Snorkers»</Russian>
+      </Key>
+    </Container>
+    <Container name="Sausage">
+      <Key ID="STR_STST_food_sausage_name">
+        <Original>Sausage</Original>
+        <English>Sausage</English>
+        <Russian>Колбаса</Russian>
+      </Key>
+      <Key ID="STR_STST_food_sausage_desc">
+        <Original>Sausage</Original>
+        <English>Sausage</English>
+        <Russian>Колбаса</Russian>
+      </Key>
+    </Container>
+    <Container name="Canned Food">
+      <Key ID="STR_STST_food_canned_a_name">
+        <Original>Canned Food</Original>
+        <English>Canned Food</English>
+        <Russian>Консерва</Russian>
+      </Key>
+      <Key ID="STR_STST_food_canned_a_desc">
+        <Original>Canned Food</Original>
+        <English>Canned Food</English>
+        <Russian>Консерва</Russian>
+      </Key>
+      <Key ID="STR_STST_food_canned_b_name">
+        <Original>«Tushonka» Canned Beef</Original>
+        <English>«Tushonka» Canned Beef</English>
+        <Russian>Консерва «Тушёная говядина»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_canned_b_desc">
+        <Original>«Tushonka» Canned Beef</Original>
+        <English>«Tushonka» Canned Beef</English>
+        <Russian>Консерва «Тушёная говядина»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_canned_c_name">
+        <Original>Canned Caviar</Original>
+        <English>Canned Caviar</English>
+        <Russian>Консервированная икра</Russian>
+      </Key>
+      <Key ID="STR_STST_food_canned_c_desc">
+        <Original>Canned Caviar</Original>
+        <English>Canned Caviar</English>
+        <Russian>Консервированная икра</Russian>
+      </Key>
+      <Key ID="STR_STST_food_canned_d_name">
+        <Original>Canned Sausages</Original>
+        <English>Canned Sausages</English>
+        <Russian>Консервированные сосиски</Russian>
+      </Key>
+      <Key ID="STR_STST_food_canned_d_desc">
+        <Original>Canned Sausages</Original>
+        <English>Canned Sausages</English>
+        <Russian>Консервированные сосиски</Russian>
+      </Key>
+      <Key ID="STR_STST_food_canned_e_name">
+        <Original>Condensed Milk</Original>
+        <English>Condensed Milk</English>
+        <Russian>Сгущённое молоко</Russian>
+      </Key>
+      <Key ID="STR_STST_food_canned_e_desc">
+        <Original>Condensed Milk</Original>
+        <English>Condensed Milk</English>
+        <Russian>Сгущённое молоко</Russian>
+      </Key>
+    </Container>
+    <Container name="MRE">
+      <Key ID="STR_STST_food_mre_a_1_name">
+        <Original>MRE-C Daily (1 use)</Original>
+        <English>MRE-C Daily (1 use)</English>
+        <Russian>ИРП-Б Суточный (1 порция)</Russian>
+      </Key>
+      <Key ID="STR_STST_food_mre_a_2_name">
+        <Original>MRE-C Daily (2 uses)</Original>
+        <English>MRE-C Daily (2 uses)</English>
+        <Russian>ИРП-Б Суточный (2 порции)</Russian>
+      </Key>
+      <Key ID="STR_STST_food_mre_a_3_name">
+        <Original>MRE-C Daily (3 uses)</Original>
+        <English>MRE-C Daily (3 uses)</English>
+        <Russian>ИРП-Б Суточный (3 порции)</Russian>
+      </Key>
+      <Key ID="STR_STST_food_mre_a_desc">
+        <Original>MRE-C Daily</Original>
+        <English>MRE-C Daily</English>
+        <Russian>ИРП-Б Суточный</Russian>
+      </Key>
+      <Key ID="STR_STST_food_mre_b_name">
+        <Original>MRE-R</Original>
+        <English>MRE-R</English>
+        <Russian>ИРП-Р</Russian>
+      </Key>
+      <Key ID="STR_STST_food_mre_b_desc">
+        <Original>MRE-R</Original>
+        <English>MRE-R</English>
+        <Russian>ИРП-Р</Russian>
+      </Key>
+    </Container>
+    <Container name="Vodka">
+      <Key ID="STR_STST_food_vodka_a_name">
+        <Original>Vodka «Pshenichnaya»</Original>
+        <English>Vodka «Pshenichnaya»</English>
+        <Russian>Водка «Пшеничная»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_vodka_a_desc">
+        <Original>Vodka «Pshenichnaya»</Original>
+        <English>Vodka «Pshenichnaya»</English>
+        <Russian>Водка «Пшеничная»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_vodka_b_name">
+        <Original>Vodka «Finlandia»</Original>
+        <English>Vodka «Finlandia»</English>
+        <Russian>Водка «Finlandia»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_vodka_b_desc">
+        <Original>Vodka «Finlandia»</Original>
+        <English>Vodka «Finlandia»</English>
+        <Russian>Водка «Finlandia»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_vodka_c_name">
+        <Original>Vodka «Russian Standard»</Original>
+        <English>Vodka «Russian Standard»</English>
+        <Russian>Водка «Русский стандарт»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_vodka_c_desc">
+        <Original>Vodka «Russian Standard»</Original>
+        <English>Vodka «Russian Standard»</English>
+        <Russian>Водка «Русский стандарт»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_vodka_d_name">
+        <Original>Whiskey «Jameson»</Original>
+        <English>Whiskey «Jameson»</English>
+        <Russian>Виски «Jameson»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_vodka_d_desc">
+        <Original>Whiskey «Jameson»</Original>
+        <English>Whiskey «Jameson»</English>
+        <Russian>Виски «Jameson»</Russian>
+      </Key>
+    </Container>
+    <Container name="Energy Drink">
+      <Key ID="STR_STST_food_energy_name">
+        <Original>Energy Drink «STALKER»</Original>
+        <English>Energy Drink «STALKER»</English>
+        <Russian>Энергетический напиток «STALKER»</Russian>
+      </Key>
+    </Container>
   </Package>
   <Package name="Gear" />
   <Package name="Medicine">
@@ -144,7 +387,18 @@
         <Russian>АИ-3 Научная</Russian>
       </Key>
     </Container>
-    <Container name="Antirad" />
+    <Container name="Antirad">
+      <Key ID="STR_STST_medic_antirad_name">
+        <Original>Antirad</Original>
+        <English>Antirad</English>
+        <Russian>Антирад</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_antirad_desc">
+        <Original>Antirad</Original>
+        <English>Antirad</English>
+        <Russian>Антирад</Russian>
+      </Key>
+    </Container>
   </Package>
   <Package name="Mutant Parts">
     <Container name="Bloodsucker">
@@ -239,7 +493,23 @@
         <Russian>Рука контролёра</Russian>
       </Key>
     </Container>
-    <Container name="Deer" />
+    <Container name="Deer">
+      <Key ID="STR_STST_mutpart_deer_horn_name">
+        <Original>Deer Horn</Original>
+        <English>Deer Horn</English>
+        <Russian>Олений рог</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_deer_pelt_name">
+        <Original>Deer Pelt</Original>
+        <English>Deer Pelt</English>
+        <Russian>Шкура оленя</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_deer_meat_name">
+        <Original>Deer Meat</Original>
+        <English>Deer Meat</English>
+        <Russian>Мясо оленя</Russian>
+      </Key>
+    </Container>
     <Container name="Dog">
       <Key ID="STR_STST_mutpart_dog_meat_name">
         <Original>Dog Meat</Original>
@@ -275,6 +545,11 @@
         <English>Poltergeist Hand</English>
         <Russian>Рука полтергейста</Russian>
       </Key>
+      <Key ID="STR_STST_mutpart_poltergeist_brain_name">
+        <Original>Poltergeist Brain</Original>
+        <English>Poltergeist Brain</English>
+        <Russian>Мозг полтергейста</Russian>
+      </Key>
     </Container>
     <Container name="Pseudodog">
       <Key ID="STR_STST_mutpart_pseudodog_tail_name">
@@ -287,12 +562,22 @@
         <English>Pseudodog Pelt</English>
         <Russian>Шкура псевдособаки</Russian>
       </Key>
+      <Key ID="STR_STST_mutpart_pseudodog_fang_name">
+        <Original>Pseudodog Fang</Original>
+        <English>Pseudodog Fang</English>
+        <Russian>Клык псевдособаки</Russian>
+      </Key>
     </Container>
     <Container name="Pseudogiant">
       <Key ID="STR_STST_mutpart_pseudogiant_eye_name">
         <Original>Pseudogiant Eye</Original>
         <English>Pseudogiant Eye</English>
-        <Russian>Глаз Псевдогиганта</Russian>
+        <Russian>Глаз псевдогиганта</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_pseudogiant_pelt_name">
+        <Original>Pseudogiant Pelt</Original>
+        <English>Pseudogiant Pelt</English>
+        <Russian>Шкура псевдогиганта</Russian>
       </Key>
     </Container>
     <Container name="Snork">
@@ -302,10 +587,206 @@
         <Russian>Стопа снорка</Russian>
       </Key>
     </Container>
-    <Container name="Tushkano" />
-    <Container name="Wolf" />
+    <Container name="Tushkano">
+      <Key ID="STR_STST_mutpart_tushkano_head_name">
+        <Original>Tushkano Head</Original>
+        <English>Tushkano Head</English>
+        <Russian>Голова тушканчика</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_tushkano_meat_name">
+        <Original>Tushkano Meat</Original>
+        <English>Tushkano Meat</English>
+        <Russian>Мясо тушканчика</Russian>
+      </Key>
+    </Container>
+    <Container name="Wolf">
+      <Key ID="STR_STST_mutpart_wolf_pelt_name">
+        <Original>Wolf Pelt</Original>
+        <English>Wolf Pelt</English>
+        <Russian>Шкура волка</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_wolf_meat_name">
+        <Original>Wolf Meat</Original>
+        <English>Wolf Meat</English>
+        <Russian>Мясо волка</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_wolf_fang_name">
+        <Original>Wolf Fang</Original>
+        <English>Wolf Fang</English>
+        <Russian>Клык волка</Russian>
+      </Key>
+    </Container>
   </Package>
-  <Package name="Mutants" />
+  <Package name="Mutants">
+    <Container name="Bloodsucker">
+      <Key ID="STR_STST_mutant_bloodsucker_name">
+        <Original>Bloodsucker</Original>
+        <English>Bloodsucker</English>
+        <Russian>Кровосос</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_bloodsucker_desc">
+        <Original>Bloodsucker</Original>
+        <English>Bloodsucker</English>
+        <Russian>Кровосос</Russian>
+      </Key>
+    </Container>
+    <Container name="Boar">
+      <Key ID="STR_STST_mutant_boar_name">
+        <Original>Boar</Original>
+        <English>Boar</English>
+        <Russian>Кабан</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_boar_desc">
+        <Original>Boar</Original>
+        <English>Boar</English>
+        <Russian>Кабан</Russian>
+      </Key>
+    </Container>
+    <Container name="Burer">
+      <Key ID="STR_STST_mutant_burer_name">
+        <Original>Burer</Original>
+        <English>Burer</English>
+        <Russian>Бюрер</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_burer_desc">
+        <Original>Burer</Original>
+        <English>Burer</English>
+        <Russian>Бюрер</Russian>
+      </Key>
+    </Container>
+    <Container name="Cat">
+      <Key ID="STR_STST_mutant_cat_name">
+        <Original>Cat</Original>
+        <English>Cat</English>
+        <Russian>Кот</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_cat_desc">
+        <Original>Cat</Original>
+        <English>Cat</English>
+        <Russian>Кот</Russian>
+      </Key>
+    </Container>
+    <Container name="Chimera">
+      <Key ID="STR_STST_mutant_chimera_name">
+        <Original>Chimera</Original>
+        <English>Chimera</English>
+        <Russian>Химера</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_chimera_desc">
+        <Original>Chimera</Original>
+        <English>Chimera</English>
+        <Russian>Химера</Russian>
+      </Key>
+    </Container>
+    <Container name="Controller">
+      <Key ID="STR_STST_mutant_controller_name">
+        <Original>Controller</Original>
+        <English>Controller</English>
+        <Russian>Контролёр</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_controller_desc">
+        <Original>Controller</Original>
+        <English>Controller</English>
+        <Russian>Контролёр</Russian>
+      </Key>
+    </Container>
+    <Container name="Deer">
+      <Key ID="STR_STST_mutant_deer_name">
+        <Original>Deer</Original>
+        <English>Deer</English>
+        <Russian>Олень</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_deer_desc">
+        <Original>Deer</Original>
+        <English>Deer</English>
+        <Russian>Олень</Russian>
+      </Key>
+    </Container>
+    <Container name="Dog">
+      <Key ID="STR_STST_mutant_dog_name">
+        <Original>Dog</Original>
+        <English>Dog</English>
+        <Russian>Собака</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_dog_desc">
+        <Original>Dog</Original>
+        <English>Dog</English>
+        <Russian>Собака</Russian>
+      </Key>
+    </Container>
+    <Container name="Flesh">
+      <Key ID="STR_STST_mutant_flesh_name">
+        <Original>Flesh</Original>
+        <English>Flesh</English>
+        <Russian>Плоть</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_flesh_desc">
+        <Original>Flesh</Original>
+        <English>Flesh</English>
+        <Russian>Плоть</Russian>
+      </Key>
+    </Container>
+    <Container name="Pseudodog">
+      <Key ID="STR_STST_mutant_pseudodog_name">
+        <Original>Pseudodog</Original>
+        <English>Pseudodog</English>
+        <Russian>Псевдособака</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_pseudodog_desc">
+        <Original>Pseudodog</Original>
+        <English>Pseudodog</English>
+        <Russian>Псевдособака</Russian>
+      </Key>
+    </Container>
+    <Container name="Pseudogiant">
+      <Key ID="STR_STST_mutant_pseudogiant_name">
+        <Original>Pseudogiant</Original>
+        <English>Pseudogiant</English>
+        <Russian>Псевдособака</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_pseudogiant_desc">
+        <Original>Pseudogiant</Original>
+        <English>Pseudogiant</English>
+        <Russian>Псевдособака</Russian>
+      </Key>
+    </Container>
+    <Container name="Snork">
+      <Key ID="STR_STST_mutant_snork_name">
+        <Original>Snork</Original>
+        <English>Snork</English>
+        <Russian>Снорк</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_snork_desc">
+        <Original>Snork</Original>
+        <English>Snork</English>
+        <Russian>Снорк</Russian>
+      </Key>
+    </Container>
+    <Container name="Tushkano">
+      <Key ID="STR_STST_mutant_tushkano_name">
+        <Original>Tushkano</Original>
+        <English>Tushkano</English>
+        <Russian>Тушканчик</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_tushkano_desc">
+        <Original>Tushkano</Original>
+        <English>Tushkano</English>
+        <Russian>Тушканчик</Russian>
+      </Key>
+    </Container>
+    <Container name="Wolf">
+      <Key ID="STR_STST_mutant_wolf_name">
+        <Original>Wolf</Original>
+        <English>Wolf</English>
+        <Russian>Волк</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_wolf_desc">
+        <Original>Wolf</Original>
+        <English>Wolf</English>
+        <Russian>Волк</Russian>
+      </Key>
+    </Container>
+  </Package>
   <Package name="Weapons">
     <Container name="Binocular" />
     <Container name="Binocular NV" />
@@ -313,5 +794,8 @@
     <Container name="F-1 Grenade" />
     <Container name="Guitar" />
     <Container name="RGD-5 Grenade" />
+  </Package>
+  <Package name="Misc">
+    <Container name="Misc" />
   </Package>
 </Project>
