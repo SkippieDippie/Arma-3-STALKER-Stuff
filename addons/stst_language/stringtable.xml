@@ -2,87 +2,99 @@
 <Project name="STALKER Stuff">
   <Package name="Devices">
     <Container name="Detector Echo">
-      <Key ID="STR_STST_devices_det_echo_name">
+      <Key ID="STR_STST_device_det_echo_name">
         <Original>Detector «Echo»</Original>
         <English>Detector «Echo»</English>
         <Russian>Детектор «Отклик»</Russian>
       </Key>
-      <Key ID="STR_STST_devices_det_echo_desc">
+      <Key ID="STR_STST_device_det_echo_desc">
         <Original>Detector «Echo»</Original>
         <English>Detector «Echo»</English>
         <Russian>Детектор «Отклик»</Russian>
       </Key>
     </Container>
     <Container name="Detector Bear">
-      <Key ID="STR_STST_devices_det_bear_name">
+      <Key ID="STR_STST_device_det_bear_name">
         <Original>Detector «Bear»</Original>
         <English>Detector «Bear»</English>
         <Russian>Детектор «Медведь»</Russian>
       </Key>
-      <Key ID="STR_STST_devices_det_bear_desc">
+      <Key ID="STR_STST_device_det_bear_desc">
         <Original>Detector «Bear»</Original>
         <English>Detector «Bear»</English>
         <Russian>Детектор «Медведь»</Russian>
       </Key>
     </Container>
     <Container name="Detector Veles">
-      <Key ID="STR_STST_devcies_det_veles_name">
+      <Key ID="STR_STST_devcie_det_veles_name">
         <Original>Detector «Veles»</Original>
         <English>Detector «Veles»</English>
         <Russian>Детектор «Велес»</Russian>
       </Key>
-      <Key ID="STR_STST_devcies_det_veles_desc">
+      <Key ID="STR_STST_devcie_det_veles_desc">
         <Original>Detector «Veles»</Original>
         <English>Detector «Veles»</English>
         <Russian>Детектор «Велес»</Russian>
       </Key>
     </Container>
     <Container name="PDA">
-      <Key ID="STR_STST_devices_pda_name">
+      <Key ID="STR_STST_device_pda_name">
         <Original>PDA</Original>
         <English>PDA</English>
         <Russian>КПК</Russian>
       </Key>
-      <Key ID="STR_STST_devices_pda_desc">
+      <Key ID="STR_STST_device_pda_desc">
         <Original>PDA</Original>
         <English>PDA</English>
         <Russian>КПК</Russian>
       </Key>
     </Container>
     <Container name="Dosimeter DBG-06M">
-      <Key ID="STR_STST_devices_dos_dbg06m_name">
+      <Key ID="STR_STST_device_dos_dbg06m_name">
         <Original>Dosimeter DBG-06M</Original>
         <English>Dosimeter DBG-06M</English>
         <Russian>Дозиметр DBG-06M</Russian>
       </Key>
-      <Key ID="STR_STST_devices_dos_dbg06m_desc">
+      <Key ID="STR_STST_device_dos_dbg06m_desc">
         <Original>Dosimeter DBG-06M</Original>
         <English>Dosimeter DBG-06M</English>
         <Russian>Дозиметр DBG-06M</Russian>
       </Key>
     </Container>
     <Container name="Dosimeter RKS-20">
-      <Key ID="STR_STST_devices_dos_rks20_name">
+      <Key ID="STR_STST_device_dos_rks20_name">
         <Original>Dosimeter RKS-20</Original>
         <English>Dosimeter RKS-20</English>
         <Russian>Дозиметр РКС-20</Russian>
       </Key>
-      <Key ID="STR_STST_devices_dos_rks20_desc">
+      <Key ID="STR_STST_device_dos_rks20_desc">
         <Original>Dosimeter RKS-20</Original>
         <English>Dosimeter RKS-20</English>
         <Russian>Дозиметр РКС-20</Russian>
       </Key>
     </Container>
     <Container name="Dosimeter MKS-1009">
-      <Key ID="STR_STST_devices_dos_mks1009_name">
+      <Key ID="STR_STST_device_dos_mks1009_name">
         <Original>Dosimeter MKS-1009</Original>
         <English>Dosimeter MKS-1009</English>
         <Russian>Дозиметр МКС-1009</Russian>
       </Key>
-      <Key ID="STR_STST_devices_dos_mks1009_desc">
+      <Key ID="STR_STST_device_dos_mks1009_desc">
         <Original>Dosimeter MKS-1009</Original>
         <English>Dosimeter MKS-1009</English>
         <Russian>Дозиметр МКС-1009</Russian>
+      </Key>
+    </Container>
+    <Container name="Sensor CRV">
+      <Key ID="STR_STST_device_life_sensor_name">
+        <Original>CRV-Life Sensor</Original>
+        <English>CRV-Life Sensor</English>
+        <Russian>Сенсор CRV-Life</Russian>
+      </Key>
+      <Key ID="STR_STST_device_life_sensor_desc">
+        <Original>CRV-Life Sensor</Original>
+        <English>CRV-Life Sensor</English>
+        <Russian>Сенсор CRV-Life</Russian>
       </Key>
     </Container>
   </Package>
@@ -397,6 +409,30 @@
         <Original>Antirad</Original>
         <English>Antirad</English>
         <Russian>Антирад</Russian>
+      </Key>
+    </Container>
+    <Container name="Field Surgery Kit">
+      <Key ID="STR_STST_medic_srugery_kit_name">
+        <Original>Field Surgery Kit</Original>
+        <English>Field Surgery Kit</English>
+        <Russian>Полевой хирургический набор</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_srugery_kit_desc">
+        <Original>Field Surgery Kit</Original>
+        <English>Field Surgery Kit</English>
+        <Russian>Полевой хирургический набор</Russian>
+      </Key>
+    </Container>
+    <Container name="Medical instruments">
+      <Key ID="STR_STST_medic_instruments_name">
+        <Original>Medical instruments</Original>
+        <English>Medical instruments</English>
+        <Russian>Медицинские инструменты</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_instruments_desc">
+        <Original>Medical instruments</Original>
+        <English>Medical instruments</English>
+        <Russian>Медицинские инструменты</Russian>
       </Key>
     </Container>
   </Package>
@@ -796,6 +832,695 @@
     <Container name="RGD-5 Grenade" />
   </Package>
   <Package name="Misc">
-    <Container name="Misc" />
+    <Container name="Patches">
+      <Key ID="STR_STST_misc_army_patch_name">
+        <Original>Army Patch</Original>
+        <English>Army Patch</English>
+        <Russian>Нашивка военных</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_bandit_patch_name">
+        <Original>Bandit Patch</Original>
+        <English>Bandit Patch</English>
+        <Russian>Нашивка бандитов</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_duty_patch_name">
+        <Original>Duty Patch</Original>
+        <English>Duty Patch</English>
+        <Russian>Нашивка Долга</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_ecolog_patch_name">
+        <Original>Scientist Patch</Original>
+        <English>Scientist Patch</English>
+        <Russian>Нашивка учёных</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_freedom_patch_name">
+        <Original>Freedom Patch</Original>
+        <English>Freedom Patch</English>
+        <Russian>Нашивка Свободы</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_merc_patch_name">
+        <Original>Mercenary Patch</Original>
+        <English>Mercenary Patch</English>
+        <Russian>Нашивка наёмника</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_monolith_patch_name">
+        <Original>Monolith Patch</Original>
+        <English>Monolith Patch</English>
+        <Russian>Нашивка Монолита</Russian>
+      </Key>
+    </Container>
+    <Container name="Junk">
+      <Key ID="STR_STST_misc_matches_name">
+        <Original>Box of matches</Original>
+        <English>Box of matches</English>
+        <Russian>Коробок спичек</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_wipes_name">
+        <Original>Wet towel wipes</Original>
+        <English>Wet towel wipes</English>
+        <Russian>Влажные салфетки</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_bugspray_name">
+        <Original>Bugspray</Original>
+        <English>Bugspray</English>
+        <Russian>Спрей от насекомых</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_condom_name">
+        <Original>Condom</Original>
+        <English>Condom</English>
+        <Russian>Презерватив</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_battery_fluid_name">
+        <Original>Battery fluid</Original>
+        <English>Battery fluid</English>
+        <Russian>Электролит</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_eyedrops_name">
+        <Original>Eyedrops</Original>
+        <English>Eyedrops</English>
+        <Russian>Капли для глаз</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_gum_name">
+        <Original>Bubble gum</Original>
+        <English>Bubble gum</English>
+        <Russian>Жвачка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_marker_name">
+        <Original>Marker</Original>
+        <English>Marker</English>
+        <Russian>Маркер</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_lighter_name">
+        <Original>Lighter</Original>
+        <English>Lighter</English>
+        <Russian>Зажигалка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_photo_name">
+        <Original>Photo of a girl</Original>
+        <English>Photo of a girl</English>
+        <Russian>Фотография девушки</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_socks_gr_name">
+        <Original>Green socks</Original>
+        <English>Green socks</English>
+        <Russian>Зелёные носки</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_socks_bl_name">
+        <Original>Black socks</Original>
+        <English>Black socks</English>
+        <Russian>Чёрные носки</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_stuffed_toy_name">
+        <Original>Stuffed toy</Original>
+        <English>Stuffed toy</English>
+        <Russian>Мягкая игрушка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_sudoku_name">
+        <Original>Sudoku</Original>
+        <English>Sudoku</English>
+        <Russian>Судоку</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_sunscreen_name">
+        <Original>Sun screen</Original>
+        <English>Sun screen</English>
+        <Russian>Солнцезащитный крем</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_underwear_name">
+        <Original>Underpants</Original>
+        <English>Underpants</English>
+        <Russian>Трусы</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_toiletpaper_name">
+        <Original>Toilet paper</Original>
+        <English>Toilet paper</English>
+        <Russian>Туалетная бумага</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_towel_name">
+        <Original>Towel</Original>
+        <English>Towel</English>
+        <Russian>Полотенце</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_water_tabs_name">
+        <Original>Water purification tablets</Original>
+        <English>Water purification tablets</English>
+        <Russian>Таблетки для очистки воды</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_cord_name">
+        <Original>Cord</Original>
+        <English>Cord</English>
+        <Russian>Шнур</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_acetone_name">
+        <Original>Acetone</Original>
+        <English>Acetone</English>
+        <Russian>Ацетон</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_battery_name">
+        <Original>Batteries</Original>
+        <English>Batteries</English>
+        <Russian>Батарейки</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_bungeecord">
+        <Original>Towing rope</Original>
+        <English>Towing rope</English>
+        <Russian>Трос</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_cigarettes">
+        <Original>Lucky Strike Cigarettes</Original>
+        <English>Lucky Strike Cigarettes</English>
+        <Russian>Сигареты Lucky Strike</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_cigarettes_camel">
+        <Original>Camell Cigarettes</Original>
+        <English>Camell Cigarettes</English>
+        <Russian>Сигареты Camell</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_detcord">
+        <Original>Wire</Original>
+        <English>Wire</English>
+        <Russian>Проволока</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_domo">
+        <Original>Fluffy toy</Original>
+        <English>Fluffy toy</English>
+        <Russian>Мягкая игрушка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_firestarter">
+        <Original>Ignitor</Original>
+        <English>Ignitor</English>
+        <Russian>Зажигатель</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_Thermopack">
+        <Original>Thermopack</Original>
+        <English>Thermopack</English>
+        <Russian>Термопакет</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_hexamine">
+        <Original>Hexamethylenetetramine</Original>
+        <English>Hexamethylenetetramine</English>
+        <Russian>Гексаметилентетрамин</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_Chlorum">
+        <Original>Chlorum</Original>
+        <English>Chlorum</English>
+        <Russian>Хлор</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_Nails">
+        <Original>Nails</Original>
+        <English>Nails</English>
+        <Russian>Гвозди</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_potatobag">
+        <Original>A sack of potatoes</Original>
+        <English>A sack of potatoes</English>
+        <Russian>Мешок картошки</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_steelpipe">
+        <Original>Steel pipe</Original>
+        <English>Steel pipe</English>
+        <Russian>Стальная трубка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_cigar">
+        <Original>Cigar</Original>
+        <English>Cigar</English>
+        <Russian>Сигара</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_goldwatch">
+        <Original>Golden watches</Original>
+        <English>Golden watches</English>
+        <Russian>Золотые часы</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_suitcase">
+        <Original>Case</Original>
+        <English>Case</English>
+        <Russian>Кейс</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_fanbelte">
+        <Original>Elastic</Original>
+        <English>Elastic</English>
+        <Russian>Резинка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_leaflet">
+        <Original>Piece of paper</Original>
+        <English>Piece of paper</English>
+        <Russian>Бумажка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_Spoon">
+        <Original>Spoon</Original>
+        <English>Spoon</English>
+        <Russian>Ложка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_thermos">
+        <Original>Thermos</Original>
+        <English>Thermos</English>
+        <Russian>Термос</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_bumag">
+        <Original>Paper</Original>
+        <English>Paper</English>
+        <Russian>Бумага</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_Joint">
+        <Original>Joint</Original>
+        <English>Joint</English>
+        <Russian>Косяк</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_JointReagent">
+        <Original>Joint</Original>
+        <English>Joint</English>
+        <Russian>Косяк (c реагентами)</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_skipidar">
+        <Original>Turpentine</Original>
+        <English>Turpentine</English>
+        <Russian>Скипидар</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_armst_zeton">
+        <Original>Dog tag</Original>
+        <English>Dog tag</English>
+        <Russian>Именной жетон</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_doska">
+        <Original>Board</Original>
+        <English>Board</English>
+        <Russian>Доска</Russian>
+      </Key>
+      <Key ID="STR_Armst_armst_bochka">
+        <Original>Empty barrel</Original>
+        <English>Empty barrel</English>
+        <Russian>Пустая бочка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_armst_545">
+        <Original>5.45 round</Original>
+        <English>5.45 round</English>
+        <Russian>Патрон калибра 5.45</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_armst_762">
+        <Original>7.62 round</Original>
+        <English>7.62 round</English>
+        <Russian>Патрон калибра 7.62</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_armst_steklo">
+        <Original>Gas mask glass</Original>
+        <English>Gas mask glass</English>
+        <Russian>Стекло для противогаза</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_armst_NO1">
+        <Original>SD:Pressure meter</Original>
+        <English>SD:Pressure meter</English>
+        <Russian>НО:Измеритель давления</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_NO2">
+        <Original>SD:Screens</Original>
+        <English>SD:Screens</English>
+        <Russian>НО:Экраны</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_NO3">
+        <Original>SD:Generator</Original>
+        <English>SD:Generator</English>
+        <Russian>НО:Генератор</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_NO4">
+        <Original>SD:Air analysis device</Original>
+        <English>SD:Air analysis device</English>
+        <Russian>НО:Анализатор воздуха</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_NO5">
+        <Original>SD:Antenna</Original>
+        <English>SD:Antenna</English>
+        <Russian>НО:Антена</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_NO6">
+        <Original>SD:Powerful device</Original>
+        <English>SD:Powerful device</English>
+        <Russian>НО:Мощная установка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_NO7">
+        <Original>НО:Recycling machine</Original>
+        <English>НО:Recycling machine</English>
+        <Russian>НО:Машина переработки</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_BagFence">
+        <Original>Barbed wire hank</Original>
+        <English>Barbed wire hank</English>
+        <Russian>Моток колючей проволоки</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_Sandbags">
+        <Original>Sandbags</Original>
+        <English>Sandbags</English>
+        <Russian>Мешки с песком</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_MetalBarrel">
+        <Original>Metal barrel</Original>
+        <English>Metal barrel</English>
+        <Russian>Металлическая бочка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_generator">
+        <Original>Mobile generator</Original>
+        <English>Mobile generator</English>
+        <Russian>Передвижной генератор</Russian>
+      </Key>
+      <Key ID="STR_Armst_armst_pallet_vertical">
+        <Original>Wooden pallet</Original>
+        <English>Wooden pallet</English>
+        <Russian>Деревянный поддон</Russian>
+      </Key>
+      <Key ID="STR_Armst_armst_armst_korob1">
+        <Original>Wooden box</Original>
+        <English>Wooden box</English>
+        <Russian>Деревянный ящик</Russian>
+      </Key>
+      <Key ID="STR_armst_taynik_big">
+        <Original>Wooden box (Stash)</Original>
+        <English>Wooden box (Stash)</English>
+        <Russian>Деревянный ящик (тайник)</Russian>
+      </Key>
+    </Container>
+    <Container name="Tools">
+      <Key ID="STR_STST_misc_lopatka">
+        <Original>Sapper spade</Original>
+        <English>Sapper spade</English>
+        <Russian>Сапёрная лопатка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_Artifact">
+        <Original>Artifact working tools</Original>
+        <English>Artifact working tools</English>
+        <Russian>Набор для работы с артефактами</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_scanerart">
+        <Original>Artifact scanner</Original>
+        <English>Artifact scanner</English>
+        <Russian>Сканер артефактов</Russian>
+      </Key>
+      <Key ID="STR_Armst_instruments">
+        <Original>Tools</Original>
+        <English>Tools</English>
+        <Russian>Инструменты</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_wirecutter">
+        <Original>Cutting nippers</Original>
+        <English>Cutting nippers</English>
+        <Russian>Кусачки</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_solderingiron">
+        <Original>Soldering tool</Original>
+        <English>Soldering tool</English>
+        <Russian>Паяльник</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_wpnclnkit">
+        <Original>Weapon cleaning kit</Original>
+        <English>Weapon cleaning kit</English>
+        <Russian>Набор для чистки оружия</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_hammer">
+        <Original>Hammer</Original>
+        <English>Hammer</English>
+        <Russian>Молоток</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_leatherman_name">
+        <Original>Multitool</Original>
+        <English>Multitool</English>
+        <Russian>Мультитул</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_canopener">
+        <Original>Bottle opener</Original>
+        <English>Bottle opener</English>
+        <Russian>Открывашка</Russian>
+      </Key>
+      <Key ID="STR_STST_misczippo">
+        <Original>Zippo Lighter</Original>
+        <English>Zippo Lighter</English>
+        <Russian>Зажигалка Zippo</Russian>
+      </Key>
+    </Container>
+    <Container name="Camping">
+      <Key ID="STR_Armst_armst_Camper">
+        <Original>Self-made canopy</Original>
+        <English>Self-made canopy</English>
+        <Russian>Самодельный навес</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_PortableLight">
+        <Original>Mobile lantern</Original>
+        <English>Mobile lantern</English>
+        <Russian>Переносной фонарь</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_Lampe">
+        <Original>Lamp</Original>
+        <English>Lamp</English>
+        <Russian>Лампа</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_tent">
+        <Original>Tent</Original>
+        <English>Tent</English>
+        <Russian>Палатка</Russian>
+      </Key>
+      <Key ID="STR_Armst_CampingTable">
+        <Original>Folding table</Original>
+        <English>Folding table</English>
+        <Russian>Складной стол</Russian>
+      </Key>
+      <Key ID="STR_Armst_armst_CampingChair">
+        <Original>Folding chair</Original>
+        <English>Folding chair</English>
+        <Russian>Складной стул</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_sleepingbag">
+        <Original>Sleeping bag</Original>
+        <English>Sleeping bag</English>
+        <Russian>Спальная сумка</Russian>
+      </Key>
+    </Container>
+    <Container name="Electronics">
+      <Key ID="STR_STST_misc_brokenpda">
+        <Original>Broken PDA</Original>
+        <English>Broken PDA</English>
+        <Russian>Сломанный КПК</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_cellphone">
+        <Original>Telephone</Original>
+        <English>Telephone</English>
+        <Russian>Телефон</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_tablet">
+        <Original>Tablet computer</Original>
+        <English>Tablet computer</English>
+        <Russian>Планшет</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_laptop">
+        <Original>Notebook</Original>
+        <English>Notebook</English>
+        <Russian>Ноутбук</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_dvds">
+        <Original>DVD disks</Original>
+        <English>DVD disks</English>
+        <Russian>DVD диски</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_armst_scaner">
+        <Original>Scientific scanner</Original>
+        <English>Scientific scanner</English>
+        <Russian>Научный сканер</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_vhstape_name">
+        <Original>Cassete</Original>
+        <English>Cassete</English>
+        <Russian>Касета</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_mp3">
+        <Original>МP3 player</Original>
+        <English>МP3 player</English>
+        <Russian>МP3 плеер</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_dumbphone">
+        <Original>Broken telephone</Original>
+        <English>Broken telephone</English>
+        <Russian>Сломанный телефон</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_usbdrive_name">
+        <Original>Flash drive</Original>
+        <English>Flash drive</English>
+        <Russian>Флешка</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_camcorder">
+        <Original>Video camera</Original>
+        <English>Video camera</English>
+        <Russian>Видеокамера</Russian>
+      </Key>
+    </Container>
+    <Container name="Documents">
+      <Key ID="STR_STST_misc_propuske">
+        <Original>Pass</Original>
+        <English>Pass</English>
+        <Russian>Пропуск</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_udostoveren">
+        <Original>Identity document</Original>
+        <English>Identity document</English>
+        <Russian>Удостоверение</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_journal_name">
+        <Original>Journal</Original>
+        <English>Journal</English>
+        <Russian>Журнал</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_id_card_name">
+        <Original>ID card</Original>
+        <English>ID card</English>
+        <Russian>ID карта</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_letter_name">
+        <Original>Letter</Original>
+        <English>Letter</English>
+        <Russian>Письмо</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_documents_name">
+        <Original>Documents</Original>
+        <English>Documents</English>
+        <Russian>Документы</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_letter_important_name">
+        <Original>Highly important letter</Original>
+        <English>Highly important letter</English>
+        <Russian>Сверхважное письмо</Russian>
+      </Key>
+    </Container>
+    <Container name="Clothes">
+      <Key ID="STR_STST_misc_medperchatki">
+        <Original>Medical gloves</Original>
+        <English>Medical gloves</English>
+        <Russian>Медицинские перчатки</Russian>
+      </Key>
+      <Key ID="STR_armst_gloves">
+        <Original>Gloves</Original>
+        <English>Gloves</English>
+        <Russian>Перчатки</Russian>
+      </Key>
+      <Key ID="STR_STST_misctanboxer_dirty:">
+        <Original>Dirty underpants</Original>
+        <English>Dirty underpants</English>
+        <Russian>Грязные трусы</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_socks_green_dirty">
+        <Original>Dirty socks</Original>
+        <English>Dirty socks</English>
+        <Russian>Грязные носки</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_socks_black_dirty">
+        <Original>Dirty socks</Original>
+        <English>Dirty socks</English>
+        <Russian>Грязные носки</Russian>
+      </Key>
+    </Container>
+    <Container name="Materials">
+      <Key ID="STR_STST_misc_broneplastina">
+        <Original>Armor plate</Original>
+        <English>Armor plate</English>
+        <Russian>Бронепластина</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_kevlar">
+        <Original>Kevlar plate</Original>
+        <English>Kevlar plate</English>
+        <Russian>Кевларовая пластина</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_tkan">
+        <Original>Piece of cloth</Original>
+        <English>Piece of cloth</English>
+        <Russian>Кусок ткани</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_brezent">
+        <Original>Piece of canvas</Original>
+        <English>Piece of canvas</English>
+        <Russian>Кусок брезента</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_gaz">
+        <Original>Propane</Original>
+        <English>Propane</English>
+        <Russian>Пропан</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_matplat">
+        <Original>Board</Original>
+        <English>Board</English>
+        <Russian>Плата</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_Jerricane">
+        <Original>Jerrican</Original>
+        <English>Jerrican</English>
+        <Russian>Канистра</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_valvesprings">
+        <Original>Spring</Original>
+        <English>Spring</English>
+        <Russian>Пружины</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_toxicgas">
+        <Original>Toxic gas</Original>
+        <English>Toxic gas</English>
+        <Russian>Токсичный газ</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_ducttape">
+        <Original>Adhesive tape</Original>
+        <English>Adhesive tape</English>
+        <Russian>Изолента</Russian>
+      </Key>
+    </Container>
+    <Container name="Entertainment">
+      <Key ID="STR_STST_misc_book_name">
+        <Original>Book</Original>
+        <English>Book</English>
+        <Russian>Книга</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_comic_name">
+        <Original>Comic book</Original>
+        <English>Comic book</English>
+        <Russian>Комикс</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_play_cards_name">
+        <Original>Playing cards</Original>
+        <English>Playing cards</English>
+        <Russian>Игральные карты</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_play_dice_name">
+        <Original>Playing die</Original>
+        <English>Playing die</English>
+        <Russian>Игральная кость</Russian>
+      </Key>
+    </Container>
+    <Container name="Vehicle Parts">
+      <Key ID="STR_STST_misc_Carburettor">
+        <Original>Carburettor</Original>
+        <English>Carburettor</English>
+        <Russian>Карбюратор</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_svecha">
+        <Original>Spark plug</Original>
+        <English>Spark plug</English>
+        <Russian>Машинная свеча</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_akkum">
+        <Original>Accumulator</Original>
+        <English>Accumulator</English>
+        <Russian>Аккумулятор</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_steeringwheel">
+        <Original>Steering wheel</Original>
+        <English>Steering wheel</English>
+        <Russian>Руль</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_piston">
+        <Original>Forcer</Original>
+        <English>Forcer</English>
+        <Russian>Поршень</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_clutch_disk">
+        <Original>Clutch plate</Original>
+        <English>Clutch plate</English>
+        <Russian>Диск сцепления</Russian>
+      </Key>
+      <Key ID="STR_STST_misc_airfilter">
+        <Original>Air filter</Original>
+        <English>Air filter</English>
+        <Russian>Воздушный фильтр</Russian>
+      </Key>
+    </Container>
   </Package>
 </Project>
