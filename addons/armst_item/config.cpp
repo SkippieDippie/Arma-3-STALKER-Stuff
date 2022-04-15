@@ -356,8 +356,8 @@ class cfgWeapons
 	class armst_item_map : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_map;
-		descriptionShort = $STR_A3_cfgWeapons_ItemMap1;
+		displayName = "$STR_STST_misc_map_name";
+		descriptionShort = "$STR_A3_cfgWeapons_ItemMap1";
 		model = "\armst\armst_item\map\map.p3d";
 		picture = "\A3\Weapons_F\Data\UI\gear_item_map_ca.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -368,8 +368,8 @@ class cfgWeapons
 	class armst_item_map2 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_map;
-		descriptionShort = $STR_A3_cfgWeapons_ItemMap1;
+		displayName = "$STR_STST_misc_map_name";
+		descriptionShort = "$STR_A3_cfgWeapons_ItemMap1";
 		model = "\armst\armst_item\map\map.p3d";
 		picture = "\A3\Weapons_F\Data\UI\gear_item_map_ca.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -430,7 +430,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "Canned water";
-		descriptionShort = $STR_Armst_item_tushonka_info;
+		descriptionShort = "";
 		model = "\armst\armst_item\item\tushonka\konserv_voda.p3d";
 		picture = "\armst\armst_item\item\tushonka\icon_tushonka_voda_validol.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -454,7 +454,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "Canned food «Mushroom boar»";
-		descriptionShort = $STR_Armst_item_tushonka_info;
+		descriptionShort = "";
 		model = "\armst\armst_item\item\tushonka\konserv_kaban.p3d";
 		picture = "\armst\armst_item\item\tushonka\icon_tushonka_kaban_validol.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -466,7 +466,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "Canned food «Tomato bloodsucker»";
-		descriptionShort = $STR_Armst_item_tushonka_info;
+		descriptionShort = "";
 		model = "\armst\armst_item\item\tushonka\krovosos_tomate.p3d";
 		picture = "\armst\armst_item\item\tushonka\icon_tushonka_krovosos_validol.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -656,7 +656,7 @@ class cfgWeapons
 	class armst_item_vodkaempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_vodkaEmpty;
+		displayName = "$STR_STST_food_vodka_empty_name";
 		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\img\vodka.paa";
 		model = "\armst\armst_item\item\vodka\vodka.p3d";
@@ -669,7 +669,7 @@ class cfgWeapons
 	class armst_item_vodka_finland : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_vodka_finland;
+		displayName = "$STR_STST_food_vodka_b_2_name";
 		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_finland_validol.paa";
 		model = "\armst\armst_item\item\vodka\finland.p3d";
@@ -681,7 +681,7 @@ class cfgWeapons
 	class armst_item_vodka50_finland : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_vodka50_finland;
+		displayName = "$STR_STST_food_vodka_b_1_name";
 		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_finland_validol.paa";
 		model = "\armst\armst_item\item\vodka\finland.p3d";
@@ -693,7 +693,7 @@ class cfgWeapons
 	class armst_item_vodkaempty_finland : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_vodkaEmpty_finland;
+		displayName = "STR_STST_food_vodka_empty_name";
 		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_finland_validol.paa";
 		model = "\armst\armst_item\item\vodka\finland.p3d";
@@ -706,8 +706,8 @@ class cfgWeapons
 	class armst_item_Jemeson : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_Jemeson;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		displayName = "$STR_STST_food_whiskey_d_2_name";
+		descriptionShort = "$STR_STST_food_whiskey_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_jemeson_validol.paa";
 		model = "\armst\armst_item\item\vodka\Jemeson.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -718,8 +718,8 @@ class cfgWeapons
 	class armst_item_Jemeson50 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_Jemeson50;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		displayName = "$STR_STST_food_whiskey_1_name";
+		descriptionShort = "$STR_STST_food_whiskey_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_jemeson_validol.paa";
 		model = "\armst\armst_item\item\vodka\Jemeson.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -730,8 +730,8 @@ class cfgWeapons
 	class armst_item_Jemesonempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_JemesonEmpty;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		displayName = "$STR_STST_food_whiskey_empty_name";
+		descriptionShort = "$STR_STST_food_whiskey_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_jemeson_validol.paa";
 		model = "\armst\armst_item\item\vodka\Jemeson.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -743,8 +743,8 @@ class cfgWeapons
 	class armst_item_vodka_russianstand: ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_vodka_russianstand;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		displayName = "$STR_STST_food_vodka_c_2_name";
+		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_RS_validol.paa";
 		model = "\armst\armst_item\item\vodka\russianstand.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -755,8 +755,8 @@ class cfgWeapons
 	class armst_item_vodka50_russianstand : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_vodka50_russianstand;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		displayName = "$STR_STST_food_vodka_c_1_name";
+		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_RS_validol.paa";
 		model = "\armst\armst_item\item\vodka\russianstand.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -767,8 +767,8 @@ class cfgWeapons
 	class armst_item_vodkaempty_russianstand : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_vodkaEmpty_russianstand;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		displayName = "$STR_STST_food_vodka_empty_name";
+		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_RS_validol.paa";
 		model = "\armst\armst_item\item\vodka\russianstand.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 

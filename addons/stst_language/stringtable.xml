@@ -48,6 +48,16 @@
         <English>Personal Digital Assistant. A mini-computer that contains personal notes, maps and allows text messaging. An item carried by every respectable stalker.</English>
         <Russian>Карманный Персональный Компьютер. Содержит в себе песрональные записи, карты местонсти, а также позволяет обмен текстовыми сообщениями. Предмет каждого уважающего себя сталкера.</Russian>
       </Key>
+      <Key ID="STR_STST_device_pda_old_name">
+        <Original>Old PDA</Original>
+        <English>Old PDA</English>
+        <Russian>Старый КПК</Russian>
+      </Key>
+      <Key ID="STR_STST_device_pda_old_desc">
+        <Original>Old PDA</Original>
+        <English>Old PDA</English>
+        <Russian>Старый КПК</Russian>
+      </Key>
     </Container>
     <Container name="Dosimeter DBG-06M">
       <Key ID="STR_STST_device_dos_dbg06m_name">
@@ -110,22 +120,12 @@
         <English>Beer «Obolon»</English>
         <Russian>Пиво «Оболонь»</Russian>
       </Key>
-      <Key ID="STR_STST_food_beer_a_desc">
-        <Original>Beer «Obolon»</Original>
-        <English>Beer «Obolon»</English>
-        <Russian>Пиво «Оболонь»</Russian>
-      </Key>
       <Key ID="STR_STST_food_beer_b_1_name">
         <Original>Beer «Baltica» (50%)</Original>
         <English>Beer «Baltica» (50%)</English>
         <Russian>Пиво «Балтика» (50%)</Russian>
       </Key>
       <Key ID="STR_STST_food_beer_b_2_name">
-        <Original>Beer «Baltica»</Original>
-        <English>Beer «Baltica»</English>
-        <Russian>Пиво «Балтика»</Russian>
-      </Key>
-      <Key ID="STR_STST_food_beer_b_desc">
         <Original>Beer «Baltica»</Original>
         <English>Beer «Baltica»</English>
         <Russian>Пиво «Балтика»</Russian>
@@ -140,11 +140,6 @@
         <English>Beer «Chernigov»</English>
         <Russian>Пиво «Чернигов»</Russian>
       </Key>
-      <Key ID="STR_STST_food_beer_c_desc">
-        <Original>Beer «Chernigov»</Original>
-        <English>Beer «Chernigov»</English>
-        <Russian>Пиво «Чернигов»</Russian>
-      </Key>
       <Key ID="STR_STST_food_beer_d_1_name">
         <Original>Beer «FAXE» (50%)</Original>
         <English>Beer «FAXE» (50%)</English>
@@ -155,10 +150,15 @@
         <English>Beer «FAXE»</English>
         <Russian>Пиво «FAXE»</Russian>
       </Key>
-      <Key ID="STR_STST_food_beer_d_desc">
+      <Key ID="STR_STST_food_beer_desc">
         <Original>Beer «FAXE»</Original>
         <English>Beer «FAXE»</English>
         <Russian>Пиво «FAXE»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_beer_empty_name">
+        <Original>Beer Bottle</Original>
+        <English>Beer Bottle</English>
+        <Russian>Бутылка пива</Russian>
       </Key>
     </Container>
     <Container name="Bread">
@@ -312,45 +312,45 @@
       </Key>
     </Container>
     <Container name="Vodka">
-      <Key ID="STR_STST_food_vodka_a_name">
+      <Key ID="STR_STST_food_vodka_a_2_name">
         <Original>Vodka «Pshenichnaya»</Original>
         <English>Vodka «Pshenichnaya»</English>
         <Russian>Водка «Пшеничная»</Russian>
       </Key>
-      <Key ID="STR_STST_food_vodka_a_desc">
-        <Original>Vodka «Pshenichnaya»</Original>
-        <English>Vodka «Pshenichnaya»</English>
-        <Russian>Водка «Пшеничная»</Russian>
+      <Key ID="STR_STST_food_vodka_a_1_name">
+        <Original>Vodka «Pshenichnaya» (50%)</Original>
+        <English>Vodka «Pshenichnaya» (50%)</English>
+        <Russian>Водка «Пшеничная» (50%)</Russian>
       </Key>
-      <Key ID="STR_STST_food_vodka_b_name">
+      <Key ID="STR_STST_food_vodka_b_2_name">
         <Original>Vodka «Finlandia»</Original>
         <English>Vodka «Finlandia»</English>
         <Russian>Водка «Finlandia»</Russian>
       </Key>
-      <Key ID="STR_STST_food_vodka_b_desc">
-        <Original>Vodka «Finlandia»</Original>
-        <English>Vodka «Finlandia»</English>
-        <Russian>Водка «Finlandia»</Russian>
+      <Key ID="STR_STST_food_vodka_b_1_name">
+        <Original>Vodka «Finlandia» (50%)</Original>
+        <English>Vodka «Finlandia» (50%)</English>
+        <Russian>Водка «Finlandia» (50%)</Russian>
       </Key>
-      <Key ID="STR_STST_food_vodka_c_name">
+      <Key ID="STR_STST_food_vodka_c_2_name">
         <Original>Vodka «Russian Standard»</Original>
         <English>Vodka «Russian Standard»</English>
         <Russian>Водка «Русский стандарт»</Russian>
       </Key>
-      <Key ID="STR_STST_food_vodka_c_desc">
-        <Original>Vodka «Russian Standard»</Original>
-        <English>Vodka «Russian Standard»</English>
-        <Russian>Водка «Русский стандарт»</Russian>
+      <Key ID="STR_STST_food_vodka_c_1_name">
+        <Original>Vodka «Russian Standard» (50%)</Original>
+        <English>Vodka «Russian Standard» (50%)</English>
+        <Russian>Водка «Русский стандарт» (50%)</Russian>
       </Key>
-      <Key ID="STR_STST_food_vodka_d_name">
-        <Original>Whiskey «Jameson»</Original>
-        <English>Whiskey «Jameson»</English>
-        <Russian>Виски «Jameson»</Russian>
+      <Key ID="STR_STST_food_vodka_empty_name">
+        <Original>Vodka Bottle</Original>
+        <English>Vodka Bottle</English>
+        <Russian>Бутылка от водки</Russian>
       </Key>
-      <Key ID="STR_STST_food_vodka_d_desc">
-        <Original>Whiskey «Jameson»</Original>
-        <English>Whiskey «Jameson»</English>
-        <Russian>Виски «Jameson»</Russian>
+      <Key ID="STR_STST_food_vodka_desc">
+        <Original>Vodka</Original>
+        <English>Vodka</English>
+        <Russian>Водка</Russian>
       </Key>
     </Container>
     <Container name="Energy Drink">
@@ -358,6 +358,33 @@
         <Original>Energy Drink «STALKER»</Original>
         <English>Energy Drink «STALKER»</English>
         <Russian>Энергетический напиток «STALKER»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_energy_desc">
+        <Original>Energy Drink «STALKER»</Original>
+        <English>Energy Drink «STALKER»</English>
+        <Russian>Энергетический напиток «STALKER»</Russian>
+      </Key>
+    </Container>
+    <Container name="Whiskey">
+      <Key ID="STR_STST_food_whiskey_empty_name">
+        <Original>Whiskey «Jameson» (Empty)</Original>
+        <English>Whiskey «Jameson» (Empty)</English>
+        <Russian>Виски «Jameson» (Пуст.)</Russian>
+      </Key>
+      <Key ID="STR_STST_food_whiskey_1_name">
+        <Original>Whiskey «Jameson» (50%)</Original>
+        <English>Whiskey «Jameson» (50%)</English>
+        <Russian>Виски «Jameson» (50%)</Russian>
+      </Key>
+      <Key ID="STR_STST_food_whiskey_2_name">
+        <Original>Whiskey «Jameson»</Original>
+        <English>Whiskey «Jameson»</English>
+        <Russian>Виски «Jameson»</Russian>
+      </Key>
+      <Key ID="STR_STST_food_whiskey_desc">
+        <Original>Whiskey «Jameson»</Original>
+        <English>Whiskey «Jameson»</English>
+        <Russian>Виски «Jameson»</Russian>
       </Key>
     </Container>
   </Package>
@@ -863,6 +890,11 @@
         <English>Elastic</English>
         <Russian>Резинка</Russian>
       </Key>
+      <Key ID="STR_STST_misc_sudoku_name">
+        <Original>Sudoku</Original>
+        <English>Sudoku</English>
+        <Russian>Судоку</Russian>
+      </Key>
     </Container>
     <Container name="Junk">
       <Key ID="STR_STST_misc_matches_name">
@@ -914,11 +946,6 @@
         <Original>Photo of a girl</Original>
         <English>Photo of a girl</English>
         <Russian>Фотография девушки</Russian>
-      </Key>
-      <Key ID="STR_STST_misc_sudoku_name">
-        <Original>Sudoku</Original>
-        <English>Sudoku</English>
-        <Russian>Судоку</Russian>
       </Key>
       <Key ID="STR_STST_misc_sunscreen_name">
         <Original>Sun screen</Original>
@@ -1369,6 +1396,13 @@
         <Original>50000 Roubles</Original>
         <English>50000 Roubles</English>
         <Russian>50000 рублей</Russian>
+      </Key>
+    </Container>
+    <Container name="Maps">
+      <Key ID="STR_STST_misc_map_name">
+        <Original>Map</Original>
+        <English>Map</English>
+        <Russian>Карта</Russian>
       </Key>
     </Container>
   </Package>
