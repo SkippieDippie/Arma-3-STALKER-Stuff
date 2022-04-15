@@ -1420,7 +1420,7 @@ class CfgVehicles
 	};
 	class armst_cat: cat_old_test
 	{
-		displayName="$STR_armst_cat";
+		displayName="$STR_STST_mutant_cat_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\cat_old\cat.p3d";
 		uniformAccessories[]={};
@@ -1433,7 +1433,7 @@ class CfgVehicles
 	};
 	class armst_cat2: cat_old_test
 	{
-		displayName="$STR_armst_cat";
+		displayName="$STR_STST_mutant_cat_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

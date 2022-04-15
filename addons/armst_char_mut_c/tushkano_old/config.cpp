@@ -836,7 +836,7 @@ class CfgVehicles
 	};
 	class armst_tushkano: tushkano_old_test
 	{
-		displayName="$STR_armst_tushkano";
+		displayName="$STR_STST_mutant_tushkano_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\tushkano_old\tushkano.p3d";
 		uniformAccessories[]={};
@@ -847,7 +847,7 @@ class CfgVehicles
 	};
 	class armst_tushkano2: tushkano_old_test
 	{
-		displayName="$STR_armst_tushkano";
+		displayName="$STR_STST_mutant_tushkano_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

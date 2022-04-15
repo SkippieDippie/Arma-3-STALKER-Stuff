@@ -808,7 +808,7 @@ class CfgVehicles
 	};
 	class armst_izlom: izlom_old_test
 	{
-		displayName="$STR_armst_Izlom";
+		displayName="$STR_STST_mutant_izlom_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\izlom_old\izlom.p3d";
 		uniformAccessories[]={};

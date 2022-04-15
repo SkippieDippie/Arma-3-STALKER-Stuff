@@ -446,7 +446,7 @@ class CfgVehicles
 	};
 	class armst_krovosos: krovosos_old_test
 	{
-		displayName="$STR_armst_krovosos";
+		displayName="$STR_STST_mutant_bloodsucker_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\krovosos_old\krovosos.p3d";
 		uniformAccessories[]={};
@@ -469,7 +469,7 @@ class CfgVehicles
 	};
 	class armst_krovosos2: krovosos_old_test
 	{
-		displayName="$STR_armst_krovosos";
+		displayName="$STR_STST_mutant_bloodsucker_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -491,7 +491,7 @@ class CfgVehicles
 	};
 	class armst_krovosos3: krovosos_old_test
 	{
-		displayName="$STR_armst_krovosos";
+		displayName="$STR_STST_mutant_bloodsucker_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -513,7 +513,7 @@ class CfgVehicles
 	};
 	class armst_krovosos4: krovosos_old_test
 	{
-		displayName="$STR_armst_krovosos";
+		displayName="$STR_STST_mutant_bloodsucker_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

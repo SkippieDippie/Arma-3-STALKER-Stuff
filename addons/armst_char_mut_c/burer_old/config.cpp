@@ -144,7 +144,7 @@ class CfgVehicles
 	};
 	class burer: burer_test
 	{
-		displayName="$STR_armst_burer";
+		displayName="$STR_STST_mutant_burer_name";
 		uniformClass="";
 		linkedItems[]={};
 		model="\armst\armst_char\char_mut\burer_old\burer.p3d";

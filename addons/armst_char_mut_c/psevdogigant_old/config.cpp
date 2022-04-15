@@ -422,7 +422,7 @@ class CfgVehicles
 	};
 	class armst_giant: psevdogigant_old_test
 	{
-		displayName="$STR_armst_giant";
+		displayName="$STR_STST_mutant_pseudogiant_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\psevdogigant_old\gigant.p3d";
 		uniformAccessories[]={};
@@ -441,7 +441,7 @@ class CfgVehicles
 	};
 	class armst_giant2: psevdogigant_old_test
 	{
-		displayName="$STR_armst_giant";
+		displayName="$STR_STST_mutant_pseudogiant_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

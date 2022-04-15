@@ -26891,7 +26891,7 @@ class CfgVehicles
 	};
 	class armst_dog_pastor_black_s: dog_old_test_pastor
 	{
-		displayName="$STR_armst_dog_pastor_black";
+		displayName="$STR_STST_animal_shepherd_black_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\pastor_F.p3d";
 		uniformAccessories[]={};
@@ -26910,7 +26910,7 @@ class CfgVehicles
 	};
 	class armst_dog_pastor_sandblack_s: dog_old_test_pastor
 	{
-		displayName="$STR_armst_dog_pastor_sandblack";
+		displayName="$STR_STST_animal_shepherd_blacktan_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\pastor_F.p3d";
 		uniformAccessories[]={};
@@ -26929,7 +26929,7 @@ class CfgVehicles
 	};
 	class armst_dog_pastor_sand_s: dog_old_test_pastor
 	{
-		displayName="$STR_armst_dog_pastor_sand";
+		displayName="$STR_STST_animal_shepherd_tan_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\pastor_F.p3d";
 		uniformAccessories[]={};
@@ -26990,7 +26990,7 @@ class CfgVehicles
 	};
 	class armst_dog_fin_sand: dog_old_test_fin
 	{
-		displayName="$STR_armst_dog_fin_sand";
+		displayName="$STR_STST_animal_hound_tan_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\Fin_F";
 		uniformAccessories[]={};
@@ -27009,7 +27009,7 @@ class CfgVehicles
 	};
 	class armst_dog_fin_blackwhite: dog_old_test_fin
 	{
-		displayName="$STR_armst_dog_fin_blackwhite";
+		displayName="$STR_STST_animal_hound_blackwhite_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\Fin_F";
 		uniformAccessories[]={};
@@ -27028,7 +27028,7 @@ class CfgVehicles
 	};
 	class armst_dog_fin_ocher: dog_old_test_fin
 	{
-		displayName="$STR_armst_dog_fin_ocher";
+		displayName="$STR_STST_animal_hound_ocher_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\Fin_F";
 		uniformAccessories[]={};
@@ -27047,7 +27047,7 @@ class CfgVehicles
 	};
 	class armst_dog_fin_tricolor: dog_old_test_fin
 	{
-		displayName="$STR_armst_dog_fin_tricolor";
+		displayName="$STR_STST_animal_hound_tricolor_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\Fin_F";
 		uniformAccessories[]={};

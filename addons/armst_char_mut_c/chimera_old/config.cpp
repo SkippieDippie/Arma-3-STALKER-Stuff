@@ -632,7 +632,7 @@ class CfgVehicles
 	};
 	class armst_chimera: chimera_old_test
 	{
-		displayName="$STR_armst_chimera";
+		displayName="$STR_STST_mutant_chimera_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\chimera_old\chimera.p3d";
 		uniformAccessories[]={};

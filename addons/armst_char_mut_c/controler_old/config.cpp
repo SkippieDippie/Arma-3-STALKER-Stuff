@@ -26924,7 +26924,7 @@ class CfgVehicles
 	};
 	class armst_controler: controler_old_test
 	{
-		displayName="$STR_armst_Controller";
+		displayName="$STR_STST_mutant_controller_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\controler_old\controler.p3d";
 		uniformAccessories[]={};
@@ -26943,7 +26943,7 @@ class CfgVehicles
 	};
 	class armst_controler2: controler_old_test
 	{
-		displayName="$STR_armst_Controller";
+		displayName="$STR_STST_mutant_controller_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -26961,7 +26961,7 @@ class CfgVehicles
 	};
 	class armst_controler3: controler_old_test
 	{
-		displayName="$STR_armst_Controller";
+		displayName="$STR_STST_mutant_controller_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -26979,7 +26979,7 @@ class CfgVehicles
 	};
 	class armst_controler4: controler_old_test
 	{
-		displayName="$STR_armst_Controller";
+		displayName="$STR_STST_mutant_controller_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -26997,7 +26997,7 @@ class CfgVehicles
 	};
 	class armst_controler5: controler_old_test
 	{
-		displayName="$STR_armst_Controller";
+		displayName="$STR_STST_mutant_controller_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

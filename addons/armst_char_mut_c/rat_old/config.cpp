@@ -1420,7 +1420,7 @@ class CfgVehicles
 	};
 	class armst_rat: rat_old_test
 	{
-		displayName="$STR_armst_Rat";
+		displayName="$STR_STST_mutant_rat_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\rat_old\rat.p3d";
 		uniformAccessories[]={};
@@ -1439,7 +1439,7 @@ class CfgVehicles
 	};
 	class armst_rat2: rat_old_test
 	{
-		displayName="$STR_armst_Rat";
+		displayName="$STR_STST_mutant_rat_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\rat_old\rat.p3d";
 		uniformAccessories[]={};
@@ -1458,7 +1458,7 @@ class CfgVehicles
 	};
 	class armst_rat3: rat_old_test
 	{
-		displayName="$STR_armst_Rat";
+		displayName="$STR_STST_mutant_rat_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\rat_old\rat.p3d";
 		uniformAccessories[]={};
@@ -1477,7 +1477,7 @@ class CfgVehicles
 	};
 	class armst_rat4: rat_old_test
 	{
-		displayName="$STR_armst_Rat";
+		displayName="$STR_STST_mutant_rat_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\rat_old\rat.p3d";
 		uniformAccessories[]={};

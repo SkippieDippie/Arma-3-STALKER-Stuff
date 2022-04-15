@@ -1439,7 +1439,7 @@ class CfgVehicles
 	};
 	class armst_pseudodog: pseudodog_old_test
 	{
-		displayName="$STR_armst_pseudodog";
+		displayName="$STR_STST_mutant_pseudodog_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\pseudodog_old\pseudodog.p3d";
 		uniformAccessories[]={};
@@ -1458,7 +1458,7 @@ class CfgVehicles
 	};
 	class armst_pseudodog2: pseudodog_old_test
 	{
-		displayName="$STR_armst_pseudodog";
+		displayName="$STR_STST_mutant_pseudodog_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

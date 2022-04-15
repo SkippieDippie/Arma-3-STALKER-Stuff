@@ -28,13 +28,13 @@ class CfgFactionClasses
 {
 	class armst_mut_new
 	{
-		displayName = "$STR_armst_mut_new";
+		displayName = "$STR_STST_ui_mutant_category_name";
 		priority = 1;
 		side = 1;
 	};
 	class armst_animals
 	{
-		displayName = "$STR_armst_mut_animals";
+		displayName = "$STR_STST_ui_animals_category_name";
 		priority = 0;
 		side = 1;
 	};
@@ -43,11 +43,11 @@ class CfgVehicleClasses
 {
 	class armst_mutantss
 	{
-		displayName = "$STR_armst_mutantss";
+		displayName = "$STR_STST_ui_mutant_category_name";
 	};
 	class armst_animals
 	{
-		displayName = "$STR_armst_mut_animals";
+		displayName = "$STR_STST_ui_animals_category_name";
 	};
 };
 

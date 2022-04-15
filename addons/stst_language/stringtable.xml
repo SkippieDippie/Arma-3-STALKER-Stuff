@@ -44,9 +44,9 @@
         <Russian>КПК</Russian>
       </Key>
       <Key ID="STR_STST_device_pda_desc">
-        <Original>PDA</Original>
-        <English>PDA</English>
-        <Russian>КПК</Russian>
+        <Original>Personal Digital Assistant. A mini-computer that contains personal notes, maps and allows text messaging. An item carried by every respectable stalker.</Original>
+        <English>Personal Digital Assistant. A mini-computer that contains personal notes, maps and allows text messaging. An item carried by every respectable stalker.</English>
+        <Russian>Карманный Персональный Компьютер. Содержит в себе песрональные записи, карты местонсти, а также позволяет обмен текстовыми сообщениями. Предмет каждого уважающего себя сталкера.</Russian>
       </Key>
     </Container>
     <Container name="Dosimeter DBG-06M">
@@ -1344,9 +1344,36 @@
         <Russian>Воздушный фильтр</Russian>
       </Key>
     </Container>
+    <Container name="Money">
+      <Key ID="STR_STST_item_money100rub_name">
+        <Original>100 Roubles</Original>
+        <English>100 Roubles</English>
+        <Russian>100 рублей</Russian>
+      </Key>
+      <Key ID="STR_STST_item_money1000rub_name">
+        <Original>1000 Roubles</Original>
+        <English>1000 Roubles</English>
+        <Russian>1000 рублей</Russian>
+      </Key>
+      <Key ID="STR_STST_item_money5000rub_name">
+        <Original>5000 Roubles</Original>
+        <English>5000 Roubles</English>
+        <Russian>5000 рублей</Russian>
+      </Key>
+      <Key ID="STR_STST_item_money10000rub_name">
+        <Original>10000 Roubles</Original>
+        <English>10000 Roubles</English>
+        <Russian>10000 рублей</Russian>
+      </Key>
+      <Key ID="STR_STST_item_money50000rub_name">
+        <Original>50000 Roubles</Original>
+        <English>50000 Roubles</English>
+        <Russian>50000 рублей</Russian>
+      </Key>
+    </Container>
   </Package>
   <Package name="Modules">
-    <Container name="Mutant Spawn - Configuration">
+    <Container name="Mutant Spawn">
       <Key ID="STR_STST_module_mut_3den_category_name">
         <Original>Mutant Dynamic Spawn</Original>
         <English>Mutant Dynamic Spawn</English>
@@ -1402,157 +1429,157 @@
         <English>Mutant: Controller</English>
         <Russian>Мутант: Контролёр</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_KROVOSOS">
-        <Original>Mutants: Bloodsocker</Original>
-        <English>Mutants: Bloodsocker </English>
+      <Key ID="STR_STST_module_spawn_bloodsucker_name">
+        <Original>Mutant: Bloodsucker</Original>
+        <English>Mutant: Bloodsucker </English>
         <Russian>Мутант: Кровосос</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_BigRat">
-        <Original>Mutants: Big Rat</Original>
-        <English>Mutants:  Big Rat </English>
+      <Key ID="STR_STST_module_spawn_bigrat_name">
+        <Original>Mutant: Big Rat</Original>
+        <English>Mutant: Big Rat </English>
         <Russian>Мутант: Большая крыса</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_Kikimora">
-        <Original>Mutants: Kikimora</Original>
-        <English>Mutants: Kikimora </English>
+      <Key ID="STR_STST_module_spawn_kikimora_name">
+        <Original>Mutant: Kikimora</Original>
+        <English>Mutant: Kikimora </English>
         <Russian>Мутант: Кикимора</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_Spiders">
-        <Original>Mutants: Spiders</Original>
-        <English>Mutants: Spiders </English>
+      <Key ID="STR_STST_module_spawn_spider_name">
+        <Original>Mutant: Spiders</Original>
+        <English>Mutant: Spiders </English>
         <Russian>Мутант: Пауки</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_Upir">
-        <Original>Mutants: Upir</Original>
-        <English>Mutants: Upir </English>
+      <Key ID="STR_STST_module_spawn_ghoul_name">
+        <Original>Mutants: Ghoul</Original>
+        <English>Mutant: Ghoul</English>
         <Russian>Мутант: Упырь</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_Watcher">
+      <Key ID="STR_STST_module_spawn_watcher_name">
         <Original>Mutants: Watcher</Original>
-        <English>Mutants: Watcher </English>
+        <English>Mutant: Watcher </English>
         <Russian>Мутант: Страж</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_BearMetro">
+      <Key ID="STR_STST_module_spawn_bear_name">
         <Original>Mutants: Bear</Original>
-        <English>Mutants: Bear </English>
+        <English>Mutant: Bear </English>
         <Russian>Мутант: Медведь</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_FLESH">
+      <Key ID="STR_STST_module_spawn_flesh_name">
         <Original>Mutants: Flesh</Original>
-        <English>Mutants: Flesh</English>
+        <English>Mutant: Flesh</English>
         <Russian>Мутант: Плоть</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_CHIMERA">
+      <Key ID="STR_STST_module_spawn_chimera_name">
         <Original>Mutants: Сhimera</Original>
-        <English>Mutants: Сhimera</English>
+        <English>Mutant: Сhimera</English>
         <Russian>Мутант: Химера</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_POLTERGEIST">
+      <Key ID="STR_STST_module_spawn_poltergeist_name">
         <Original>Mutants: Poltergeist</Original>
-        <English>Mutants: Poltergeist</English>
+        <English>Mutant: Poltergeist</English>
         <Russian>Мутант: Полтергейст</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_Pauk">
-        <Original>Mutants: Spider</Original>
-        <English>Mutants: Spider</English>
+      <Key ID="STR_STST_module_spawn_spider_name">
+        <Original>Mutant: Spider</Original>
+        <English>Mutant: Spider</English>
         <Russian>Мутант: Паук</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_Tark">
-        <Original>Mutants: Tark</Original>
-        <English>Mutants: Tark</English>
+      <Key ID="STR_STST_module_spawn_tark_name">
+        <Original>Mutant: Tark</Original>
+        <English>Mutant: Tark</English>
         <Russian>Мутант: Тарк</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_Rat">
-        <Original>Mutants: Rat</Original>
-        <English>Mutants: Rat</English>
+      <Key ID="STR_STST_module_spawn_rat_name">
+        <Original>Mutant: Rat</Original>
+        <English>Mutant: Rat</English>
         <Russian>Мутант: Крыса</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_PSEUDOGIANT">
-        <Original>Mutants: Pseudogiant</Original>
-        <English>Mutants: Pseudogiant</English>
+      <Key ID="STR_STST_module_spawn_pseudogiant_name">
+        <Original>Mutant: Pseudogiant</Original>
+        <English>Mutant: Pseudogiant</English>
         <Russian>Мутант: Псевдогигант</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_JERBOA">
-        <Original>Mutants: Jerboa</Original>
-        <English>Mutants: Jerboa</English>
+      <Key ID="STR_STST_module_spawn_tushkano_name">
+        <Original>Mutant: Tushkano</Original>
+        <English>Mutant: Tushkano</English>
         <Russian>Мутант: Тушканчик</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_radJERBOA">
-        <Original>Mutants: Rad Jerboa</Original>
-        <English>Mutants: Rad Jerboa</English>
-        <Russian>Мутант: Rad Тушканчик</Russian>
+      <Key ID="STR_STST_module_spawn_radtushkano_name">
+        <Original>Mutant: Rad Tushkano</Original>
+        <English>Mutant: Rad Tushkano</English>
+        <Russian>Мутант: Рад-Тушканчик</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_CAT">
-        <Original>Mutants: Wild Cat</Original>
-        <English>Mutants: Wild Cat</English>
+      <Key ID="STR_STST_module_spawn_cat_name">
+        <Original>Mutant: Wild Cat</Original>
+        <English>Mutant: Wild Cat</English>
         <Russian>Мутант: Дикий кот</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_BLINDDOG">
-        <Original>Mutants: Blind dog</Original>
-        <English>Mutants: Blind dog</English>
+      <Key ID="STR_STST_module_spawn_blinddog_name">
+        <Original>Mutant: Blind dog</Original>
+        <English>Mutant: Blind dog</English>
         <Russian>Мутант: Слепой пёс</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_PSEUDODOG">
-        <Original>Mutants: Pseudo-dog</Original>
-        <English>Mutants: Pseudo-dog</English>
+      <Key ID="STR_STST_module_spawn_pseudodog_name">
+        <Original>Mutant: Pseudo-dog</Original>
+        <English>Mutant: Pseudo-dog</English>
         <Russian>Мутант: Псевдо-пёс</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_SNORK">
-        <Original>Mutants: Snork</Original>
-        <English>Mutants: Snork</English>
+      <Key ID="STR_STST_module_spawn_snork_name">
+        <Original>Mutant: Snork</Original>
+        <English>Mutant: Snork</English>
         <Russian>Мутант: Снорк</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_BOAR">
-        <Original>Mutants: Boar</Original>
-        <English>Mutants: Boar</English>
+      <Key ID="STR_STST_module_spawn_boar_name">
+        <Original>Mutant: Boar</Original>
+        <English>Mutant: Boar</English>
         <Russian>Мутант: Кабан</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_BURER">
-        <Original>Mutants: Burer</Original>
-        <English>Mutants: Burer</English>
+      <Key ID="STR_STST_module_spawn_burer_name">
+        <Original>Mutant: Burer</Original>
+        <English>Mutant: Burer</English>
         <Russian>Мутант: Бюрер</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_zanoza">
-        <Original>Mutants: Zanoza</Original>
-        <English>Mutants: Zanoza</English>
+      <Key ID="STR_STST_module_spawn_zanoza_name">
+        <Original>Mutant: Zanoza</Original>
+        <English>Mutant: Zanoza</English>
         <Russian>Мутант: Заноза</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULENAME_IZLOM">
-        <Original>Mutants: Izlom</Original>
-        <English>Mutants: Izlom</English>
+      <Key ID="STR_STST_module_spawn_izlom_name">
+        <Original>Mutant: Izlom</Original>
+        <English>Mutant: Izlom</English>
         <Russian>Мутант: Излом</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_CREATETYPE">
-        <Original>Create mode</Original>
-        <English>Create mode</English>
-        <Russian>Режим создания</Russian>
+      <Key ID="STR_STST_module_spawn_set_ownership_name">
+        <Original>Unit ownership</Original>
+        <English>Unit ownership</English>
+        <Russian>Локальность юнита</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_CREATETYPE_DESC">
-        <Original>Units creation mode</Original>
-        <English>Units creation mode</English>
-        <Russian>Режим создания юнитов</Russian>
+      <Key ID="STR_STST_module_spawn_set_ownership_desc">
+        <Original>This setting sets the spawned unit ownership. Ownership determines what machine the unit is local to.</Original>
+        <English>This setting sets the spawned unit ownership. Ownership determines what machine the unit is local to.</English>
+        <Russian>Установить на каком устройстве заспавнить юнита.</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_CREATETYPE_SERVER">
+      <Key ID="STR_STST_module_spawn_set_ownership_server_name">
         <Original>Server</Original>
         <English>Server</English>
         <Russian>Сервер</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_CREATETYPE_CLIENT">
+      <Key ID="STR_STST_module_spawn_set_ownership_client_name">
         <Original>Client</Original>
         <English>Client</English>
         <Russian>Клиент</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_DEBUG">
+      <Key ID="STR_STST_module_spawn_set_debugmode_name">
         <Original>Debug mode</Original>
         <English>Debug mode</English>
         <Russian>Режим отладки</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_DEBUGTYPE_LOG">
+      <Key ID="STR_STST_module_spawn_set_debugmode_logs_name">
         <Original>Record to logs</Original>
         <English>Record to logs</English>
         <Russian>Записывать в логи</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_DEBUGTYPE_SEE">
+      <Key ID="STR_STST_module_spawn_set_debugmode_display_name">
         <Original>Display</Original>
         <English>Display</English>
         <Russian>Показать</Russian>
@@ -1577,22 +1604,22 @@
         <English>Condition and presence of player</English>
         <Russian>Условие и присутствие игрока</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_AREAMODE">
-        <Original>Area mode</Original>
-        <English>Area mode</English>
-        <Russian>Режим области</Russian>
+      <Key ID="STR_STST_module_spawn_set_spawnarea_name">
+        <Original>Spawn area</Original>
+        <English>Spawn area</English>
+        <Russian>Область спавна</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_AREAMODE_DESC">
-        <Original>Unit spawn mode on all trigger area or near the player</Original>
-        <English>Unit spawn mode on all trigger area or near the player</English>
-        <Russian>Режим появления юнитов по всей области триггера или рядом с игроком</Russian>
+      <Key ID="STR_STST_module_spawn_set_spawnarea_desc">
+        <Original>Should units spawn in the entire area of the synced trigger or only around the player.</Original>
+        <English>Should units spawn in the entire area of the synced trigger or only around the player.</English>
+        <Russian>Будут ли юниты спавниться по всей площади синхронизированного триггера или только вокруг игрока.</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_AREAMODE_TRIGGER">
+      <Key ID="STR_STST_module_spawn_set_spawnarea_trigger_name">
         <Original>Trigger</Original>
         <English>Trigger</English>
         <Russian>Триггер</Russian>
       </Key>
-      <Key ID="STR_MUTANTS_MODULE_SET_AREAMODE_PLAYER">
+      <Key ID="STR_STST_module_spawn_set_spawnarea_player_name">
         <Original>Player</Original>
         <English>Player</English>
         <Russian>Игрок</Russian>
@@ -2327,13 +2354,37 @@
     </Container>
   </Package>
   <Package name="Mutants">
+    <Container name="Amoeba">
+      <Key ID="STR_STST_mutant_amoeba_name">
+        <Original>Amoeba</Original>
+        <English>Amoeba</English>
+        <Russian>Амёба</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_amoeba_encyclopedia">
+        <Original>Amoeba</Original>
+        <English>Amoeba</English>
+        <Russian>Амёба</Russian>
+      </Key>
+    </Container>
+    <Container name="Bear">
+      <Key ID="STR_STST_mutant_bear_name">
+        <Original>Bear</Original>
+        <English>Bear</English>
+        <Russian>Медведь</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_bear_encyclopedia">
+        <Original>Bear</Original>
+        <English>Bear</English>
+        <Russian>Медведь</Russian>
+      </Key>
+    </Container>
     <Container name="Bloodsucker">
       <Key ID="STR_STST_mutant_bloodsucker_name">
         <Original>Bloodsucker</Original>
         <English>Bloodsucker</English>
         <Russian>Кровосос</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_bloodsucker_desc">
+      <Key ID="STR_STST_mutant_bloodsucker_encyclopedia">
         <Original>Bloodsucker</Original>
         <English>Bloodsucker</English>
         <Russian>Кровосос</Russian>
@@ -2345,7 +2396,7 @@
         <English>Boar</English>
         <Russian>Кабан</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_boar_desc">
+      <Key ID="STR_STST_mutant_boar_encyclopedia">
         <Original>Boar</Original>
         <English>Boar</English>
         <Russian>Кабан</Russian>
@@ -2357,7 +2408,7 @@
         <English>Burer</English>
         <Russian>Бюрер</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_burer_desc">
+      <Key ID="STR_STST_mutant_burer_encyclopedia">
         <Original>Burer</Original>
         <English>Burer</English>
         <Russian>Бюрер</Russian>
@@ -2369,7 +2420,7 @@
         <English>Cat</English>
         <Russian>Кот</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_cat_desc">
+      <Key ID="STR_STST_mutant_cat_encyclopedia">
         <Original>Cat</Original>
         <English>Cat</English>
         <Russian>Кот</Russian>
@@ -2381,7 +2432,7 @@
         <English>Chimera</English>
         <Russian>Химера</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_chimera_desc">
+      <Key ID="STR_STST_mutant_chimera_encyclopedia">
         <Original>Chimera</Original>
         <English>Chimera</English>
         <Russian>Химера</Russian>
@@ -2393,7 +2444,7 @@
         <English>Controller</English>
         <Russian>Контролёр</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_controller_desc">
+      <Key ID="STR_STST_mutant_controller_encyclopedia">
         <Original>Controller</Original>
         <English>Controller</English>
         <Russian>Контролёр</Russian>
@@ -2405,7 +2456,7 @@
         <English>Deer</English>
         <Russian>Олень</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_deer_desc">
+      <Key ID="STR_STST_mutant_deer_encyclopedia">
         <Original>Deer</Original>
         <English>Deer</English>
         <Russian>Олень</Russian>
@@ -2413,11 +2464,11 @@
     </Container>
     <Container name="Dog">
       <Key ID="STR_STST_mutant_dog_name">
-        <Original>Dog</Original>
-        <English>Dog</English>
-        <Russian>Собака</Russian>
+        <Original>Blind Dog</Original>
+        <English>Blind Dog</English>
+        <Russian>Слепой пёс</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_dog_desc">
+      <Key ID="STR_STST_mutant_dog_encyclopedia">
         <Original>Dog</Original>
         <English>Dog</English>
         <Russian>Собака</Russian>
@@ -2429,10 +2480,70 @@
         <English>Flesh</English>
         <Russian>Плоть</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_flesh_desc">
+      <Key ID="STR_STST_mutant_flesh_encyclopedia">
         <Original>Flesh</Original>
         <English>Flesh</English>
         <Russian>Плоть</Russian>
+      </Key>
+    </Container>
+    <Container name="Ghoul">
+      <Key ID="STR_STST_mutant_ghoul_name">
+        <Original>Ghoul</Original>
+        <English>Ghoul</English>
+        <Russian>Упырь</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_ghoul_encyclopedia">
+        <Original>Ghoul</Original>
+        <English>Ghoul</English>
+        <Russian>Упырь</Russian>
+      </Key>
+    </Container>
+    <Container name="Kikimora">
+      <Key ID="STR_STST_mutant_kikimora_name">
+        <Original>Kikimora</Original>
+        <English>Kikimora</English>
+        <Russian>Кикимора</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_kikimora_encyclopedia">
+        <Original>Kikimora</Original>
+        <English>Kikimora</English>
+        <Russian>Кикимора</Russian>
+      </Key>
+    </Container>
+    <Container name="Lurker">
+      <Key ID="STR_STST_mutant_lurker_name">
+        <Original>Lurker</Original>
+        <English>Lurker</English>
+        <Russian>Луркер</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_lurker_encyclopedia">
+        <Original>Lurker</Original>
+        <English>Lurker</English>
+        <Russian>Луркер</Russian>
+      </Key>
+    </Container>
+    <Container name="Nosy">
+      <Key ID="STR_STST_mutant_nosy_name">
+        <Original>Nosy</Original>
+        <English>Nosy</English>
+        <Russian>Носач</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_nosy_encyclopedia">
+        <Original>Nosy</Original>
+        <English>Nosy</English>
+        <Russian>Носач</Russian>
+      </Key>
+    </Container>
+    <Container name="Poltergeist">
+      <Key ID="STR_STST_mutant_poltergeist_name">
+        <Original>Poltergesit</Original>
+        <English>Poltergesit</English>
+        <Russian>Полтергейст</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_poltergeist_encyclopedia">
+        <Original>Poltergesit</Original>
+        <English>Poltergesit</English>
+        <Russian>Полтергейст</Russian>
       </Key>
     </Container>
     <Container name="Pseudodog">
@@ -2441,7 +2552,7 @@
         <English>Pseudodog</English>
         <Russian>Псевдособака</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_pseudodog_desc">
+      <Key ID="STR_STST_mutant_pseudodog_encyclopedia">
         <Original>Pseudodog</Original>
         <English>Pseudodog</English>
         <Russian>Псевдособака</Russian>
@@ -2453,10 +2564,22 @@
         <English>Pseudogiant</English>
         <Russian>Псевдособака</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_pseudogiant_desc">
+      <Key ID="STR_STST_mutant_pseudogiant_encyclopedia">
         <Original>Pseudogiant</Original>
         <English>Pseudogiant</English>
         <Russian>Псевдособака</Russian>
+      </Key>
+    </Container>
+    <Container name="Rat">
+      <Key ID="STR_STST_mutant_rat_name">
+        <Original>Rat</Original>
+        <English>Rat</English>
+        <Russian>Крыса</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_rat_encyclopedia">
+        <Original>Rat</Original>
+        <English>Rat</English>
+        <Russian>Крыса</Russian>
       </Key>
     </Container>
     <Container name="Snork">
@@ -2465,10 +2588,22 @@
         <English>Snork</English>
         <Russian>Снорк</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_snork_desc">
+      <Key ID="STR_STST_mutant_snork_encyclopedia">
         <Original>Snork</Original>
         <English>Snork</English>
         <Russian>Снорк</Russian>
+      </Key>
+    </Container>
+    <Container name="Tark">
+      <Key ID="STR_STST_mutant_tark_name">
+        <Original>Tark</Original>
+        <English>Tark</English>
+        <Russian>Тарк</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_tark_encyclopedia">
+        <Original>Tark</Original>
+        <English>Tark</English>
+        <Russian>Тарк</Russian>
       </Key>
     </Container>
     <Container name="Tushkano">
@@ -2477,7 +2612,7 @@
         <English>Tushkano</English>
         <Russian>Тушканчик</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_tushkano_desc">
+      <Key ID="STR_STST_mutant_tushkano_encyclopedia">
         <Original>Tushkano</Original>
         <English>Tushkano</English>
         <Russian>Тушканчик</Russian>
@@ -2489,10 +2624,39 @@
         <English>Wolf</English>
         <Russian>Волк</Russian>
       </Key>
-      <Key ID="STR_STST_mutant_wolf_desc">
-        <Original>Wolf</Original>
-        <English>Wolf</English>
-        <Russian>Волк</Russian>
+      <Key ID="STR_STST_mutant_wolf_alpha_name">
+        <Original>Alpha Wolf</Original>
+        <English>Alpha Wolf</English>
+        <Russian>Волк Альфа</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_wolf_encyclopedia">
+        <Original>Alpha Wolf</Original>
+        <English>Alpha Wolf</English>
+        <Russian>Волк Альфа</Russian>
+      </Key>
+    </Container>
+    <Container name="Wolfhound">
+      <Key ID="STR_STST_mutant_wolfhound_name">
+        <Original>Wolfhound</Original>
+        <English>Wolfhound</English>
+        <Russian>Волкодав</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_wolfhound_encyclopedia">
+        <Original>Wolfhound</Original>
+        <English>Wolfhound</English>
+        <Russian>Волкодав</Russian>
+      </Key>
+    </Container>
+    <Container name="Izlom">
+      <Key ID="STR_STST_mutant_izlom_name">
+        <Original>Izlom</Original>
+        <English>Izlom</English>
+        <Russian>Излом</Russian>
+      </Key>
+      <Key ID="STR_STST_mutant_izlom_ecyclopedia">
+        <Original>Izlom</Original>
+        <English>Izlom</English>
+        <Russian>Излом</Russian>
       </Key>
     </Container>
   </Package>
@@ -2578,55 +2742,387 @@
         <English>Electra</English>
         <Russian>Электра</Russian>
       </Key>
+    </Container>
+    <Container name="Burner">
       <Key ID="STR_STST_anomaly_burner_name">
         <Original>Burner</Original>
         <English>Burner</English>
         <Russian>Жарка</Russian>
       </Key>
+    </Container>
+    <Container name="Comet">
       <Key ID="STR_STST_anomaly_comet_name">
         <Original>Comet</Original>
         <English>Comet</English>
         <Russian>Комета</Russian>
       </Key>
+    </Container>
+    <Container name="Vortex">
       <Key ID="STR_STST_anomaly_vortex_name">
         <Original>Vortex</Original>
         <English>Vortex</English>
         <Russian>Воронка</Russian>
       </Key>
+    </Container>
+    <Container name="Springboard">
       <Key ID="STR_STST_anomaly_springboard_name">
         <Original>Springboard</Original>
         <English>Springboard</English>
         <Russian>Трамплин</Russian>
       </Key>
+    </Container>
+    <Container name="Whirlgig">
       <Key ID="STR_STST_anomaly_whirlgig_name">
         <Original>Whirlgig</Original>
         <English>Whirlgig</English>
         <Russian>Карусель</Russian>
       </Key>
+    </Container>
+    <Container name="Fruit Punch">
       <Key ID="STR_STST_anomaly_fruitpunch_name">
         <Original>Fruit Punch</Original>
         <English>Fruit Punch</English>
         <Russian>Кисель</Russian>
       </Key>
+    </Container>
+    <Container name="Burnt Fuzz">
       <Key ID="STR_STST_anomaly_burntfuzz_name">
         <Original>Burnt Fuzz</Original>
         <English>Burnt Fuzz</English>
         <Russian>Жгучий пух</Russian>
       </Key>
+    </Container>
+    <Container name="Gas">
       <Key ID="STR_STST_anomaly_gas_name">
         <Original>Gas</Original>
         <English>Gas</English>
         <Russian>Газ</Russian>
       </Key>
+    </Container>
+    <Container name="Tesla">
       <Key ID="STR_STST_anomaly_tesla_name">
         <Original>Tesla</Original>
         <English>Tesla</English>
         <Russian>Тесла</Russian>
       </Key>
+    </Container>
+    <Container name="Teleport">
       <Key ID="STR_STST_anomaly_teleport_name">
         <Original>Teleport</Original>
         <English>Teleport</English>
         <Russian>Телепорт</Russian>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Artifacts">
+    <Container name="Jellyfish">
+      <Key ID="STR_STST_art_jellyfish_name">
+        <Original>Jellyfish</Original>
+        <English>Jellyfish</English>
+        <Russian>Медуза</Russian>
+      </Key>
+      <Key ID="STR_STST_art_jellyfish_desc">
+        <Original>Jellyfish</Original>
+        <English>Jellyfish</English>
+        <Russian>Медуза</Russian>
+      </Key>
+      <Key ID="STR_STST_art_jellyfish_encyclopedia">
+        <Original>Jellyfish</Original>
+        <English>Jellyfish</English>
+        <Russian>Медуза</Russian>
+      </Key>
+    </Container>
+    <Container name="Gravi">
+      <Key ID="STR_STST_art_gravi_name">
+        <Original>Gravi</Original>
+        <English>Gravi</English>
+        <Russian>Грави</Russian>
+      </Key>
+      <Key ID="STR_STST_art_gravi_desc">
+        <Original>Gravi</Original>
+        <English>Gravi</English>
+        <Russian>Грави</Russian>
+      </Key>
+      <Key ID="STR_STST_art_gravi_encyclopedia">
+        <Original>Gravi</Original>
+        <English>Gravi</English>
+        <Russian>Грави</Russian>
+      </Key>
+    </Container>
+    <Container name="Amoeba">
+      <Key ID="STR_STST_art_amoeba_name">
+        <Original>Amoeba</Original>
+        <English>Amoeba</English>
+        <Russian>Амёба</Russian>
+      </Key>
+      <Key ID="STR_STST_art_amoeba_desc">
+        <Original>Amoeba</Original>
+        <English>Amoeba</English>
+        <Russian>Амёба</Russian>
+      </Key>
+      <Key ID="STR_STST_art_amoeba_encyclopedia">
+        <Original>Amoeba</Original>
+        <English>Amoeba</English>
+        <Russian>Амёба</Russian>
+      </Key>
+    </Container>
+    <Container name="Stone Blood">
+      <Key ID="STR_STST_art_stoneblood_name">
+        <Original>Stone Blood</Original>
+        <English>Stone Blood</English>
+        <Russian>Кровь камня</Russian>
+      </Key>
+      <Key ID="STR_STST_art_stoneblood_desc">
+        <Original>Stone Blood</Original>
+        <English>Stone Blood</English>
+        <Russian>Кровь камня</Russian>
+      </Key>
+      <Key ID="STR_STST_art_stoneblood_encyclopedia">
+        <Original>Stone Blood</Original>
+        <English>Stone Blood</English>
+        <Russian>Кровь камня</Russian>
+      </Key>
+    </Container>
+    <Container name="Meat Loaf">
+      <Key ID="STR_STST_art_meatloaf_name">
+        <Original>Meat Loaf</Original>
+        <English>Meat Loaf</English>
+        <Russian>Ломоть мяса</Russian>
+      </Key>
+      <Key ID="STR_STST_art_meatloaf_desc">
+        <Original>Meat Loaf</Original>
+        <English>Meat Loaf</English>
+        <Russian>Ломоть мяса</Russian>
+      </Key>
+      <Key ID="STR_STST_art_meatloaf_encyclopedia">
+        <Original>Meat Loaf</Original>
+        <English>Meat Loaf</English>
+        <Russian>Ломоть мяса</Russian>
+      </Key>
+    </Container>
+    <Container name="Soul">
+      <Key ID="STR_STST_art_soul_name">
+        <Original>Soul</Original>
+        <English>Soul</English>
+        <Russian>Душа</Russian>
+      </Key>
+      <Key ID="STR_STST_art_soul_desc">
+        <Original>Soul</Original>
+        <English>Soul</English>
+        <Russian>Душа</Russian>
+      </Key>
+      <Key ID="STR_STST_art_soul_encyclopedia">
+        <Original>Soul</Original>
+        <English>Soul</English>
+        <Russian>Душа</Russian>
+      </Key>
+    </Container>
+    <Container name="Sparkler">
+      <Key ID="STR_STST_art_sparkler_name">
+        <Original>Sparkler</Original>
+        <English>Sparkler</English>
+        <Russian>Бенгальский огонь</Russian>
+      </Key>
+      <Key ID="STR_STST_art_sparkler_desc">
+        <Original>Sparkler</Original>
+        <English>Sparkler</English>
+        <Russian>Бенгальский огонь</Russian>
+      </Key>
+      <Key ID="STR_STST_art_sparkler_encyclopedia">
+        <Original>Sparkler</Original>
+        <English>Sparkler</English>
+        <Russian>Бенгальский огонь</Russian>
+      </Key>
+    </Container>
+    <Container name="Tear">
+      <Key ID="STR_STST_art_tear_name">
+        <Original>Drop</Original>
+        <English>Drop</English>
+        <Russian>Капля</Russian>
+      </Key>
+      <Key ID="STR_STST_art_tear_desc">
+        <Original>Drop</Original>
+        <English>Drop</English>
+        <Russian>Капля</Russian>
+      </Key>
+      <Key ID="STR_STST_art_tear_encyclopedia">
+        <Original>Drop</Original>
+        <English>Drop</English>
+        <Russian>Капля</Russian>
+      </Key>
+    </Container>
+    <Container name="Fireball">
+      <Key ID="STR_STST_art_fireball_name">
+        <Original>Fireball</Original>
+        <English>Fireball</English>
+        <Russian>Огненный шар</Russian>
+      </Key>
+      <Key ID="STR_STST_art_fireball_desc">
+        <Original>Fireball</Original>
+        <English>Fireball</English>
+        <Russian>Огненный шар</Russian>
+      </Key>
+      <Key ID="STR_STST_art_fireball_encyclopedia">
+        <Original>Fireball</Original>
+        <English>Fireball</English>
+        <Russian>Огненный шар</Russian>
+      </Key>
+    </Container>
+    <Container name="Spikes">
+      <Key ID="STR_STST_art_spikes_name">
+        <Original>Spikes</Original>
+        <English>Spikes</English>
+        <Russian>Колючка</Russian>
+      </Key>
+      <Key ID="STR_STST_art_spikes_desc">
+        <Original>Spikes</Original>
+        <English>Spikes</English>
+        <Russian>Колючка</Russian>
+      </Key>
+      <Key ID="STR_STST_art_spikes_encyclopedia">
+        <Original>Spikes</Original>
+        <English>Spikes</English>
+        <Russian>Колючка</Russian>
+      </Key>
+    </Container>
+    <Container name="Battery">
+      <Key ID="STR_STST_art_battery_name">
+        <Original>Battery</Original>
+        <English>Battery</English>
+        <Russian>Батарейка</Russian>
+      </Key>
+      <Key ID="STR_STST_art_battery_desc">
+        <Original>Battery</Original>
+        <English>Battery</English>
+        <Russian>Батарейка</Russian>
+      </Key>
+      <Key ID="STR_STST_art_battery_encyclopedia">
+        <Original>Battery</Original>
+        <English>Battery</English>
+        <Russian>Батарейка</Russian>
+      </Key>
+    </Container>
+    <Container name="Crystall">
+      <Key ID="STR_STST_art_crystall_name">
+        <Original>Crystall</Original>
+        <English>Crystall</English>
+        <Russian>Кристалл</Russian>
+      </Key>
+      <Key ID="STR_STST_art_crystall_desc">
+        <Original>Crystall</Original>
+        <English>Crystall</English>
+        <Russian>Кристалл</Russian>
+      </Key>
+      <Key ID="STR_STST_art_crystall_encyclopedia">
+        <Original>Crystall</Original>
+        <English>Crystall</English>
+        <Russian>Кристалл</Russian>
+      </Key>
+    </Container>
+    <Container name="Empty">
+      <Key ID="STR_STST_art_empty_name">
+        <Original>Empty</Original>
+        <English>Empty</English>
+        <Russian>Пустышка</Russian>
+      </Key>
+      <Key ID="STR_STST_art_empty_desc">
+        <Original>Empty</Original>
+        <English>Empty</English>
+        <Russian>Пустышка</Russian>
+      </Key>
+      <Key ID="STR_STST_art_empty_encyclopedia">
+        <Original>Empty</Original>
+        <English>Empty</English>
+        <Russian>Пустышка</Russian>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="UI">
+    <Container name="3DEN">
+      <Key ID="STR_STST_ui_mutant_category_name">
+        <Original>Mutants</Original>
+        <English>Mutants</English>
+        <Russian>Мутанты</Russian>
+      </Key>
+      <Key ID="STR_STST_ui_animals_category_name">
+        <Original>Animals</Original>
+        <English>Animals</English>
+        <Russian>Животные</Russian>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Animals">
+    <Container name="German Shepherd">
+      <Key ID="STR_STST_animal_shepherd_black_name">
+        <Original>German Shephed (Black)</Original>
+        <English>German Shephed (Black)</English>
+        <Russian>Немецкая Овчарка (Чёрная)</Russian>
+      </Key>
+      <Key ID="STR_STST_animal_shepherd_tan_name">
+        <Original>German Shephed (Tan)</Original>
+        <English>German Shephed (Tan)</English>
+        <Russian>Немецкая Овчарка (Коричневая)</Russian>
+      </Key>
+      <Key ID="STR_STST_animal_shepherd_blacktan_name">
+        <Original>German Shephed (Black-Tan)</Original>
+        <English>German Shephed (Black-Tan)</English>
+        <Russian>Немецкая Овчарка (Чёрно-Коричневая)</Russian>
+      </Key>
+    </Container>
+    <Container name="Hound">
+      <Key ID="STR_STST_animal_hound_ocher_name">
+        <Original>Hound (Ocher)</Original>
+        <English>Hound (Ocher)</English>
+        <Russian>Гончая (Охра)</Russian>
+      </Key>
+      <Key ID="STR_STST_animal_hound_tan_name">
+        <Original>Hound (Tan)</Original>
+        <English>Hound (Tan)</English>
+        <Russian>Гончая (Коричневая)</Russian>
+      </Key>
+      <Key ID="STR_STST_animal_hound_blackwhite_name">
+        <Original>Hound (Black-White)</Original>
+        <English>Hound (Black-White)</English>
+        <Russian>Гончая (Чёрно-Белая)</Russian>
+      </Key>
+      <Key ID="STR_STST_animal_hound_tricolor_name">
+        <Original>Hound (Tricolor)</Original>
+        <English>Hound (Tricolor)</English>
+        <Russian>Гончая (Трёхцветный)</Russian>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="OLD">
+    <Container name="Anomalies">
+      <Key ID="STR_ARMS_CUTTER">
+        <Original>Cutter</Original>
+        <English>Cutter</English>
+        <Russian>Газонокосилка</Russian>
+      </Key>
+      <Key ID="STR_ARMS_BURN_DECAL_1">
+        <Original>Anomaly_Burner_Decal_1</Original>
+        <English>Anomaly_Burner_Decal_1</English>
+        <Russian>Аномалия_Жарка_Декаль_1</Russian>
+      </Key>
+      <Key ID="STR_ARMS_BURN_DECAL_2">
+        <Original>Anomaly_Burner_Decal_2</Original>
+        <English>Anomaly_Burner_Decal_2</English>
+        <Russian>Аномалия_Жарка_Декаль_2</Russian>
+      </Key>
+      <Key ID="STR_AZ_CUTTER_BIG">
+        <Original>Cutter Big</Original>
+        <English>Cutter Big</English>
+        <Russian>Газонокосилка большая</Russian>
+      </Key>
+      <Key ID="STR_AZ_CUTTER_MEDIUM">
+        <Original>Cutter Medium</Original>
+        <English>Cutter Medium</English>
+        <Russian>Газонокосилка средняя</Russian>
+      </Key>
+      <Key ID="STR_AZ_CUTTER_SMALL">
+        <Original>Cutter Small</Original>
+        <English>Cutter Small</English>
+        <Russian>Газонокосилка малая</Russian>
       </Key>
     </Container>
   </Package>

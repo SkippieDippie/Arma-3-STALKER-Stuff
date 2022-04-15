@@ -66,11 +66,11 @@ class cfgWeapons
 	{
 		author = "ArmSTALKER";
 		scope = 2;
-		displayName = $STR_armst_item_pda;
+		displayName = "$STR_STST_device_pda_name";
 		simulation = "ItemGPS";
 		picture = "\armst\armst_item\object\item_pda_ico.paa";
 		model = "\armst\armst_item\object\pda.p3d";
-		descriptionShort = "Personal mini computer. An item carried by every respectable stalker.";
+		descriptionShort = "$STR_STST_device_pda_desc";
 
 		class ItemInfo 
 		{
@@ -81,11 +81,11 @@ class cfgWeapons
 	{
 		author = "ArmSTALKER";
 		scope = 2;
-		displayName = "Old PDA";
+		displayName = "$STR_STST_device_pda_old_name";
 		simulation = "ItemGPS";
 		picture = "\armst\armst_item\object\item_pda_ico.paa";
 		model = "\armst\armst_item\object\pda.p3d";
-		descriptionShort = "Not working PDA";
+		descriptionShort = "$STR_STST_device_pda_old_desc";
 
 		class ItemInfo
 		{
@@ -96,11 +96,11 @@ class cfgWeapons
 	{
 		author = "ArmSTALKER";
 		scope = 2;
-		displayName = $STR_armst_item_pda;
+		displayName = "$STR_STST_device_pda_name";
 		simulation = "ItemGPS";
 		picture = "\armst\armst_item\object\item_pda_ico_band.paa";
 		model = "\armst\armst_item\object\pda.p3d";
-		descriptionShort = "Personal mini computer. An item carried by every respectable stalker.";
+		descriptionShort = "$STR_STST_device_pda_desc";
 
 		class ItemInfo
 		{
@@ -111,11 +111,11 @@ class cfgWeapons
 	{
 		author = "ArmSTALKER";
 		scope = 2;
-		displayName = $STR_armst_item_pda;
+		displayName = "$STR_STST_device_pda_name";
 		simulation = "ItemGPS";
 		picture = "\armst\armst_item\object\item_pda_ico_clearsky.paa";
 		model = "\armst\armst_item\object\pda.p3d";
-		descriptionShort = "Personal mini computer. An item carried by every respectable stalker.";
+		descriptionShort = "$STR_STST_device_pda_desc";
 
 		class ItemInfo
 		{
@@ -126,11 +126,11 @@ class cfgWeapons
 	{
 		author = "ArmSTALKER";
 		scope = 2;
-		displayName = $STR_armst_item_pda;
+		displayName = "$STR_STST_device_pda_name";
 		simulation = "ItemGPS";
 		picture = "\armst\armst_item\object\item_pda_ico_duty.paa";
 		model = "\armst\armst_item\object\pda.p3d";
-		descriptionShort = "Personal mini computer. An item carried by every respectable stalker.";
+		descriptionShort = "$STR_STST_device_pda_desc";
 
 		class ItemInfo
 		{
@@ -141,11 +141,11 @@ class cfgWeapons
 	{
 		author = "ArmSTALKER";
 		scope = 2;
-		displayName = $STR_armst_item_pda;
+		displayName = "$STR_STST_device_pda_name";
 		simulation = "ItemGPS";
 		picture = "\armst\armst_item\object\item_pda_ico_duty.paa";
 		model = "\armst\armst_item\object\pda.p3d";
-		descriptionShort = "Personal mini computer. An item carried by every respectable stalker.";
+		descriptionShort = "$STR_STST_device_pda_desc";
 
 		class ItemInfo
 		{
@@ -156,11 +156,11 @@ class cfgWeapons
 	{
 		author = "ArmSTALKER";
 		scope = 2;
-		displayName = $STR_armst_item_pda;
+		displayName = "$STR_STST_device_pda_name";
 		simulation = "ItemGPS";
 		picture = "\armst\armst_item\object\item_pda_ico_freedom.paa";
 		model = "\armst\armst_item\object\pda.p3d";
-		descriptionShort = "Personal mini computer. An item carried by every respectable stalker.";
+		descriptionShort = "$STR_STST_device_pda_desc";
 
 		class ItemInfo
 		{
@@ -171,11 +171,11 @@ class cfgWeapons
 	{
 		author = "ArmSTALKER";
 		scope = 2;
-		displayName = $STR_armst_item_pda;
+		displayName = "$STR_STST_device_pda_name";
 		simulation = "ItemGPS";
 		picture = "\armst\armst_item\object\item_pda_ico_merc.paa";
 		model = "\armst\armst_item\object\pda.p3d";
-		descriptionShort = "Personal mini computer. An item carried by every respectable stalker.";
+		descriptionShort = "$STR_STST_device_pda_desc";
 
 		class ItemInfo
 		{
@@ -186,11 +186,11 @@ class cfgWeapons
 	{
 		author = "ArmSTALKER";
 		scope = 2;
-		displayName = $STR_armst_item_pda;
+		displayName = "$STR_STST_device_pda_name";
 		simulation = "ItemGPS";
 		picture = "\armst\armst_item\object\item_pda_ico_monolith.paa";
 		model = "\armst\armst_item\object\pda.p3d";
-		descriptionShort = "Personal mini computer. An item carried by every respectable stalker.";
+		descriptionShort = "$STR_STST_device_pda_desc";
 
 		class ItemInfo 
 		{
@@ -201,11 +201,11 @@ class cfgWeapons
 	{
 		author = "ArmSTALKER";
 		scope = 2;
-		displayName = $STR_armst_item_pda;
+		displayName = "$STR_STST_device_pda_name";
 		simulation = "ItemGPS";
 		picture = "\armst\armst_item\object\item_pda_ico_science.paa";
 		model = "\armst\armst_item\object\pda.p3d";
-		descriptionShort = "Personal mini computer. An item carried by every respectable stalker.";
+		descriptionShort = "$STR_STST_device_pda_desc";
 
 		class ItemInfo
 		{
@@ -241,7 +241,7 @@ class cfgWeapons
 	class armst_money100R : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_money100R;
+		displayName = "$STR_STST_item_money1000rub_name";
 		model = "\armst\armst_item\object\money.p3d";
 		picture = "\armst\armst_item\object\money.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -252,7 +252,7 @@ class cfgWeapons
 	class armst_money100Rub : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_money100Rub;
+		displayName = "$STR_STST_item_money100rub_name";
 		model = "\armst\armst_item\object\money100r.p3d";
 		picture = "\armst\armst_item\object\money100r.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -263,7 +263,7 @@ class cfgWeapons
 	class armst_money5000R : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_money5000R;
+		displayName = "$STR_STST_item_money5000rub_name";
 		model = "\armst\armst_item\object\money5k.p3d";
 		picture = "\armst\armst_item\object\money5k.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -274,7 +274,7 @@ class cfgWeapons
 	class armst_money10000R : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_money10000R;
+		displayName = "$STR_STST_item_money10000rub_name";
 		model = "\armst\armst_item\object\money10k.p3d";
 		picture = "\armst\armst_item\object\money10k.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -285,7 +285,7 @@ class cfgWeapons
 	class armst_money50000R : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_money50000R;
+		displayName = "$STR_STST_item_money50000rub_name";
 		model = "\armst\armst_item\object\money50k.p3d";
 		picture = "\armst\armst_item\object\money50k.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -296,8 +296,8 @@ class cfgWeapons
 	class Armst_item_bred : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_bred;
-		descriptionShort = $STR_Armst_item_bred_info;
+		displayName = "$STR_STST_food_bread_name";
+		descriptionShort = "$STR_STST_food_bread_desc";
 		model = "\armst\armst_item\item\baton\bred.p3d";
 		picture = "\armst\armst_item\img\bred.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -308,8 +308,8 @@ class cfgWeapons
 	class Armst_item_bred_old : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_bred_old;
-		descriptionShort = $STR_Armst_item_bred_info;
+		displayName = "$STR_STST_food_bread_old_name";
+		descriptionShort = "$STR_STST_food_bread_old_desc";
 		model = "\armst\armst_item\item\baton\bred2.p3d";
 		picture = "\armst\armst_item\item\baton\icon_baton_vonyaet_validol.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -320,8 +320,8 @@ class cfgWeapons
 	class Armst_item_shocolate : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_shocolate;
-		descriptionShort = $STR_Armst_item_shocolate_info;
+		displayName = "$STR_STST_food_choco_a_name";
+		descriptionShort = "$STR_STST_food_choco_a_desc";
 		model = "\armst\armst_item\item\shocolate\shocolate2.p3d";
 		picture = "\armst\armst_item\img\shocolate.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -332,8 +332,8 @@ class cfgWeapons
 	class Armst_item_shocolate2 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_shocolate2;
-		descriptionShort = "";
+		displayName = "$STR_STST_food_choco_b_name";
+		descriptionShort = "$STR_STST_food_choco_b_desc";
 		model = "\armst\armst_item\item\shocolate\shocolate.p3d";
 		picture = "\armst\armst_item\img\shocolate.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -344,8 +344,8 @@ class cfgWeapons
 	class Armst_item_kolbasa : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_kolbasa;
-		descriptionShort = $STR_Armst_item_kolbasa_info;
+		displayName = "$STR_STST_food_sausage_name";
+		descriptionShort = "$STR_STST_food_sausage_desc";
 		model = "\armst\armst_item\item\kolbasa\kolbasa.p3d";
 		picture = "\armst\armst_item\img\kolbasa.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -381,8 +381,8 @@ class cfgWeapons
 	class Armst_item_snorkers : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_snorkers;
-		descriptionShort = $STR_Armst_item_snorkers_info;
+		displayName = "$STR_STST_food_choco_c_name";
+		descriptionShort = "$STR_STST_food_choco_c_desc";
 		model = "\armst\armst_item\item\snorkers.p3d";
 		picture = "\armst\armst_item\img\snickers.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -393,8 +393,8 @@ class cfgWeapons
 	class Armst_item_can : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_can;
-		descriptionShort = $STR_Armst_item_can_info;
+		displayName = "$STR_STST_food_canned_a_name";
+		descriptionShort = "$STR_STST_food_canned_a_desc";
 		model = "\armst\armst_item\item\konserv.p3d";
 		picture = "\armst\armst_item\img\konserva.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -405,8 +405,8 @@ class cfgWeapons
 	class Armst_item_can_ikra_red : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_can_ikra_red;
-		descriptionShort = $STR_Armst_item_can_info;
+		displayName = "$STR_STST_food_canned_c_name";
+		descriptionShort = "$STR_STST_food_canned_c_desc";
 		model = "\armst\armst_item\item\konserva\ikra_red.p3d";
 		picture = "\armst\armst_item\item\konserva\icon_konserva_ikra_red_validol.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -417,8 +417,8 @@ class cfgWeapons
 	class Armst_item_can_sosiski : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_can_sosiski;
-		descriptionShort = $STR_Armst_item_can_info;
+		displayName = "$STR_STST_food_canned_d_name";
+		descriptionShort = "$STR_STST_food_canned_d_desc";
 		model = "\armst\armst_item\item\konserva\sosiski.p3d";
 		picture = "\armst\armst_item\item\konserva\icon_konserva_sousige_validol.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -441,8 +441,8 @@ class cfgWeapons
 	class Armst_item_tushonka : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_tushonka;
-		descriptionShort = $STR_Armst_item_tushonka_info;
+		displayName = "$STR_STST_food_canned_b_name";
+		descriptionShort = "$STR_STST_food_canned_b_desc";
 		model = "\armst\armst_item\item\tushonka.p3d";
 		picture = "\armst\armst_item\img\tushonka.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -477,8 +477,8 @@ class cfgWeapons
 	class Armst_item_Sgushenka : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_Sgushenka;
-		descriptionShort = $STR_Armst_item_Sgushenka_info;
+		displayName = "$STR_STST_food_canned_e_name";
+		descriptionShort = "$STR_STST_food_canned_e_desc";
 		model = "\armst\armst_item\item\Sgushenka.p3d";
 		picture = "\armst\armst_item\item\Sgushenka_ico.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -501,8 +501,8 @@ class cfgWeapons
 	class Armst_item_rathion : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_rathion;
-		descriptionShort = $STR_Armst_item_rathion_info;
+		displayName = "$STR_STST_food_mre_a_3_name";
+		descriptionShort = "$STR_STST_food_mre_a_3_desc";
 		model = "\armst\armst_item\item\irp\irp.p3d";
 		picture = "\armst\armst_item\img\Rathion.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -513,8 +513,8 @@ class cfgWeapons
 	class Armst_item_rathion_level2 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_rathion_level2;
-		descriptionShort = $STR_Armst_item_rathion_info;
+		displayName = "STR_STST_food_mre_a_2_name";
+		descriptionShort = "STR_STST_food_mre_a_2_desc";
 		model = "\armst\armst_item\item\irp\irp.p3d";
 		picture = "\armst\armst_item\img\Rathion.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -525,8 +525,8 @@ class cfgWeapons
 	class Armst_item_rathion_level3 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_rathion_level3;
-		descriptionShort = $STR_Armst_item_rathion_info;
+		displayName = "$STR_STST_food_mre_a_1_name";
+		descriptionShort = "$STR_STST_food_mre_a_1_desc";
 		model = "\armst\armst_item\item\irp\irp.p3d";
 		picture = "\armst\armst_item\img\Rathion.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -537,8 +537,8 @@ class cfgWeapons
 	class Armst_item_SuhPay : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_SuhPay;
-		descriptionShort = $STR_Armst_item_SuhPay_info;
+		displayName = "$STR_STST_food_mre_b_name";
+		descriptionShort = "$STR_STST_food_mre_b_desc";
 		model = "\armst\armst_item\item\SuhPay.p3d";
 		picture = "\armst\armst_item\item\suhpa_ico.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -596,7 +596,7 @@ class cfgWeapons
 	class armst_item_waterbottleempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_waterbottleEmpty;
+		displayName = "$STR_Armst_item_waterbottleEmpty";
 		descriptionShort = "";
 		picture = "\armst\armst_item\img\flask.paa";
 		model = "\armst\armst_item\item\fliaga\fliaga.p3d";
@@ -608,8 +608,8 @@ class cfgWeapons
 	class ARMST_item_energy : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_energy;
-		descriptionShort = "";
+		displayName = "$STR_STST_food_energy_name";
+		descriptionShort = "$STR_STST_food_energy_desc";
 		picture = "\armst\armst_item\img\energydrink.paa";
 		model = "\armst\armst_item\item\energy\energy.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -632,8 +632,8 @@ class cfgWeapons
 	class armst_item_vodka : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_vodka;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		displayName = "$STR_STST_food_vodka_a_2_name";
+		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\img\vodka.paa";
 		model = "\armst\armst_item\item\vodka\vodka.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -644,8 +644,8 @@ class cfgWeapons
 	class armst_item_vodka50 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_vodka50;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		displayName = "$STR_STST_food_vodka_a_1_name";
+		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\img\vodka.paa";
 		model = "\armst\armst_item\item\vodka\vodka.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -657,7 +657,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = $STR_Armst_item_vodkaEmpty;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\img\vodka.paa";
 		model = "\armst\armst_item\item\vodka\vodka.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -670,7 +670,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = $STR_Armst_item_vodka_finland;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_finland_validol.paa";
 		model = "\armst\armst_item\item\vodka\finland.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -682,7 +682,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = $STR_Armst_item_vodka50_finland;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_finland_validol.paa";
 		model = "\armst\armst_item\item\vodka\finland.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -694,7 +694,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = $STR_Armst_item_vodkaEmpty_finland;
-		descriptionShort = $STR_Armst_item_vodka_info;
+		descriptionShort = "$STR_STST_food_vodka_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_finland_validol.paa";
 		model = "\armst\armst_item\item\vodka\finland.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
