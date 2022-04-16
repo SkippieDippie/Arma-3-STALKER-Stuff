@@ -356,7 +356,7 @@ class cfgWeapons
 	class armst_item_map : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "$STR_STST_misc_map_name";
+		displayName = "$STR_STST_ietms_map_name";
 		descriptionShort = "$STR_A3_cfgWeapons_ItemMap1";
 		model = "\armst\armst_item\map\map.p3d";
 		picture = "\A3\Weapons_F\Data\UI\gear_item_map_ca.paa";
@@ -572,8 +572,8 @@ class cfgWeapons
 	class Armst_item_waterbottle : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_waterbottle;
-		descriptionShort = $STR_Armst_item_waterbottle_info;
+		displayName = "$STR_STST_food_water_flask_2_name";
+		descriptionShort = "$STR_STST_food_water_flask_desc";
 		picture = "\armst\armst_item\img\flask.paa";
 		model = "\armst\armst_item\item\fliaga\fliaga.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -584,8 +584,8 @@ class cfgWeapons
 	class Armst_item_waterbottle50 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_waterbottle50;
-		descriptionShort = $STR_Armst_item_waterbottle_info;
+		displayName = "$STR_STST_food_water_flask_1_name";
+		descriptionShort = "$STR_STST_food_water_flask_desc";
 		picture = "\armst\armst_item\img\flask.paa";
 		model = "\armst\armst_item\item\fliaga\fliaga.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -596,8 +596,8 @@ class cfgWeapons
 	class armst_item_waterbottleempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "$STR_Armst_item_waterbottleEmpty";
-		descriptionShort = "";
+		displayName = "$STR_STST_food_water_flask_empty_name";
+		descriptionShort = "$STR_STST_food_water_flask_desc";
 		picture = "\armst\armst_item\img\flask.paa";
 		model = "\armst\armst_item\item\fliaga\fliaga.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -620,8 +620,8 @@ class cfgWeapons
 	class ARMST_item_energyempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_energyEmpty;
-		descriptionShort = "";
+		displayName = "$STR_STST_food_energy_empty_name";
+		descriptionShort = "$STR_STST_food_energy_desc";
 		picture = "\armst\armst_item\img\energydrink.paa";
 		model = "\armst\armst_item\item\energy\energy.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -656,8 +656,8 @@ class cfgWeapons
 	class armst_item_vodkaempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "$STR_STST_food_vodka_empty_name";
-		descriptionShort = "$STR_STST_food_vodka_desc";
+		displayName = "$STR_STST_food_water_bottle_empty_name";
+		descriptionShort = "$STR_STST_food_water_bottle_desc";
 		picture = "\armst\armst_item\img\vodka.paa";
 		model = "\armst\armst_item\item\vodka\vodka.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -693,8 +693,8 @@ class cfgWeapons
 	class armst_item_vodkaempty_finland : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "STR_STST_food_vodka_empty_name";
-		descriptionShort = "$STR_STST_food_vodka_desc";
+		displayName = "STR_STST_food_water_bottle_empty_name";
+		descriptionShort = "$STR_STST_food_water_bottle_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_finland_validol.paa";
 		model = "\armst\armst_item\item\vodka\finland.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -730,8 +730,8 @@ class cfgWeapons
 	class armst_item_Jemesonempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "$STR_STST_food_whiskey_empty_name";
-		descriptionShort = "$STR_STST_food_whiskey_desc";
+		displayName = "$STR_STST_food_water_bottle_empty_name";
+		descriptionShort = "$STR_STST_food_water_bottle_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_jemeson_validol.paa";
 		model = "\armst\armst_item\item\vodka\Jemeson.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -767,8 +767,8 @@ class cfgWeapons
 	class armst_item_vodkaempty_russianstand : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "$STR_STST_food_vodka_empty_name";
-		descriptionShort = "$STR_STST_food_vodka_desc";
+		displayName = "$STR_STST_food_water_bottle_empty_name";
+		descriptionShort = "$STR_STST_food_water_bottle_desc";
 		picture = "\armst\armst_item\item\vodka\icon_vodka_RS_validol.paa";
 		model = "\armst\armst_item\item\vodka\russianstand.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -780,8 +780,8 @@ class cfgWeapons
 	class armst_item_beer : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_beer_a_2_name";
+		descriptionShort = "$STR_STST_food_beer_desc";
 		picture = "\armst\armst_item\img\beer.paa";
 		model = "\armst\armst_item\item\beer.p3d";
 		
@@ -793,8 +793,8 @@ class cfgWeapons
 	class armst_item_beer50 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer50;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_beer_a_1_name";
+		descriptionShort = "$STR_STST_food_beer_desc";
 		picture = "\armst\armst_item\img\beer.paa";
 		model = "\armst\armst_item\item\beer.p3d";
 		
@@ -806,8 +806,8 @@ class cfgWeapons
 	class armst_item_Beerempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beerEmpty;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_water_bottle_empty_name";
+		descriptionShort = "$STR_STST_food_water_bottle_desc";
 		picture = "\armst\armst_item\img\beer.paa";
 		model = "\armst\armst_item\item\beer.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -819,8 +819,8 @@ class cfgWeapons
 	class armst_item_beer_baltica : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer_baltica;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_beer_b_2_name";
+		descriptionShort = "$STR_STST_food_beer_desc";
 		picture = "\armst\armst_item\item\beer\icon_Pivo_BALTIKA_6_validol.paa";
 		model = "\armst\armst_item\item\beer\beer_baltica.p3d";
 		
@@ -832,8 +832,8 @@ class cfgWeapons
 	class armst_item_beer_baltica50 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer_baltica50;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_beer_b_1_name";
+		descriptionShort = "$STR_STST_food_beer_desc";
 		picture = "\armst\armst_item\item\beer\icon_Pivo_BALTIKA_6_validol.paa";
 		model = "\armst\armst_item\item\beer\beer_baltica.p3d";
 		
@@ -845,8 +845,8 @@ class cfgWeapons
 	class armst_item_beer_balticaempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer_balticaEmpty;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_water_bottle_empty_name";
+		descriptionShort = "$STR_STST_food_water_bottle_desc";
 		picture = "\armst\armst_item\item\beer\icon_Pivo_BALTIKA_6_validol.paa";
 		model = "\armst\armst_item\item\beer\beer_baltica.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -858,8 +858,8 @@ class cfgWeapons
 	class armst_item_beer_chernigov : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer_chernigov;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_beer_c_2_name";
+		descriptionShort = "$STR_STST_food_beer_desc";
 		picture = "\armst\armst_item\item\beer\icon_Pivo_Cher_validol.paa";
 		model = "\armst\armst_item\item\beer\beer_chernigov.p3d";
 		
@@ -871,8 +871,8 @@ class cfgWeapons
 	class armst_item_beer_chernigov50 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer_chernigov50;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_beer_c_1_name";
+		descriptionShort = "$STR_STST_food_beer_desc";
 		picture = "\armst\armst_item\item\beer\icon_Pivo_Cher_validol.paa";
 		model = "\armst\armst_item\item\beer\beer_chernigov.p3d";
 		
@@ -884,8 +884,8 @@ class cfgWeapons
 	class armst_item_beer_chernigovempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer_chernigovEmpty;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_water_bottle_empty_name";
+		descriptionShort = "$STR_STST_food_water_bottle_desc";
 		picture = "\armst\armst_item\item\beer\icon_Pivo_Cher_validol.paa";
 		model = "\armst\armst_item\item\beer\beer_chernigov.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -897,8 +897,8 @@ class cfgWeapons
 	class armst_item_beer_FAXE : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer_FAXE;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_beer_d_2_name;"
+		descriptionShort = "$STR_STST_food_beer_desc";
 		picture = "\armst\armst_item\item\beer\icon_Pivo_FAXE_validol.paa";
 		model = "\armst\armst_item\item\beer\beer_FAXE.p3d";
 		
@@ -910,8 +910,8 @@ class cfgWeapons
 	class armst_item_beer_FAXE50 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer_FAXE50;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_beer_d_1_name";
+		descriptionShort = "$STR_STST_food_beer_desc";
 		picture = "\armst\armst_item\item\beer\icon_Pivo_FAXE_validol.paa";
 		model = "\armst\armst_item\item\beer\beer_FAXE.p3d";
 		
@@ -923,8 +923,8 @@ class cfgWeapons
 	class armst_item_beer_FAXEempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_beer_FAXEEmpty;
-		descriptionShort = $STR_Armst_item_beer_info;
+		displayName = "$STR_STST_food_water_bottle_empty_name";
+		descriptionShort = "$STR_STST_food_water_bottle_desc";
 		picture = "\armst\armst_item\item\beer\icon_Pivo_FAXE_validol.paa";
 		model = "\armst\armst_item\item\beer\beer_FAXE.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -956,8 +956,8 @@ class cfgWeapons
 	class armst_item_antirad : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_antirad;
-		descriptionShort = $STR_Armst_item_antirad_info;
+		displayName = "$STR_STST_medic_antirad_name";
+		descriptionShort = "$STR_STST_medic_antirad_desc";
 		model = "\armst\armst_item\item\glucose.p3d";
 		picture = "\armst\armst_item\img\glucose.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -992,7 +992,7 @@ class cfgWeapons
 	class armst_spicki : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_spicki;
+		displayName = "$STR_STST_item_matches_name";
 		model = "\armst\armst_item\object\spicki.p3d";
 		picture = "\armst\armst_item\object\spicki_ico.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1015,7 +1015,7 @@ class cfgWeapons
 	class ARMST_babywipes: ACE_ItemCore
 	{
 		scope=2;
-		displayName=$STR_Armst_item_babywipes;
+		displayName = "$STR_STST_item_wipes_name";
 		model = "\A3\Structures_F_EPA\Items\Medical\WaterPurificationTablets_F.p3d";
 		picture="\armst\armst_item\img\babywipes.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1026,7 +1026,7 @@ class cfgWeapons
 	class ARMST_book_manual: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Book;
+			displayName = "$STR_STST_item_book_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\book_manual.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1037,7 +1037,7 @@ class cfgWeapons
 	class ARMST_book_novel: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Book;
+			displayName = "$STR_STST_item_book_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\book_novel.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1047,10 +1047,10 @@ class cfgWeapons
 	};
 	class ARMST_bugspray: ACE_ItemCore
 	{
-			scope=2;
-			displayName=$STR_Armst_item_bugspray;
+			scope = 2;
+			displayName = "$STR_STST_item_bugspray_name";
 			model = "\A3\Structures_F_EPA\Items\Tools\ButaneCanister_F.p3d";
-			picture="\armst\armst_item\img\bugspray.paa";
+			picture ="\armst\armst_item\img\bugspray.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 5;
@@ -1058,9 +1058,9 @@ class cfgWeapons
 	};
 	class ARMST_cards: ACE_ItemCore
 	{
-			scope=2;
-			displayName=$STR_Armst_item_cards;
-			picture="\armst\armst_item\img\cards.paa";
+			scope = 2;
+			displayName = "$STR_STST_item_play_cards_name";
+			picture = "\armst\armst_item\img\cards.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -1068,10 +1068,10 @@ class cfgWeapons
 	};
 	class ARMST_comic: ACE_ItemCore
 	{
-			scope=2;
-			displayName=$STR_Armst_item_comic;
+			scope = 2;
+			displayName = "$STR_STST_item_comic_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
-			picture="\armst\armst_item\img\comicbook.paa";
+			picture = "\armst\armst_item\img\comicbook.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 2;
@@ -1079,9 +1079,9 @@ class cfgWeapons
 	};
 	class ARMST_condom: ACE_ItemCore
 	{
-			scope=2;
-			displayName=$STR_Armst_item_Condom;
-			picture="\armst\armst_item\img\condom.paa";
+			scope = 2;
+			displayName = "$STR_STST_item_condom_name";
+			picture = "\armst\armst_item\img\condom.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -1090,7 +1090,7 @@ class cfgWeapons
 	class ARMST_dice: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_dice;
+			displayName="$STR_STST_item_play_dice_name";
 			picture="\armst\armst_item\img\dice.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1100,7 +1100,7 @@ class cfgWeapons
 	class ARMST_elec_powder: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_powder;
+			displayName="$STR_STST_item_drink_powder_name";
 			picture="\armst\armst_item\img\elec_powder.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1110,7 +1110,7 @@ class cfgWeapons
 	class ARMST_eyedrops: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_eyedrops;
+			displayName="$STR_STST_item_eyedrops_name";
 			picture="\armst\armst_item\img\eyedrops.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1120,7 +1120,7 @@ class cfgWeapons
 	class ARMST_gq: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_gq;
+			displayName="$STR_STST_item_journal_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\GQ.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1131,7 +1131,7 @@ class cfgWeapons
 	class ARMST_gum: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_gum;
+			displayName="$STR_STST_item_bubblegum_name";
 			picture="\armst\armst_item\img\gum.paa";
 			model = "\armst\armst_item\object\Gum\gum.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1142,7 +1142,7 @@ class cfgWeapons
 	class ARMST_ID: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ID;
+			displayName="$STR_STST_item_id_card_name";
 			picture="\armst\armst_item\img\ID_card.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1152,7 +1152,7 @@ class cfgWeapons
 	class ARMST_letter_norm: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_letter_norme;
+			displayName="$STR_STST_item_letter_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\letter_norm.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1163,7 +1163,7 @@ class cfgWeapons
 	class ARMST_letter_susp: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_letter;
+			displayName="$STR_STST_item_letter_important_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\letter_susp.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1174,7 +1174,7 @@ class cfgWeapons
 	class ARMST_lighter: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Lighter;
+			displayName="$STR_STST_item_lighter_name";
 			picture="\armst\armst_item\img\lighter.paa";
 			model = "\armst\armst_item\object\Lighter\lighter.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1185,7 +1185,7 @@ class cfgWeapons
 	class ARMST_lipbalm: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_lipbalm;
+			displayName="$STR_STST_item_lipbalm_name";
 			picture="\armst\armst_item\img\lipbalm.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1195,7 +1195,7 @@ class cfgWeapons
 	class ARMST_multitool: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_multitool;
+			displayName="$STR_STST_item_multitool_name";
 			picture="\armst\armst_item\img\multitool.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1205,7 +1205,7 @@ class cfgWeapons
 	class ARMST_nationalgeo: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_gq;
+			displayName="$STR_STST_item_journal_name";
 			picture="\armst\armst_item\img\nationalgeo.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1215,7 +1215,7 @@ class cfgWeapons
 	class ARMST_newspaper: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_gq;
+			displayName="$STR_STST_item_journal_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\newspaper.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1226,7 +1226,7 @@ class cfgWeapons
 	class ARMST_x18docs: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_itemdoc;
+			displayName="$STR_STST_item_documents_name";
 			descriptionShort = "Беспорядочно написаны цифры: 6 357 846 573";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\newspaper.paa";
@@ -1238,7 +1238,7 @@ class cfgWeapons
 	class ARMST_x17docs: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_itemdoc;
+			displayName="$STR_STST_item_documents_name";
 			descriptionShort = "Беспорядочно написаны цифры: 3 53 6 36 2 24 6";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\newspaper.paa";
@@ -1250,7 +1250,7 @@ class cfgWeapons
 	class ARMST_x21docs: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_itemdoc;
+			displayName="$STR_STST_item_documents_name";
 			descriptionShort = "Беспорядочно написаны цифры: 54 25 46 78 73";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\newspaper.paa";
@@ -1262,7 +1262,7 @@ class cfgWeapons
 	class ARMST_picture_fam: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Familyphoto;
+			displayName="$STR_STST_item_photo_family_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\picture_fam.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1273,7 +1273,7 @@ class cfgWeapons
 	class ARMST_picture_gf: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_girl;
+			displayName="$STR_STST_item_photo_girl_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\picture_gf.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1284,7 +1284,7 @@ class cfgWeapons
 	class ARMST_playboy: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Playboy";
+			displayName="$STR_STST_item_journal_name";
 			picture="\armst\armst_item\img\playboy.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1304,7 +1304,7 @@ class cfgWeapons
 	class ARMST_socks_black: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_socks_black;
+			displayName="$STR_STST_item_socks_black_name";
 			picture="\armst\armst_item\img\socks_black.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1314,7 +1314,7 @@ class cfgWeapons
 	class ARMST_socks_green: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_socks_greene;
+			displayName="$STR_STST_item_socks_green_name";
 			picture="\armst\armst_item\img\socks_green.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1324,7 +1324,7 @@ class cfgWeapons
 	class ARMST_stuff_animal: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_stuff_animal;
+			displayName="$STR_STST_item_stuffed_toy_name";
 			picture="\armst\armst_item\img\stuff_animal.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1334,7 +1334,7 @@ class cfgWeapons
 	class ARMST_sudoku: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_sudoku;
+			displayName="$STR_STST_item_sudoku_name";
 			picture="\armst\armst_item\img\sudoku.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1344,7 +1344,7 @@ class cfgWeapons
 	class ARMST_sunblock: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_sunblock;
+			displayName="$STR_STST_item_sunscreen_name";
 			picture="\armst\armst_item\img\sunblock.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1354,7 +1354,7 @@ class cfgWeapons
 	class ARMST_tanboxer: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_tanboxer;
+			displayName="$STR_STST_item_underwear_name";
 			picture="\armst\armst_item\img\tanboxer.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1364,7 +1364,7 @@ class cfgWeapons
 	class ARMST_toiletpaper: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_toiletpaper;
+			displayName="$STR_STST_item_toiletpaper_name";
 			picture="\armst\armst_item\img\toiletpaper.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1374,7 +1374,7 @@ class cfgWeapons
 	class ARMST_towel: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_towel;
+			displayName="$STR_STST_item_towel_name";
 			picture="\armst\armst_item\img\towel.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1384,7 +1384,7 @@ class cfgWeapons
 	class ARMST_usbdrive: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_usbdrive;
+			displayName="$STR_STST_item_usbdrive_name";
 			picture="\armst\armst_item\img\usbdrive.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1394,7 +1394,7 @@ class cfgWeapons
 	class ARMST_usbdrive_1: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Flash drive (Agroprom)";
+			displayName="$STR_STST_item_usbdrive_name";
 			picture="\armst\armst_item\img\usbdrive.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1404,7 +1404,7 @@ class cfgWeapons
 	class ARMST_usbdrive_2: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Flash drive (Labaratory)";
+			displayName="$STR_STST_item_usbdrive_name";
 			picture="\armst\armst_item\img\usbdrive.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1414,7 +1414,7 @@ class cfgWeapons
 	class ARMST_usbdrive_3: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Flash drive";
+			displayName="$STR_STST_item_usbdrive_name";
 			picture="\armst\armst_item\img\usbdrive.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1424,7 +1424,7 @@ class cfgWeapons
 	class ARMST_usbdrive_4: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Flash drive (perimeter)";
+			displayName="$STR_STST_item_usbdrive_name";
 			picture="\armst\armst_item\img\usbdrive.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1434,7 +1434,7 @@ class cfgWeapons
 	class ARMST_usbdrive_5: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Flash drive (Yantar)";
+			displayName="$STR_STST_item_usbdrive_name";
 			picture="\armst\armst_item\img\usbdrive.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1444,7 +1444,7 @@ class cfgWeapons
 	class ARMST_vhstape: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_vhstape;
+			displayName="$STR_STST_item_vhstape_name";
 			picture="\armst\armst_item\img\vhstape.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1454,7 +1454,7 @@ class cfgWeapons
 	class ARMST_water_tabs: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_water_tabs;
+			displayName="$STR_STST_item_water_tabs_name";
 			model = "\A3\Structures_F_EPA\Items\Medical\WaterPurificationTablets_F.p3d";
 			picture="\armst\armst_item\img\water_tabs.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1465,7 +1465,7 @@ class cfgWeapons
 	class ARMST_550cord: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_550cord;
+			displayName="$STR_STST_item_cord_name";
 			model = "\A3\Structures_F_Heli\Items\Tools\Rope_01_F.p3d";
 			picture="\armst\armst_item\img\550cord.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1476,7 +1476,7 @@ class cfgWeapons
 	class ARMST_acetone: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_acetone;
+			displayName="$STR_STST_item_acetone_name";
 			picture="\armst\armst_item\img\acetone.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1486,7 +1486,7 @@ class cfgWeapons
 	class ARMST_batteries: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_batteries;
+			displayName="$STR_STST_item_battery_name";
 			picture="\armst\armst_item\img\batteries.paa";
 			model = "\A3\Structures_F_EPA\Items\Electronics\Battery_F.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1497,7 +1497,7 @@ class cfgWeapons
 	class ARMST_bungeecord: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_bungeecord;
+			displayName="$STR_STST_item_towingrope_name";
 			model = "\A3\Structures_F_Heli\Items\Tools\Rope_01_F.p3d";
 			picture="\armst\armst_item\img\bungeecord.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1508,7 +1508,7 @@ class cfgWeapons
 	class ARMST_camcorder: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_camcorder;
+			displayName="$STR_STST_item_camcorder_name";
 			model = "\A3\Structures_F\Items\Electronics\HandyCam_F.p3d";
 			picture="\armst\armst_item\img\camcorder.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1519,7 +1519,7 @@ class cfgWeapons
 	class ARMST_canopener: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_canopener;
+			displayName="$STR_STST_item_canopener_name";
 			picture="\armst\armst_item\img\canopener.paa";
 			model = "\A3\Structures_F_EPA\Items\Tools\CanOpener_F.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1530,7 +1530,7 @@ class cfgWeapons
 	class ARMST_cigarettes: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_cigarettes;
+			displayName="$STR_STST_item_cigarettes_name";
 			picture="\armst\armst_item\img\cigarettes.paa";
 			model = "\armst\armst_item\object\Cigarette\lucky_strike.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1541,7 +1541,7 @@ class cfgWeapons
 	class ARMST_cigarettes_camell: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_cigarettes_camel;
+			displayName="$STR_STST_item_cigarettes_camel_name";
 			picture="\armst\armst_item\img\cigarettes.paa";
 			model = "\armst\armst_item\object\Cigarette\camel.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1552,7 +1552,7 @@ class cfgWeapons
 	class ARMST_detcord: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_detcord;
+			displayName="$STR_STST_item_metal_wire_name";
 			picture="\armst\armst_item\img\detcord.paa";
 			model = "\A3\Structures_F_EPA\Items\Tools\MetalWire_F.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1574,7 +1574,7 @@ class cfgWeapons
 	class ARMST_ducttape: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ducttape;
+			displayName="$STR_STST_item_ducttape_name";
 			picture="\armst\armst_item\img\ducttape.paa";
 			model = "\A3\Structures_F_EPA\Items\Tools\DuctTape_F.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1585,7 +1585,7 @@ class cfgWeapons
 	class ARMST_dumbphone: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_dumbphone;
+			displayName="$STR_STST_item_cellphone_broken_name";
 			picture="\armst\armst_item\img\dumbphone.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1595,7 +1595,7 @@ class cfgWeapons
 	class ARMST_dvds: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_dvds;
+			displayName="$STR_STST_item_dvds_name";
 			picture="\armst\armst_item\img\dvds.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1605,7 +1605,7 @@ class cfgWeapons
 	class ARMST_firestarter: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_firestarter;
+			displayName="$STR_STST_item_firestarter_name";
 			picture="\armst\armst_item\img\firestarter.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1615,7 +1615,7 @@ class cfgWeapons
 	class ARMST_gameboy: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Gameboy";
+			displayName="$STR_STST_item_gameboy_name";
 			picture="\armst\armst_item\img\gameboy.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1625,7 +1625,7 @@ class cfgWeapons
 	class ARMST_hammer: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_hammer;
+			displayName="$STR_STST_item_hammer_name";
 			picture="\armst\armst_item\img\hammer.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1635,7 +1635,7 @@ class cfgWeapons
 	class ARMST_handwarmer: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Thermopack;
+			displayName="$STR_STST_item_thermopack_name";
 			model = "\A3\Structures_F_EPA\Items\Medical\HeatPack_F.p3d";
 			picture="\armst\armst_item\img\handwarmer.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1647,7 +1647,7 @@ class cfgWeapons
 	{
 			scope=2;
 			model = "\A3\Structures_F_EPA\Items\Medical\VitaminBottle_F.p3d";
-			displayName=$STR_Armst_item_hexamine;
+			displayName="$STR_STST_item_hexamine_name";
 			picture="\armst\armst_item\img\hexamine.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1657,7 +1657,7 @@ class cfgWeapons
 	class ARMST_hydrochloric: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Chlorum;
+			displayName="$STR_STST_item_chlorum_name";
 			model = "\A3\Structures_F_EPA\Items\Medical\VitaminBottle_F.p3d";
 			picture="\armst\armst_item\img\hydrochloric.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1679,7 +1679,7 @@ class cfgWeapons
 	class ARMST_mp3: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_mp3;
+			displayName="$STR_STST_item_mp3_name";
 			picture="\armst\armst_item\img\mp3.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1689,7 +1689,7 @@ class cfgWeapons
 	class ARMST_nails: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Nails;
+			displayName="$STR_STST_item_nails_name";
 			picture="\armst\armst_item\img\nails.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1699,7 +1699,7 @@ class cfgWeapons
 	class ARMST_potatobag: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_potatobag;
+			displayName="$STR_STST_item_potatobag_name";
 			picture="\armst\armst_item\img\potatobag.paa";
 			model = "\A3\Structures_F\Civ\Market\Sack_F.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1710,7 +1710,7 @@ class cfgWeapons
 	class ARMST_psp: ACE_ItemCore
 	{
 			scope=2;
-			displayName="PSP";
+			displayName="$STR_STST_item_psp_name";
 			model = "\A3\Structures_F_Heli\Items\Electronics\Tablet_01_F.p3d";
 			picture="\armst\armst_item\img\psp.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1721,7 +1721,7 @@ class cfgWeapons
 	class ARMST_steelpipe: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_steelpipe;
+			displayName="$STR_STST_item_steelpipe_name";
 			picture="\armst\armst_item\img\steelpipe.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1731,7 +1731,7 @@ class cfgWeapons
 	class ARMST_toxicgas: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_toxicgas;
+			displayName="$STR_STST_item_toxicgas_name";
 			picture="\armst\armst_item\img\toxicgas.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1741,7 +1741,7 @@ class cfgWeapons
 	class ARMST_wpnclnkit: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_wpnclnkit;
+			displayName="$STR_STST_item_weapon_clean_kit_name";
 			picture="\armst\armst_item\img\wpnclnkit.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1751,7 +1751,7 @@ class cfgWeapons
 	class ARMST_cigar: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_cigar;
+			displayName="$STR_STST_item_cigar_name";
 			picture="\armst\armst_item\img\cigar.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1761,7 +1761,7 @@ class cfgWeapons
 	class ARMST_goldwatch: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_goldwatch;
+			displayName="$STR_STST_item_goldwatch_name";
 			picture="\armst\armst_item\img\goldwatch.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1771,7 +1771,7 @@ class cfgWeapons
 	class ARMST_laptop: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_laptop;
+			displayName="$STR_STST_item_laptop_name";
 			model = "\CA\misc2\Notebook\notebook.p3d";
 			picture="\armst\armst_item\img\laptop.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1782,7 +1782,7 @@ class cfgWeapons
 	class ARMST_socks_black_dirty: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_socks_black_dirty;
+			displayName="$STR_STST_item_socks_black_dirty_name";
 			picture="\armst\armst_item\img\socks_black_dirty.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1792,7 +1792,7 @@ class cfgWeapons
 	class ARMST_socks_green_dirty: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_socks_green_dirty;
+			displayName="$STR_STST_item_socks_green_dirty_name";
 			picture="\armst\armst_item\img\socks_green_dirty.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1802,7 +1802,7 @@ class cfgWeapons
 	class ARMST_suitcase_silver: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_suitcase;
+			displayName="$STR_STST_item_suitcase_name";
 			model = "\CA\misc3\briefcase";
 			picture="\armst\armst_item\img\suitcase_silver.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1813,7 +1813,7 @@ class cfgWeapons
 	class ARMST_tablet: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_tablet;
+			displayName="$STR_STST_item_tablet_name";
 			model = "\A3\Props_F_Exp_A\Military\Equipment\Tablet_02_F.p3d";
 			picture="\armst\armst_item\img\tablet.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1824,7 +1824,7 @@ class cfgWeapons
 	class ARMST_tanboxer_dirty: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_itemtanboxer_dirty;
+			displayName="$STR_STST_item_underwear_dirty_name";
 			picture="\armst\armst_item\img\tanboxer_dirty.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1834,7 +1834,7 @@ class cfgWeapons
 	class ARMST_zippo: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_itemARMST_zippo;
+			displayName="$STR_STST_item_zippo_name";
 			model = "\armst\armst_item\object\Zippo\Zippo.p3d";
 			picture="\armst\armst_item\img\zippo.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1845,7 +1845,7 @@ class cfgWeapons
 	class ARMST_airfilter: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_airfilter;
+			displayName="$STR_STST_item_airfilter_name";
 			picture="\armst\armst_item\img\airfilter.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1855,7 +1855,7 @@ class cfgWeapons
 	class ARMST_cellphone: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_cellphone;
+			displayName="$STR_STST_item_cellphone_name";
 			model = "\A3\Structures_F\Items\Electronics\MobilePhone_old_F.p3d";
 			picture="\armst\armst_item\img\cellphone.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1866,7 +1866,7 @@ class cfgWeapons
 	class ARMST_clutch_disk: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_clutch_disk;
+			displayName="$STR_STST_item_clutch_disk_name";
 			picture="\armst\armst_item\img\clutch_disk.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1876,7 +1876,7 @@ class cfgWeapons
 	class ARMST_fanbelt: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_fanbelte;
+			displayName="$STR_STST_item_fanbelt_name";
 			picture="\armst\armst_item\img\fanbelt.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1886,7 +1886,7 @@ class cfgWeapons
 	class ARMST_leaflet_psyop: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_leaflet;
+			displayName="$STR_STST_item_leaflet_name";
 			picture="\armst\armst_item\img\leaflet_psyop.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1896,7 +1896,7 @@ class cfgWeapons
 	class ARMST_piston: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_piston;
+			displayName="$STR_STST_item_piston_name";
 			picture="\armst\armst_item\img\piston.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1906,7 +1906,7 @@ class cfgWeapons
 	class ARMST_sleepingbag: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_sleepingbag;
+			displayName="$STR_STST_item_sleepingbag_name";
 			picture="\armst\armst_item\img\sleepingbag.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1916,7 +1916,7 @@ class cfgWeapons
 	class ARMST_solderingiron: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_solderingiron;
+			displayName="$STR_STST_item_solderingiron_name";
 			picture="\armst\armst_item\img\solderingiron.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1926,7 +1926,7 @@ class cfgWeapons
 	class ARMST_spoon: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Spoon;
+			displayName="$STR_STST_item_spoon_name";
 			picture="\armst\armst_item\img\spoon.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1936,7 +1936,7 @@ class cfgWeapons
 	class ARMST_steeringwheel: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_steeringwheel;
+			displayName="$STR_STST_item_steeringwheel_name";
 			model = "\A3\Structures_F_Bootcamp\Items\Sport\KartSteertingWheel_01_F.p3d";
 			picture="\armst\armst_item\img\steeringwheel.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1947,7 +1947,7 @@ class cfgWeapons
 	class ARMST_thermos: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_thermos;
+			displayName="$STR_STST_item_thermos_name";
 			picture="\armst\armst_item\img\thermos.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1957,7 +1957,7 @@ class cfgWeapons
 	class ARMST_valvesprings: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_valvesprings;
+			displayName="$STR_STST_item_spring_name";
 			picture="\armst\armst_item\img\valvesprings.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1967,7 +1967,7 @@ class cfgWeapons
 	class ARMST_wirecutter: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_wirecutter;
+			displayName="$STR_STST_item_wirecutter_name";
 			model = "\A3\Structures_F\Items\Tools\Pliers_F.p3d";
 			picture="\armst\armst_item\img\wirecutter.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1978,7 +1978,7 @@ class cfgWeapons
 	class ARMST_udostoveren: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_udostoveren;
+			displayName="$STR_STST_item_id_pass_name";
 			model = "\A3\Structures_F\Items\Documents\File2_F.p3d";
 			picture="\armst\armst_item\img\udostoveren.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1989,7 +1989,7 @@ class cfgWeapons
 	class ARMST_akkum: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_akkum;
+			displayName="$STR_STST_item_carbattery_name";
 			model = "\A3\Structures_F_Bootcamp\Items\Electronics\CarBattery_01_F.p3d";
 			picture="\armst\armst_item\img\akkum.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2000,7 +2000,7 @@ class cfgWeapons
 	class ARMST_bumaga: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_bumag;
+			displayName="$STR_STST_item_paper_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\bumaga.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2011,7 +2011,7 @@ class cfgWeapons
 	class ARMST_instruments: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_ARMST_instruments;
+			displayName="$STR_STST_item_tools_name";
 			picture="\armst\armst_item\img\instruments.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2031,7 +2031,7 @@ class cfgWeapons
 	class ARMST_kanistra: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Jerricane;
+			displayName="$STR_STST_item_jerrican_name";
 			picture="\armst\armst_item\img\kanistra.paa";
 			model = "\A3\Structures_F\Items\Vessels\CanisterFuel_F.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2042,7 +2042,7 @@ class cfgWeapons
 	class ARMST_kanistra_empty: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Canister";
+			displayName="$STR_STST_item_jerrican_empty_name";
 			picture="\armst\armst_item\img\kanistra.paa";
 			model = "\A3\Structures_F\Items\Vessels\CanisterFuel_F.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2053,7 +2053,7 @@ class cfgWeapons
 	class ARMST_kosyak: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Joint;
+			displayName="$STR_STST_item_joint_name";
 			picture="\armst\armst_item\img\kosyak.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2063,7 +2063,7 @@ class cfgWeapons
 	class ARMST_kosyak_reagent: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_JointReagent;
+			displayName="$STR_STST_item_joint_reagent_name";
 			picture="\armst\armst_item\img\kosyak.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2073,7 +2073,7 @@ class cfgWeapons
 	class ARMST_matplat: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_matplat;
+			displayName="$STR_STST_item_motherboard_name";
 			picture="\armst\armst_item\img\matplat.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2083,7 +2083,7 @@ class cfgWeapons
 	class ARMST_propusk: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_propuske;
+			displayName="$STR_STST_item_pass_name";
 			model = "\A3\Structures_F\Items\Documents\File2_F.p3d";
 			picture="\armst\armst_item\img\propusk.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2094,7 +2094,7 @@ class cfgWeapons
 	class ARMST_gaz: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_gaz;
+			displayName="$STR_STST_item_gas_tank_name";
 			model = "\A3\Structures_F_Heli\Civ\Constructions\GasTank_01_khaki_F.p3d";
 			picture="\armst\armst_item\img\gaz.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2105,7 +2105,7 @@ class cfgWeapons
 	class armst_svecha: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_svecha;
+			displayName="$STR_STST_item_sparkplug_name";
 			picture="\armst\armst_item\img\armst_svecha.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2115,7 +2115,7 @@ class cfgWeapons
 	class armst_karburator: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Carburettor;
+			displayName="$STR_STST_item_carburetor_name";
 			picture="\armst\armst_item\img\armst_karburator.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2125,7 +2125,7 @@ class cfgWeapons
 	class armst_tkan: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_tkan;
+			displayName="$";
 			picture="\armst\armst_item\img\armst_tkan.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2135,7 +2135,7 @@ class cfgWeapons
 	class armst_brezent: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_brezent;
+			displayName="$STR_STST_item_tarp_name";
 			picture="\armst\armst_item\img\armst_brezent.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2145,7 +2145,7 @@ class cfgWeapons
 	class armst_kevlar: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_kevlar;
+			displayName="$STR_STST_item_kevlar_name";
 			picture="\armst\armst_item\img\armst_kevlar.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2155,7 +2155,7 @@ class cfgWeapons
 	class armst_lopatka: ACE_ItemCore
 	{
 			scope=2;
-			displayName="";
+			displayName="$STR_STST_item_sapper_spade_name";
 			picture="\armst\armst_item\img\armst_lopatka.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2165,7 +2165,7 @@ class cfgWeapons
 	class armst_skipidar: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_skipidar;
+			displayName="$STR_STST_item_skipidar_name";
 			picture="\armst\armst_item\img\armst_skipidar.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2175,7 +2175,7 @@ class cfgWeapons
 	class armst_broneplastina: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_broneplastina;
+			displayName="$STR_STST_item_armorplate_name";
 			picture="\armst\armst_item\img\armst_broneplastina.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2195,7 +2195,7 @@ class cfgWeapons
 	class armst_brokenpda: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_brokenpda;
+			displayName="$STR_STST_item_brokenpda_name";
 			picture="\armst\armst_item\img\armst_brokenpda.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2205,7 +2205,7 @@ class cfgWeapons
 	class armst_zeton: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_armst_zeton;
+			displayName="$STR_STST_item_dogtag_name";
 			picture="\armst\armst_item\img\armst_zeton.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2215,7 +2215,7 @@ class cfgWeapons
 	class armst_polhir: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_polhir;
+			displayName="$STR_STST_medic_srugery_kit_name";
 			picture="\armst\armst_item\img\armst_polhir.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2225,7 +2225,7 @@ class cfgWeapons
 	class armst_medinst: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_medinste;
+			displayName="$STR_STST_medic_instruments_name";
 			picture="\armst\armst_item\img\armst_medinst.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2235,7 +2235,7 @@ class cfgWeapons
 	class armst_arthelp: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Artifact;
+			displayName="$STR_STST_item_artifact_tools_name";
 			picture="\armst\armst_item\img\armst_arthelp.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2245,7 +2245,7 @@ class cfgWeapons
 	class armst_medperchatki: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_medperchatki;
+			displayName="$STR_STST_item_surg_gloves_name";
 			picture="\armst\armst_item\img\armst_medperchatki.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2255,7 +2255,7 @@ class cfgWeapons
 	class armst_gloves: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_armst_gloves;
+			displayName="$STR_STST_item_gloves_names";
 			picture="\armst\armst_item\img\gloves.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2265,7 +2265,7 @@ class cfgWeapons
 	class armst_scaner: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_armst_scaner;
+			displayName="$STR_STST_item_scanner_name";
 			picture="\armst\armst_item\img\armst_scaner.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2275,7 +2275,7 @@ class cfgWeapons
 	class armst_Anomalscaner: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Сканер аномалий";
+			displayName="$STR_STST_item_anomaly_scanner_name";
 			picture="\armst\armst_item\img\armst_scaner.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2285,7 +2285,7 @@ class cfgWeapons
 	class armst_scanerart: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_scanerart;
+			displayName="$STR_STST_item_artifact_scanner_name";
 			picture="\armst\armst_item\img\armst_scanerart.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2295,7 +2295,7 @@ class cfgWeapons
 	class armst_doska: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_doska;
+			displayName="$STR_STST_item_plank_name";
 			picture="\armst\armst_item\img\armst_doska.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2305,7 +2305,7 @@ class cfgWeapons
 	class armst_bochka: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_armst_bochka;
+			displayName="$STR_STST_item_barrel_name";
 			picture="\armst\armst_item\img\armst_bochka.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2315,7 +2315,7 @@ class cfgWeapons
 	class armst_545: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_armst_545;
+			displayName="$STR_STST_item_545_name";
 			picture="\armst\armst_item\img\armst_545.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2325,7 +2325,7 @@ class cfgWeapons
 	class armst_762: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_armst_762;
+			displayName="$STR_STST_item_762_name";
 			picture="\armst\armst_item\img\armst_762.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2335,7 +2335,7 @@ class cfgWeapons
 	class armst_steklo: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_armst_steklo;
+			displayName="$STR_STST_item_mask_glass_name";
 			picture="\armst\armst_item\img\armst_steklo.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2346,7 +2346,7 @@ class cfgWeapons
 	class armst_NO1: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_armst_NO1;
+			displayName="$STR_STST_item_NO1_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2357,7 +2357,7 @@ class cfgWeapons
 	class armst_NO2: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_NO2;
+			displayName="$STR_STST_item_NO2_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2368,7 +2368,7 @@ class cfgWeapons
 	class armst_NO3: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_NO3;
+			displayName="$STR_STST_item_NO3_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2379,7 +2379,7 @@ class cfgWeapons
 	class armst_NO4: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_NO4;
+			displayName="$STR_STST_item_NO4_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2390,7 +2390,7 @@ class cfgWeapons
 	class armst_NO5: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_NO5;
+			displayName="$STR_STST_item_NO5_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2401,7 +2401,7 @@ class cfgWeapons
 	class armst_NO6: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_NO6;
+			displayName="$STR_STST_item_NO6_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2413,7 +2413,7 @@ class cfgWeapons
 	class armst_NO7: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_NO7;
+			displayName="$STR_STST_item_NO7_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2426,7 +2426,7 @@ class cfgWeapons
 	class armst_Razorwire: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Razorwire;
+			displayName="$STR_STST_item_barbed_wire_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2437,7 +2437,7 @@ class cfgWeapons
 	class armst_BagFence: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Sandbags;
+			displayName="$STR_STST_item_sandbags_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2448,7 +2448,7 @@ class cfgWeapons
 	class armst_CampingChair: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_armst_CampingChair;
+			displayName="$STR_STST_item_camping_chair_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2459,7 +2459,7 @@ class cfgWeapons
 	class armst_CampingTable: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_CampingTable;
+			displayName="$STR_STST_item_camping_table_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2470,7 +2470,7 @@ class cfgWeapons
 	class armst_tent: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_tent;
+			displayName="$STR_STST_item_tent_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2481,7 +2481,7 @@ class cfgWeapons
 	class armst_MetalBarrel: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_MetalBarrel;
+			displayName="$STR_STST_item_metalbarrel_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2492,7 +2492,7 @@ class cfgWeapons
 	class armst_generator: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_generator;
+			displayName="$STR_STST_item_generator_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2503,7 +2503,7 @@ class cfgWeapons
 	class armst_Camping_Light: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_Lampe;
+			displayName="$STR_STST_item_lamp_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2514,7 +2514,7 @@ class cfgWeapons
 	class armst_PortableLight: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_PortableLight;
+			displayName="$STR_STST_item_portable_light_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2525,7 +2525,7 @@ class cfgWeapons
 	class armst_Camper: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_armst_Camper;
+			displayName="$STR_STST_item_shelter_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2536,7 +2536,7 @@ class cfgWeapons
 	class armst_pallet_vertical: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_armst_pallet_vertical;
+			displayName="$STR_STST_item_wooden_pallet_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2547,7 +2547,7 @@ class cfgWeapons
 	class armst_armst_korob1: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_armst_armst_korob1;
+			displayName="$STR_STST_item_wooden_box_name";
 			model = "\xRay_objects\misc\misc_korob1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2558,7 +2558,7 @@ class cfgWeapons
 	class armst_taynik_big: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_armst_taynik_big;
+			displayName="$STR_STST_item_wooden_box_stash_name";
 			model = "\armst\armst_item\box\box_1.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2569,7 +2569,7 @@ class cfgWeapons
 	class armst_taynik_small: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_armst_taynik_big;
+			displayName="$STR_STST_item_wooden_box_stash_name";
 			model = "\armst\armst_item\box\box_2.p3d";
 			picture="\armst\armst_item\img\armst_korob.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2592,10 +2592,10 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_mut_boar;
+		displayName = "$STR_STST_mutpart_boar_hoof_name";
 		model = "\armst\armst_item\mut_part\boar.p3d";
 		picture = "\armst\armst_item\img\boar.paa";
-		descriptionShort = "Many drugs have been developed based on the healing properties of a mutated boar's hoof, the most important of which is an anti-radiation serum, which is bought by both scientists and traders.";
+		descriptionShort = "$STR_STST_mutpart_boar_hoof_desc";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 25;
@@ -2605,7 +2605,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Клык кабана";
+		displayName = "$STR_STST_mutpart_fang_name";
 		model = "\armst\armst_item\mut_part\boar.p3d";
 		picture = "\armst\armst_item\img\klickkaban.paa";
 		descriptionShort = "";
@@ -2618,7 +2618,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Boar skin";
+		displayName = "$STR_STST_mutpart_boar_pelt_name";
 		model = "\armst\armst_item\mut_part\boar.p3d";
 		picture = "\armst\armst_item\img\shkuraboar.paa";
 		descriptionShort = "";
@@ -2631,7 +2631,7 @@ class cfgWeapons
 		{
 			
 			scope = 2;
-			displayName = $STR_Armst_item_burer;
+			displayName = "$STR_STST_mutpart_burer_nahd_name";
 			model = "\armst\armst_item\mut_part\burer.p3d";
 			picture = "\armst\armst_item\img\burer.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2643,7 +2643,7 @@ class cfgWeapons
 		{
 			
 			scope = 2;
-			displayName = "Burer's brain";
+			displayName = "$STR_STST_mutpart_burer_brain_name";
 			model = "\armst\armst_item\mut_part\burer.p3d";
 			picture = "\armst\armst_item\img\headburer.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2655,7 +2655,7 @@ class cfgWeapons
 		{
 			
 			scope = 2;
-			displayName = "Burer's heart";
+			displayName = "$STR_STST_mutpart_burer_heart_name";
 			model = "\armst\armst_item\mut_part\burer.p3d";
 			picture = "\armst\armst_item\img\heartburer.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2667,10 +2667,9 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_chimera;
+		displayName = "$STR_STST_mutpart_chimera_claws_name";
 		model = "\armst\armst_item\mut_part\chimera.p3d";
 		picture = "\armst\armst_item\img\chimera.paa";
-		descriptionShort = "Not of practical value for a stalker, but scientists and traders buy them from stalkers for a lot of money because of their unusual properties.";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 20;
@@ -2680,10 +2679,9 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Chimera's skin";
+		displayName = "$STR_STST_mutpart_chimera_pelt_name";
 		model = "\armst\armst_item\mut_part\chimera.p3d";
 		picture = "\armst\armst_item\img\shkurachim.paa";
-		descriptionShort = "";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 20;
@@ -2693,10 +2691,9 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_watcher;
+		displayName = "$STR_STST_mutpart_lurker_claws_name";
 		model = "\armst\armst_item\mut_part\watcher.p3d";
 		picture = "\armst\armst_item\mut_part\watcher.paa";
-		descriptionShort = "Not of practical value for a stalker, but scientists and traders buy them from stalkers for a lot of money because of their unusual properties.";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 10;
@@ -2706,10 +2703,9 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_wolf;
+		displayName = "$STR_STST_mutpart_wolf_claws_name";
 		model = "\armst\armst_item\mut_part\watcher.p3d";
 		picture = "\armst\armst_item\mut_part\watcher.paa";
-		descriptionShort = "Not of practical value for a stalker, but scientists and traders buy them from stalkers for a lot of money because of their unusual properties.";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 6;
@@ -2719,10 +2715,9 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_wolfalpha;
+		displayName = "$STR_STST_mutpart_wolf_alpha_claws_name";
 		model = "\armst\armst_item\mut_part\watcher.p3d";
 		picture = "\armst\armst_item\mut_part\watcher.paa";
-		descriptionShort = "Not of practical value for a stalker, but scientists and traders buy them from stalkers for a lot of money because of their unusual properties.";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 20;
@@ -2732,10 +2727,9 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_werewolf;
+		displayName = "$STR_STST_mutpart_werewolf_claws_name";
 		model = "\armst\armst_item\mut_part\watcher.p3d";
 		picture = "\armst\armst_item\mut_part\watcher.paa";
-		descriptionShort = "Not of practical value for a stalker, but scientists and traders buy them from stalkers for a lot of money because of their unusual properties.";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 16;
@@ -2745,10 +2739,9 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_wolfhound;
+		displayName = "$STR_STST_mutpart_wolfhound_claws_name";
 		model = "\armst\armst_item\mut_part\watcher.p3d";
 		picture = "\armst\armst_item\mut_part\watcher.paa";
-		descriptionShort = "Not of practical value for a stalker, but scientists and traders buy them from stalkers for a lot of money because of their unusual properties.";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 14;
@@ -2758,10 +2751,9 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_upir;
+		displayName = "$STR_STST_mutpart_ghoul_claws_name";
 		model = "\armst\armst_item\mut_part\upir.p3d";
 		picture = "\armst\armst_item\mut_part\upir.paa";
-		descriptionShort = "Not of practical value for a stalker, but scientists and traders buy them from stalkers for a lot of money because of their unusual properties.";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 10;
@@ -2771,10 +2763,9 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_kikimora;
+		displayName = "$STR_STST_mutpart_kikimora_head_name";
 		model = "\armst\armst_item\mut_part\kikimora.p3d";
 		picture = "\armst\armst_item\mut_part\kikimora.paa";
-		descriptionShort = "Not of practical value for a stalker, but scientists and traders buy them from stalkers for a lot of money because of their unusual properties.";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 10;
@@ -2784,7 +2775,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Controller;
+		displayName = "$STR_STST_mutpart_controller_brain_name";
 		model = "\armst\armst_item\mut_part\controller.p3d";
 		picture = "\armst\armst_item\img\controller.paa";
 
@@ -2797,7 +2788,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Controller's hand";
+		displayName = "$STR_STST_mutpart_controller_hand_name";
 		model = "\armst\armst_item\mut_part\controller.p3d";
 		picture = "\armst\armst_item\img\headcontroller.paa";
 
@@ -2810,7 +2801,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Controller's scalp";
+		displayName = "$STR_STST_mutpart_controller_scalp_name";
 		model = "\armst\armst_item\mut_part\controller.p3d";
 		picture = "\armst\armst_item\img\scalpcontroller.paa";
 
@@ -2823,7 +2814,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Blind;
+		displayName = "$STR_STST_mutpart_dog_tail_name";
 		model = "\armst\armst_item\mut_part\dog.p3d";
 		picture = "\armst\armst_item\img\dog.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2835,7 +2826,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Blind dog's skin";
+		displayName = "$STR_STST_mutpart_dog_pelt_name";
 		model = "\armst\armst_item\mut_part\dog.p3d";
 		picture = "\armst\armst_item\img\shkuradog.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2847,7 +2838,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Blind dog's liver";
+		displayName = "$STR_STST_mutpart_blinddog_liver_name";
 		model = "\armst\armst_item\mut_part\dog.p3d";
 		picture = "\armst\armst_item\img\pechendog.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2859,7 +2850,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Cat;
+		displayName = "$STR_STST_mutpart_cat_tail_name";
 		model = "\armst\armst_item\mut_part\cat.p3d";
 		picture = "\armst\armst_item\mut_part\cat.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2871,7 +2862,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Cat's claw";
+		displayName = "$STR_STST_mutpart_cat_claws_name";
 		model = "\armst\armst_item\mut_part\cat.p3d";
 		picture = "\armst\armst_item\mut_part\kogotkota.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2883,7 +2874,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Thyroid gland of a cat";
+		displayName = "$STR_STST_mutpart_cat_gland_name";
 		model = "\armst\armst_item\mut_part\cat.p3d";
 		picture = "\armst\armst_item\mut_part\zelezacat.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2895,7 +2886,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Fracture;
+		displayName = "$STR_STST_mutpart_izlom_hand_name";
 		model = "\armst\armst_item\mut_part\izlom.p3d";
 		picture = "\armst\armst_item\mut_part\izlom.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2907,7 +2898,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Tushkano;
+		displayName = "$STR_STST_mutpart_tushkano_head_name";
 		model = "\armst\armst_item\mut_part\tushkano.p3d";
 		picture = "\armst\armst_item\mut_part\tushkano.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2919,7 +2910,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Tushkano meat";
+		displayName = "$STR_STST_mutpart_tushkano_meat_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\img\tushkmeat.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2931,7 +2922,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Tushkano's claw";
+		displayName = "$STR_STST_mutpart_tushkano_claws_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\img\kogottushkan.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2943,7 +2934,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Bloodsucker;
+		displayName = "$STR_STST_mutpart_bloodsucker_tentacles_name";
 		model = "\armst\armst_item\mut_part\krovosos.p3d";
 		picture = "\armst\armst_item\img\krovosos.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2955,7 +2946,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Bloodsucker's heart";
+		displayName = "$STR_STST_mutpart_bloodsucker_heart_name";
 		model = "\armst\armst_item\mut_part\krovosos.p3d";
 		picture = "\armst\armst_item\img\heartkrovosos.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2967,7 +2958,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Bloodsucker's skin";
+		displayName = "$STR_STST_mutpart_bloodsucker_pelt_name";
 		model = "\armst\armst_item\mut_part\krovosos.p3d";
 		picture = "\armst\armst_item\img\shkurakrovosos.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2979,7 +2970,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Flesh;
+		displayName = "$STR_STST_mutpart_flesh_eye_name";
 		model = "\armst\armst_item\mut_part\plot.p3d";
 		picture = "\armst\armst_item\img\plot.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2991,7 +2982,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Poltergeist;
+		displayName = "$STR_STST_mutpart_poltergeist_eye_name";
 		model = "\armst\armst_item\mut_part\poltergeist.p3d";
 		picture = "\armst\armst_item\img\poltergeist.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3003,7 +2994,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Poltergeist's hand";
+		displayName = "$STR_STST_mutpart_poltergeist_hand_name";
 		model = "\armst\armst_item\mut_part\poltergeist.p3d";
 		picture = "\armst\armst_item\img\handpolter.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3015,7 +3006,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Poltergeist's scalp";
+		displayName = "$STR_STST_mutpart_poltergeist_scalp_name";
 		model = "\armst\armst_item\mut_part\poltergeist.p3d";
 		picture = "\armst\armst_item\img\scalp_polter.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3027,7 +3018,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Pseudodoge;
+		displayName = "$STR_STST_mutpart_pseudodog_tail_name";
 		model = "\armst\armst_item\mut_part\psevdog.p3d";
 		picture = "\armst\armst_item\img\psevdog.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3039,7 +3030,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Pseudo-dog's fur";
+		displayName = "$STR_STST_mutpart_pseudodog_pelt_name";
 		model = "\armst\armst_item\mut_part\psevdog.p3d";
 		picture = "\armst\armst_item\img\mehpseudo.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3051,7 +3042,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Pseudo-dog's brain";
+		displayName = "$STR_STST_mutpart_pseudodog_brain_name";
 		model = "\armst\armst_item\mut_part\psevdog.p3d";
 		picture = "\armst\armst_item\img\headpseudo.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3063,7 +3054,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Pseudogiant;
+		displayName = "$STR_STST_mutpart_pseudogiant_jaws_name";
 		model = "\armst\armst_item\mut_part\psevdogigant.p3d";
 		picture = "\armst\armst_item\img\psevdogigant.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3075,7 +3066,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Pseudo-dog's eye";
+		displayName = "$STR_STST_mutpart_pseudogiant_eye_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\img\eyepseudogigant.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3087,7 +3078,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Pseudo-dog's heart";
+		displayName = "$STR_STST_mutpart_pseudodog_heart_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\img\heartpseudogigant.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3100,7 +3091,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = $STR_Armst_item_Snork;
+		displayName = "$STR_STST_mutpart_snork_foot_name";
 		model = "\armst\armst_item\mut_part\snork.p3d";
 		picture = "\armst\armst_item\img\snork.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3112,7 +3103,7 @@ class cfgWeapons
 	{
 		
 		scope = 2;
-		displayName = "Snork's hand";
+		displayName = "$STR_STST_mutpart_snork_hand_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\img\handsnork.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3123,7 +3114,7 @@ class cfgWeapons
 	class armst_nashivka_army : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_nashivka_army;
+		displayName = "$STR_STST_item_army_patch_name";
 		picture = "\armst\armst_item\object\nashivka\nashivka_army.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
@@ -3133,7 +3124,7 @@ class cfgWeapons
 	class armst_nashivka_bandit : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_nashivka_bandit;
+		displayName = "$STR_STST_item_bandit_patch_name";
 		picture = "\armst\armst_item\object\nashivka\nashivka_bandit.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
@@ -3143,7 +3134,7 @@ class cfgWeapons
 	class armst_nashivka_dolg : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_nashivka_dolg;
+		displayName = "$STR_STST_item_duty_patch_name";
 		picture = "\armst\armst_item\object\nashivka\nashivka_dolg.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
@@ -3153,7 +3144,7 @@ class cfgWeapons
 	class armst_nashivka_freedom : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_nashivka_freedom;
+		displayName = "$STR_STST_item_freedom_patch_name";
 		picture = "\armst\armst_item\object\nashivka\nashivka_freedom.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
@@ -3163,7 +3154,7 @@ class cfgWeapons
 	class armst_nashivka_merc : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_nashivka_merc;
+		displayName = "$STR_STST_item_merc_patch_name";
 		picture = "\armst\armst_item\object\nashivka\nashivka_merc.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
@@ -3173,7 +3164,7 @@ class cfgWeapons
 	class armst_nashivka_monolith : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_nashivka_monolith;
+		displayName = "$STR_STST_item_monolith_patch_name";
 		picture = "\armst\armst_item\object\nashivka\nashivka_monolith.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
@@ -3183,7 +3174,7 @@ class cfgWeapons
 	class armst_nashivka_stalker : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_nashivka_stalker;
+		displayName = "$STR_STST_item_loner_patch_name";
 		picture = "\armst\armst_item\object\nashivka\nashivka_stalker.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
@@ -3193,7 +3184,7 @@ class cfgWeapons
 	class armst_nashivka_science : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_nashivka_science;
+		displayName = "$STR_STST_item_ecolog_patch_name";
 		picture = "\armst\armst_item\object\nashivka\nashivka_science.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
@@ -3228,7 +3219,7 @@ class cfgWeapons
 	class armst_item_medkit : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_medkit;
+		displayName = "$STR_STST_medic_medkit_a_3_name";
 		descriptionShort ="4x elastic and packing bandages, 1x morphine and epi (DOUBLE CLICK TO OPEN)"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit";
@@ -3240,7 +3231,7 @@ class cfgWeapons
 	class armst_item_medkit_level2 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_medkit_level2;
+		displayName = "$STR_STST_medic_medkit_a_2_name";
 		descriptionShort ="4x elastic and packing bandages, 1x morphine and epi (DOUBLE CLICK TO OPEN)"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit";
@@ -3252,7 +3243,7 @@ class cfgWeapons
 	class armst_item_medkit_level3 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_medkit_level3;
+		displayName = "$STR_STST_medic_medkit_a_1_name";
 		descriptionShort ="4x elastic and packing bandages, 1x morphine and epi (DOUBLE CLICK TO OPEN)"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit";
@@ -3264,7 +3255,7 @@ class cfgWeapons
 	class armst_item_medkit2 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_medkit;
+		displayName = "$STR_STST_medic_medkit_b_3_name";
 		descriptionShort ="4x elastic and packing bandages, 2x morphine and epi, clears from irradiation (DOUBLE CLICK TO OPEN)"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_ARM_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_arm";
@@ -3276,7 +3267,7 @@ class cfgWeapons
 	class armst_item_medkit2_level2 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_medkit_level2;
+		displayName = "$STR_STST_medic_medkit_b_2_name";
 		descriptionShort ="4x elastic and packing bandages, 2x morphine and epi, clears from irradiation (DOUBLE CLICK TO OPEN)"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_ARM_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_arm";
@@ -3288,7 +3279,7 @@ class cfgWeapons
 	class armst_item_medkit2_level3 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_medkit_level3;
+		displayName = "$STR_STST_medic_medkit_b_1_name";
 		descriptionShort ="4x elastic and packing bandages, 2x morphine and epi, clears from irradiation (DOUBLE CLICK TO OPEN)"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_ARM_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_arm";
@@ -3300,7 +3291,7 @@ class cfgWeapons
 	class armst_item_medkit3 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_medkit;
+		displayName = "$STR_STST_medic_medkit_c_3_name";
 		descriptionShort ="Full heal and clears from irradiation (DOUBLE CLICK TO USE)"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_SCI_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_sci";
@@ -3312,7 +3303,7 @@ class cfgWeapons
 	class armst_item_medkit3_level2 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_medkit_level2;
+		displayName = "$STR_STST_medic_medkit_c_2_name";
 		descriptionShort ="Full heal and clears from irradiation (DOUBLE CLICK TO USE)"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_SCI_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_sci";
@@ -3324,7 +3315,7 @@ class cfgWeapons
 	class armst_item_medkit3_level3 : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_armst_item_medkit_level3;
+		displayName = "$STR_STST_medic_medkit_c_1_name";
 		descriptionShort ="Full heal and clears from irradiation (DOUBLE CLICK TO USE)"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_SCI_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_sci";
@@ -3336,9 +3327,8 @@ class cfgWeapons
 	class ARMST_amfetamin: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Amphetamine";
+			displayName="$STR_STST_item_amphetamine_name";
 			picture="\armst\armst_item\img\amfetamin.paa";
-			descriptionShort = "Amphetamine is a recreational psychoactive substance that can induce mental addiction. In many countries, it is also of limited use in medicine for the treatment of ADHD and narcolepsy. Amphetamine trafficking is limited by international and national legislation. Action time from 2 to 12 hours. Effects: dilated pupils, hyperactivity, talkativeness, lack of appetite, hyperexcitability.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3347,7 +3337,7 @@ class cfgWeapons
 	class ARMST_amuhimera: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Chimera's claw amulet";
+			displayName="$STR_STST_item_amulet_chimera_claw_name";
 			picture="\armst\armst_item\img\amuhimera.paa";
 			descriptionShort = "There are legends that the chimera's claw brings good luck.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3358,7 +3348,7 @@ class cfgWeapons
 	class ARMST_amutushkan: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Charm from the claws of a Tushkano";
+			displayName="$STR_STST_item_amulet_tushkano_claw_name";
 			picture="\armst\armst_item\img\amutushkan.paa";
 			descriptionShort = "An object to which magical powers are attributed, which should bring happiness (energetic, mysterious action) and protect from losses (protective action).";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3369,7 +3359,7 @@ class cfgWeapons
 	class ARMST_berci: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Ankle boots";
+			displayName="$STR_STST_item_army_boots_name";
 			picture="\armst\armst_item\img\berci.paa";
 			descriptionShort = "High combat boots with laces. Today they are included in the equipment of almost all armies in the world.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3380,7 +3370,7 @@ class cfgWeapons
 	class ARMST_doghead: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Blind dog's skull";
+			displayName="$STR_STST_item_amulet_dog_skull_name";
 			picture="\armst\armst_item\img\doghead.paa";
 			descriptionShort = "The skull of a blind dog, painted with various mysterious symbols. Famous among the hunters of the Zone.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3391,7 +3381,7 @@ class cfgWeapons
 	class ARMST_garmon: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Harmonica";
+			displayName="$STR_STST_weapon_harmonica_name";
 			picture="\armst\armst_item\img\garmon.paa";
 			descriptionShort = "A reed-brass musical instrument widespread in the Zone. Unlike a guitar, it takes up very little space and easily fits in your pocket.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3402,7 +3392,7 @@ class cfgWeapons
 	class ARMST_geroin: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Heroin";
+			displayName="$STR_STST_item_heroin_name";
 			picture="\armst\armst_item\img\geroin.paa";
 			descriptionShort = "The most common type of opium drug. Extremely strong, addictive after second or third dose. Action time from 3 to 6 hours. Effects: constriction of pupils, pallor, lack of appetite, desire for privacy, decreased immunity.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3415,7 +3405,6 @@ class cfgWeapons
 			scope=2;
 			displayName="Gold chain";
 			picture="\armst\armst_item\img\goldcep.paa";
-			descriptionShort = "A structure consisting of identical rigid parts called links (in the original meaning - metal rings), movably connected in series.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3424,9 +3413,8 @@ class cfgWeapons
 	class ARMST_kluch: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Key";
+			displayName="$STR_STST_item_key_name";
 			picture="\armst\armst_item\img\kluch.paa";
-			descriptionShort = "The most common key. You never know which door he might be from.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3435,9 +3423,8 @@ class cfgWeapons
 	class ARMST_kluch2: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Key";
+			displayName="$STR_STST_item_key_name";
 			picture="\armst\armst_item\img\kluch2.paa";
-			descriptionShort = "The most common key. You never know which door he might be from.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3446,7 +3433,7 @@ class cfgWeapons
 	class ARMST_kokain: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Cocaine";
+			displayName="$STR_STST_item_cocain_name";
 			picture="\armst\armst_item\img\kokain.paa";
 			descriptionShort = "Initially, it was widely used for medical purposes, but by the beginning of the 20th century it was almost completely ousted from medical practice by more advanced drugs. It is currently the second most important problem drug after opiates. Action time 2-3 hours. Effects: euphoria, anxiety, sweating, sleep disturbance, dilated pupils, tachycardia.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
