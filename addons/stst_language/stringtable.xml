@@ -107,6 +107,13 @@
         <Russian />
       </Key>
     </Container>
+    <Container name="GPS Beacon">
+      <Key ID="STR_STST_device_gpsbeacon_name">
+        <Original>GPS Beacon</Original>
+        <English>GPS Beacon</English>
+        <Russian>GPS Маячок</Russian>
+      </Key>
+    </Container>
   </Package>
   <Package name="Food&amp;Drinks">
     <Container name="Beer">
@@ -273,6 +280,16 @@
         <English />
         <Russian />
       </Key>
+      <Key ID="STR_STST_food_canned_f_name">
+        <Original>Canned fish</Original>
+        <English>Canned fish</English>
+        <Russian>Рыбные консервы</Russian>
+      </Key>
+      <Key ID="STR_STST_food_canned_f_desc">
+        <Original />
+        <English />
+        <Russian />
+      </Key>
     </Container>
     <Container name="MRE">
       <Key ID="STR_STST_food_mre_a_1_name">
@@ -427,6 +444,20 @@
         <Original>Flask (Water)</Original>
         <English>Flask (Water)</English>
         <Russian>Фляжка (Вода)</Russian>
+      </Key>
+    </Container>
+    <Container name="Biscuits">
+      <Key ID="STR_STST_food_biscuits_name">
+        <Original>Biscuits</Original>
+        <English>Biscuits</English>
+        <Russian>Галеты</Russian>
+      </Key>
+    </Container>
+    <Container name="Moonshine">
+      <Key ID="STR_STST_food_moonshine_name">
+        <Original>Moonshine</Original>
+        <English>Moonshine</English>
+        <Russian>Самогон</Russian>
       </Key>
     </Container>
   </Package>
@@ -653,38 +684,68 @@
       </Key>
     </Container>
   </Package>
-  <Package name="Medicine">
-    <Container name="AI-2 Aid Kit">
-      <Key ID="STR_STST_medic_ai2_name">
-        <Original>AI-2</Original>
-        <English>AI-2</English>
-        <Russian>АИ-2</Russian>
+  <Package name="Medicine&amp;Drugs">
+    <Container name="Medkit">
+      <Key ID="STR_STST_medic_medkit_a_3_name">
+        <Original>Medkit (3 uses)</Original>
+        <English>Medkit (3 uses)</English>
+        <Russian>Аптечка (3 исп.)</Russian>
       </Key>
-      <Key ID="STR_STST_medic_ai2_desc">
+      <Key ID="STR_STST_medic_medkit_a_2_name">
+        <Original>Medkit (2 uses)</Original>
+        <English>Medkit (2 uses)</English>
+        <Russian>Аптечка (2 исп.)</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_medkit_a_1_name">
+        <Original>Medkit (1 uses)</Original>
+        <English>Medkit (1 uses)</English>
+        <Russian>Аптечка (1 исп.)</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_medkit_a_desc">
         <Original />
         <English />
         <Russian />
       </Key>
     </Container>
-    <Container name="AI-2A Aid Kit">
-      <Key ID="STR_STST_medic_ai2a_name">
-        <Original>AI-2A Military</Original>
-        <English>AI-2A Military</English>
-        <Russian>АИ-2А Армейская</Russian>
+    <Container name="Army Medkit">
+      <Key ID="STR_STST_medic_medkit_b_3_name">
+        <Original>Military Medkit (3 uses)</Original>
+        <English>Military Medkit (3 uses)</English>
+        <Russian>Армейская аптечка (3 исп.)</Russian>
       </Key>
-      <Key ID="STR_STST_medic_ai2a_desc">
+      <Key ID="STR_STST_medic_medkit_b_2_name">
+        <Original>Military Medkit (2 uses)</Original>
+        <English>Military Medkit (2 uses)</English>
+        <Russian>Армейская аптечка (2 исп.)</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_medkit_b_1_name">
+        <Original>Military Medkit (1 uses)</Original>
+        <English>Military Medkit (1 uses)</English>
+        <Russian>Армейская аптечка (1 исп.)</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_medkit_b_desc">
         <Original />
         <English />
         <Russian />
       </Key>
     </Container>
-    <Container name="AI-3 Aid Kit">
-      <Key ID="STR_STST_medic_ai3_name">
-        <Original>AI-3 Scientific</Original>
-        <English>AI-3 Scientific</English>
-        <Russian>АИ-3 Научная</Russian>
+    <Container name="Science Medkit">
+      <Key ID="STR_STST_medic_medkit_c_3_name">
+        <Original>Scientific Medkit (3 uses)</Original>
+        <English>Scientific Medkit (3 uses)</English>
+        <Russian>Научная аптечка (3 исп.)</Russian>
       </Key>
-      <Key ID="STR_STST_medic_ai3_desc">
+      <Key ID="STR_STST_medic_medkit_c_2_name">
+        <Original>Scientific Medkit (2 uses)</Original>
+        <English>Scientific Medkit (2 uses)</English>
+        <Russian>Научная аптечка (2 исп.)</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_medkit_c_1_name">
+        <Original>Scientific Medkit (1 uses)</Original>
+        <English>Scientific Medkit (1 uses)</English>
+        <Russian>Научная аптечка (1 исп.)</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_medkit_c_desc">
         <Original />
         <English />
         <Russian />
@@ -726,6 +787,65 @@
         <Russian />
       </Key>
     </Container>
+    <Container name="Cocaine">
+      <Key ID="STR_STST_drug_cocain_name">
+        <Original>Cocain</Original>
+        <English>Cocain</English>
+        <Russian>Кокаин</Russian>
+      </Key>
+    </Container>
+    <Container name="Joint">
+      <Key ID="STR_STST_drug_joint_name">
+        <Original>Joint</Original>
+        <English>Joint</English>
+        <Russian>Косяк</Russian>
+      </Key>
+      <Key ID="STR_STST_drug_joint_reagent_name">
+        <Original>Joint (reagents)</Original>
+        <English>Joint (reagents)</English>
+        <Russian>Косяк (c реагентами)</Russian>
+      </Key>
+    </Container>
+    <Container name="Cigarettes">
+      <Key ID="STR_STST_drug_cigarettes_name">
+        <Original>Lucky Strike Cigarettes</Original>
+        <English>Lucky Strike Cigarettes</English>
+        <Russian>Сигареты Lucky Strike</Russian>
+      </Key>
+      <Key ID="STR_STST_drug_cigarettes_camel_name">
+        <Original>Camell Cigarettes</Original>
+        <English>Camell Cigarettes</English>
+        <Russian>Сигареты Camell</Russian>
+      </Key>
+    </Container>
+    <Container name="Amphetamine">
+      <Key ID="STR_STST_drug_amphetamine_name">
+        <Original>Amphetamine</Original>
+        <English>Amphetamine</English>
+        <Russian>Амфетамин</Russian>
+      </Key>
+    </Container>
+    <Container name="Heroin">
+      <Key ID="STR_STST_drug_heroin_name">
+        <Original>Heroin</Original>
+        <English>Heroin</English>
+        <Russian>Героин</Russian>
+      </Key>
+    </Container>
+    <Container name="Hexamine">
+      <Key ID="STR_STST_drug_hexamine_name">
+        <Original>Hexamethylenetetramine</Original>
+        <English>Hexamethylenetetramine</English>
+        <Russian>Гексаметилентетрамин</Russian>
+      </Key>
+    </Container>
+    <Container name="Methamphetamine">
+      <Key ID="STR_STST_drug_methamphetamine_name">
+        <Original>Methamphetamine</Original>
+        <English>Methamphetamine</English>
+        <Russian>Метамфетамин</Russian>
+      </Key>
+    </Container>
   </Package>
   <Package name="Misc">
     <Container name="Camping">
@@ -734,12 +854,12 @@
         <English>Self-made canopy</English>
         <Russian>Самодельный навес</Russian>
       </Key>
-      <Key ID="STR_STST_item_PortableLight_name">
+      <Key ID="STR_STST_item_portable_light_name">
         <Original>Mobile lantern</Original>
         <English>Mobile lantern</English>
         <Russian>Переносной фонарь</Russian>
       </Key>
-      <Key ID="STR_STST_item_Lamp_name">
+      <Key ID="STR_STST_item_lamp_name">
         <Original>Lamp</Original>
         <English>Lamp</English>
         <Russian>Лампа</Russian>
@@ -806,17 +926,17 @@
         <English>Dirty underpants</English>
         <Russian>Грязные трусы</Russian>
       </Key>
+      <Key ID="STR_STST_item_army_boots_name">
+        <Original>Army boots</Original>
+        <English>Army boots</English>
+        <Russian>Берцы</Russian>
+      </Key>
     </Container>
     <Container name="Documents">
       <Key ID="STR_STST_item_pass_name">
         <Original>Pass</Original>
         <English>Pass</English>
         <Russian>Пропуск</Russian>
-      </Key>
-      <Key ID="STR_STST_item_journal_name">
-        <Original>Journal</Original>
-        <English>Journal</English>
-        <Russian>Журнал</Russian>
       </Key>
       <Key ID="STR_STST_item_id_pass_name">
         <Original>Identity document</Original>
@@ -842,6 +962,11 @@
         <Original>Highly important letter</Original>
         <English>Highly important letter</English>
         <Russian>Сверхважное письмо</Russian>
+      </Key>
+      <Key ID="STR_STST_item_diary_name">
+        <Original>Diary</Original>
+        <English>Diary</English>
+        <Russian>Дневник</Russian>
       </Key>
     </Container>
     <Container name="Electronics">
@@ -900,6 +1025,16 @@
         <English>Video camera</English>
         <Russian>Видеокамера</Russian>
       </Key>
+      <Key ID="STR_STST_item_gameboy_name">
+        <Original>Gameboy</Original>
+        <English>Gameboy</English>
+        <Russian>Gameboy</Russian>
+      </Key>
+      <Key ID="STR_STST_item_psp_name">
+        <Original>PSP</Original>
+        <English>PSP</English>
+        <Russian>PSP</Russian>
+      </Key>
     </Container>
     <Container name="Entertainment">
       <Key ID="STR_STST_item_book_name">
@@ -927,15 +1062,15 @@
         <English>Stuffed toy</English>
         <Russian>Мягкая игрушка</Russian>
       </Key>
-      <Key ID="STR_STST_item_fanbelt_name">
-        <Original>Elastic</Original>
-        <English>Elastic</English>
-        <Russian>Резинка</Russian>
-      </Key>
       <Key ID="STR_STST_item_sudoku_name">
         <Original>Sudoku</Original>
         <English>Sudoku</English>
         <Russian>Судоку</Russian>
+      </Key>
+      <Key ID="STR_STST_item_journal_name">
+        <Original>Journal</Original>
+        <English>Journal</English>
+        <Russian>Журнал</Russian>
       </Key>
     </Container>
     <Container name="Junk">
@@ -969,7 +1104,7 @@
         <English>Eyedrops</English>
         <Russian>Капли для глаз</Russian>
       </Key>
-      <Key ID="STR_STST_item_gum_name">
+      <Key ID="STR_STST_item_bubblegum_name">
         <Original>Bubble gum</Original>
         <English>Bubble gum</English>
         <Russian>Жвачка</Russian>
@@ -979,15 +1114,15 @@
         <English>Marker</English>
         <Russian>Маркер</Russian>
       </Key>
-      <Key ID="STR_STST_item_lighter_name">
-        <Original>Lighter</Original>
-        <English>Lighter</English>
-        <Russian>Зажигалка</Russian>
-      </Key>
-      <Key ID="STR_STST_item_photo_name">
+      <Key ID="STR_STST_item_photo_girl_name">
         <Original>Photo of a girl</Original>
         <English>Photo of a girl</English>
         <Russian>Фотография девушки</Russian>
+      </Key>
+      <Key ID="STR_STST_item_photo_family_name">
+        <Original>Family photo</Original>
+        <English>Family photo</English>
+        <Russian>Семейное фото</Russian>
       </Key>
       <Key ID="STR_STST_item_sunscreen_name">
         <Original>Sun screen</Original>
@@ -1009,11 +1144,6 @@
         <English>Water purification tablets</English>
         <Russian>Таблетки для очистки воды</Russian>
       </Key>
-      <Key ID="STR_STST_item_cord_name">
-        <Original>Cord</Original>
-        <English>Cord</English>
-        <Russian>Шнур</Russian>
-      </Key>
       <Key ID="STR_STST_item_battery_name">
         <Original>Batteries</Original>
         <English>Batteries</English>
@@ -1024,35 +1154,10 @@
         <English>Towing rope</English>
         <Russian>Трос</Russian>
       </Key>
-      <Key ID="STR_STST_item_cigarettes_name">
-        <Original>Lucky Strike Cigarettes</Original>
-        <English>Lucky Strike Cigarettes</English>
-        <Russian>Сигареты Lucky Strike</Russian>
-      </Key>
-      <Key ID="STR_STST_item_cigarettes_camel_name">
-        <Original>Camell Cigarettes</Original>
-        <English>Camell Cigarettes</English>
-        <Russian>Сигареты Camell</Russian>
-      </Key>
-      <Key ID="STR_STST_item_metal_wire_name">
-        <Original>Metal Wire</Original>
-        <English>Metal Wire</English>
-        <Russian>Проволока</Russian>
-      </Key>
-      <Key ID="STR_STST_item_firestarter_name">
-        <Original>Ignitor</Original>
-        <English>Ignitor</English>
-        <Russian>Зажигатель</Russian>
-      </Key>
       <Key ID="STR_STST_item_thermopack_name">
         <Original>Thermopack</Original>
         <English>Thermopack</English>
         <Russian>Термопакет</Russian>
-      </Key>
-      <Key ID="STR_STST_item_hexamine_name">
-        <Original>Hexamethylenetetramine</Original>
-        <English>Hexamethylenetetramine</English>
-        <Russian>Гексаметилентетрамин</Russian>
       </Key>
       <Key ID="STR_STST_item_chlorum_name">
         <Original>Chlorum</Original>
@@ -1075,8 +1180,8 @@
         <Russian>Сигара</Russian>
       </Key>
       <Key ID="STR_STST_item_goldwatch_name">
-        <Original>Golden watches</Original>
-        <English>Golden watches</English>
+        <Original>Golden watch</Original>
+        <English>Golden watch</English>
         <Russian>Золотые часы</Russian>
       </Key>
       <Key ID="STR_STST_item_suitcase_name">
@@ -1085,11 +1190,11 @@
         <Russian>Кейс</Russian>
       </Key>
       <Key ID="STR_STST_item_leaflet_name">
-        <Original>Piece of paper</Original>
-        <English>Piece of paper</English>
+        <Original>Leaflet</Original>
+        <English>Leaflet</English>
         <Russian>Бумажка</Russian>
       </Key>
-      <Key ID="STR_STST_item_Spoon_name">
+      <Key ID="STR_STST_item_spoon_name">
         <Original>Spoon</Original>
         <English>Spoon</English>
         <Russian>Ложка</Russian>
@@ -1104,22 +1209,12 @@
         <English>Paper</English>
         <Russian>Бумага</Russian>
       </Key>
-      <Key ID="STR_STST_item_Joint_name">
-        <Original>Joint</Original>
-        <English>Joint</English>
-        <Russian>Косяк</Russian>
-      </Key>
-      <Key ID="STR_STST_item_JointReagent_name">
-        <Original>Joint</Original>
-        <English>Joint</English>
-        <Russian>Косяк (c реагентами)</Russian>
-      </Key>
       <Key ID="STR_STST_item_skipidar_name">
         <Original>Turpentine</Original>
         <English>Turpentine</English>
         <Russian>Скипидар</Russian>
       </Key>
-      <Key ID="STR_STST_item_dpgtag_name">
+      <Key ID="STR_STST_item_dogtag_name">
         <Original>Dog tag</Original>
         <English>Dog tag</English>
         <Russian>Именной жетон</Russian>
@@ -1184,12 +1279,12 @@
         <English>Barbed wire hank</English>
         <Russian>Моток колючей проволоки</Russian>
       </Key>
-      <Key ID="STR_STST_item_Sandbags_name">
+      <Key ID="STR_STST_item_sandbags_name">
         <Original>Sandbags</Original>
         <English>Sandbags</English>
         <Russian>Мешки с песком</Russian>
       </Key>
-      <Key ID="STR_STST_item_MetalBarrel_name">
+      <Key ID="STR_STST_item_metalbarrel_name">
         <Original>Metal barrel</Original>
         <English>Metal barrel</English>
         <Russian>Металлическая бочка</Russian>
@@ -1213,6 +1308,26 @@
         <Original>Wooden box (Stash)</Original>
         <English>Wooden box (Stash)</English>
         <Russian>Деревянный ящик (тайник)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_drink_powder_name">
+        <Original>Drink mix powder</Original>
+        <English>Drink mix powder</English>
+        <Russian>Сухой напиток</Russian>
+      </Key>
+      <Key ID="STR_STST_item_lipbalm_name">
+        <Original>Chapstick</Original>
+        <English>Chapstick</English>
+        <Russian>Гигиеническая помада</Russian>
+      </Key>
+      <Key ID="STR_STST_item_key_name">
+        <Original>Key</Original>
+        <English>Key</English>
+        <Russian>Ключ</Russian>
+      </Key>
+      <Key ID="STR_STST_item_pen_name">
+        <Original>Pen</Original>
+        <English>Pen</English>
+        <Russian>Ручка</Russian>
       </Key>
     </Container>
     <Container name="Materials">
@@ -1242,19 +1357,19 @@
         <Russian>Пропан</Russian>
       </Key>
       <Key ID="STR_STST_item_motherboard_name">
-        <Original>Board</Original>
-        <English>Board</English>
-        <Russian>Плата</Russian>
+        <Original>Motherboard</Original>
+        <English>Motherboard</English>
+        <Russian>Материнская плата</Russian>
       </Key>
       <Key ID="STR_STST_item_jerrican_name">
         <Original>Jerrican</Original>
         <English>Jerrican</English>
         <Russian>Канистра</Russian>
       </Key>
-      <Key ID="STR_STST_item_spring_name">
-        <Original>Spring</Original>
-        <English>Spring</English>
-        <Russian>Пружины</Russian>
+      <Key ID="STR_STST_item_jerrican_empty_name">
+        <Original>Jerrican (Empty)</Original>
+        <English>Jerrican (Empty)</English>
+        <Russian>Канистра (Пустая)</Russian>
       </Key>
       <Key ID="STR_STST_item_toxicgas_name">
         <Original>Toxic gas</Original>
@@ -1280,6 +1395,36 @@
         <Original>Nails</Original>
         <English>Nails</English>
         <Russian>Гвозди</Russian>
+      </Key>
+      <Key ID="STR_STST_item_cord_name">
+        <Original>Cord</Original>
+        <English>Cord</English>
+        <Russian>Шнур</Russian>
+      </Key>
+      <Key ID="STR_STST_item_metal_wire_name">
+        <Original>Metal Wire</Original>
+        <English>Metal Wire</English>
+        <Russian>Проволока</Russian>
+      </Key>
+      <Key ID="STR_STST_item_paper_name">
+        <Original>Paper</Original>
+        <English>Paper</English>
+        <Russian>Бумага</Russian>
+      </Key>
+      <Key ID="STR_STST_item_skipidar_name">
+        <Original>Skipidar</Original>
+        <English>Skipidar</English>
+        <Russian>Скипидар</Russian>
+      </Key>
+      <Key ID="STR_STST_item_scrapmetal_name">
+        <Original>Scrap metal</Original>
+        <English>Scrap metal</English>
+        <Russian>Металлолом</Russian>
+      </Key>
+      <Key ID="STR_STST_item_radioparts_name">
+        <Original>Radio parts</Original>
+        <English>Radio parts</English>
+        <Russian>Радиодетали</Russian>
       </Key>
     </Container>
     <Container name="Patches">
@@ -1308,6 +1453,11 @@
         <English>Freedom Patch</English>
         <Russian>Нашивка Свободы</Russian>
       </Key>
+      <Key ID="STR_STST_item_loner_patch_name">
+        <Original>Loner Patch</Original>
+        <English>Loner Patch</English>
+        <Russian>Нашивка Одиночек</Russian>
+      </Key>
       <Key ID="STR_STST_item_merc_patch_name">
         <Original>Mercenary Patch</Original>
         <English>Mercenary Patch</English>
@@ -1335,6 +1485,11 @@
         <English>Artifact scanner</English>
         <Russian>Сканер артефактов</Russian>
       </Key>
+      <Key ID="STR_STST_item_anomaly_scanner_name">
+        <Original>Anomaly scanner</Original>
+        <English>Anomaly scanner</English>
+        <Russian>Сканер аномалий</Russian>
+      </Key>
       <Key ID="STR_STST_item_tools_name">
         <Original>Tools</Original>
         <English>Tools</English>
@@ -1360,7 +1515,7 @@
         <English>Hammer</English>
         <Russian>Молоток</Russian>
       </Key>
-      <Key ID="STR_STST_item_leatherman_name">
+      <Key ID="STR_STST_item_multitool_name">
         <Original>Multitool</Original>
         <English>Multitool</English>
         <Russian>Мультитул</Russian>
@@ -1374,6 +1529,16 @@
         <Original>Zippo Lighter</Original>
         <English>Zippo Lighter</English>
         <Russian>Зажигалка Zippo</Russian>
+      </Key>
+      <Key ID="STR_STST_item_firestarter_name">
+        <Original>Firestarter</Original>
+        <English>Firestarter</English>
+        <Russian>Огниво</Russian>
+      </Key>
+      <Key ID="STR_STST_item_lighter_name">
+        <Original>Lighter</Original>
+        <English>Lighter</English>
+        <Russian>Зажигалка</Russian>
       </Key>
     </Container>
     <Container name="Vehicle Parts">
@@ -1412,6 +1577,21 @@
         <English>Air filter</English>
         <Russian>Воздушный фильтр</Russian>
       </Key>
+      <Key ID="STR_STST_item_fanbelt_name">
+        <Original>Belt</Original>
+        <English>Belt</English>
+        <Russian>Ремень</Russian>
+      </Key>
+      <Key ID="STR_STST_item_springs_name">
+        <Original>Spring</Original>
+        <English>Spring</English>
+        <Russian>Пружины</Russian>
+      </Key>
+      <Key ID="STR_STST_item_gas_tank_name">
+        <Original>Gas Tank</Original>
+        <English>Gas Tank</English>
+        <Russian>Топливный бак</Russian>
+      </Key>
     </Container>
     <Container name="Money">
       <Key ID="STR_STST_item_money100rub_name">
@@ -1445,6 +1625,45 @@
         <Original>Map</Original>
         <English>Map</English>
         <Russian>Карта</Russian>
+      </Key>
+    </Container>
+    <Container name="Amulets">
+      <Key ID="STR_STST_item_amulet_chimera_claw_name">
+        <Original>Chimera claw amulet</Original>
+        <English>Chimera claw amulet</English>
+        <Russian>Амулет из когтя химеры</Russian>
+      </Key>
+      <Key ID="STR_STST_item_amulet_tushkano_claw_name">
+        <Original>Tushkano claw amulet</Original>
+        <English>Tushkano claw amulet</English>
+        <Russian>Амулет из когтей тушканчика</Russian>
+      </Key>
+      <Key ID="STR_STST_item_amulet_dog_skull_name">
+        <Original>Dog skull amulet</Original>
+        <English>Dog skull amulet</English>
+        <Russian>Амулет из черепа собаки</Russian>
+      </Key>
+    </Container>
+    <Container name="Jewelry">
+      <Key ID="STR_STST_item_goldchain_name">
+        <Original>Gold chain</Original>
+        <English>Gold chain</English>
+        <Russian>Золотая цепь</Russian>
+      </Key>
+      <Key ID="STR_STST_item_ring_name">
+        <Original>Ring</Original>
+        <English>Ring</English>
+        <Russian>Кольцо</Russian>
+      </Key>
+      <Key ID="STR_STST_item_bracelet_gold_name">
+        <Original>Golden bracelet</Original>
+        <English>Golden bracelet</English>
+        <Russian>Золотой браслет</Russian>
+      </Key>
+      <Key ID="STR_STST_item_beads_name">
+        <Original>Beads</Original>
+        <English>Beads</English>
+        <Russian>Бусы</Russian>
       </Key>
     </Container>
   </Package>
@@ -1526,33 +1745,33 @@
         <Russian>Мутант: Пауки</Russian>
       </Key>
       <Key ID="STR_STST_module_spawn_ghoul_name">
-        <Original>Mutants: Ghoul</Original>
-        <English>Mutants: Ghoul</English>
+        <Original>Mutant: Ghoul</Original>
+        <English>Mutant: Ghoul</English>
         <Russian>Мутант: Упырь</Russian>
       </Key>
       <Key ID="STR_STST_module_spawn_watcher_name">
-        <Original>Mutants: Watcher</Original>
-        <English>Mutants: Watcher</English>
+        <Original>Mutant: Watcher</Original>
+        <English>Mutant:Watcher</English>
         <Russian>Мутант: Страж</Russian>
       </Key>
       <Key ID="STR_STST_module_spawn_bear_name">
-        <Original>Mutants: Bear</Original>
-        <English>Mutants: Bear</English>
+        <Original>Mutant: Bear</Original>
+        <English>Mutant: Bear</English>
         <Russian>Мутант: Медведь</Russian>
       </Key>
       <Key ID="STR_STST_module_spawn_flesh_name">
-        <Original>Mutants: Flesh</Original>
-        <English>Mutants: Flesh</English>
+        <Original>Mutant: Flesh</Original>
+        <English>Mutant: Flesh</English>
         <Russian>Мутант: Плоть</Russian>
       </Key>
       <Key ID="STR_STST_module_spawn_chimera_name">
-        <Original>Mutants: Сhimera</Original>
-        <English>Mutants: Сhimera</English>
+        <Original>Mutant: Сhimera</Original>
+        <English>Mutant: Сhimera</English>
         <Russian>Мутант: Химера</Russian>
       </Key>
       <Key ID="STR_STST_module_spawn_poltergeist_name">
-        <Original>Mutants: Poltergeist</Original>
-        <English>Mutants: Poltergeist</English>
+        <Original>Mutant: Poltergeist</Original>
+        <English>Mutant: Poltergeist</English>
         <Russian>Мутант: Полтергейст</Russian>
       </Key>
       <Key ID="STR_STST_module_spawn_spider_name">
@@ -2215,217 +2434,354 @@
   <Package name="Mutant Parts">
     <Container name="Bloodsucker">
       <Key ID="STR_STST_mutpart_bloodsucker_meat_name">
-        <Original>Bloodsucker Meat</Original>
-        <English>Bloodsucker Meat</English>
+        <Original>Bloodsucker meat</Original>
+        <English>Bloodsucker meat</English>
         <Russian>Мясо кровососа</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_bloodsucker_pelt_name">
-        <Original>Bloodsucker Pelt</Original>
-        <English>Bloodsucker Pelt</English>
+        <Original>Bloodsucker pelt</Original>
+        <English>Bloodsucker pelt</English>
         <Russian>Шкура кровососа</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_bloodsucker_tentacles_name">
-        <Original>Bloodsucker Tentacles</Original>
-        <English>Bloodsucker Tentacles</English>
+        <Original>Bloodsucker tentacles</Original>
+        <English>Bloodsucker tentacles</English>
         <Russian>Щупальца кровососа</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_bloodsucker_heart_name">
+        <Original>Bloodsucker heart</Original>
+        <English>Bloodsucker heart</English>
+        <Russian>Сердце кровососа</Russian>
       </Key>
     </Container>
     <Container name="Boar">
       <Key ID="STR_STST_mutpart_boar_meat_name">
-        <Original>Boar Meat</Original>
-        <English>Boar Meat</English>
+        <Original>Boar meat</Original>
+        <English>Boar meat</English>
         <Russian>Мясо кабана</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_boar_pelt_name">
-        <Original>Boar Pelt</Original>
-        <English>Boar Pelt</English>
+        <Original>Boar pelt</Original>
+        <English>Boar pelt</English>
         <Russian>Шкура кабана</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_boar_hoof_name">
-        <Original>Boar Hoof</Original>
-        <English>Boar Hoof</English>
+        <Original>Boar hoof</Original>
+        <English>Boar hoof</English>
         <Russian>Копыто кабана</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_boar_hoof_desc">
+        <Original>Many drugs have been developed based on the healing properties of a mutated boar's hoof, the most important of which is an anti-radiation serum, which is bought by both scientists and traders.</Original>
+        <English>Many drugs have been developed based on the healing properties of a mutated boar's hoof, the most important of which is an anti-radiation serum, which is bought by both scientists and traders.</English>
+        <Russian>Много медикаментов было разработано на основе свойств копыта мутировавшего кабана: наиболее известный из них - антирад. Покупают как обычные торговцы, так и учёные.</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_fang_name">
+        <Original>Boar fang</Original>
+        <English>Boar fang</English>
+        <Russian>Клык кабана</Russian>
       </Key>
     </Container>
     <Container name="Burer">
       <Key ID="STR_STST_mutpart_burer_hand_name">
-        <Original>Burer Hand</Original>
-        <English>Burer Hand</English>
+        <Original>Burer hand</Original>
+        <English>Burer hand</English>
         <Russian>Рука бюрера</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_burer_brain_name">
-        <Original>Burer Brain</Original>
-        <English>Burer Brain</English>
+        <Original>Burer brain</Original>
+        <English>Burer brain</English>
         <Russian>Мозг бюрера</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_burer_heart_name">
+        <Original>Burer heart</Original>
+        <English>Burer heart</English>
+        <Russian>Сердце бюрера</Russian>
       </Key>
     </Container>
     <Container name="Cat">
       <Key ID="STR_STST_mutpart_cat_claws_name">
-        <Original>Cat Claws</Original>
-        <English>Cat Claws</English>
+        <Original>Cat claws</Original>
+        <English>Cat claws</English>
         <Russian>Когти кота</Russian>
       </Key>
+      <Key ID="STR_STST_mutpart_cat_gland_name">
+        <Original>Cat thyroid gland</Original>
+        <English>Cat thyroid gland</English>
+        <Russian>Щитовидная железа кота</Russian>
+      </Key>
       <Key ID="STR_STST_mutpart_cat_meat_name">
-        <Original>Cat Meat</Original>
-        <English>Cat Meat</English>
+        <Original>Cat meat</Original>
+        <English>Cat meat</English>
         <Russian>Мясо кота</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_cat_tail_name">
-        <Original>Cat Tail</Original>
-        <English>Cat Tail</English>
+        <Original>Cat tail</Original>
+        <English>Cat tail</English>
         <Russian>Хвост кота</Russian>
       </Key>
     </Container>
     <Container name="Chimera">
       <Key ID="STR_STST_mutpart_chimera_pelt_name">
-        <Original>Chimera Pelt</Original>
-        <English>Chimera Pelt</English>
+        <Original>Chimera pelt</Original>
+        <English>Chimera pelt</English>
         <Russian>Шкура химеры</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_chimera_meat_name">
-        <Original>Chimera Meat</Original>
-        <English>Chimera Meat</English>
+        <Original>Chimera meat</Original>
+        <English>Chimera meat</English>
         <Russian>Мясо химеры</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_chimera_claws_name">
-        <Original>Chimera Claws</Original>
-        <English>Chimera Claws</English>
+        <Original>Chimera claws</Original>
+        <English>Chimera claws</English>
         <Russian>Когти химеры</Russian>
       </Key>
     </Container>
     <Container name="Controller">
       <Key ID="STR_STST_mutpart_controller_brain_name">
-        <Original>Controller Brain</Original>
-        <English>Controller Brain</English>
+        <Original>Controller brain</Original>
+        <English>Controller brain</English>
         <Russian>Мозг контролёра</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_controller_hand_name">
-        <Original>Controller Hand</Original>
-        <English>Controller Hand</English>
+        <Original>Controller hand</Original>
+        <English>Controller hand</English>
         <Russian>Рука контролёра</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_controller_scalp_name">
+        <Original>Controller scalp</Original>
+        <English>Controller scalp</English>
+        <Russian>Скальп контролёра</Russian>
       </Key>
     </Container>
     <Container name="Deer">
       <Key ID="STR_STST_mutpart_deer_horn_name">
-        <Original>Deer Horn</Original>
-        <English>Deer Horn</English>
+        <Original>Deer horn</Original>
+        <English>Deer horn</English>
         <Russian>Олений рог</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_deer_pelt_name">
-        <Original>Deer Pelt</Original>
-        <English>Deer Pelt</English>
+        <Original>Deer pelt</Original>
+        <English>Deer pelt</English>
         <Russian>Шкура оленя</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_deer_meat_name">
-        <Original>Deer Meat</Original>
-        <English>Deer Meat</English>
+        <Original>Deer meat</Original>
+        <English>Deer meat</English>
         <Russian>Мясо оленя</Russian>
       </Key>
     </Container>
-    <Container name="Dog">
-      <Key ID="STR_STST_mutpart_dog_meat_name">
-        <Original>Dog Meat</Original>
-        <English>Dog Meat</English>
+    <Container name="Blind dog">
+      <Key ID="STR_STST_mutpart_blinddog_meat_name">
+        <Original>Blind dog meat</Original>
+        <English>Blind dog meat</English>
         <Russian>Мясо собаки</Russian>
       </Key>
-      <Key ID="STR_STST_mutpart_dog_tail_name">
-        <Original>Dog Tail</Original>
-        <English>Dog Tail</English>
+      <Key ID="STR_STST_mutpart_blinddog_tail_name">
+        <Original>Blind dog tail</Original>
+        <English>Blind dog tail</English>
         <Russian>Хвост собаки</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_blinddog_liver_name">
+        <Original>Blind dog liver</Original>
+        <English>Blind dog liver</English>
+        <Russian>Печень слепой собаки</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_blinddog_pelt_name">
+        <Original>Blind dog pelt</Original>
+        <English>Blind dog pelt</English>
+        <Russian>Шкура собаки</Russian>
       </Key>
     </Container>
     <Container name="Flesh">
       <Key ID="STR_STST_mutpart_flesh_eye_name">
-        <Original>Flesh Eye</Original>
-        <English>Flesh Eye</English>
+        <Original>Flesh eye</Original>
+        <English>Flesh eye</English>
         <Russian>Глаз плоти</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_flesh_meat_name">
-        <Original>Flesh Meat</Original>
-        <English>Flesh Meat</English>
+        <Original>Flesh meat</Original>
+        <English>Flesh meat</English>
         <Russian>Мясо плоти</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_flesh_pelt_name">
-        <Original>Flesh Pelt</Original>
-        <English>Flesh Pelt</English>
+        <Original>Flesh pelt</Original>
+        <English>Flesh pelt</English>
         <Russian>Шкура плоти</Russian>
       </Key>
     </Container>
     <Container name="Poltergeist">
       <Key ID="STR_STST_mutpart_poltergeist_hand_name">
-        <Original>Poltergeist Hand</Original>
-        <English>Poltergeist Hand</English>
+        <Original>Poltergeist hand</Original>
+        <English>Poltergeist hand</English>
         <Russian>Рука полтергейста</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_poltergeist_brain_name">
-        <Original>Poltergeist Brain</Original>
-        <English>Poltergeist Brain</English>
+        <Original>Poltergeist brain</Original>
+        <English>Poltergeist brain</English>
         <Russian>Мозг полтергейста</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_poltergeist_scalp_name">
+        <Original>Poltergeist scalp</Original>
+        <English>Poltergeist scalp</English>
+        <Russian>Скальп полтергейста</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_poltergeist_eye_name">
+        <Original>Poltergeist eyes</Original>
+        <English>Poltergeist eyes</English>
+        <Russian>Глаза полтергейста</Russian>
       </Key>
     </Container>
     <Container name="Pseudodog">
       <Key ID="STR_STST_mutpart_pseudodog_tail_name">
-        <Original>Pseudodog Tail</Original>
-        <English>Pseudodog Tail</English>
+        <Original>Pseudodog tail</Original>
+        <English>Pseudodog tail</English>
         <Russian>Хвост псевдособаки</Russian>
       </Key>
+      <Key ID="STR_STST_mutpart_pseudodog_brain_name">
+        <Original>Pseudodog brain</Original>
+        <English>Pseudodog brain</English>
+        <Russian>Мозг псевдособаки</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_pseudodog_heart_name">
+        <Original>Pseudodog heart</Original>
+        <English>Pseudodog heart</English>
+        <Russian>Сердце псевдособаки</Russian>
+      </Key>
       <Key ID="STR_STST_mutpart_pseudodog_pelt_name">
-        <Original>Pseudodog Pelt</Original>
-        <English>Pseudodog Pelt</English>
+        <Original>Pseudodog pelt</Original>
+        <English>Pseudodog pelt</English>
         <Russian>Шкура псевдособаки</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_pseudodog_fang_name">
-        <Original>Pseudodog Fang</Original>
-        <English>Pseudodog Fang</English>
+        <Original>Pseudodog fang</Original>
+        <English>Pseudodog fang</English>
         <Russian>Клык псевдособаки</Russian>
       </Key>
     </Container>
     <Container name="Pseudogiant">
       <Key ID="STR_STST_mutpart_pseudogiant_eye_name">
-        <Original>Pseudogiant Eye</Original>
-        <English>Pseudogiant Eye</English>
+        <Original>Pseudogiant eye</Original>
+        <English>Pseudogiant eye</English>
         <Russian>Глаз псевдогиганта</Russian>
       </Key>
+      <Key ID="STR_STST_mutpart_pseudogiant_jaws_name">
+        <Original>Pseudogiant jaws</Original>
+        <English>Pseudogiant jaws</English>
+        <Russian>Челюсть псевдогиганта</Russian>
+      </Key>
       <Key ID="STR_STST_mutpart_pseudogiant_pelt_name">
-        <Original>Pseudogiant Pelt</Original>
-        <English>Pseudogiant Pelt</English>
+        <Original>Pseudogiant pelt</Original>
+        <English>Pseudogiant pelt</English>
         <Russian>Шкура псевдогиганта</Russian>
       </Key>
     </Container>
     <Container name="Snork">
       <Key ID="STR_STST_mutpart_snork_foot_name">
-        <Original>Snork Foot</Original>
-        <English>Snork Foot</English>
+        <Original>Snork foot</Original>
+        <English>Snork foot</English>
         <Russian>Стопа снорка</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_snork_hand_name">
+        <Original>Snork hand</Original>
+        <English>Snork hand</English>
+        <Russian>Рука снорка</Russian>
       </Key>
     </Container>
     <Container name="Tushkano">
       <Key ID="STR_STST_mutpart_tushkano_head_name">
-        <Original>Tushkano Head</Original>
-        <English>Tushkano Head</English>
+        <Original>Tushkano head</Original>
+        <English>Tushkano head</English>
         <Russian>Голова тушканчика</Russian>
       </Key>
+      <Key ID="STR_STST_mutpart_tushkano_claws_name">
+        <Original>Tushkano claws</Original>
+        <English>Tushkano claws</English>
+        <Russian>Когти тушканчика</Russian>
+      </Key>
       <Key ID="STR_STST_mutpart_tushkano_meat_name">
-        <Original>Tushkano Meat</Original>
-        <English>Tushkano Meat</English>
+        <Original>Tushkano meat</Original>
+        <English>Tushkano meat</English>
         <Russian>Мясо тушканчика</Russian>
       </Key>
     </Container>
     <Container name="Wolf">
       <Key ID="STR_STST_mutpart_wolf_pelt_name">
-        <Original>Wolf Pelt</Original>
-        <English>Wolf Pelt</English>
+        <Original>Wolf pelt</Original>
+        <English>Wolf pelt</English>
         <Russian>Шкура волка</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_wolf_meat_name">
-        <Original>Wolf Meat</Original>
-        <English>Wolf Meat</English>
+        <Original>Wolf meat</Original>
+        <English>Wolf meat</English>
         <Russian>Мясо волка</Russian>
       </Key>
       <Key ID="STR_STST_mutpart_wolf_fang_name">
-        <Original>Wolf Fang</Original>
-        <English>Wolf Fang</English>
+        <Original>Wolf fang</Original>
+        <English>Wolf fang</English>
         <Russian>Клык волка</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_wolf_alpha_fang_name">
+        <Original>Alpha Wolf fang</Original>
+        <English>Alpha Wolf fang</English>
+        <Russian>Клык волка альфы</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_wolf_claws_name">
+        <Original>Wolf claws</Original>
+        <English>Wolf claws</English>
+        <Russian>Когти волка</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_wolf_alpha_claws_name">
+        <Original>Alpha Wolf claws</Original>
+        <English>Alpha Wolf claws</English>
+        <Russian>Когти волка альфы</Russian>
+      </Key>
+    </Container>
+    <Container name="Lurker">
+      <Key ID="STR_STST_mutpart_lurker_pelt_name">
+        <Original>Lurker pelt</Original>
+        <English>Lurker pelt</English>
+        <Russian>Шкура луркера</Russian>
+      </Key>
+      <Key ID="STR_STST_mutpart_lurker_claws_name">
+        <Original>Lurker claws</Original>
+        <English>Lurker claws</English>
+        <Russian>Когти луркера</Russian>
+      </Key>
+    </Container>
+    <Container name="Werewolf">
+      <Key ID="STR_STST_mutpart_werewolf_claws_name">
+        <Original>Werewolf claws</Original>
+        <English>Werewolf claws</English>
+        <Russian>Когти оборотня</Russian>
+      </Key>
+    </Container>
+    <Container name="Wolfhound">
+      <Key ID="STR_STST_mutpart_wolfhound_claws_name">
+        <Original>Wolfhound claws</Original>
+        <English>Wolfhound claws</English>
+        <Russian>Когти волкодава</Russian>
+      </Key>
+    </Container>
+    <Container name="Ghoul">
+      <Key ID="STR_STST_mutpart_ghoul_claws_name">
+        <Original>Ghoul claws</Original>
+        <English>Ghoul claws</English>
+        <Russian>Когти упыря</Russian>
+      </Key>
+    </Container>
+    <Container name="Kikimora">
+      <Key ID="STR_STST_mutpart_kikimora_head_name">
+        <Original>Kikimora head</Original>
+        <English>Kikimora head</English>
+        <Russian>Голова кикиморы</Russian>
+      </Key>
+    </Container>
+    <Container name="Izlom">
+      <Key ID="STR_STST_mutpart_izlom_hand_name">
+        <Original>Izlom hand</Original>
+        <English>Izlom hand</English>
+        <Russian>Рука излома</Russian>
       </Key>
     </Container>
   </Package>
@@ -2805,6 +3161,13 @@
         <Russian />
       </Key>
     </Container>
+    <Container name="Harmonica">
+      <Key ID="STR_STST_weapon_harmonica_name">
+        <Original>Harmonica</Original>
+        <English>Harmonica</English>
+        <Russian>Губная гармошка</Russian>
+      </Key>
+    </Container>
   </Package>
   <Package name="Anomalies">
     <Container name="Electra">
@@ -3160,6 +3523,13 @@
         <Original>Empty</Original>
         <English>Empty</English>
         <Russian>Пустышка</Russian>
+      </Key>
+    </Container>
+    <Container name="Container">
+      <Key ID="STR_STST_item_artifact_container_disposable_name">
+        <Original>Artifact container (Disposable)</Original>
+        <English>Artifact container (Disposable)</English>
+        <Russian>Контейнер артефактов (Одноразовый)</Russian>
       </Key>
     </Container>
   </Package>

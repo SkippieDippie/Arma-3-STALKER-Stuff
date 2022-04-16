@@ -1530,7 +1530,7 @@ class cfgWeapons
 	class ARMST_cigarettes: ACE_ItemCore
 	{
 			scope=2;
-			displayName="$STR_STST_item_cigarettes_name";
+			displayName="$STR_STST_drug_cigarettes_name";
 			picture="\armst\armst_item\img\cigarettes.paa";
 			model = "\armst\armst_item\object\Cigarette\lucky_strike.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1541,7 +1541,7 @@ class cfgWeapons
 	class ARMST_cigarettes_camell: ACE_ItemCore
 	{
 			scope=2;
-			displayName="$STR_STST_item_cigarettes_camel_name";
+			displayName="$STR_STST_drug_cigarettes_camel_name";
 			picture="\armst\armst_item\img\cigarettes.paa";
 			model = "\armst\armst_item\object\Cigarette\camel.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1647,7 +1647,7 @@ class cfgWeapons
 	{
 			scope=2;
 			model = "\A3\Structures_F_EPA\Items\Medical\VitaminBottle_F.p3d";
-			displayName="$STR_STST_item_hexamine_name";
+			displayName="$STR_STST_drug_hexamine_name";
 			picture="\armst\armst_item\img\hexamine.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2053,7 +2053,7 @@ class cfgWeapons
 	class ARMST_kosyak: ACE_ItemCore
 	{
 			scope=2;
-			displayName="$STR_STST_item_joint_name";
+			displayName="$STR_STST_drug_joint_name";
 			picture="\armst\armst_item\img\kosyak.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2063,7 +2063,7 @@ class cfgWeapons
 	class ARMST_kosyak_reagent: ACE_ItemCore
 	{
 			scope=2;
-			displayName="$STR_STST_item_joint_reagent_name";
+			displayName="$STR_STST_drug_joint_reagent_name";
 			picture="\armst\armst_item\img\kosyak.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -3327,7 +3327,7 @@ class cfgWeapons
 	class ARMST_amfetamin: ACE_ItemCore
 	{
 			scope=2;
-			displayName="$STR_STST_item_amphetamine_name";
+			displayName="$STR_STST_drug_amphetamine_name";
 			picture="\armst\armst_item\img\amfetamin.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -3392,9 +3392,8 @@ class cfgWeapons
 	class ARMST_geroin: ACE_ItemCore
 	{
 			scope=2;
-			displayName="$STR_STST_item_heroin_name";
+			displayName="$STR_STST_drug_heroin_name";
 			picture="\armst\armst_item\img\geroin.paa";
-			descriptionShort = "The most common type of opium drug. Extremely strong, addictive after second or third dose. Action time from 3 to 6 hours. Effects: constriction of pupils, pallor, lack of appetite, desire for privacy, decreased immunity.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 6;
@@ -3403,7 +3402,7 @@ class cfgWeapons
 	class ARMST_goldcep: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Gold chain";
+			displayName="$STR_STST_item_goldchain_name";
 			picture="\armst\armst_item\img\goldcep.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -3433,9 +3432,8 @@ class cfgWeapons
 	class ARMST_kokain: ACE_ItemCore
 	{
 			scope=2;
-			displayName="$STR_STST_item_cocain_name";
+			displayName="$STR_STST_drug_cocain_name";
 			picture="\armst\armst_item\img\kokain.paa";
-			descriptionShort = "Initially, it was widely used for medical purposes, but by the beginning of the 20th century it was almost completely ousted from medical practice by more advanced drugs. It is currently the second most important problem drug after opiates. Action time 2-3 hours. Effects: euphoria, anxiety, sweating, sleep disturbance, dilated pupils, tachycardia.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 6;
@@ -3444,9 +3442,8 @@ class cfgWeapons
 	class ARMST_mayak: ACE_ItemCore
 	{
 			scope=2;
-			displayName="GPS beacon";
+			displayName="$STR_STST_device_gpsbeacon_name";
 			picture="\armst\armst_item\img\mayak.paa";
-			descriptionShort = "Compact GPS beacon. Fits easily in your pocket or backpack.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3455,9 +3452,8 @@ class cfgWeapons
 	class ARMST_kolco: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Ring";
+			displayName="$STR_STST_item_ring_name";
 			picture="\armst\armst_item\img\kolco.paa";
-			descriptionShort = "A metal object in the form of a rim, a circle, with an empty space inside the circle line. They are worn on the fingers as jewelry or a symbol of marriage.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3477,9 +3473,8 @@ class cfgWeapons
 	class ARMST_meta: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Methamphetamine";
+			displayName="$STR_STST_drug_methamphetamine_name";
 			picture="\armst\armst_item\img\meta.paa";
-			descriptionShort = "Amphetamine derivative, white crystalline solid. Methamphetamine is a psychostimulant with a high potential for the formation of addiction, and therefore it is classified as a narcotic substance. Action time from 2 to 12 hours. Effects: dilated pupils, hyperactivity, talkativeness, lack of appetite, hyperexcitability.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 5;
@@ -3488,9 +3483,8 @@ class cfgWeapons
 	class ARMST_metalolom: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Scrap metal";
+			displayName="$STR_STST_item_scrapmetal_name";
 			picture="\armst\armst_item\img\metalolom.paa";
-			descriptionShort = "Various rubbish, which in skillful hands can be very useful.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 13;
@@ -3499,7 +3493,7 @@ class cfgWeapons
 	class ARMST_pen: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Pen";
+			displayName="$STR_STST_item_pen_name";
 			picture="\armst\armst_item\img\pen.paa";
 			descriptionShort = "Plain black ballpoint pen.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3510,9 +3504,8 @@ class cfgWeapons
 	class ARMST_persten: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Ring";
+			displayName="$STR_STST_item_ring_name";
 			picture="\armst\armst_item\img\persten.paa";
-			descriptionShort = "Ring with a set gem or mineral. A massive ring with a stone is one of the traditionally men's jewelry.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3521,9 +3514,8 @@ class cfgWeapons
 	class ARMST_braclet: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Golden bracelet";
+			displayName="$STR_STST_item_bracelet_gold_name";
 			picture="\armst\armst_item\img\braclet.paa";
-			descriptionShort = "A piece of jewelry worn on the hand since the Paleolithic era, widespread among many peoples of the world.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3532,9 +3524,8 @@ class cfgWeapons
 	class ARMST_chetki: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Beads";
+			displayName="$STR_STST_item_beads_name";
 			picture="\armst\armst_item\img\chetki.paa";
-			descriptionShort = "A cord, closed in a ring, on which beads (grains) are strung. In many religions: Hinduism, Islam, Christianity and Buddhism, they are used to count prayers read or other ritual actions, maintain attention and concentration, set a rhythm, and the like.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3543,9 +3534,8 @@ class cfgWeapons
 	class ARMST_dnevnik: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Diary";
+			displayName="$STR_STST_item_diary_name";
 			picture="\armst\armst_item\img\dnevnik.paa";
-			descriptionShort = "A collection of fragmentary records in one notebook. Many in the Zone prefer to keep records in diaries rather than in PDAs and other electronic devices.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 2;
@@ -3554,10 +3544,9 @@ class cfgWeapons
 	class ARMST_fishkonserva: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Canned fish";
+			displayName="$STR_STST_food_canned_f_name";
 			model = "\armst\armst_item\item\konserva\fish.p3d";
 			picture = "\armst\armst_item\item\konserva\icon_konserva_fish_validol.paa";
-			descriptionShort = "Food products that have been preserved and / or packaged for long-term storage without spoilage.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 12;
@@ -3566,9 +3555,8 @@ class cfgWeapons
 	class ARMST_galets: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Biscuits";
+			displayName="$STR_STST_food_biscuits_name";
 			picture="\armst\armst_item\img\galets.paa";
-			descriptionShort = "Biscuits, rare in their properties, capable of retaining freshness and original quality for up to 2 years. The confectionery miracle is suitable for most consumption situations. This explains the age-old popularity of the product in the army, in the navy, on expeditions, hiking trips, as well as with daily tea drinking. An excellent bread substitute.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 6;
@@ -3577,9 +3565,8 @@ class cfgWeapons
 	class ARMST_radiodetal: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Radio parts";
+			displayName="$STR_STST_item_radioparts_name";
 			picture="\armst\armst_item\img\radiodetal.paa";
-			descriptionShort = "Various electronic components, most often used to repair walkie-talkies and PDAs in the Zone.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 5;
@@ -3590,7 +3577,6 @@ class cfgWeapons
 			scope=2;
 			displayName="Fat";
 			picture="\armst\armst_item\img\salo.paa";
-			descriptionShort = "Solid animal fat deposited in animals during the period of their increased nutrition. Functionally, fat is considered as a nutritional reserve in the body of an animal body, consisting mainly of triglycerides, contains a large amount of saturated fatty acid residues.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 6;
@@ -3599,9 +3585,8 @@ class cfgWeapons
 	class ARMST_samogon: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Moonshine";
+			displayName="$STR_STST_food_moonshine_name";
 			picture="\armst\armst_item\img\samogon.paa";
-			descriptionShort = "A strong alcoholic drink made at home by distilling alcohol-containing mass (mash) through home-made or factory-made devices, obtained as a result of fermentation of sugar syrup, saccharified cereals, potatoes, beets, fruits or other products containing sugar and saccharified starch substances.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 10;
@@ -3654,10 +3639,9 @@ class cfgWeapons
 	class ARMST_kontainer_open: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Artifact container (Disposable) ";
+			displayName = "$STR_STST_item_artifact_container_disposable_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_open.paa";
-			descriptionShort = "Open";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 8;
@@ -3677,15 +3661,15 @@ class cfgWeapons
 	};
 	class ARMST_kontainer_gravi: ACE_ItemCore
 	{
-			scope=2;
+		scope=2;
 		displayName = "Container with gravi artifact";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\item\kontainer\kont_gravi.paa";
 		descriptionShort = "Contains gravi artifact";
-			class ItemInfo: CBA_MiscItem_ItemInfo 
-			{
-				mass = 15;
-			};
+		class ItemInfo: CBA_MiscItem_ItemInfo 
+		{
+			mass = 15;
+		};
 	};
 	class ARMST_kontainer_ameba: ACE_ItemCore
 	{
