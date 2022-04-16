@@ -460,6 +460,20 @@
         <Russian>Самогон</Russian>
       </Key>
     </Container>
+    <Container name="Fat">
+      <Key ID="STR_STST_food_fat_name">
+        <Original>Fat</Original>
+        <English>Fat</English>
+        <Russian>Жир</Russian>
+      </Key>
+    </Container>
+    <Container name="Tea">
+      <Key ID="STR_STST_food_tea_name">
+        <Original>Tea</Original>
+        <English>Tea</English>
+        <Russian>Чай</Russian>
+      </Key>
+    </Container>
   </Package>
   <Package name="Gear">
     <Container name="Facegear">
@@ -931,6 +945,11 @@
         <English>Army boots</English>
         <Russian>Берцы</Russian>
       </Key>
+      <Key ID="STR_STST_item_sweater_name">
+        <Original>Sweater</Original>
+        <English>Sweater</English>
+        <Russian>Свитер</Russian>
+      </Key>
     </Container>
     <Container name="Documents">
       <Key ID="STR_STST_item_pass_name">
@@ -967,6 +986,11 @@
         <Original>Diary</Original>
         <English>Diary</English>
         <Russian>Дневник</Russian>
+      </Key>
+      <Key ID="STR_STST_item_notebook_name">
+        <Original>Notebook</Original>
+        <English>Notebook</English>
+        <Russian>Блокнот</Russian>
       </Key>
     </Container>
     <Container name="Electronics">
@@ -3530,6 +3554,141 @@
         <Original>Artifact container (Disposable)</Original>
         <English>Artifact container (Disposable)</English>
         <Russian>Контейнер артефактов (Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_jellyfish_name">
+        <Original>Artifact container (Jellyfish/Disposable)</Original>
+        <English>Artifact container (Jellyfish/Disposable)</English>
+        <Russian>Контейнер артефактов (Медуза/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_gravi_name">
+        <Original>Artifact container (Gravi/Disposable)</Original>
+        <English>Artifact container (Gravi/Disposable)</English>
+        <Russian>Контейнер артефактов (Грави/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_amoeba_name">
+        <Original>Artifact container (Amoeba/Disposable)</Original>
+        <English>Artifact container (Amoeba/Disposable)</English>
+        <Russian>Контейнер артефактов (Амёба/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_battery_name">
+        <Original>Artifact container (Battery/Disposable)</Original>
+        <English>Artifact container (Battery/Disposable)</English>
+        <Russian>Контейнер артефактов (Батарейка/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_crystall_name">
+        <Original>Artifact container (Crystall/Disposable)</Original>
+        <English>Artifact container (Crystall/Disposable)</English>
+        <Russian>Контейнер артефактов (Кристалл/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_electra_name">
+        <Original>Artifact container (Electra/Disposable)</Original>
+        <English>Artifact container (Electra/Disposable)</English>
+        <Russian>Контейнер артефактов (Электра/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_fireball_name">
+        <Original>Artifact container (Fireball/Disposable)</Original>
+        <English>Artifact container (Fireball/Disposable)</English>
+        <Russian>Контейнер артефактов (Огненный шар/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_meatloaf_name">
+        <Original>Artifact container (Meat loaf/Disposable)</Original>
+        <English>Artifact container (Meat loaf/Disposable)</English>
+        <Russian>Контейнер артефактов (Ломоть мяса/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_soul_name">
+        <Original>Artifact container (Soul/Disposable)</Original>
+        <English>Artifact container (Soul/Disposable)</English>
+        <Russian>Контейнер артефактов (Душа/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_spike_name">
+        <Original>Artifact container (Spikes/Disposable)</Original>
+        <English>Artifact container (Spikes/Disposable)</English>
+        <Russian>Контейнер артефактов (Колючка/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_stoneblood_name">
+        <Original>Artifact container (Stone blood/Disposable)</Original>
+        <English>Artifact container (Stone blood/Disposable)</English>
+        <Russian>Контейнер артефактов (Кровь камня/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_tear_name">
+        <Original>Artifact container (Tear/Disposable)</Original>
+        <English>Artifact container (Tear/Disposable)</English>
+        <Russian>Контейнер артефактов (Капля/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_disposable_empty_name">
+        <Original>Artifact container (Empty/Disposable)</Original>
+        <English>Artifact container (Empty/Disposable)</English>
+        <Russian>Контейнер артефактов (Пустышка/Одноразовый)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_name">
+        <Original>Artifact container</Original>
+        <English>Artifact container</English>
+        <Russian>Контейнер артефактов</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_jellyfish_name">
+        <Original>Artifact container (Jellyfish)</Original>
+        <English>Artifact container (Jellyfish)</English>
+        <Russian>Контейнер артефактов (Медуза)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_gravi_name">
+        <Original>Artifact container (Gravi)</Original>
+        <English>Artifact container (Gravi)</English>
+        <Russian>Контейнер артефактов (Грави)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_amoeba_name">
+        <Original>Artifact container (Amoeba)</Original>
+        <English>Artifact container (Amoeba)</English>
+        <Russian>Контейнер артефактов (Амёба)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_battery_name">
+        <Original>Artifact container (Battery)</Original>
+        <English>Artifact container (Battery)</English>
+        <Russian>Контейнер артефактов (Батарейка)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_crystall_name">
+        <Original>Artifact container (Crystall)</Original>
+        <English>Artifact container (Crystall)</English>
+        <Russian>Контейнер артефактов (Кристалл)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_electra_name">
+        <Original>Artifact container (Electra)</Original>
+        <English>Artifact container (Electra)</English>
+        <Russian>Контейнер артефактов (Электра)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_fireball_name">
+        <Original>Artifact container (Fireball)</Original>
+        <English>Artifact container (Fireball)</English>
+        <Russian>Контейнер артефактов (Огненный шар)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_meatloaf_name">
+        <Original>Artifact container (Meat loaf)</Original>
+        <English>Artifact container (Meat loaf)</English>
+        <Russian>Контейнер артефактов (Ломоть мяса)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_soul_name">
+        <Original>Artifact container (Soul)</Original>
+        <English>Artifact container (Soul)</English>
+        <Russian>Контейнер артефактов (Душа)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_spike_name">
+        <Original>Artifact container (Spikes)</Original>
+        <English>Artifact container (Spikes)</English>
+        <Russian>Контейнер артефактов (Колючка)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_stoneblood_name">
+        <Original>Artifact container (Stone blood)</Original>
+        <English>Artifact container (Stone blood)</English>
+        <Russian>Контейнер артефактов (Кровь камня)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_tear_name">
+        <Original>Artifact container (Tear)</Original>
+        <English>Artifact container (Tear)</English>
+        <Russian>Контейнер артефактов (Капля)</Russian>
+      </Key>
+      <Key ID="STR_STST_item_artifact_container_empty_name">
+        <Original>Artifact container (Empty)</Original>
+        <English>Artifact container (Empty)</English>
+        <Russian>Контейнер артефактов (Пустышка)</Russian>
       </Key>
     </Container>
   </Package>

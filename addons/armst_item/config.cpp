@@ -3575,7 +3575,7 @@ class cfgWeapons
 	class ARMST_salo: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Fat";
+			displayName="$STR_STST_food_fat_name";
 			picture="\armst\armst_item\img\salo.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -3595,9 +3595,8 @@ class cfgWeapons
 	class ARMST_siga: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Cigarette";
+			displayName="$STR_STST_facegear_cigarette_name";
 			picture="\armst\armst_item\img\siga.paa";
-			descriptionShort = "A paper cylinder containing shredded tobacco for smoking. Most manufactured cigarettes are 84 mm long and 0.3 inches (7.62 mm) in diameter, and a special filter that partially reduces the concentration of toxic substances in the inhaled smoke";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3606,9 +3605,8 @@ class cfgWeapons
 	class ARMST_sviter: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Sweater";
+			displayName="$STR_STST_item_sweater_name";
 			picture="\armst\armst_item\img\sviter.paa";
-			descriptionShort = "A piece of knitted clothing for the upper body without fasteners. In the conditions of the Zone, an irreplaceable thing";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3617,9 +3615,8 @@ class cfgWeapons
 	class ARMST_tea: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Tea";
+			displayName="$STR_STST_food_tea_name";
 			picture="\armst\armst_item\img\tea.paa";
-			descriptionShort = "Small box of <<Alisa>> brand tea bags. Carried by british mercenaries.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 5;
@@ -3628,9 +3625,8 @@ class cfgWeapons
 	class ARMST_tetrad: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Notebook";
+			displayName="$STR_STST_item_notebook_name";
 			picture="\armst\armst_item\img\tetrad.paa";
-			descriptionShort = "36 sheet notebook.";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 1;
@@ -3639,7 +3635,7 @@ class cfgWeapons
 	class ARMST_kontainer_open: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "$STR_STST_item_artifact_container_disposable_name";
+			displayName = "$STR_STST_item_artifact_container_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_open.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3650,10 +3646,9 @@ class cfgWeapons
 	class ARMST_kontainer_medusa: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with medusa artifact";
+			displayName = "$STR_STST_item_artifact_container_jellyfish_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_medusa.paa";
-			descriptionShort = "Contains medusa artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3662,10 +3657,9 @@ class cfgWeapons
 	class ARMST_kontainer_gravi: ACE_ItemCore
 	{
 		scope=2;
-		displayName = "Container with gravi artifact";
+		displayName = "$STR_STST_item_artifact_container_gravi_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\item\kontainer\kont_gravi.paa";
-		descriptionShort = "Contains gravi artifact";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
 			mass = 15;
@@ -3674,10 +3668,9 @@ class cfgWeapons
 	class ARMST_kontainer_ameba: ACE_ItemCore
 	{
 			scope=2;
-		displayName = "Container with ameba artifact";
+		displayName = "$STR_STST_item_artifact_container_amoeba_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\item\kontainer\kont_ameba.paa";
-		descriptionShort = "Contains ameba artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3686,10 +3679,9 @@ class cfgWeapons
 	class ARMST_kontainer_battery: ACE_ItemCore
 	{
 			scope=2;
-		displayName = "Container with battery artifact";
+		displayName = "$STR_STST_item_artifact_container_battery_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\item\kontainer\kont_battery.paa";
-		descriptionShort = "Contains battery artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3698,10 +3690,9 @@ class cfgWeapons
 	class ARMST_kontainer_crystall: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with crystall artifact";
+			displayName = "$STR_STST_item_artifact_container_crystall_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_crystall.paa";
-		descriptionShort = "Contains crystall artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3710,10 +3701,9 @@ class cfgWeapons
 	class ARMST_kontainer_electra: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with electra artifactr";
+			displayName = "$STR_STST_item_artifact_container_electra_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_electra.paa";
-		descriptionShort = "Contains electra artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3722,10 +3712,9 @@ class cfgWeapons
 	class ARMST_kontainer_empty: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Artifact container (empty) ";
+			displayName = "STR_STST_item_artifact_container_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_empty.paa";
-		descriptionShort = "Empty container";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3734,10 +3723,9 @@ class cfgWeapons
 	class ARMST_kontainer_fire: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with fire artifact";
+			displayName = "$STR_STST_item_artifact_container_fireball_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_fire.paa";
-		descriptionShort = "Contains fire artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3746,10 +3734,9 @@ class cfgWeapons
 	class ARMST_kontainer_meat: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with meat artifact";
+			displayName = "$STR_STST_item_artifact_container_meatloaf_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_meat.paa";
-		descriptionShort = "Contains meat artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3758,10 +3745,9 @@ class cfgWeapons
 	class ARMST_kontainer_soul: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with soul artifact";
+			displayName = "$STR_STST_item_artifact_container_soul_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_soul.paa";
-		descriptionShort = "Contains soul artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3770,10 +3756,9 @@ class cfgWeapons
 	class ARMST_kontainer_spikes: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with spike artifact";
+			displayName = "$STR_STST_item_artifact_container_spike_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_spikes.paa";
-		descriptionShort = "Contains spikes artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3782,10 +3767,9 @@ class cfgWeapons
 	class ARMST_kontainer_stoneblood: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with stoneblood artifact";
+			displayName = "$STR_STST_item_artifact_container_stoneblood_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_stoneblood.paa";
-		descriptionShort = "Contains stoneblood artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3794,10 +3778,9 @@ class cfgWeapons
 	class ARMST_kontainer_tears: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with tear artifact";
+			displayName = "$STR_STST_item_artifact_container_tear_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\kont_tears.paa";
-		descriptionShort = "Contains tears artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3806,10 +3789,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_open: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Artefact's container (disposable)";
+			displayName = "$STR_STST_item_artifact_container_disposable_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_open.paa";
-			descriptionShort = "";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 8;
@@ -3818,10 +3800,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_medusa: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with medusa artifact";
+			displayName = "$STR_STST_item_artifact_container_disposable_jellyfish_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_medusa.paa";
-			descriptionShort = "Contains medusa artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3830,10 +3811,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_gravi: ACE_ItemCore
 	{
 			scope=2;
-		displayName = "Container with gravi artifact";
+		displayName = "$STR_STST_item_artifact_container_disposable_gravi_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\item\kontainer\one_kont_gravi.paa";
-		descriptionShort = "Contains gravi artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3842,10 +3822,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_ameba: ACE_ItemCore
 	{
 			scope=2;
-		displayName = "Container with ameba artifact";
+		displayName = "$STR_STST_item_artifact_container_disposable_amoeba_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\item\kontainer\one_kont_ameba.paa";
-		descriptionShort = "Contains ameba artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3854,10 +3833,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_battery: ACE_ItemCore
 	{
 			scope=2;
-		displayName = "Container with battery artifact";
+		displayName = "$STR_STST_item_artifact_container_disposable_battery_name";
 		model = "\armst\armst_item\object\container\container.p3d";
 		picture = "\armst\armst_item\item\kontainer\one_kont_battery.paa";
-		descriptionShort = "Contains battery artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3866,10 +3844,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_crystall: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with crystall artifact";
+			displayName = "$STR_STST_item_artifact_container_disposable_crystall_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_crystall.paa";
-		descriptionShort = "Contains crystall artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3878,10 +3855,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_electra: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with electra artifact";
+			displayName = "$STR_STST_item_artifact_container_disposable_electra_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_electra.paa";
-		descriptionShort = "Contains electra artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3890,10 +3866,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_empty: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Artefact's container (Empty)";
+			displayName = "$STR_STST_item_artifact_container_disposable_empty_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_empty.paa";
-		descriptionShort = "Empty container";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3902,10 +3877,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_fire: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with fire artifact";
+			displayName = "$STR_STST_item_artifact_container_disposable_fireball_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_fire.paa";
-		descriptionShort = "Contains fire artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3914,10 +3888,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_meat: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with meat artifact";
+			displayName = "$STR_STST_item_artifact_container_disposable_meatloaf_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_meat.paa";
-		descriptionShort = "Contains meat artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3926,10 +3899,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_soul: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with soul artifact";
+			displayName = "$STR_STST_item_artifact_container_disposable_soul_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_soul.paa";
-		descriptionShort = "Contains soul artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3938,10 +3910,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_spikes: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with spike artifact";
+			displayName = "$STR_STST_item_artifact_container_disposable_spike_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_spikes.paa";
-		descriptionShort = "Contains spike artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3950,10 +3921,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_stoneblood: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with stoneblood artifact";
+			displayName = "$STR_STST_item_artifact_container_disposable_stoneblood_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_stoneblood.paa";
-		descriptionShort = "Contains stoneblood artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
@@ -3962,10 +3932,9 @@ class cfgWeapons
 	class ARMST_one_kontainer_tears: ACE_ItemCore
 	{
 			scope=2;
-			displayName = "Container with tear artifact";
+			displayName = "$STR_STST_item_artifact_container_disposable_empty_name";
 			model = "\armst\armst_item\object\container\container.p3d";
 			picture = "\armst\armst_item\item\kontainer\one_kont_tears.paa";
-			descriptionShort = "Contains tears artifact";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
 				mass = 15;
