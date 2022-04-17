@@ -1,6 +1,6 @@
 #define ARM_PAPER_ID(X,Y,Z) class X##_##Z : X \
 	{ \
-		displayName = Y Z; \
+		displayName = Y; \
 		scope = 1; \
 		scopeCurator = 1; \
 	};	

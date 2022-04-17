@@ -474,6 +474,35 @@
         <Russian>Чай</Russian>
       </Key>
     </Container>
+    <Container name="Unknown">
+      <Key ID="STR_STST_food_flask_unknown_name">
+        <Original>Unknown flask</Original>
+        <English>Unknown flask</English>
+        <Russian>Неизвестная фляжка</Russian>
+      </Key>
+      <Key ID="STR_STST_food_seeds_unknown_name">
+        <Original>Unknown seeds</Original>
+        <English>Unknown seeds</English>
+        <Russian>Неизвестные семена</Russian>
+      </Key>
+      <Key ID="STR_STST_food_plant_unknown_name">
+        <Original>Unknown plant</Original>
+        <English>Unknown plant</English>
+        <Russian>Неизвестное растение</Russian>
+      </Key>
+      <Key ID="STR_STST_food_mold_unknown_name">
+        <Original>Unknown mold</Original>
+        <English>Unknown mold</English>
+        <Russian>Неизвестня плесень</Russian>
+      </Key>
+    </Container>
+    <Container name="Other">
+      <Key ID="STR_STST_food_skittles_name">
+        <Original>Skittles</Original>
+        <English>Skittles</English>
+        <Russian>Skittles</Russian>
+      </Key>
+    </Container>
   </Package>
   <Package name="Gear">
     <Container name="Facegear">
@@ -716,9 +745,9 @@
         <Russian>Аптечка (1 исп.)</Russian>
       </Key>
       <Key ID="STR_STST_medic_medkit_a_desc">
-        <Original />
-        <English />
-        <Russian />
+        <Original>4x elastic and packing bandages, 1x morphine and epi (DOUBLE CLICK TO OPEN)</Original>
+        <English>4x elastic and packing bandages, 1x morphine and epi (DOUBLE CLICK TO OPEN)</English>
+        <Russian>4 эластичных и тампонирующие повязки, 1 ампула морфина и эпинефрина (ДВОЙНОЙ КЛИК ДЛЯ ИСПОЛЬЗОВАНИЯ)</Russian>
       </Key>
     </Container>
     <Container name="Army Medkit">
@@ -738,9 +767,9 @@
         <Russian>Армейская аптечка (1 исп.)</Russian>
       </Key>
       <Key ID="STR_STST_medic_medkit_b_desc">
-        <Original />
-        <English />
-        <Russian />
+        <Original>4x elastic and packing bandages, 2x morphine and epi, clears from irradiation (DOUBLE CLICK TO OPEN)</Original>
+        <English>4x elastic and packing bandages, 2x morphine and epi, clears from irradiation (DOUBLE CLICK TO OPEN)</English>
+        <Russian>4 эластичных и тампонирующие повязки, 2 ампулы морфина и эпинефрина, очищает от радиации (ДВОЙНОЙ КЛИК ДЛЯ ИСПОЛЬЗОВАНИЯ)</Russian>
       </Key>
     </Container>
     <Container name="Science Medkit">
@@ -760,9 +789,9 @@
         <Russian>Научная аптечка (1 исп.)</Russian>
       </Key>
       <Key ID="STR_STST_medic_medkit_c_desc">
-        <Original />
-        <English />
-        <Russian />
+        <Original>Full heal and clears from irradiation (DOUBLE CLICK TO USE)</Original>
+        <English>Full heal and clears from irradiation (DOUBLE CLICK TO USE)</English>
+        <Russian>Полное исцеление и очищение от радиации (ДВОЙНОЙ КЛИК ДЛЯ ИСПОЛЬЗОВАНИЯ)</Russian>
       </Key>
     </Container>
     <Container name="Antirad">
@@ -821,15 +850,20 @@
       </Key>
     </Container>
     <Container name="Cigarettes">
-      <Key ID="STR_STST_drug_cigarettes_name">
+      <Key ID="STR_STST_drug_cigarettes_a_name">
         <Original>Lucky Strike Cigarettes</Original>
         <English>Lucky Strike Cigarettes</English>
         <Russian>Сигареты Lucky Strike</Russian>
       </Key>
-      <Key ID="STR_STST_drug_cigarettes_camel_name">
+      <Key ID="STR_STST_drug_cigarettes_b_name">
         <Original>Camell Cigarettes</Original>
         <English>Camell Cigarettes</English>
         <Russian>Сигареты Camell</Russian>
+      </Key>
+      <Key ID="STR_STST_drug_cigarettes_c_name">
+        <Original>Marlboro Cigarettes</Original>
+        <English>Marlboro Cigarettes</English>
+        <Russian>Сигареты Marlboro</Russian>
       </Key>
     </Container>
     <Container name="Amphetamine">
@@ -858,6 +892,85 @@
         <Original>Methamphetamine</Original>
         <English>Methamphetamine</English>
         <Russian>Метамфетамин</Russian>
+      </Key>
+    </Container>
+    <Container name="Stimulator Hunger">
+      <Key ID="STR_STST_medic_stimulator_hunger_name">
+        <Original>Stimulator «FX-H1Q2»</Original>
+        <English>Stimulator «FX-H1Q2»</English>
+        <Russian>Стимулятор «FX-H1Q2»</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_stimulator_hunger_desc">
+        <Original>This stimulator allows your body to "forget" about hunger. This however doesn't mean it can replace proper nutrition. Side-effects may include: nausea, bradicardia, hypodinamia, loss of consciousness.</Original>
+        <English>This stimulator allows your body to "forget" about hunger. This however doesn't mean it can replace proper nutrition. Side-effects may include: nausea, bradicardia, hypodinamia, loss of consciousness.</English>
+        <Russian>Данный стимулятор позволяет телу "забыть" о голоде. Стимулятор однако не является заменителем нормальной пищи. Побочные эффекты могут включать: головокружение, брадикардия, гиподинамия, потеря сознания.</Russian>
+      </Key>
+    </Container>
+    <Container name="Stimulator Thirst">
+      <Key ID="STR_STST_medic_stimulator_thirst_name">
+        <Original>Stimulator «Zen4W-H2O»</Original>
+        <English>Stimulator «Zen4W-H2O»</English>
+        <Russian>Стимулятор «Zen4W-H2O»</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_stimulator_thirst_desc">
+        <Original>Stimulator «Zen4W-H2O»</Original>
+        <English>Stimulator «Zen4W-H2O»</English>
+        <Russian>Стимулятор «Zen4W-H2O»</Russian>
+      </Key>
+    </Container>
+    <Container name="Stimulator Endurance">
+      <Key ID="STR_STST_medic_stimulator_stamina_name">
+        <Original>Stimulator «STAM-JAGcr»</Original>
+        <English>Stimulator «STAM-JAGcr»</English>
+        <Russian>Стимулятор «STAM-JAGcr»</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_stimulator_stamina_desc">
+        <Original>Stimulator «STAM-JAGcr»</Original>
+        <English>Stimulator «STAM-JAGcr»</English>
+        <Russian>Стимулятор «STAM-JAGcr»</Russian>
+      </Key>
+    </Container>
+    <Container name="Stimulator Strength">
+      <Key ID="STR_STST_medic_stimulator_strength_name">
+        <Original>Stimulator «RE1-nPO»</Original>
+        <English>Stimulator «RE1-nPO»</English>
+        <Russian>Стимулятор «RE1-nPO»</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_stimulator_strength_desc">
+        <Original>Stimulator «RE1-nPO»</Original>
+        <English>Stimulator «RE1-nPO»</English>
+        <Russian>Стимулятор «RE1-nPO»</Russian>
+      </Key>
+    </Container>
+    <Container name="Stimulator Bleeding">
+      <Key ID="STR_STST_medic_stimulator_blood_name">
+        <Original>Stimulator «Gem-XX»</Original>
+        <English>Stimulator «Gem-XX»</English>
+        <Russian>Стимулятор «Gem-XX»</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_stimulator_blood_desc">
+        <Original>Stimulator «Gem-XX»</Original>
+        <English>Stimulator «Gem-XX»</English>
+        <Russian>Стимулятор «Gem-XX»</Russian>
+      </Key>
+    </Container>
+    <Container name="Stimulator Night vision">
+      <Key ID="STR_STST_medic_stimulator_nightvis_name">
+        <Original>Stimulator «Feline vision»</Original>
+        <English>Stimulator «Feline vision»</English>
+        <Russian>Стимулятор «Feline vision»</Russian>
+      </Key>
+      <Key ID="STR_STST_medic_stimulator_nightvis_desc">
+        <Original>Stimulator «Feline vision»</Original>
+        <English>Stimulator «Feline vision»</English>
+        <Russian>Стимулятор «Feline vision»</Russian>
+      </Key>
+    </Container>
+    <Container name="Psi-blockade">
+      <Key ID="STR_STST_medic_psi_blockade_name">
+        <Original>Psi-blockade</Original>
+        <English>Psi-blockade</English>
+        <Russian>Пси-блокада</Russian>
       </Key>
     </Container>
   </Package>
@@ -992,6 +1105,11 @@
         <English>Notebook</English>
         <Russian>Блокнот</Russian>
       </Key>
+      <Key ID="STR_STST_item_note_name">
+        <Original>Note</Original>
+        <English>Note</English>
+        <Russian>Записка</Russian>
+      </Key>
     </Container>
     <Container name="Electronics">
       <Key ID="STR_STST_item_brokenpda_name">
@@ -1098,11 +1216,6 @@
       </Key>
     </Container>
     <Container name="Junk">
-      <Key ID="STR_STST_item_matches_name">
-        <Original>Box of matches</Original>
-        <English>Box of matches</English>
-        <Russian>Коробок спичек</Russian>
-      </Key>
       <Key ID="STR_STST_item_wipes_name">
         <Original>Wet towel wipes</Original>
         <English>Wet towel wipes</English>
@@ -1353,6 +1466,16 @@
         <English>Pen</English>
         <Russian>Ручка</Russian>
       </Key>
+      <Key ID="STR_STST_item_can_empty_name">
+        <Original>Empty can</Original>
+        <English>Empty can</English>
+        <Russian>Консервная банка</Russian>
+      </Key>
+      <Key ID="STR_STST_item_radio_broken_name">
+        <Original>Broken radio</Original>
+        <English>Broken radio</English>
+        <Russian>Сломанное радио</Russian>
+      </Key>
     </Container>
     <Container name="Materials">
       <Key ID="STR_STST_item_armorplate_name">
@@ -1449,6 +1572,11 @@
         <Original>Radio parts</Original>
         <English>Radio parts</English>
         <Russian>Радиодетали</Russian>
+      </Key>
+      <Key ID="STR_STST_item_pelt_name">
+        <Original>Pelt</Original>
+        <English>Pelt</English>
+        <Russian>Шкура</Russian>
       </Key>
     </Container>
     <Container name="Patches">
@@ -1564,6 +1692,21 @@
         <English>Lighter</English>
         <Russian>Зажигалка</Russian>
       </Key>
+      <Key ID="STR_STST_item_matches_wet_name">
+        <Original>Wet matches</Original>
+        <English>Wet matches</English>
+        <Russian>Сырые спички</Russian>
+      </Key>
+      <Key ID="STR_STST_item_matches_name">
+        <Original>Box of matches</Original>
+        <English>Box of matches</English>
+        <Russian>Коробок спичек</Russian>
+      </Key>
+      <Key ID="STR_STST_item_building_tools_name">
+        <Original>Building tools</Original>
+        <English>Building tools</English>
+        <Russian>Строительные инструменты</Russian>
+      </Key>
     </Container>
     <Container name="Vehicle Parts">
       <Key ID="STR_STST_item_carburetor_name">
@@ -1615,6 +1758,16 @@
         <Original>Gas Tank</Original>
         <English>Gas Tank</English>
         <Russian>Топливный бак</Russian>
+      </Key>
+      <Key ID="STR_STST_item_engine_name">
+        <Original>Engine</Original>
+        <English>Engine</English>
+        <Russian>Двигатель</Russian>
+      </Key>
+      <Key ID="STR_STST_item_wheel_name">
+        <Original>Wheel</Original>
+        <English>Wheel</English>
+        <Russian>Колесо</Russian>
       </Key>
     </Container>
     <Container name="Money">
@@ -1688,6 +1841,18 @@
         <Original>Beads</Original>
         <English>Beads</English>
         <Russian>Бусы</Russian>
+      </Key>
+    </Container>
+    <Container name="Filters">
+      <Key ID="STR_STST_item_gasmask_filter_name">
+        <Original>Gasmask filter</Original>
+        <English>Gasmask filter</English>
+        <Russian>Фильтр противогаза</Russian>
+      </Key>
+      <Key ID="STR_STST_item_gasmask_filter_depleted_name">
+        <Original>Gasmask filter (Depleted)</Original>
+        <English>Gasmask filter (Depleted)</English>
+        <Russian>Фильтр противогаза (Исчерпанный)</Russian>
       </Key>
     </Container>
   </Package>

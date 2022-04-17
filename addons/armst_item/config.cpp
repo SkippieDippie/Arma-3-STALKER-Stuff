@@ -489,8 +489,7 @@ class cfgWeapons
 	class Armst_item_canempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_can_empty;
-		descriptionShort = "";
+		displayName = "$STR_STST_item_can_empty_name";
 		model = "\armst\armst_item\item\tushonka.p3d";
 		picture = "\armst\armst_item\img\tushonka.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -549,8 +548,7 @@ class cfgWeapons
 	class Armst_item_waterbottle_stimul : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Unknown flask";
-		descriptionShort = $STR_Armst_item_waterbottle_info;
+		displayName = "$STR_STST_food_flask_unknown_name";
 		picture = "\armst\armst_item\img\flask.paa";
 		model = "\armst\armst_item\item\fliaga\fliaga.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -561,8 +559,7 @@ class cfgWeapons
 	class Armst_item_unknowseeds : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Unknown seeds";
-		descriptionShort = "";
+		displayName = "$STR_STST_food_seeds_unknown_name";
 		picture = "\armst\armst_item\img\unknowseeds.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
 		{
@@ -944,8 +941,7 @@ class cfgWeapons
 	class armst_item_chigarette : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_chigarette;
-		descriptionShort = $STR_Armst_item_chigarette_info;
+		displayName = "$STR_STST_drug_cigarettes_c_name";
 		picture = "\armst\armst_item\img\chigarette.paa";
 		model = "\armst\armst_item\item\chigarette.p3d";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -968,8 +964,7 @@ class cfgWeapons
 	class armst_item_filter : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_filter;
-		descriptionShort = "Filter for gasmask";
+		displayName = "$STR_STST_item_gasmask_filter_name";
 		model = "\armst\armst_item\object\filter_gas.p3d";
 		picture = "\armst\armst_item\object\item_gas_filter.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -980,8 +975,7 @@ class cfgWeapons
 	class armst_item_filterempty : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = $STR_Armst_item_filterEmpty;
-		descriptionShort = "Filter for gasmask (Empty)";
+		displayName = "$STR_STST_item_gasmask_filter_depleted_name";
 		model = "\armst\armst_item\object\filter_gas.p3d";
 		picture = "\armst\armst_item\object\item_gas_filter.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1003,7 +997,7 @@ class cfgWeapons
 	class armst_korobok : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Wet matches";
+		displayName = "$STR_STST_item_matches_wet_name";
 		model = "\armst\armst_item\object\spicki.p3d";
 		picture = "\armst\armst_item\object\spicki_ico.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1227,7 +1221,6 @@ class cfgWeapons
 	{
 			scope=2;
 			displayName="$STR_STST_item_documents_name";
-			descriptionShort = "Беспорядочно написаны цифры: 6 357 846 573";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\newspaper.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1239,7 +1232,6 @@ class cfgWeapons
 	{
 			scope=2;
 			displayName="$STR_STST_item_documents_name";
-			descriptionShort = "Беспорядочно написаны цифры: 3 53 6 36 2 24 6";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\newspaper.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1251,7 +1243,6 @@ class cfgWeapons
 	{
 			scope=2;
 			displayName="$STR_STST_item_documents_name";
-			descriptionShort = "Беспорядочно написаны цифры: 54 25 46 78 73";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			picture="\armst\armst_item\img\newspaper.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1294,7 +1285,7 @@ class cfgWeapons
 	class ARMST_skittles: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Skittles";
+			displayName="$STR_STST_food_skittles_name";
 			picture="\armst\armst_item\img\skittles.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1530,7 +1521,7 @@ class cfgWeapons
 	class ARMST_cigarettes: ACE_ItemCore
 	{
 			scope=2;
-			displayName="$STR_STST_drug_cigarettes_name";
+			displayName="$STR_STST_drug_cigarettes_a_name";
 			picture="\armst\armst_item\img\cigarettes.paa";
 			model = "\armst\armst_item\object\Cigarette\lucky_strike.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1541,7 +1532,7 @@ class cfgWeapons
 	class ARMST_cigarettes_camell: ACE_ItemCore
 	{
 			scope=2;
-			displayName="$STR_STST_drug_cigarettes_camel_name";
+			displayName="$STR_STST_drug_cigarettes_b_name";
 			picture="\armst\armst_item\img\cigarettes.paa";
 			model = "\armst\armst_item\object\Cigarette\camel.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -1564,7 +1555,7 @@ class cfgWeapons
 	class ARMST_domo: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_domo;
+			displayName="$STR_STST_item_stuffed_toy_name";
 			picture="\armst\armst_item\img\domo.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -1668,7 +1659,7 @@ class cfgWeapons
 	class ARMST_psyblocade: ACE_ItemCore
 	{
 			scope=2;
-			displayName="anti-PSI pills";
+			displayName="$STR_STST_medic_psi_blockade_name";
 			model = "\A3\Structures_F_EPA\Items\Medical\VitaminBottle_F.p3d";
 			picture="\armst\armst_item\img\hydrochloric.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -2021,7 +2012,7 @@ class cfgWeapons
 	class ARMST_camp_creators: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Camp building tool";
+			displayName="$STR_STST_item_building_tools_name";
 			picture="\armst\armst_item\img\instruments.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2125,7 +2116,7 @@ class cfgWeapons
 	class armst_tkan: ACE_ItemCore
 	{
 			scope=2;
-			displayName="$";
+			displayName="$STR_STST_item_cloth_name";
 			picture="\armst\armst_item\img\armst_tkan.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2185,7 +2176,7 @@ class cfgWeapons
 	class armst_brokenradio: ACE_ItemCore
 	{
 			scope=2;
-			displayName="Broken radio";
+			displayName="$STR_STST_item_radio_broken_name";
 			picture="\armst\armst_item\img\armst_brokenradio.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
 			{
@@ -2580,7 +2571,7 @@ class cfgWeapons
 	class ARMST_shkura: ACE_ItemCore
 	{
 			scope=2;
-			displayName=$STR_Armst_item_ARMST_shkura;
+			displayName="$STR_STST_item_pelt_name";
 			picture="\armst\armst_item\img\shkura.paa";
 			model = "\armst\armst_item\mut_part\cat.p3d";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3195,8 +3186,7 @@ class cfgWeapons
 	class Armst_aflower : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Unknown abnormal plant";
-		descriptionShort = "Wouldn't recommend eating this";
+		displayName = "$STR_STST_food_plant_unknown_name";
 		model = "\ca\plants2\Clutter\c_MushroomBabka.p3d";
 		picture = "\armst\armst_item\img\Armst_aflower.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3207,8 +3197,7 @@ class cfgWeapons
 	class Armst_aplesen : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Abnormal mold";
-		descriptionShort = "Found only in dungeons, because it does not tolerate sunlight";
+		displayName = "$STR_STST_food_mold_unknown_name";
 		model = "\ca\plants2\Clutter\c_weed2.p3d";
 		picture = "\armst\armst_item\img\Armst_aplesen.paa";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3220,7 +3209,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "$STR_STST_medic_medkit_a_3_name";
-		descriptionShort ="4x elastic and packing bandages, 1x morphine and epi (DOUBLE CLICK TO OPEN)"
+		descriptionShort ="$STR_STST_medic_medkit_a_desc"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3232,7 +3221,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "$STR_STST_medic_medkit_a_2_name";
-		descriptionShort ="4x elastic and packing bandages, 1x morphine and epi (DOUBLE CLICK TO OPEN)"
+		descriptionShort ="$STR_STST_medic_medkit_a_desc"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3244,7 +3233,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "$STR_STST_medic_medkit_a_1_name";
-		descriptionShort ="4x elastic and packing bandages, 1x morphine and epi (DOUBLE CLICK TO OPEN)"
+		descriptionShort ="$STR_STST_medic_medkit_a_desc"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3256,7 +3245,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "$STR_STST_medic_medkit_b_3_name";
-		descriptionShort ="4x elastic and packing bandages, 2x morphine and epi, clears from irradiation (DOUBLE CLICK TO OPEN)"
+		descriptionShort ="$STR_STST_medic_medkit_b_desc"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_ARM_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_arm";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3268,7 +3257,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "$STR_STST_medic_medkit_b_2_name";
-		descriptionShort ="4x elastic and packing bandages, 2x morphine and epi, clears from irradiation (DOUBLE CLICK TO OPEN)"
+		descriptionShort ="$STR_STST_medic_medkit_b_desc"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_ARM_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_arm";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3280,7 +3269,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "$STR_STST_medic_medkit_b_1_name";
-		descriptionShort ="4x elastic and packing bandages, 2x morphine and epi, clears from irradiation (DOUBLE CLICK TO OPEN)"
+		descriptionShort ="$STR_STST_medic_medkit_b_desc"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_ARM_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_arm";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3292,7 +3281,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "$STR_STST_medic_medkit_c_3_name";
-		descriptionShort ="Full heal and clears from irradiation (DOUBLE CLICK TO USE)"
+		descriptionShort ="$STR_STST_medic_medkit_c_desc"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_SCI_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_sci";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3304,7 +3293,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "$STR_STST_medic_medkit_c_2_name";
-		descriptionShort ="Full heal and clears from irradiation (DOUBLE CLICK TO USE)"
+		descriptionShort ="$STR_STST_medic_medkit_c_desc"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_SCI_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_sci";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3316,7 +3305,7 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "$STR_STST_medic_medkit_c_1_name";
-		descriptionShort ="Full heal and clears from irradiation (DOUBLE CLICK TO USE)"
+		descriptionShort ="$STR_STST_medic_medkit_c_desc"
 		picture="\armst\armst_item\aidkit\Data\UI\AI2_SCI_UI.paa";
 		model="\armst\armst_item\aidkit\aidkit_sci";
 		class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3944,8 +3933,8 @@ class cfgWeapons
 	class armst_item_stimul_Food : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Stimulator «FX-H1Q2»";
-		descriptionShort = "Hunger stimulator. Stimulates the body, which allows you to forget about hunger for several hours. WARNING, DO NOT ABUSE!";
+		displayName = "$STR_STST_medic_stimulator_hunger_name";
+		descriptionShort = "$STR_STST_medic_stimulator_hunger_desc";
 		model = "\armst\armst_item\item\glucose.p3d";
 		picture = "\armst\armst_item\img\glucose.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3957,8 +3946,8 @@ class cfgWeapons
 	class armst_item_stimul_Water : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Stimulator «Zen4W-H2O»";
-		descriptionShort = "Thirst stimulant. Stimulates the body, which allows you to forget about thirst for several hours. WARNING, DO NOT ABUSE!";
+		displayName = "$STR_STST_medic_stimulator_thirst_name";
+		descriptionShort = "$STR_STST_medic_stimulator_thirst_desc";
 		model = "\armst\armst_item\item\glucose.p3d";
 		picture = "\armst\armst_item\img\glucose.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3969,8 +3958,8 @@ class cfgWeapons
 	class armst_item_stimul_stamina : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Stimulator «STAM-JAGcr»";
-		descriptionShort = "Endurance stimulator. Produces adrenaline, stabilizes oxygen exchange. WARNING, DO NOT ABUSE!";
+		displayName = "$STR_STST_medic_stimulator_stamina_name";
+		descriptionShort = "$STR_STST_medic_stimulator_stamina_desc";
 		model = "\armst\armst_item\item\glucose.p3d";
 		picture = "\armst\armst_item\img\glucose.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3981,8 +3970,8 @@ class cfgWeapons
 	class armst_item_stimul_recoil : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Stimulator «RE1-nPO»";
-		descriptionShort = "Muscle-strengthening stimulant. WARNING, DO NOT ABUSE!";
+		displayName = "$STR_STST_medic_stimulator_strength_name";
+		descriptionShort = "$STR_STST_medic_stimulator_strength_desc";
 		model = "\armst\armst_item\item\glucose.p3d";
 		picture = "\armst\armst_item\img\glucose.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -3993,8 +3982,8 @@ class cfgWeapons
 	class armst_item_stimul_hp : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Stimulator «Gem-XX»";
-		descriptionShort = "The stimulant ensures rapid blood clotting, increases the amount of hemoglobin. WARNING, EXTREMELY DANGEROUS!";
+		displayName = "$STR_STST_medic_stimulator_blood_name";
+		descriptionShort = "$STR_STST_medic_stimulator_blood_desc";
 		model = "\armst\armst_item\item\glucose.p3d";
 		picture = "\armst\armst_item\img\glucose.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -4005,8 +3994,8 @@ class cfgWeapons
 	class armst_item_stimul_NVG : ACE_ItemCore
 	{
 		scope = 2;
-		displayName = "Stimulator «Feline vision»";
-		descriptionShort = "The stimulator provides good visibility at night. WARNING, EXTREMELY DANGEROUS!";
+		displayName = "$STR_STST_medic_stimulator_nightvis_name";
+		descriptionShort = "$STR_STST_medic_stimulator_nightvis_desc";
 		model = "\armst\armst_item\item\glucose.p3d";
 		picture = "\armst\armst_item\img\glucose.paa";
 			class ItemInfo: CBA_MiscItem_ItemInfo 
@@ -4017,7 +4006,7 @@ class cfgWeapons
 	#include "cfgQuest.hpp"
 	
 	#include "papers_ids.hpp"
-	ARM_PAPER_IDS(ARMST_bumaga,Записка)
+	ARM_PAPER_IDS(ARMST_bumaga,"$STR_STST_item_note_name")
 };    
 
 class CfgMagazines 
@@ -4028,8 +4017,8 @@ class CfgMagazines
 	class armst_item_stimulFood : CA_Magazine
 	{
 		scope = 2;
-		displayName = "Stimulant «FX-H1Q2»";
-		descriptionShort = "Hunger stimulator. Stimulates the body, which allows you to forget about hunger for several hours. WARNING, DO NOT ABUSE!";
+		displayName = "$STR_STST_medic_stimulator_hunger_name";
+		descriptionShort = "$STR_STST_medic_stimulator_hunger_desc";
 		model = "\armst\armst_item\item\glucose.p3d";
 		picture = "\armst\armst_item\img\glucose.paa";
 		mass = 2;
@@ -4040,8 +4029,8 @@ class CfgMagazines
 	class armst_item_stimulWater : CA_Magazine
 	{
 		scope = 2;
-		displayName = "Stimulant «Zen4W-H2O»";
-		descriptionShort = "Thirst stimulant. Stimulates the body, which allows you to forget about thirst for several hours. WARNING, DO NOT ABUSE!";
+		displayName = "$STR_STST_medic_stimulator_thirst_name";
+		descriptionShort = "$STR_STST_medic_stimulator_thirst_desc";
 		model = "\armst\armst_item\item\glucose.p3d";
 		picture = "\armst\armst_item\img\glucose.paa";
 		mass = 2;
@@ -4111,7 +4100,7 @@ class CfgVehicles
 	class armst_pda: Building
 	{
 		scope=2;
-		displayname="Stalker's PDA";
+		displayname="$STR_STST_device_pda_name";
 		model="\armst\armst_item\object\pda\pda.p3d";
 		destrType="DestructNo";
 	};
@@ -4121,7 +4110,7 @@ class CfgVehicles
 		scope = 2;
 		mass = 100;
         maximumLoad = 0;
-		displayName = "Engine";
+		displayName = "$STR_STST_item_engine_name";
         model = "\armst\armst_item\item\engine.p3d";	
 		picture="\armst\armst_item\img\armst_dvigatel.paa";
 	};
@@ -4131,7 +4120,7 @@ class CfgVehicles
 		scope = 2;
 		mass = 60;
         maximumLoad = 0;
-		displayName = "Wheel";
+		displayName = "$STR_STST_item_wheel_name";
         model = "\armst\armst_item\item\wheel.p3d";	
 		picture = "\armst\armst_item\img\wheel.paa";
 	};
