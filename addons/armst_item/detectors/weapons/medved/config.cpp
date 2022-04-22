@@ -37,8 +37,7 @@ class CfgWeapons
 		picture="\armst\armst_item\detectors\item_detector_2_ico.paa";
 		author="ArmSTALKER";
 		magazines[]={};
-		displayName="$STR_armst_item_detectors_medved";
-		descriptionShort="$STR_armst_item_detectors_medved_info";
+		displayName="$STR_STST_det_bear_name";
 		cursor="EmptyCursor";
 		cursorAim="throw";
 		cursorSize=1;

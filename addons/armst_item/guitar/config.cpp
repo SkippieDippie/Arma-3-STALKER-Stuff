@@ -56,7 +56,7 @@ class UGL_F ;
 		maxZeroing = 2000;
 		cursor = "srifle";
 		model = "\armst\armst_item\guitar\gitara";
-		displayName = "Гитара";
+		displayName = "$STR_STST_weapon_guitar_name";
 		picture = "\armst\armst_item\guitar\data\w_guitar_ca.paa";
 		vehicleClass = "WeaponsSecondary";
 
@@ -163,6 +163,5 @@ class UGL_F ;
 		{
 			libtextdesc = "USSR_GUITAR";
 		};
-		descriptionshort = "ГИТАРА";
 	};
 };

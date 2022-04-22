@@ -19,7 +19,7 @@ class CfgWeapons
 	{
 		author="ArmSTALKER";
 		scope=2;
-		displayName="Бинокль ПНВ";
+		displayName="$STR_STST_weapon_binocular_nv_name";
 		model="\armst\armst_item\BinocularNVG\BinocularNVG.p3d";
 		picture="\armst\armst_item\BinocularNVG\BinocularNVG.paa";
 		opticsZoomMin=0.0099999998;

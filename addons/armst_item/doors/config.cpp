@@ -36,13 +36,13 @@ class CfgVehicles
 		scope=2;
 		vehicleClass="ArmXrayfence";
 		destrType="DestructNo";
-		displayName="Wall_Gate_5blocks";
+		displayName="$STR_STST_door_gate_name";
 		model="\xRay_objects\fence\wall_perimetr\Wall_Gate_5blocks.p3d";
 	};
 	class land_science_door: House_F
 	{
 		scope=2;
-		displayName="Бронированная дверь";
+		displayName="$STR_STST_door_armored_name";
 		model="\armst\armst_item\doors\science_door\science_door.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -60,7 +60,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -70,7 +70,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";
@@ -80,7 +80,7 @@ class CfgVehicles
 	class land_armst_lab_door: House_F
 	{
 		scope=2;
-		displayName="Лабораторная дверь";
+		displayName="$STR_STST_door_lab_name";
 		model="\armst\armst_item\doors\1\armst_door_1.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -98,7 +98,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -108,7 +108,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";
@@ -118,7 +118,7 @@ class CfgVehicles
 	class land_armst_metal_door: House_F
 	{
 		scope=2;
-		displayName="Металлическая дверь";
+		displayName="$STR_STST_door_metal_name";
 		model="\armst\armst_item\doors\2\armst_door_2.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -136,7 +136,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -146,7 +146,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";
@@ -156,7 +156,7 @@ class CfgVehicles
 	class land_armst_metal2_door: House_F
 	{
 		scope=2;
-		displayName="Металлическая дверь 2";
+		displayName="$STR_STST_door_metal_name";
 		model="\armst\armst_item\doors\3\armst_door_3.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -174,7 +174,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -184,7 +184,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";
@@ -194,7 +194,7 @@ class CfgVehicles
 	class land_armst_lab2_door: House_F
 	{
 		scope=2;
-		displayName="Лабораторная дверь 2";
+		displayName="$STR_STST_door_lab_name";
 		model="\armst\armst_item\doors\4\armst_door_4.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -212,7 +212,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -222,7 +222,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";
@@ -232,7 +232,7 @@ class CfgVehicles
 	class land_armst_metal3_door: House_F
 	{
 		scope=2;
-		displayName="Металлическая дверь 3";
+		displayName="$STR_STST_door_metal_name";
 		model="\armst\armst_item\doors\5\armst_door_5.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -250,7 +250,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -260,7 +260,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";
@@ -270,7 +270,7 @@ class CfgVehicles
 	class land_armst_wood_door: House_F
 	{
 		scope=2;
-		displayName="Деревянная дверь";
+		displayName="$STR_STST_door_wood_name";
 		model="\armst\armst_item\doors\6\armst_door_6.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -288,7 +288,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -298,7 +298,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";
@@ -308,7 +308,7 @@ class CfgVehicles
 	class land_armst_wood2_door: House_F
 	{
 		scope=2;
-		displayName="Деревянная дверь 2";
+		displayName="$STR_STST_door_wood_name";
 		model="\armst\armst_item\doors\7\armst_door_7.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -326,7 +326,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -336,7 +336,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";
@@ -346,7 +346,7 @@ class CfgVehicles
 	class land_armst_gate: House_F
 	{
 		scope=2;
-		displayName="Дверь ворота";
+		displayName="$STR_STST_door_gate_name";
 		model="\armst\armst_item\doors\8\armst_door_8.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -364,7 +364,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -374,7 +374,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";
@@ -384,7 +384,7 @@ class CfgVehicles
 	class land_armst_wood3_door: House_F
 	{
 		scope=2;
-		displayName="Деревянная дверь 3";
+		displayName="$STR_STST_door_wood_name";
 		model="\armst\armst_item\doors\9\armst_door_9.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -402,7 +402,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -412,7 +412,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";
@@ -422,7 +422,7 @@ class CfgVehicles
 	class land_armst_gate_big: House_F
 	{
 		scope=2;
-		displayName="Дверь ворота большие";
+		displayName="$STR_STST_door_gate_big_name";
 		model="\armst\armst_item\doors\10\armst_door_10.p3d";
 		vehicleClass="Structures";
 		class AnimationSources
@@ -440,7 +440,7 @@ class CfgVehicles
 			class OpenDoor_1
 			{
 				displayNameDefault="<img image='\A3\Ui_f\data\IGUI\Cfg\Actions\open_door_ca.paa' size='2.5' />";
-				displayName="Открыть";
+				displayName="$STR_DN_OUT_O_DOOR";
 				position="Door_1_trigger";
 				priority=0.40000001;
 				radius=3;
@@ -450,7 +450,7 @@ class CfgVehicles
 			};
 			class CloseDoor_1: OpenDoor_1
 			{
-				displayName="Close Door";
+				displayName="$STR_DN_OUT_C_DOOR";
 				priority=0.2;
 				condition="((this animationPhase 'Door_1_rot') >= 0.5) && ((this animationPhase 'Hitzone_2_hide') < 0.99999)";
 				statement="([this, 'Door_1_rot'] call BIS_fnc_DoorNoHandleClose)";

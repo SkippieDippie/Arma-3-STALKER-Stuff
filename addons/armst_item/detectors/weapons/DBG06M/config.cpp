@@ -31,7 +31,7 @@ class CfgWeapons
 		picture="\armst\armst_item\item\DBG06M_ico.paa";
 		author="ArmSTALKER";
 		magazines[]={};
-		displayName="$STR_DETECTOR_DBG06M";
+		displayName="$STR_STST_dos_dbg06m_name";
 		cursor="EmptyCursor";
 		cursorAim="throw";
 		cursorSize=1;

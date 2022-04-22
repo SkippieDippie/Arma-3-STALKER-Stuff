@@ -41,18 +41,18 @@ class cfgMagazines
 	class CA_Magazine;
 	class HandGrenade: CA_Magazine
 	{
-		displayName="Ф-1";
+		displayName="$STR_STST_weapon_f1_nameshort";
+		descriptionShort="$STR_STST_weapon_f1_desc";
+
 		picture="\armst\armst_item\grenade\f1.paa";
 		model="\armst\armst_item\grenade\f1_tex\f1.p3d";
-		descriptionShort="Ручная противопехотная оборонительная граната. ";
-		displayNameShort="Ф-1";
 	};
 	class MiniGrenade: CA_Magazine
 	{
-		displayName="РГД-5";
+		displayName="$STR_STST_weapon_rgd5_nameshort";
+		descriptionShort="$STR_STST_weapon_rgd5_desc";
+
 		picture="\armst\armst_item\grenade\rgd5.paa";
 		model="\armst\armst_item\grenade\rgd_5_tex\RGD_5.p3d";
-		descriptionShort="Советская наступательная ручная граната.";
-		displayNameShort="РГД-5.";
 	};
 };

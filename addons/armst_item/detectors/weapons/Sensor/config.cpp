@@ -31,7 +31,7 @@ class CfgWeapons
 		picture="\armst\armst_item\detectors\weapons\Sensor\item_detector_1_ico.paa";
 		author="ArmSTALKER";
 		magazines[]={};
-		displayName="RS Mobile L";
+		displayName="$STR_STST_life_sensor_name";
 		cursor="EmptyCursor";
 		cursorAim="throw";
 		cursorSize=1;

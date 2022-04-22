@@ -143,7 +143,7 @@
 	class armst_quest_fugitive_item_stadia_5 : ACE_ItemCore
 	{
 		scope = 1;
-			displayName="Armst_bush11";
+			displayName="$$STR_STST_item_documents_name";
 			model = "\Ca\misc\SmallObj_moscow_docs.p3d";
 			//image = "map";
 		class ItemInfo 

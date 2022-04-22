@@ -31,7 +31,7 @@ class CfgWeapons
 		picture="\armst\armst_item\item\MKS1009.paa";
 		author="ArmSTALKER";
 		magazines[]={};
-		displayName="$STR_DETECTOR_MKS1009";
+		displayName="$STR_STST_dos_mks1009_name";
 		cursor="EmptyCursor";
 		cursorAim="throw";
 		cursorSize=1;

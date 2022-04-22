@@ -37,8 +37,7 @@ class CfgWeapons
 		picture="\armst\armst_item\detectors\item_detector_1_ico.paa";
 		author="ArmSTALKER";
 		magazines[]={};
-		displayName="$STR_armst_item_detectors_otklick";
-		descriptionShort="$STR_armst_item_detectors_otklick_info";
+		displayName="$STR_STST_det_echo_name";
 		cursor="EmptyCursor";
 		cursorAim="throw";
 		cursorSize=1;
