@@ -30,7 +30,7 @@ class CfgVehicles
 		simulation="thing";
 		gravityfactor=1;
 		model="\armst\armst_item\grenade\samsung";
-		displayName="Samsung Galaxy Note 7";
+		displayName="$STR_STST_weapon_samsung_name";
 		accuracy=0.1;
 		vehicleclass="Small_items";
 		armor=0;
@@ -66,8 +66,7 @@ class cfgMagazines
 	{
 		ammo="DAPSTALKERS_note7";
 		count=1;
-		descriptionShort="BIG FUCKING SMARTPHONE BOMB";
-		displayName="Samsung Galaxy Note 7";
+		displayName="$STR_STST_weapon_samsung_name";
 		model="\armst\armst_item\grenade\samsung";
 		picture="\armst\armst_item\grenade\samsungico.paa";
 		modeloptics="";

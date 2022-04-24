@@ -31,7 +31,7 @@ class CfgWeapons
 		picture="\armst\armst_item\item\RKS20_ico.paa";
 		author="ArmSTALKER";
 		magazines[]={};
-		displayName="$STR_DETECTOR_RKS20";
+		displayName="$STR_STST_dos_rks20_name";
 		cursor="EmptyCursor";
 		cursorAim="throw";
 		cursorSize=1;

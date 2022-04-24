@@ -43,7 +43,7 @@ class CfgVehicles
 	};
 	class krovosos_strong_old_test: ARMST_MUTANT_HUM
 	{
-		uniformClass="krovosos_strong_old";
+		uniformClass="$STR_STST_bloodsucker_stronglove_name";
 		displayName="bloodsuscker";
 		moves="CfgMoveskrovosos2";
 		faceType="Default";
@@ -445,7 +445,7 @@ class CfgVehicles
 	};
 	class armst_krovosos_strong: krovosos_strong_old_test
 	{
-		displayName="Стронглав";
+		displayName="$STR_STST_bloodsucker_stronglove_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\bloodsuscker\krovosos.p3d";
 		uniformAccessories[]={};

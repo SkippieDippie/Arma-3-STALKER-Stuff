@@ -37,8 +37,7 @@ class CfgWeapons
 		picture="\armst\armst_item\detectors\item_detector_TRLife.paa";
 		author="ArmSTALKER";
 		magazines[]={};
-		displayName="Детектор 'Скат'";
-		descriptionShort="Разработка на основе Сварога от немецкого научного института Trennen Raum.";
+		displayName="$STR_STST_det_stingray_name";
 		cursor="EmptyCursor";
 		cursorAim="throw";
 		cursorSize=1;

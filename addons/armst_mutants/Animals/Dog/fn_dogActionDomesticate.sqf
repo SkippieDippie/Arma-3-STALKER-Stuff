@@ -21,7 +21,7 @@
 	};
 	
 	hintSilent parseText format [
-		localize "STR_armst_animal_domesticatingHint", 
+		localize "STR_STST_func_dog_tameHint", 
 		format["%1%2", _percent, "%"]
 	];
 	
@@ -55,7 +55,7 @@
 	
 	if (_percent isEqualTo 100 && !(_unit getVariable ["ARM_Domesticated", false])) then {
 		
-		if ([format [localize "STR_armst_animal_domesticateConfirm", getText (configFile >> "CfgVehicles" >> typeOf _unit >> "displayName")], "Confirm", true, true] call BIS_fnc_guiMessage) then {
+		if ([format [localize "STR_STST_func_dog_tame_confirm", getText (configFile >> "CfgVehicles" >> typeOf _unit >> "displayName")], "Confirm", true, true] call BIS_fnc_guiMessage) then {
 			
 			[_unit] call ARMST_Companien_Domesticate;
 			

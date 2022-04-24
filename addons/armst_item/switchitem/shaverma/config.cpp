@@ -39,8 +39,7 @@ class CfgWeapons
 	class armst_item_shaverma: ACE_ItemCore
 	{
 		scope=2;
-		displayName="Шаурма";
-		descriptionShort="Обычная (???) шаурма.";
+		displayName="$STR_STST_shaverma_name";
 		picture="\armst\armst_item\switchitem\shaverma\ico.paa";
 		model="\armst\armst_item\switchitem\shaverma\shaverma.p3d";
 		class ItemInfo

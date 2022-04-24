@@ -45,7 +45,7 @@ class CfgWeapons
 		{
 			"\armst\armst_item\map\satka_east_north.paa"
 		};
-		displayName="Карта (Северо-восток)";
+		displayName="$STR_STST_map_ne_name";
 		descriptionShort="";
 		cursor="EmptyCursor";
 		cursorAim="throw";
@@ -153,7 +153,7 @@ class CfgWeapons
 		{
 			"\armst\armst_item\map\satka_east_south.paa"
 		};
-		displayName="Карта (Юго-восток)";
+		displayName="$STR_STST_map_se_name";
 		class WeaponSlotsInfo
 		{
 			allowedslots[]={901};
@@ -206,7 +206,7 @@ class CfgWeapons
 		{
 			"\armst\armst_item\map\satka_west_north.paa"
 		};
-		displayName="Карта (Северо-запад)";
+		displayName="$STR_STST_map_nw_name";
 		class WeaponSlotsInfo
 		{
 			allowedslots[]={901};
@@ -259,7 +259,7 @@ class CfgWeapons
 		{
 			"\armst\armst_item\map\satka_west_south.paa"
 		};
-		displayName="Карта (Юго-запад)";
+		displayName="$STR_STST_map_sw_name";
 		class WeaponSlotsInfo
 		{
 			allowedslots[]={901};
@@ -312,7 +312,7 @@ class CfgWeapons
 		{
 			"\armst\armst_item\map\chimik_map.paa"
 		};
-		displayName="Карта Химика";
+		displayName="$STR_STST_map_chemist_name";
 		class WeaponSlotsInfo
 		{
 			allowedslots[]={901};
@@ -365,7 +365,7 @@ class CfgWeapons
 		{
 			"\armst\armst_item\map\orden.paa"
 		};
-		displayName="Карта Ордена";
+		displayName="$STR_STST_map_order_name";
 		class WeaponSlotsInfo
 		{
 			allowedslots[]={901};
@@ -418,7 +418,7 @@ class CfgWeapons
 		{
 			"\armst\armst_item\map\monolith.paa"
 		};
-		displayName="Карта Ордена";
+		displayName="$STR_STST_map_monolith_name";
 		class WeaponSlotsInfo
 		{
 			allowedslots[]={901};

@@ -39,7 +39,7 @@ if (isClass(missionConfigFile >> "armCustomVars")) then {
 private _arrBlockedMasks = getArray (_armCustomVars >> "varBlockedFoodMasks");
 
 if (_goggles in _arrBlockedMasks) exitwith {
-  hint localize "str_not_can_eat";
+  hint localize "STR_STST_func_cant_eat_mask";
 };
 
 _binocular = binocular _unit;
@@ -52,7 +52,7 @@ _thirst = _unit getVariable ["ARMST_THIRST",1];
 switch (_type) do { 
 	case "food" :  {
 		if (_hunger > 1) exitwith {
-			hint localize "str_fully_food";
+			hint localize "STR_STST_func_cant_eat_full";
 		};
 
 		disableUserInput true;
@@ -93,7 +93,7 @@ switch (_type) do {
 	}; 
 	case "water" : {
 		if (_thirst > 1) exitwith {
-			hint localize "str_fully_water";
+			hint localize "$STR_STST_func_cant_drink_full";
 		};
 
 		disableUserInput true;

@@ -44,7 +44,7 @@ class CfgVehicles
 	class blinddog_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="";
-		displayName="blinddog_old_test";
+		displayName="$STR_STST_blinddog_name";
 		faceType="Default";
 		moves="CfgMovesblinddog";
 		model="\armst\armst_char\char_mut\blinddog_old\blinddog.p3d";
@@ -1442,7 +1442,7 @@ class CfgVehicles
 	};
 	class armst_blinddog: blinddog_old_test
 	{
-		displayName="$STR_armst_blinddog";
+		displayName="$STR_STST_mutant_dog_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\blinddog_old\blinddog.p3d";
 		uniformAccessories[]={};
@@ -1461,7 +1461,7 @@ class CfgVehicles
 	};
 	class armst_blinddog2: blinddog_old_test
 	{
-		displayName="$STR_armst_blinddog";
+		displayName="$STR_STST_mutant_dog_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -1479,7 +1479,7 @@ class CfgVehicles
 	};
 	class armst_blinddog3: blinddog_old_test
 	{
-		displayName="$STR_armst_blinddog";
+		displayName="$STR_STST_mutant_dog_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -1497,7 +1497,7 @@ class CfgVehicles
 	};
 	class armst_blinddog4: blinddog_old_test
 	{
-		displayName="$STR_armst_blinddog";
+		displayName="$STR_STST_mutant_dog_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

@@ -80,9 +80,7 @@ class cfgMagazines
 		count=100;
 		mass=1;
 		scope=2;
-		descriptionShort="Just some Bolts <br /> i guess...";
-		displayName="Болты";
-		displayNameShort="Болты";
+		displayName="$STR_STST_weapon_bolts_name";
 		model="\armst\armst_item\armst_bolts\Models\Bolt";
 		picture="\armst\armst_item\armst_bolts\Icons\Bolts.paa";
 		modeloptics="";
@@ -94,8 +92,7 @@ class cfgMagazines
 		scope=1;
 		type=16;
 		mass=5;
-		displayName="$STR_DAP_ST_BOLT";
-		descriptionShort="$STR_DAP_ST_BOLT_INFO";
+		displayName="$STR_STST_weapon_bolts_name";
 		picture="\armst\armst_item\armst_bolts\Icons\Bolts.paa";
 		value=0.1;
 		count=50;

@@ -24,7 +24,7 @@ class CfgVehicles
 	class Box_FIA_Wps_F;
 	class armst_box_big: Box_FIA_Wps_F
 	{
-		displayName="Ящик большой";
+		displayName="$STR_STST_wooden_box_name";
 		scope=2;
 		author="ArmSTALKER";
 		model="\armst\armst_item\box\box_1";
@@ -44,7 +44,7 @@ class CfgVehicles
 	};
 	class armst_box_small: Box_FIA_Wps_F
 	{
-		displayName="Ящик маленький";
+		displayName="$STR_STST_wooden_box_name";
 		scope=2;
 		author="ArmSTALKER";
 		model="\armst\armst_item\box\box_2";

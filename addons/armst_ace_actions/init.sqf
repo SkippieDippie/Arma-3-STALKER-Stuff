@@ -2,7 +2,7 @@
  interaction irradiation
 */
 _unit = player;
-_checkrads = ["Check Irradiation", "Check Irradiation", "\armst_ace_actions\pics\irrad.paa", {hint format['%2: %1',ARMST_Radiation_Infection toFixed 5,localize 'DRG_irradiation']}, {(({_x in ['DETECTOR_RKS20','DETECTOR_MKS1009','DETECTOR_DBG06M']} count (weapons player))> 0)}] call ace_interact_menu_fnc_createAction;
+_checkrads = ["Check Irradiation", "Check Irradiation", "\armst_ace_actions\pics\irrad.paa", {hint format['%2: %1',ARMST_Radiation_Infection toFixed 5,localize 'STR_STST_func_radiation_dose']}, {(({_x in ['DETECTOR_RKS20','DETECTOR_MKS1009','DETECTOR_DBG06M']} count (weapons player))> 0)}] call ace_interact_menu_fnc_createAction;
 
 [(typeOf _unit), 1, ["ACE_SelfActions"], _checkrads, true] call ace_interact_menu_fnc_addActionToClass; 
  /*

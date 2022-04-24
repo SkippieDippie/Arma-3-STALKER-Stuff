@@ -53,7 +53,7 @@
 		
 	};
 		
-	[_target, localize "STR_armst_animal_searchpeaple_a"] call ARMST_fnc_dogLastCommand;
+	[_target, localize "STR_STST_func_dog_command_search_allies"] call ARMST_fnc_dogLastCommand;
 	
 	
 	

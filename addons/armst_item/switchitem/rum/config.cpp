@@ -44,8 +44,7 @@ class CfgWeapons
 	class armst_item_rum: ACE_ItemCore
 	{
 		scope=2;
-		displayName="Templar Rum";
-		descriptionShort="Templar Rum - лучший ром для настоящего сталкера. Наш сайт - TemplarRum.com";
+		displayName="$STR_STST_templarrum_2_name";
 		picture="\armst\armst_item\switchitem\rum\ico.paa";
 		model="\armst\armst_item\switchitem\rum\rum_1.p3d";
 		class ItemInfo
@@ -56,8 +55,7 @@ class CfgWeapons
 	class armst_item_rum50: ACE_ItemCore
 	{
 		scope=2;
-		displayName="Templar Rum (50%)";
-		descriptionShort="Templar Rum - лучший ром для настоящего сталкера. Наш сайт - TemplarRum.com";
+		displayName="$STR_STST_templarrum_1_name";
 		picture="\armst\armst_item\switchitem\rum\ico.paa";
 		model="\armst\armst_item\switchitem\rum\rum_1.p3d";
 		class ItemInfo
@@ -68,8 +66,7 @@ class CfgWeapons
 	class armst_item_rum_empty: ACE_ItemCore
 	{
 		scope=2;
-		displayName="Templar Rum (Empty)";
-		descriptionShort="Templar Rum - лучший ром для настоящего сталкера. Наш сайт - TemplarRum.com";
+		displayName="$STR_STST_templarrum_empty_name";
 		picture="\armst\armst_item\switchitem\rum\ico.paa";
 		model="\armst\armst_item\switchitem\rum\rum_1.p3d";
 		class ItemInfo
@@ -85,7 +82,7 @@ class CfgVehicles
 	class armst_templarrum: Building
 	{
 		scope=2;
-		displayname="Templar Rum";
+		displayname="$STR_STST_templarrum_2_name";
 		model="\armst\armst_item\switchitem\rum\rum_1.p3d";
 		destrType="DestructNo";
 	};

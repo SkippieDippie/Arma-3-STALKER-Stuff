@@ -26568,7 +26568,7 @@ class CfgVehicles
 		{
 			class AnimalAffiliation
 			{
-				displayName="$STR_armst_animal_affilation";
+				displayName="$STR_STST_attr_dog_faction_affiliation_name";
 				tooltip="";
 				property="ARM_Animal_Affiliation";
 				control="combo";
@@ -26582,40 +26582,40 @@ class CfgVehicles
 				{
 					class All
 					{
-						name="Всем";
+						name="$STR_STST_fac_all_name";
 						value="ARMST_HUMAN";
 						default=1;
 					};
 					class Affiliation_1
 					{
-						name="Сталкеры";
+						name="$STR_STST_fac_loners_name";
 						value="ARMST_STALKER";
 					};
 					class Affiliation_2
 					{
-						name="Военные";
+						name="$STR_STST_fac_military_name";
 						value="ARMST_ARMY";
 					};
 					class Affiliation_3
 					{
-						name="Воля";
+						name="$STR_STST_fac_freedom_name";
 						value="ARMST_FREEDOM";
 					};
 					class Affiliation_4
 					{
-						name="Долг";
+						name="$STR_STST_fac_duty_name";
 						value="ARMST_DOLG";
 					};
 					class Affiliation_5
 					{
-						name="Бандиты";
+						name="$STR_STST_fac_bandits_name";
 						value="ARMST_BANDITS";
 					};
 				};
 			};
 			class AnimalCanFollow
 			{
-				displayName="$STR_armst_animal_command_follow";
+				displayName="$STR_STST_attr_dog_command_follow_name";
 				tooltip="";
 				property="ARM_Animal_CanFollow";
 				control="combo";
@@ -26629,20 +26629,20 @@ class CfgVehicles
 				{
 					class No
 					{
-						name="Нет";
+						name="$STR_STST_ui_no_name";
 						value=0;
 						default=1;
 					};
 					class Yes
 					{
-						name="Да";
+						name="$STR_STST_ui_yes_name";
 						value=1;
 					};
 				};
 			};
 			class AnimalCanGuard
 			{
-				displayName="$STR_armst_animal_command_guard";
+				displayName="$STR_STST_attr_dog_command_guard_name";
 				tooltip="";
 				property="ARM_Animal_CanGuard";
 				control="combo";
@@ -26656,20 +26656,20 @@ class CfgVehicles
 				{
 					class No
 					{
-						name="Нет";
+						name="$STR_STST_ui_no_name";
 						value=0;
 						default=1;
 					};
 					class Yes
 					{
-						name="Да";
+						name="$STR_STST_ui_yes_name";
 						value=1;
 					};
 				};
 			};
 			class AnimalCanSit
 			{
-				displayName="$STR_armst_animal_command_sit";
+				displayName="$STR_STST_attr_dog_command_sit_name";
 				tooltip="";
 				property="ARM_Animal_CanSit";
 				control="combo";
@@ -26683,20 +26683,20 @@ class CfgVehicles
 				{
 					class No
 					{
-						name="Нет";
+						name="$STR_STST_ui_no_name";
 						value=0;
 						default=1;
 					};
 					class Yes
 					{
-						name="Да";
+						name="$STR_STST_ui_yes_name";
 						value=1;
 					};
 				};
 			};
 			class AnimalSearchDistance
 			{
-				displayName="$STR_armst_animal_search_distance";
+				displayName="$STR_STST_attr_dog_search_distance_name";
 				tooltip="";
 				property="ARM_Animal_SearchDistance";
 				control="combo";
@@ -26733,7 +26733,7 @@ class CfgVehicles
 			};
 			class AnimalSearchPeopleA
 			{
-				displayName="$STR_armst_animal_search_peaple_a";
+				displayName="$STR_STST_attr_dog_search_allies_name";
 				tooltip="";
 				property="ARM_Animal_SearchPeople_A";
 				control="combo";
@@ -26747,20 +26747,20 @@ class CfgVehicles
 				{
 					class No
 					{
-						name="Нет";
+						name="$STR_STST_ui_no_name";
 						value=0;
 						default=1;
 					};
 					class Yes
 					{
-						name="Да";
+						name="$STR_STST_ui_yes_name";
 						value=1;
 					};
 				};
 			};
 			class AnimalSearchPeopleE
 			{
-				displayName="$STR_armst_animal_search_peaple_e";
+				displayName="$STR_STST_attr_dog_search_enemies_name";
 				tooltip="";
 				property="ARM_Animal_SearchPeople_E";
 				control="combo";
@@ -26774,20 +26774,20 @@ class CfgVehicles
 				{
 					class No
 					{
-						name="Нет";
+						name="$STR_STST_ui_no_name";
 						value=0;
 						default=1;
 					};
 					class Yes
 					{
-						name="Да";
+						name="$STR_STST_ui_yes_name";
 						value=1;
 					};
 				};
 			};
 			class AnimalSearchObjects
 			{
-				displayName="$STR_armst_animal_search_objects";
+				displayName="$STR_STST_attr_dog_search_items_name";
 				tooltip="";
 				property="ARM_Animal_SearchObjects";
 				control="combo";
@@ -26801,20 +26801,20 @@ class CfgVehicles
 				{
 					class No
 					{
-						name="Нет";
+						name="$STR_STST_ui_no_name";
 						value=0;
 						default=1;
 					};
 					class Yes
 					{
-						name="Да";
+						name="$STR_STST_ui_yes_name";
 						value=1;
 					};
 				};
 			};
 			class Domesticated
 			{
-				displayName="$STR_armst_animal_domesticated";
+				displayName="$STR_STST_attr_dog_domesticated_name";
 				tooltip="";
 				property="ARM_Animal_Domesticated";
 				control="combo";
@@ -26828,13 +26828,13 @@ class CfgVehicles
 				{
 					class No
 					{
-						name="Нет";
+						name="$STR_STST_ui_no_name";
 						value=0;
 						default=1;
 					};
 					class Yes
 					{
-						name="Да";
+						name="$STR_STST_ui_yes_name";
 						value=1;
 					};
 				};
@@ -26891,7 +26891,7 @@ class CfgVehicles
 	};
 	class armst_dog_pastor_black_s: dog_old_test_pastor
 	{
-		displayName="$STR_armst_dog_pastor_black";
+		displayName="$STR_STST_animal_shepherd_black_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\pastor_F.p3d";
 		uniformAccessories[]={};
@@ -26910,7 +26910,7 @@ class CfgVehicles
 	};
 	class armst_dog_pastor_sandblack_s: dog_old_test_pastor
 	{
-		displayName="$STR_armst_dog_pastor_sandblack";
+		displayName="$STR_STST_animal_shepherd_blacktan_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\pastor_F.p3d";
 		uniformAccessories[]={};
@@ -26929,7 +26929,7 @@ class CfgVehicles
 	};
 	class armst_dog_pastor_sand_s: dog_old_test_pastor
 	{
-		displayName="$STR_armst_dog_pastor_sand";
+		displayName="$STR_STST_animal_shepherd_tan_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\pastor_F.p3d";
 		uniformAccessories[]={};
@@ -26990,7 +26990,7 @@ class CfgVehicles
 	};
 	class armst_dog_fin_sand: dog_old_test_fin
 	{
-		displayName="$STR_armst_dog_fin_sand";
+		displayName="$STR_STST_animal_hound_tan_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\Fin_F";
 		uniformAccessories[]={};
@@ -27009,7 +27009,7 @@ class CfgVehicles
 	};
 	class armst_dog_fin_blackwhite: dog_old_test_fin
 	{
-		displayName="$STR_armst_dog_fin_blackwhite";
+		displayName="$STR_STST_animal_hound_blackwhite_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\Fin_F";
 		uniformAccessories[]={};
@@ -27028,7 +27028,7 @@ class CfgVehicles
 	};
 	class armst_dog_fin_ocher: dog_old_test_fin
 	{
-		displayName="$STR_armst_dog_fin_ocher";
+		displayName="$STR_STST_animal_hound_ocher_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\Fin_F";
 		uniformAccessories[]={};
@@ -27047,7 +27047,7 @@ class CfgVehicles
 	};
 	class armst_dog_fin_tricolor: dog_old_test_fin
 	{
-		displayName="$STR_armst_dog_fin_tricolor";
+		displayName="$STR_STST_animal_hound_tricolor_name";
 		uniformClass="";
 		model="\A3\animals_f_beta\Dog\Fin_F";
 		uniformAccessories[]={};

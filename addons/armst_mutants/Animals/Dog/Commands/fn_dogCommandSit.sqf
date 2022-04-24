@@ -19,4 +19,4 @@
 	];
 	[_target, _animations select floor random count _animations] remoteExecCall ["switchMove", 0];
 	
-	[_target, localize "STR_armst_animal_sit"] call ARMST_fnc_dogLastCommand;
+	[_target, localize "STR_STST_func_dog_command_sit"] call ARMST_fnc_dogLastCommand;

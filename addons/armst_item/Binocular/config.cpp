@@ -28,7 +28,7 @@ class CfgWeapons
 			"Normal"
 		};
 		picture="\A3\Weapons_F\Data\UI\gear_binoculars_CA.paa";
-		displayName="$STR_DN_BINOCULAR";
+		displayName="$STR_STST_weapon_binocular_name";
 		nameSound="binoculars";
 		descriptionUse="$STR_A3_cfgWeapons_Default_Binocular1";
 		minRange=150;

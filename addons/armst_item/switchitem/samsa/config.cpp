@@ -39,8 +39,7 @@ class CfgWeapons
 	class armst_item_samsa: ACE_ItemCore
 	{
 		scope=2;
-		displayName="Самса";
-		descriptionShort="Обычный жаренная самса с мясом.";
+		displayName="$STR_STST_samsa_name";
 		picture="\armst\armst_item\switchitem\samsa\ico.paa";
 		model="\armst\armst_item\switchitem\samsa\samsa.p3d";
 		class ItemInfo

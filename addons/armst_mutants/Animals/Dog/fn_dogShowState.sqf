@@ -11,9 +11,9 @@
 	params ["_unit"];
 	
 	private _behaviour = switch (toUpper (_unit getVariable ["ARM_MutantBehaviour", ""])) do {
-		case "COMBAT" : {localize "STR_armst_animal_fight_attack"};
-		case "AWARE" : {localize "STR_armst_animal_fight_bark"};
-		case "SAFE" : {localize "STR_armst_animal_fight_quietly"};
+		case "COMBAT" : {localize "STR_STST_func_dog_command_behaviour_attack"};
+		case "AWARE" : {localize "STR_STST_func_dog_command_behaviour_warn"};
+		case "SAFE" : {localize "STR_STST_func_dog_command_behaviour_safe"};
 	};
 	
 	hintSilent parseText format ["<img size='10' image='%1'/>

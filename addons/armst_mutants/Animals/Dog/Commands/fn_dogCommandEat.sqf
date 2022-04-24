@@ -15,7 +15,7 @@
 	_unit setVariable ["ARM_EatCommand", true, true];
 	
 	[_unit, ""] remoteExecCall ["switchMove", 0];
-	[_unit, localize "STR_armst_animal_eat"] call ARMST_fnc_dogLastCommand;
+	[_unit, localize "STR_STST_func_dog_command_eat"] call ARMST_fnc_dogLastCommand;
 	
 	
 	private _followed = _unit getVariable ["ARM_FollowTo", objNull];
@@ -138,7 +138,7 @@
 	
 	if !(isNull _followed) then {
 		_unit setVariable ["ARM_FollowTo", _followed, true];
-		[_unit, localize "STR_armst_animal_follow"] call ARMST_fnc_dogLastCommand;
+		[_unit, localize "STR_STST_func_dog_command_follow"] call ARMST_fnc_dogLastCommand;
 	};
 	
 	_unit setVariable ["ARM_EatCommand", false, true];

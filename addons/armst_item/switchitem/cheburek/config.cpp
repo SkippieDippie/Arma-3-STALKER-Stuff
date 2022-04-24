@@ -39,8 +39,7 @@ class CfgWeapons
 	class armst_item_cheburek: AGM_ItemCore
 	{
 		scope=2;
-		displayName="Чебурек";
-		descriptionShort="Обычный жаренный чебурек с картошечкой.";
+		displayName="$STR_STST_cheburek_name";
 		picture="\armst\armst_item\switchitem\cheburek\ico.paa";
 		model="\armst\armst_item\switchitem\cheburek\cheburek.p3d";
 		class ItemInfo
