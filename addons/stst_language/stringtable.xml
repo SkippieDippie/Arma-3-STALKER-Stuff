@@ -3117,6 +3117,11 @@
         <English>Bloodsucker</English>
         <Russian>Кровосос</Russian>
       </Key>
+      <Key ID="STR_STST_bloodsucker_stronglove_name">
+        <Original>Stronglove</Original>
+        <English>Stronglove</English>
+        <Russian>Стронглав</Russian>
+      </Key>
       <Key ID="STR_STST_bloodsucker_encyclopedia">
         <Original />
         <English />
@@ -3128,6 +3133,11 @@
         <Original>Boar</Original>
         <English>Boar</English>
         <Russian>Кабан</Russian>
+      </Key>
+      <Key ID="STR_STST_boar_player_name">
+        <Original>Boar (Player)</Original>
+        <English>Boar (Player)</English>
+        <Russian>Кабан (Игрок)</Russian>
       </Key>
       <Key ID="STR_STST_boar_encyclopedia">
         <Original />
@@ -3195,13 +3205,13 @@
         <Russian />
       </Key>
     </Container>
-    <Container name="Dog">
-      <Key ID="STR_STST_dog_name">
+    <Container name="Blind dog">
+      <Key ID="STR_STST_blinddog_name">
         <Original>Blind Dog</Original>
         <English>Blind Dog</English>
         <Russian>Слепой пёс</Russian>
       </Key>
-      <Key ID="STR_STST_dog_encyclopedia">
+      <Key ID="STR_STST_blinddog_encyclopedia">
         <Original />
         <English />
         <Russian />
@@ -3390,6 +3400,27 @@
         <Original>Izlom</Original>
         <English>Izlom</English>
         <Russian>Излом</Russian>
+      </Key>
+    </Container>
+    <Container name="Insector">
+      <Key ID="STR_STST_insector_name">
+        <Original>Insector</Original>
+        <English>Insector</English>
+        <Russian>Насекомое</Russian>
+      </Key>
+    </Container>
+    <Container name="Biomass">
+      <Key ID="STR_STST_biomass_name">
+        <Original>Biomass</Original>
+        <English>Biomass</English>
+        <Russian>Биомасса</Russian>
+      </Key>
+    </Container>
+    <Container name="Werewolf">
+      <Key ID="STR_STST_werewolf_name">
+        <Original>Werewolf</Original>
+        <English>Werewolf</English>
+        <Russian>Оборотень</Russian>
       </Key>
     </Container>
   </Package>
@@ -4257,6 +4288,97 @@
         <Russian>STST - Артефакты</Russian>
       </Key>
     </Container>
+    <Container name="Factions">
+      <Key ID="STR_STST_fac_loners_name">
+        <Original>Loners</Original>
+        <English>Loners</English>
+        <Russian>Одиночки</Russian>
+      </Key>
+      <Key ID="STR_STST_fac_military_name">
+        <Original>Military</Original>
+        <English>Military</English>
+        <Russian>Военные</Russian>
+      </Key>
+      <Key ID="STR_STST_fac_freedom_name">
+        <Original>Freedom</Original>
+        <English>Freedom</English>
+        <Russian>Свобода</Russian>
+      </Key>
+      <Key ID="STR_STST_fac_duty_name">
+        <Original>Duty</Original>
+        <English>Duty</English>
+        <Russian>Долг</Russian>
+      </Key>
+      <Key ID="STR_STST_fac_bandits_name">
+        <Original>Bandits</Original>
+        <English>Bandits</English>
+        <Russian>Бандиты</Russian>
+      </Key>
+      <Key ID="STR_STST_fac_all_name">
+        <Original>All</Original>
+        <English>All</English>
+        <Russian>Все</Russian>
+      </Key>
+    </Container>
+    <Container name="Attributes - Dogs">
+      <Key ID="STR_STST_attr_dog_faction_affiliation_name">
+        <Original>Faction affiliation</Original>
+        <English>Faction affiliation</English>
+        <Russian>Принадлежность к группировке</Russian>
+      </Key>
+      <Key ID="STR_STST_attr_dog_command_follow_name">
+        <Original>Command: Follow</Original>
+        <English>Command: Follow</English>
+        <Russian>Команда: Следовать</Russian>
+      </Key>
+      <Key ID="STR_STST_attr_dog_command_guard_name">
+        <Original>Command: Guard</Original>
+        <English>Command: Guard</English>
+        <Russian>Команда: Охранять</Russian>
+      </Key>
+      <Key ID="STR_STST_attr_dog_command_sit_name">
+        <Original>Command: Sit</Original>
+        <English>Command: Sit</English>
+        <Russian>Команда: Сидеть</Russian>
+      </Key>
+      <Key ID="STR_STST_attr_dog_search_distance_name">
+        <Original>Search distance</Original>
+        <English>Search distance</English>
+        <Russian>Дистанция поиска</Russian>
+      </Key>
+      <Key ID="STR_STST_attr_dog_search_allies_name">
+        <Original>Search for allies</Original>
+        <English>Search for allies</English>
+        <Russian>Искать союзников</Russian>
+      </Key>
+      <Key ID="STR_STST_attr_dog_search_enemies_name">
+        <Original>Search for enemies</Original>
+        <English>Search for enemies</English>
+        <Russian>Искать врагов</Russian>
+      </Key>
+      <Key ID="STR_STST_attr_dog_search_items_name">
+        <Original>Search for items</Original>
+        <English>Search for items</English>
+        <Russian>Искать предметы</Russian>
+      </Key>
+      <Key ID="STR_STST_attr_dog_domesticated_name">
+        <Original>Is Domesticated</Original>
+        <English>Is Domesticated</English>
+        <Russian>Прирученный</Russian>
+      </Key>
+    </Container>
+    <Container name="Common">
+      <Key ID="STR_STST_ui_yes_name">
+        <Original>Yes</Original>
+        <English>Yes</English>
+        <Russian>Да</Russian>
+      </Key>
+      <Key ID="STR_STST_ui_no_name">
+        <Original>No</Original>
+        <English>No</English>
+        <Russian>Нет</Russian>
+      </Key>
+    </Container>
   </Package>
   <Package name="Animals">
     <Container name="German Shepherd">
@@ -4673,6 +4795,159 @@
         <Original>Big gate (Mercenaries)</Original>
         <English>Big gate (Mercenaries)</English>
         <Russian>Большие ворота (Наёмники)</Russian>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Functions Scripts">
+    <Container name="Radiation dose check">
+      <Key ID="STR_STST_func_radiation_dose">
+        <Original>Radiation dose</Original>
+        <English>Radiation dose</English>
+        <Russian>Доза радиации</Russian>
+      </Key>
+    </Container>
+    <Container name="Food">
+      <Key ID="STR_STST_func_cant_eat_mask">
+        <Original>I can't do this with the mask in the way</Original>
+        <English>I can't do this with the mask in the way</English>
+        <Russian>Не могу этого сделать пока на мне маска</Russian>
+      </Key>
+      <Key ID="STR_STST_func_cant_eat_full">
+        <Original>I'm already full</Original>
+        <English>I'm already full</English>
+        <Russian>Я уже не могу есть</Russian>
+      </Key>
+      <Key ID="STR_STST_func_cant_drink_full">
+        <Original>I'm already full</Original>
+        <English>I'm already full</English>
+        <Russian>Я уже не могу пить</Russian>
+      </Key>
+    </Container>
+    <Container name="Dog Companion">
+      <Key ID="STR_STST_func_dog_command_follow">
+        <Original>Follow</Original>
+        <English>Follow</English>
+        <Russian>Следовать</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_guard">
+        <Original>Guard</Original>
+        <English>Guard</English>
+        <Russian>Охранять</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_sit">
+        <Original>Sit</Original>
+        <English>Sit</English>
+        <Russian>Сидеть</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_walk">
+        <Original>Walk</Original>
+        <English>Walk</English>
+        <Russian>Гулять</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_eat">
+        <Original>Eat</Original>
+        <English>Eat</English>
+        <Russian>Ешь</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_call">
+        <Original>Call</Original>
+        <English>Call</English>
+        <Russian>Позвать</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_leave">
+        <Original>Leave</Original>
+        <English>Leave</English>
+        <Russian>Отозвать</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_search_allies">
+        <Original>Search for people</Original>
+        <English>Search for people</English>
+        <Russian>Искать людей</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_search_enemies">
+        <Original>Search for enemies</Original>
+        <English>Search for enemies</English>
+        <Russian>Искать чужих</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_search_items">
+        <Original>Search for items</Original>
+        <English>Search for items</English>
+        <Russian>Искать предметы</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_behaviour_attack">
+        <Original>Attack</Original>
+        <English>Attack</English>
+        <Russian>Нападай</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_behaviour_warning">
+        <Original>Warn</Original>
+        <English>Warn</English>
+        <Russian>Настороже</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_command_behaviour_safe">
+        <Original>Safe</Original>
+        <English>Safe</English>
+        <Russian>Спокойно</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_tame">
+        <Original>Tame</Original>
+        <English>Tame</English>
+        <Russian>Приручить</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_tame_progress_hint">
+        <Original>Maximize loyalty to tame.&lt;br/&gt;&lt;t align='left'&gt;Tame progress:&lt;/t&gt;&lt;t align='right'&gt;%1&lt;/t&gt;</Original>
+        <English>Maximize loyalty to tame.&lt;br/&gt;&lt;t align='left'&gt;Tame progress:&lt;/t&gt;&lt;t align='right'&gt;%1&lt;/t&gt;</English>
+        <Russian>Для приручения добейтесь максимальной лояльности.&lt;br/&gt;&lt;t align='left'&gt;Прогресс приручения:&lt;/t&gt;&lt;t align='right'&gt;%1&lt;/t&gt;</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_tame_confirm">
+        <Original>Tame %1?</Original>
+        <English>Tame %1?</English>
+        <Russian>Приручить %1?</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_name">
+        <Original>Name</Original>
+        <English>Name</English>
+        <Russian>Кличка</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_state">
+        <Original>State</Original>
+        <English>State</English>
+        <Russian>Состояние</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_menu_main">
+        <Original>Companion</Original>
+        <English>Companion</English>
+        <Russian>Компаньон</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_menu_commands">
+        <Original>Commands</Original>
+        <English>Commands</English>
+        <Russian>Команды</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_menu_healing">
+        <Original>Healing</Original>
+        <English>Healing</English>
+        <Russian>Лечение</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_menu_behaviour">
+        <Original>Behaviour</Original>
+        <English>Behaviour</English>
+        <Russian>Поведение</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_menu_other">
+        <Original>Other</Original>
+        <English>Other</English>
+        <Russian>Другое</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_tip">
+        <Original>Help</Original>
+        <English>Help</English>
+        <Russian>Помощь</Russian>
+      </Key>
+      <Key ID="STR_STST_func_dog_cancel">
+        <Original>Cancel</Original>
+        <English>Cancel</English>
+        <Russian>Отмена</Russian>
       </Key>
     </Container>
   </Package>

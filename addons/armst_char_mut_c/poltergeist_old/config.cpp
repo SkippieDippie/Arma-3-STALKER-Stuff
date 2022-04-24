@@ -40,7 +40,7 @@ class CfgVehicles
 	class poltergeist_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="poltergeist_old";
-		displayName="poltergeist_old";
+		displayName="$STR_STST_poltergeist_name";
 		moves="CfgMovespoltergeist";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\poltergeist_old\poltergeist.p3d";
@@ -1407,7 +1407,7 @@ class CfgVehicles
 	};
 	class armst_poltergeist: poltergeist_old_test
 	{
-		displayName="$STR_STST_mutant_poltergeist_name";
+		displayName="$STR_STST_poltergeist_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\poltergeist_old\poltergeist.p3d";
 		uniformAccessories[]={};

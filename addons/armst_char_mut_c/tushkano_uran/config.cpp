@@ -40,7 +40,7 @@ class CfgVehicles
 	class tushkano_uran_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="tushkano_uran";
-		displayName="tushkano_uran";
+		displayName="$STR_STST_tushkano_name";
 		moves="CfgMovestushkano";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\tushkano_uran\tushkano.p3d";
@@ -26923,7 +26923,7 @@ class CfgVehicles
 	};
 	class armst_tushkano_uran: tushkano_uran_test
 	{
-		displayName="$STR_STST_mutant_tushkano_name";
+		displayName="$STR_STST_tushkano_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\tushkano_uran\tushkano.p3d";
 		uniformAccessories[]={};

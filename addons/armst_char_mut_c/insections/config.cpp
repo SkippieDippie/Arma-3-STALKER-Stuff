@@ -41,7 +41,7 @@ class CfgVehicles
 	class armst_Insections_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="armst_Insections_test";
-		displayName="armst_Insections_test";
+		displayName="$STR_STST_insector_name";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\Insections\Insections.p3d";
 		armor=18;
@@ -141,7 +141,7 @@ class CfgVehicles
 	};
 	class armst_Insection: armst_Insections_test
 	{
-		displayName="Insector";
+		displayName="$STR_STST_insector_name";
 		uniformClass="armst_Insection";
 		model="\armst\armst_char\char_mut\Insections\Insections.p3d";
 		uniformAccessories[]={};
@@ -153,7 +153,7 @@ class CfgVehicles
 	class armst_fireball_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="armst_fireball_test";
-		displayName="Fireball";
+		displayName="$STR_STST_anomaly_comet_name";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\Insections\Insections.p3d";
 		armor=20;
@@ -253,7 +253,7 @@ class CfgVehicles
 	};
 	class armst_fireball: armst_fireball_test
 	{
-		displayName="Fireball";
+		displayName="$STR_STST_anomaly_comet_name";
 		uniformClass="armst_fireball";
 		model="\armst\armst_char\char_mut\Insections\Insections.p3d";
 		uniformAccessories[]={};
@@ -265,7 +265,7 @@ class CfgVehicles
 	class armst_electraball_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="armst_electraball_test";
-		displayName="Electraball";
+		displayName="$STR_STST_anomaly_tesla_name";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\Insections\Insections.p3d";
 		armor=20;
@@ -365,7 +365,7 @@ class CfgVehicles
 	};
 	class armst_electraball: armst_electraball_test
 	{
-		displayName="Electraball";
+		displayName="$STR_STST_anomaly_tesla_name";
 		uniformClass="armst_electraball";
 		model="\armst\armst_char\char_mut\Insections\Insections.p3d";
 		uniformAccessories[]={};

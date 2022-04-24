@@ -42,7 +42,7 @@ class CfgVehicles
 	class PLOT_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="PLOT_old_testu";
-		displayName="PLOT_old_test";
+		displayName="$STR_STST_flesh_name";
 		moves="CfgMovesPLOT2";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\plot_old\plot.p3d";
@@ -1422,7 +1422,7 @@ class CfgVehicles
 	};
 	class armst_PLOT: PLOT_old_test
 	{
-		displayName="$STR_STST_mutant_flesh_name";
+		displayName="$STR_STST_flesh_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\plot_old\plot.p3d";
 		uniformAccessories[]={};
@@ -1441,7 +1441,7 @@ class CfgVehicles
 	};
 	class armst_PLOT2: PLOT_old_test
 	{
-		displayName="$STR_STST_mutant_flesh_name";
+		displayName="$STR_STST_flesh_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -1459,7 +1459,7 @@ class CfgVehicles
 	};
 	class armst_PLOT3: PLOT_old_test
 	{
-		displayName="$STR_STST_mutant_flesh_name";
+		displayName="$STR_STST_flesh_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

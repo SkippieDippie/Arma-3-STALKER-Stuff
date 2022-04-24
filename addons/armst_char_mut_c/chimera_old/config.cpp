@@ -39,7 +39,7 @@ class CfgVehicles
 	class chimera_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="chimera_old_testu";
-		displayName="chimera_old_test";
+		displayName="$STR_STST_chimera_name";
 		moves="CfgMoveschimera";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\chimera_old\chimera.p3d";
@@ -632,7 +632,7 @@ class CfgVehicles
 	};
 	class armst_chimera: chimera_old_test
 	{
-		displayName="$STR_STST_mutant_chimera_name";
+		displayName="$STR_STST_chimera_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\chimera_old\chimera.p3d";
 		uniformAccessories[]={};

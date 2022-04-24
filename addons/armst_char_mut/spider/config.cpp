@@ -19,7 +19,7 @@ class CfgFactionClasses
 {
 	class armst_mut_new
 	{
-		displayName="$STR_armst_mut_new";
+		displayName="$STR_STST_ui_mutant_category_name";
 		priority=1;
 		side=1;
 	};
@@ -28,6 +28,6 @@ class CfgVehicleClasses
 {
 	class armst_mutantss
 	{
-		displayName="$STR_armst_mutantss";
+		displayName="$STR_STST_ui_mutant_category_name";
 	};
 };

@@ -39,7 +39,7 @@ class CfgVehicles
 	class burer_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="burer_old_testu";
-		displayName="burer_old_test";
+		displayName="$STR_STST_burer_name";
 		moves="CfgMovesBurers";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\burer\burer.p3d";
@@ -152,7 +152,7 @@ class CfgVehicles
 	};
 	class armst_burer_new: burer_old_test
 	{
-		displayName="New burer";
+		displayName="$STR_STST_burer_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\burer\burer.p3d";
 		uniformAccessories[]={};

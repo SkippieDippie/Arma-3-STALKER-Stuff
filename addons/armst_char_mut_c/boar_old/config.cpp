@@ -43,7 +43,7 @@ class CfgVehicles
 	class boar_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="boar_old_testu";
-		displayName="boar_old_test";
+		displayName="$STR_STST_boar_name";
 		moves="CfgMovesboar3";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\boar_old\boar.p3d";
@@ -1431,7 +1431,7 @@ class CfgVehicles
 	};
 	class armst_boar: boar_old_test
 	{
-		displayName="$STR_STST_mutant_boar_name";
+		displayName="$STR_STST_boar_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\boar_old\boar.p3d";
 		uniformAccessories[]={};
@@ -1450,7 +1450,7 @@ class CfgVehicles
 	};
 	class armst_boar2: boar_old_test
 	{
-		displayName="$STR_STST_mutant_boar_name";
+		displayName="$STR_STST_boar_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -1468,7 +1468,7 @@ class CfgVehicles
 	};
 	class armst_boar3: boar_old_test
 	{
-		displayName="$STR_STST_mutant_boar_name";
+		displayName="$STR_STST_boar_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -1487,7 +1487,7 @@ class CfgVehicles
 	};
 	class armst_boar4: boar_old_test
 	{
-		displayName="$STR_STST_mutant_boar_name";
+		displayName="$STR_STST_boar_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -1506,7 +1506,7 @@ class CfgVehicles
 	};
 	class armst_zanoza_new: boar_old_test
 	{
-		displayName="Boar";
+		displayName="$STR_STST_boar_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

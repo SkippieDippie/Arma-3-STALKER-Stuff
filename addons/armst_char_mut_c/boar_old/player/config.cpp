@@ -47,7 +47,7 @@ class CfgVehicles
 	class boar_old_test;
 	class armst_boar_player: boar_old_test
 	{
-		displayName="Кабан игрок";
+		displayName="$STR_STST_boar_player_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\boar_old\boar.p3d";
 		uniformAccessories[]={};

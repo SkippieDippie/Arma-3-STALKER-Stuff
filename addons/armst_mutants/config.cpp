@@ -1462,7 +1462,7 @@
 		class ARMST_mutantsModuleWolf: ARMST_mutantsModuleBase 
 		{
 			scope = 2;
-			displayName =  "$STR_armst_wolf";
+			displayName =  "$STR_STST_wolf_name";
 			icon = "armst_mutants\Images\icon_chimera1.paa";
 			unitTypes[] = {"armst_wolf"};
 			
@@ -1500,7 +1500,7 @@
 		class ARMST_mutantsModulewolfhound: ARMST_mutantsModuleBase 
 		{
 			scope = 2;
-			displayName =  "$STR_armst_wolfhound";
+			displayName =  "$STR_STST_wolfhound_name";
 			icon = "armst_mutants\Images\icon_chimera1.paa";
 			unitTypes[] = {"armst_wolfhound"};
 			
@@ -1538,7 +1538,7 @@
 		class ARMST_mutantsModulewerewolf: ARMST_mutantsModuleBase 
 		{
 			scope = 2;
-			displayName =  "$STR_armst_werewolf";
+			displayName =  "$STR_STST_werewolf_name";
 			icon = "armst_mutants\Images\icon_chimera1.paa";
 			unitTypes[] = {"armst_werewolf"};
 			
@@ -1576,7 +1576,7 @@
 		class ARMST_mutantsModulewolfAlfa: ARMST_mutantsModuleBase 
 		{
 			scope = 2;
-			displayName =  "$STR_armst_wolfAlfa";
+			displayName =  "$STR_STST_wolf_alpha_name";
 			icon = "armst_mutants\Images\icon_chimera1.paa";
 			unitTypes[] = {"armst_wolfAlfa"};
 			

@@ -48,7 +48,7 @@ class CfgVehicles
 	class krovosos_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="";
-		displayName="krovosos_old";
+		displayName="$STR_STST_bloodsucker_name";
 		moves="CfgMoveskrovosos2";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\krovosos_old\krovosos.p3d";
@@ -446,7 +446,7 @@ class CfgVehicles
 	};
 	class armst_krovosos: krovosos_old_test
 	{
-		displayName="$STR_STST_mutant_bloodsucker_name";
+		displayName="$STR_STST_bloodsucker_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\krovosos_old\krovosos.p3d";
 		uniformAccessories[]={};
@@ -469,7 +469,7 @@ class CfgVehicles
 	};
 	class armst_krovosos2: krovosos_old_test
 	{
-		displayName="$STR_STST_mutant_bloodsucker_name";
+		displayName="$STR_STST_bloodsucker_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -491,7 +491,7 @@ class CfgVehicles
 	};
 	class armst_krovosos3: krovosos_old_test
 	{
-		displayName="$STR_STST_mutant_bloodsucker_name";
+		displayName="$STR_STST_bloodsucker_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -513,7 +513,7 @@ class CfgVehicles
 	};
 	class armst_krovosos4: krovosos_old_test
 	{
-		displayName="$STR_STST_mutant_bloodsucker_name";
+		displayName="$STR_STST_bloodsucker_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -554,7 +554,7 @@ class cfgWeapons
 	class U_B_CombatUniform_mcam;
 	class krovosos_old: Uniform_Base
 	{
-		displayname="krovosos_old";
+		displayname="$STR_STST_bloodsucker_name";
 		model="armst\armst_char\char_mut\krovosos_old\krovosos.p3d";
 		scope=1;
 		picture="";
@@ -576,7 +576,7 @@ class cfgWeapons
 	};
 	class krovosos_old2: Uniform_Base
 	{
-		displayname="krovosos_old2";
+		displayname="$STR_STST_bloodsucker_name";
 		model="armst\armst_char\char_mut\krovosos_old\krovosos.p3d";
 		scope=1;
 		picture="";
@@ -598,7 +598,7 @@ class cfgWeapons
 	};
 	class krovosos_old3: Uniform_Base
 	{
-		displayname="krovosos_old3";
+		displayname="$STR_STST_bloodsucker_name";
 		model="armst\armst_char\char_mut\krovosos_old\krovosos.p3d";
 		scope=1;
 		picture="";
@@ -620,7 +620,7 @@ class cfgWeapons
 	};
 	class krovosos_old4: Uniform_Base
 	{
-		displayname="krovosos_old4";
+		displayname="$STR_STST_bloodsucker_name";
 		model="armst\armst_char\char_mut\krovosos_old\krovosos.p3d";
 		scope=1;
 		picture="";

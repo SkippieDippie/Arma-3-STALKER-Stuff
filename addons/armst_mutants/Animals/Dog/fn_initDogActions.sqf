@@ -27,7 +27,7 @@
 		if (_commandCanFollow) then {
 		
 			_allActions pushBackUnique (_unit addAction [
-				format ["<t color='#EEEEEE'>%1</t>", localize "STR_armst_animal_follow"], 
+				format ["<t color='#EEEEEE'>%1</t>", localize "STR_STST_func_dog_command_follow"], 
 				"_this call ARMST_fnc_dogCommandFollow",
 				[],
 				1.5, 
@@ -42,7 +42,7 @@
 			]);
 			
 			_allActions pushBackUnique (_unit addAction [
-				format ["<t color='#EEEEEE'>%1</t>", localize "STR_armst_animal_walk"], 
+				format ["<t color='#EEEEEE'>%1</t>", localize "STR_STST_func_dog_command_walk"], 
 				"_this call ARMST_fnc_dogCommandWalk",
 				[],
 				1.5, 
@@ -59,7 +59,7 @@
 			if (_commandCanGuard) then {
 			
 				_allActions pushBackUnique (_unit addAction [
-					format ["<t color='#EEEEEE'>%1</t>", localize "STR_armst_animal_guard"], 
+					format ["<t color='#EEEEEE'>%1</t>", localize "STR_STST_func_dog_command_guard"], 
 					"_this call ARMST_fnc_dogCommandGuard",
 					[],
 					1.5, 
@@ -78,7 +78,7 @@
 			if (_commandCanSit) then {
 			
 				_allActions pushBackUnique (_unit addAction [
-					format ["<t color='#EEEEEE'>%1</t>", localize "STR_armst_animal_sit"], 
+					format ["<t color='#EEEEEE'>%1</t>", localize "STR_STST_func_dog_command_sit"], 
 					"_this call ARMST_fnc_dogCommandSit",
 					[],
 					1.5, 
@@ -95,7 +95,7 @@
 			};
 			
 			_allActions pushBackUnique (_unit addAction [
-				format ["<t color='#EEEEEE'>%1</t>", localize "STR_armst_animal_fight_attack"], 
+				format ["<t color='#EEEEEE'>%1</t>", localize "STR_STST_func_dog_command_behaviour_attack"], 
 				"[_this select 0, 'COMBAT'] call ARMST_fnc_mutBehaviourSet",
 				[],
 				1.5, 
@@ -110,7 +110,7 @@
 			]);
 			
 			_allActions pushBackUnique (_unit addAction [
-				format ["<t color='#EEEEEE'>%1</t>", localize "STR_armst_animal_fight_bark"], 
+				format ["<t color='#EEEEEE'>%1</t>", localize "STR_STST_func_dog_command_behaviour_warn"], 
 				"[_this select 0, 'AWARE'] call ARMST_fnc_mutBehaviourSet",
 				[],
 				1.5, 
@@ -125,7 +125,7 @@
 			]);
 			
 			_allActions pushBackUnique (_unit addAction [
-				format ["<t color='#EEEEEE'>%1</t>", localize "STR_armst_animal_fight_quietly"], 
+				format ["<t color='#EEEEEE'>%1</t>", localize "STR_STST_func_dog_command_behaviour_safe"], 
 				"[_this select 0, 'SAFE'] call ARMST_fnc_mutBehaviourSet",
 				[],
 				1.5, 
@@ -145,7 +145,7 @@
 		if (_commandSearchPA) then {
 		
 			_allActions pushBackUnique (_unit addAction [
-				format ["<t color='#EEEEEE'>%1</t>", localize "STR_armst_animal_searchpeaple_a"], 
+				format ["<t color='#EEEEEE'>%1</t>", localize "STR_STST_func_dog_command_search_allies"], 
 				"_this call ARMST_fnc_dogCommandSearchPeopleA",
 				[],
 				1.5, 
@@ -165,7 +165,7 @@
 		if (_commandSearchPE) then {
 		
 			_allActions pushBackUnique (_unit addAction [
-				format ["<t color='#EEEEEE'>%1</t>", localize "STR_armst_animal_searchpeaple_e"], 
+				format ["<t color='#EEEEEE'>%1</t>", localize "STR_STST_func_dog_command_search_enemies"], 
 				"_this call ARMST_fnc_dogCommandSearchPeopleE",
 				[],
 				1.5, 
@@ -184,7 +184,7 @@
 		if (_commandSearchO) then {
 		
 			_allActions pushBackUnique (_unit addAction [
-				format ["<t color='#EEEEEE'>%1</t>", localize "STR_armst_animal_searchobjects"], 
+				format ["<t color='#EEEEEE'>%1</t>", localize "STR_STST_func_dog_command_search_items"], 
 				"_this call ARMST_fnc_dogCommandSearchObjects",
 				[],
 				1.5, 
@@ -203,7 +203,7 @@
 		if (_domesticated) then {
 			
 			_allActions pushBackUnique (_unit addAction [
-				localize "STR_armst_animal_domesticating", 
+				localize "STR_STST_func_dog_tame", 
 				"_this call ARMST_fnc_dogActionDomesticate",
 				[],
 				0.5, 

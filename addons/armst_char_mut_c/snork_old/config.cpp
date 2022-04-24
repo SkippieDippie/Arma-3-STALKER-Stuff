@@ -42,7 +42,7 @@ class CfgVehicles
 	class snork_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="snork_old";
-		displayName="snork_old";
+		displayName="$STR_STST_snork_name";
 		moves="CfgMovessnork";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\snork_old\snork.p3d";
@@ -823,7 +823,7 @@ class CfgVehicles
 	};
 	class armst_snork: snork_old_test
 	{
-		displayName="$STR_STST_mutant_snork_name";
+		displayName="$STR_STST_snork_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\snork_old\snork.p3d";
 		uniformAccessories[]={};
@@ -839,7 +839,7 @@ class CfgVehicles
 	};
 	class armst_snork2: snork_old_test
 	{
-		displayName="$STR_STST_mutant_snork_name";
+		displayName="$STR_STST_snork_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\snork_old\snork2.p3d";
 		uniformAccessories[]={};
@@ -855,7 +855,7 @@ class CfgVehicles
 	};
 	class armst_snork3: snork_old_test
 	{
-		displayName="$STR_STST_mutant_snork_name";
+		displayName="$STR_STST_snork_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\snork_old\snork3.p3d";
 		uniformAccessories[]={};

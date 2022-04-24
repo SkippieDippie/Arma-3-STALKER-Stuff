@@ -40,7 +40,7 @@ class CfgVehicles
 	class izlom_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="izlom_old";
-		displayName="izlom_old";
+		displayName="$STR_STST_izlom_name";
 		moves="CfgMovesizlom";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\izlom_old\izlom.p3d";
@@ -808,7 +808,7 @@ class CfgVehicles
 	};
 	class armst_izlom: izlom_old_test
 	{
-		displayName="$STR_STST_mutant_izlom_name";
+		displayName="$STR_STST_izlom_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\izlom_old\izlom.p3d";
 		uniformAccessories[]={};

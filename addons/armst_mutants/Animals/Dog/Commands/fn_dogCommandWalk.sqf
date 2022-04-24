@@ -20,4 +20,4 @@
 	_target setVariable ["ARM_Radius", (configFile >> "cfgVehicles" >> typeOf _target >> "Character" >> "radius") call BIS_fnc_getCfgData];
 	_target setVariable ["ARM_GuardCommand", false, true];
 	
-	[_target, localize "STR_armst_animal_walk"] call ARMST_fnc_dogLastCommand;
+	[_target, localize "STR_STST_func_dog_command_walk"] call ARMST_fnc_dogLastCommand;

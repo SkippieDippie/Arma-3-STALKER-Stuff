@@ -44,7 +44,7 @@ class CfgVehicles
 	class controler_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="controler_old";
-		displayName="controler_old";
+		displayName="$STR_STST_controller_name";
 		moves="CfgMovescontroler";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\controler_old\controler.p3d";
@@ -26924,7 +26924,7 @@ class CfgVehicles
 	};
 	class armst_controler: controler_old_test
 	{
-		displayName="$STR_STST_mutant_controller_name";
+		displayName="$STR_STST_controller_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\controler_old\controler.p3d";
 		uniformAccessories[]={};
@@ -26943,11 +26943,11 @@ class CfgVehicles
 	};
 	class armst_controler2: controler_old_test
 	{
-		displayName="$STR_STST_mutant_controller_name";
+		displayName="$STR_STST_controller_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
-		nakedUniform="Контролер";
+		nakedUniform="controler_old2";
 		nightVision=1;
 		scope=2;
 		hiddenSelections[]=
@@ -26961,7 +26961,7 @@ class CfgVehicles
 	};
 	class armst_controler3: controler_old_test
 	{
-		displayName="$STR_STST_mutant_controller_name";
+		displayName="$STR_STST_controller_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -26979,7 +26979,7 @@ class CfgVehicles
 	};
 	class armst_controler4: controler_old_test
 	{
-		displayName="$STR_STST_mutant_controller_name";
+		displayName="$STR_STST_controller_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -26997,7 +26997,7 @@ class CfgVehicles
 	};
 	class armst_controler5: controler_old_test
 	{
-		displayName="$STR_STST_mutant_controller_name";
+		displayName="$STR_STST_controller_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

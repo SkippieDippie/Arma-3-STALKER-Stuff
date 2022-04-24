@@ -42,7 +42,7 @@ class CfgVehicles
 	class pseudodog_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="pseudodog_old";
-		displayName="pseudodog_old";
+		displayName="$STR_STST_pseudodog_name";
 		moves="CfgMovespseudodog";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\pseudodog_old\pseudodog.p3d";
@@ -1439,7 +1439,7 @@ class CfgVehicles
 	};
 	class armst_pseudodog: pseudodog_old_test
 	{
-		displayName="$STR_STST_mutant_pseudodog_name";
+		displayName="$STR_STST_pseudodog_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\pseudodog_old\pseudodog.p3d";
 		uniformAccessories[]={};
@@ -1458,7 +1458,7 @@ class CfgVehicles
 	};
 	class armst_pseudodog2: pseudodog_old_test
 	{
-		displayName="$STR_STST_mutant_pseudodog_name";
+		displayName="$STR_STST_pseudodog_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
@@ -1476,7 +1476,7 @@ class CfgVehicles
 	};
 	class armst_pseudodog_snow: pseudodog_old_test
 	{
-		displayName="PSEUDODOG TP";
+		displayName="$STR_STST_pseudodog_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};

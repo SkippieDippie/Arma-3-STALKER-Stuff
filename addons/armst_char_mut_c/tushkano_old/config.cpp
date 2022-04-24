@@ -55,7 +55,7 @@ class CfgVehicles
 	class tushkano_old_test: ARMST_MUTANT_HUM
 	{
 		uniformClass="tushkano_old";
-		displayName="tushkano_old";
+		displayName="$STR_STST_tushkano_name";
 		moves="CfgMovestushkano";
 		faceType="Default";
 		model="\armst\armst_char\char_mut\tushkano_old\tushkano.p3d";
@@ -836,7 +836,7 @@ class CfgVehicles
 	};
 	class armst_tushkano: tushkano_old_test
 	{
-		displayName="$STR_STST_mutant_tushkano_name";
+		displayName="$STR_STST_tushkano_name";
 		uniformClass="";
 		model="\armst\armst_char\char_mut\tushkano_old\tushkano.p3d";
 		uniformAccessories[]={};
@@ -847,7 +847,7 @@ class CfgVehicles
 	};
 	class armst_tushkano2: tushkano_old_test
 	{
-		displayName="$STR_STST_mutant_tushkano_name";
+		displayName="$STR_STST_tushkano_name";
 		uniformClass="";
 		uniformAccessories[]={};
 		linkedItems[]={};
