@@ -8,8 +8,8 @@
 				<Russian>ru</Russian>
 			</Key>
 			<Key ID="str_not_can_eat">
-				<Original>I can not do this until I take off the mask / gas mask</Original>
-				<English>I can not do this until I take off the mask / gas mask</English>
+				<Original>I can\'t do this with my mask on</Original>
+				<English>I can\'t do this with my mask on</English>
 				<Russian>Не могу это сделать, пока не сниму маску\противогаз</Russian>
 			</Key>
 		</Container>
@@ -35,37 +35,37 @@
 				<Russian>[КПК] Фракции от</Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_settings_network_online">
-				<Original>В сети</Original>
+				<Original>Online</Original>
 				<English>Online</English>
 				<German>Im Netz</German>
 				<Russian>В сети</Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_settings_network_offline">
-				<Original>Не в сети</Original>
+				<Original>Offline</Original>
 				<English>Offline</English>
 				<German>Offline</German>
 				<Russian>Не в сети</Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_settings_network">
-				<Original>Статус сети</Original>
+				<Original>Network Status</Original>
 				<English>Network Status</English>
 				<German>Netzwerkstatus</German>
 				<Russian>Статус сети</Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_settings_vd">
-				<Original>Дальность видимости</Original>
-				<English>Range of visibility</English>
+				<Original>Drawing distance</Original>
+				<English>Drawing distance</English>
 				<German>Sichtweite</German>
 				<Russian>Дальность видимости</Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_settings_vdo">
-				<Original>Дальность видимости объектов</Original>
-				<English>Range of visibility of objects</English>
+				<Original>Objects drawing distance</Original>
+				<English>Objects drawing distance</English>
 				<German>Sichtweite von Objekten</German>
 				<Russian>Дальность видимости объектов</Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_addfr_nick">
-				<Original>Позывной</Original>
+				<Original>Nickname</Original>
 				<English>Nickname</English>
 				<German>Spitzname</German>
 				<Russian>Позывной</Russian>
@@ -89,31 +89,31 @@
 				<Russian></Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_myID">
-				<Original>Мой ID</Original>
+				<Original>My ID</Original>
 				<English>My ID</English>
 				<German>Mein Ausweis</German>
 				<Russian>Мой ID</Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_myBalance">
-				<Original>Мой баланс</Original>
+				<Original>My balance</Original>
 				<English>My balance</English>
 				<German>Meine Balance</German>
 				<Russian>Мой баланс</Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_notNetwork">
-				<Original>НЕТ СВЯЗИ СО СПУТНИКАМИ</Original>
+				<Original>NO COMMUNICATION WITH SATELLITES</Original>
 				<English>NO COMMUNICATION WITH SATELLITES</English>
 				<German>KEINE KOMMUNIKATION MIT SATELLITEN</German>
 				<Russian>НЕТ СВЯЗИ СО СПУТНИКАМИ</Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_faction">
-				<Original>Фракция</Original>
+				<Original>Faction</Original>
 				<English>Faction</English>
 				<German>Fraktion</German>
 				<Russian>Фракция</Russian>
 			</Key>
 			<Key ID="STR_DRG_pda_cntDeaths">
-				<Original>Тяжёлые ранения</Original>
+				<Original>Severe injuries</Original>
 				<English>Severe injuries</English>
 				<German>Schwere Verletzungen</German>
 				<Russian>Тяжёлые ранения</Russian>
@@ -128,8 +128,8 @@
 			</Key>
 			 
 			<Key ID="DRG_weapitem">
-				<Original>Weapon Items</Original>
-				<English>Weapon Items</English>
+				<Original>Weapon attachments</Original>
+				<English>Weapon attachments</English>
 				<Russian>Обвесы</Russian>
 			</Key>
 			<Key ID="DRG_magazines">
@@ -150,8 +150,8 @@
 			</Key>
 			 
 			<Key ID="DRG_gasmask">
-				<Original>Gas Masks</Original>
-				<English>Gas Masks</English>
+				<Original>Gas masks</Original>
+				<English>Gas masks</English>
 				<Russian>Противогазы</Russian>
 			</Key>
 			 
@@ -162,9 +162,9 @@
 			</Key>
 			 
 			<Key ID="DRG_medicine">
-				<Original>Irradiation</Original>
-				<English>Irradiation</English>
-				<Russian>иррадиация</Russian>
+				<Original>Contamination</Original>
+				<English>Contamination</English>
+				<Russian>Рад. заражение</Russian>
 			</Key>
 			 
 			<Key ID="DRG_buy">
@@ -217,27 +217,27 @@
 			</Key>
 			 
 			<Key ID="DRG_notcanbuying">
-				<Original>You do not have enough room to buy it</Original>
-				<English>You do not have enough room to buy it</English>
-				<Russian>У вас не хватает места чтобы купить это</Russian>
+				<Original>Not enough space</Original>
+				<English>Not enough space</English>
+				<Russian>Не хватает места</Russian>
 			</Key>
 			<Key ID="DRG_nohavemoney">
-				<Original>You do not have enough money to buy it!</Original>
-				<English>You do not have enough money to buy it!</English>
-				<Russian>У вас не хватает денег чтобы купить это!</Russian>
+				<Original>Not enough money</Original>
+				<English>Not enough money</English>
+				<Russian>Не хватает денег</Russian>
 			</Key>
 			 
 			 
 			<Key ID="DRG_selling">
-				<Original>Sales</Original>
-				<English>Sales</English>
+				<Original>Sold</Original>
+				<English>Sold</English>
 				<Russian>Продано</Russian>
 			</Key>
 			 
 			<Key ID="DRG_notcansell">
-				<Original>You do not have as many items for sale</Original>
-				<English>You do not have as many items for sale</English>
-				<Russian>У вас нет столько предметов для продажи</Russian>
+				<Original>Not enough items</Original>
+				<English>Not enough items</English>
+				<Russian>Не хватает предметов</Russian>
 			</Key>
 		</Container>
 		<Container name="DRG_pda">
@@ -289,8 +289,8 @@
 				<Russian>Бюрер</Russian>
 			</Key>
 			<Key ID="DRG_izlom">
-				<Original>Izlom</Original>
-				<English>Izlom</English>
+				<Original>Fracture</Original>
+				<English>Fracture</English>
 				<Russian>Излом</Russian>
 			</Key>
 			<Key ID="DRG_boar">
@@ -329,13 +329,13 @@
 				<Russian>Псевдопёс</Russian>
 			</Key>
 			<Key ID="DRG_blinddog">
-				<Original>Blind dogs</Original>
-				<English>Blind dogs</English>
+				<Original>Blind dog</Original>
+				<English>Blind dog</English>
 				<Russian>Слепой пес</Russian>
 			</Key>
 			<Key ID="DRG_snorks">
-				<Original>Snorks</Original>
-				<English>Snorks</English>
+				<Original>Snork</Original>
+				<English>Snork</English>
 				<Russian>Снорк</Russian>
 			</Key>
 			<Key ID="DRG_tark">
@@ -344,8 +344,8 @@
 				<Russian>Тарк</Russian>
 			</Key>
 			<Key ID="DRG_rodents">
-				<Original>Rodents</Original>
-				<English>Rodents</English>
+				<Original>Tushkano</Original>
+				<English>Tushkano</English>
 				<Russian>Тушкан</Russian>
 			</Key>
 			<Key ID="DRG_chimera">
@@ -354,8 +354,8 @@
 				<Russian>Химера</Russian>
 			</Key>
 			<Key ID="DRG_wiki">
-				<Original>Wiki</Original>
-				<English>Wiki</English>
+				<Original>Encyclopedia</Original>
+				<English>Encyclopedia</English>
 				<Russian>Энциклопедия</Russian>
 			</Key>
 			<Key ID="DRG_main">
@@ -400,8 +400,8 @@
 			</Key>
 			 
 			<Key ID="DRG_histmes">
-				<Original>Message History</Original>
-				<English>Message History</English>
+				<Original>Message history</Original>
+				<English>Message history</English>
 				<Russian>История сообщений</Russian>
 			</Key>
 			 
@@ -411,14 +411,14 @@
 				<Russian>Очистить историю</Russian>
 			</Key>
 			<Key ID="DRG_range">
-				<Original>Range of visibility</Original>
-				<English>Range of visibility</English>
+				<Original>Drawing distance</Original>
+				<English>Drawing distance</English>
 				<Russian>Дальность видимости</Russian>
 			</Key>
 			 
 			<Key ID="DRG_rangeobjs">
-				<Original>The range of visibility of objects</Original>
-				<English>The range of visibility of objects</English>
+				<Original>Objects drawing distance</Original>
+				<English>Objects drawing distance</English>
 				<Russian>Дальность видимости объектов</Russian>
 			</Key>
 			<Key ID="DRG_history">
@@ -437,7 +437,7 @@
 			<Key ID="DRG_sendan">
 				<Original>Send (Anon)</Original>
 				<English>Send (Anon)</English>
-				<Russian>Отправить(Анон)</Russian>
+				<Russian>Отправить (Анон)</Russian>
 			</Key>
 			 
 			 
@@ -618,18 +618,18 @@
 		</Container>
 		<Container name="DRG_craft">
 			<Key ID="DRG_craft_notcanadd">
-				<Original>Not successful</Original>
-				<English>Not successful</English>
+				<Original>Failed</Original>
+				<English>Failed</English>
 				<Russian>Не удачно</Russian>
 			</Key>
 			<Key ID="DRG_craft_created">
-				<Original>Successfully!</Original>
-				<English>Successfully!</English>
+				<Original>Success</Original>
+				<English>Success</English>
 				<Russian>Удачно!</Russian>
 			</Key>
 			<Key ID="DRG_craft_notcanremove">
-				<Original>Not successful</Original>
-				<English>Not successful</English>
+				<Original>Failed</Original>
+				<English>Failed</English>
 				<Russian>Не удачно</Russian>
 			</Key>
 		</Container>
