@@ -7,19 +7,19 @@
 		<Russian>Капюшон</Russian>
 	</Key>
 	<Key ID="STR_armst_hood_closed">
-		<Original>Hood (tidy up)</Original>
-		<English>Hood(tidy up)</English>
-		<Russian>Капюшон(снятый)</Russian>
+		<Original>Hood (down)</Original>
+		<English>Hood (down)</English>
+		<Russian>Капюшон (снятый)</Russian>
 	</Key>
 	<Key ID="STR_armst_hood_full">
-		<Original>Hood(spacious hood)</Original>
-		<English>Hood(spacious hood)</English>
-		<Russian>Капюшон(просторный)</Russian>
+		<Original>Hood (spacious)</Original>
+		<English>Hood (spacious)</English>
+		<Russian>Капюшон (просторный)</Russian>
 	</Key>
 	<Key ID="STR_armst_hood_mid">
-		<Original>Hood(tied)</Original>
-		<English>Hood(tied)</English>
-		<Russian>Капюшон(стянутый)</Russian>
+		<Original>Hood (tight)</Original>
+		<English>Hood (tight)</English>
+		<Russian>Капюшон (стянутый)</Russian>
 	</Key>
 	
 	
