@@ -49,28 +49,28 @@
             <Original>Усовершенствованная универсальная аптечка, разработанная специально для условия Зоны.&lt;br/&gt;Эффект: восстановление здоровья, остановка кровотечений, вывод радионуклидов.&lt;br/&gt;Состав: «Викасол», «Батилол» и С-нафтизин.</Original>
         </Key>
 		<Key ID="STR_armst_item_detectors_otklick">
-			<Original>Detector 'Echo'</Original>
-			<English>Detector 'Echo'</English>
-			<Russian>Детектор 'Отклик'</Russian>
+			<Original>Detector &apos;Echo&apos;</Original>
+			<English>Detector &apos;Echo&apos;</English>
+			<Russian>Детектор &apos;Отклик&apos;</Russian>
 		</Key>
 		<Key ID="STR_armst_item_detectors_medved">
-			<Original>Detector 'Bear'</Original>
-			<English>Detector 'Bear'</English>
-			<Russian>Детектор 'Медведь'</Russian>
+			<Original>Detector &apos;Bear&apos;</Original>
+			<English>Detector &apos;Bear&apos;</English>
+			<Russian>Детектор &apos;Медведь&apos;</Russian>
 		</Key>
 		<Key ID="STR_armst_item_detectors_svarog">
-			<Original>Detector 'Svarog'</Original>
-			<English>Detector 'Svarog'</English>
-			<Russian>Детектор 'Сварог'</Russian>
+			<Original>Detector &apos;Svarog&apos;</Original>
+			<English>Detector &apos;Svarog&apos;</English>
+			<Russian>Детектор &apos;Сварог&apos;</Russian>
 		</Key>
 	<Key ID="STR_armst_item_detectors_otklick_info">
-		<Original>Artifact detector 'Echo'. Detection radius: 100m. Detection angle: 90'</Original>
-		<English>Artifact detector 'Echo'. Detection radius: 100m. Detection angle: 90'</English>
+		<Original>Artifact detector &apos;Echo&apos;. Detection radius: 100m. Detection angle: 90</Original>
+		<English>Artifact detector &apos;Echo&apos;. Detection radius: 100m. Detection angle: 90</English>
 		<Russian>Детектор артефактов Отклик. Радиус обнаружения: 100м. Угол обнаружения: 90.</Russian>
 	</Key>
 	<Key ID="STR_armst_item_detectors_medved_info">
-		<Original>Artifact detector 'Bear'. Detection radius: 100m. Detection angle: 360'</Original>
-		<English>Artifact detector 'Bear'. Detection radius: 100m. Detection angle: 360'</English>
+		<Original>Artifact detector &apos;Bear&apos;. Detection radius: 100m. Detection angle: 360</Original>
+		<English>Artifact detector &apos;Bear&apos;. Detection radius: 100m. Detection angle: 360</English>
 		<Russian>Детектор артефактов Медведь. Радиус обнаружения: 100м. Угол обнаружения: 360.</Russian>
 	</Key>
 	
@@ -151,8 +151,8 @@
 		<Russian>Snorkers</Russian>
 	</Key>
 	<Key ID="STR_Armst_item_snorkers_info">
-		<Original>Piece of chocolate to satisfy hunger. Don't stop, grab a Snorkers!</Original>
-		<English>Piece of chocolate to satisfy hunger. Don't stop, grab a Snorkers!</English>
+		<Original>Piece of chocolate to satisfy hunger. Don&apos;t stop, grab a Snorkers!</Original>
+		<English>Piece of chocolate to satisfy hunger. Don&apos;t stop, grab a Snorkers!</English>
 		<Russian>Шоколадка для утоления голода. Не тормози, сноркесни.</Russian>
 	</Key>
 	<Key ID="STR_Armst_item_tushonka">
@@ -341,26 +341,26 @@
 	
 	
 	<Key ID="STR_Armst_item_vodka_info">
-		<Original>Vodka — simple and cheap antiradiation drug among stalkers, don't drink too much though.</Original>
-		<English>Vodka — simple and cheap antiradiation drug among stalkers, don't drink too much though.</English>
+		<Original>Vodka — simple and cheap antiradiation drug among stalkers, don&apos;t drink too much though.</Original>
+		<English>Vodka — simple and cheap antiradiation drug among stalkers, don&apos;t drink too much though.</English>
 		<Russian>Водка — простое и недорогое в сталкерском братстве средство борьбы с радиацией, хотя злоупотреблять ей не стоит.</Russian>
 	</Key>
 	
 	
 	
 	<Key ID="STR_Armst_item_beer">
-		<Original>«Obolon'» Beer</Original>
-		<English>«Obolon'» Beer</English>
+		<Original>«Obolon&apos;» Beer</Original>
+		<English>«Obolon&apos;» Beer</English>
 		<Russian>Пиво «Оболонь»</Russian>
 	</Key>
 	<Key ID="STR_Armst_item_beer50">
-		<Original>«Obolon'» Beer (50%)</Original>
-		<English>«Obolon'» Beer (50%)</English>
+		<Original>«Obolon&apos;» Beer (50%)</Original>
+		<English>«Obolon&apos;» Beer (50%)</English>
 		<Russian>Пиво «Оболонь» (50%)</Russian>
 	</Key>
 	<Key ID="STR_Armst_item_beerEmpty">
-		<Original>«Obolon'» Beer (Empty)</Original>
-		<English>«Obolon'» Beer (Empty)</English>
+		<Original>«Obolon&apos;» Beer (Empty)</Original>
+		<English>«Obolon&apos;» Beer (Empty)</English>
 		<Russian>Пиво «Оболонь» (пустая)</Russian>
 	</Key>
 	<Key ID="STR_Armst_item_beer_baltica">
@@ -409,8 +409,8 @@
 		<Russian>Пиво «FAXE» (пустая)</Russian>
 	</Key>
 	<Key ID="STR_Armst_item_beer_info">
-		<Original>The world's oldest and most widely consumed alcoholic drink, it is the third most popular drink overall, after water and tea.</Original>
-		<English>The world's oldest and most widely consumed alcoholic drink, it is the third most popular drink overall, after water and tea.</English>
+		<Original>The world&apos;s oldest and most widely consumed alcoholic drink, it is the third most popular drink overall, after water and tea.</Original>
+		<English>The world&apos;s oldest and most widely consumed alcoholic drink, it is the third most popular drink overall, after water and tea.</English>
 		<Russian>Напиток с легким, освежающим вкусовым букетов. Вкус пива составляет ненавязчивая ячменная сладость, которая гармонично уравновешена легкой, округлой хмелевой горчинкой. В результате дегустации вы получите освежающее впечатление с приятной резкостью углекислоты, без послевкусия или кислых нот (calorizator). Пиво имеет светлый медовый цвет и высокую воздушную шапку из густой, белой пены.</Russian>
 	</Key>
 	

@@ -440,9 +440,9 @@
 			<Russian>Лимит количества</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_CNT_TYPE_DESC">
-			<Original>For all or for each player in trigger, works only if the "Update at losses" setting is greater than 0%</Original>
-			<English>For all or for each player in trigger, works only if the "Update at losses" setting is greater than 0%</English>
-			<Russian>Общее или для каждого игрока в триггере, работает только если настройка "Обновлять при потерях" больше 0%</Russian>
+			<Original>For all or for each player in trigger, works only if the &quot;Update at losses&quot; setting is greater than 0%</Original>
+			<English>For all or for each player in trigger, works only if the &quot;Update at losses&quot; setting is greater than 0%</English>
+			<Russian>Общее или для каждого игрока в триггере, работает только если настройка &quot;Обновлять при потерях&quot; больше 0%</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_CNT_TYPE_ALL">
 			<Original>For all</Original>
@@ -585,9 +585,9 @@
 			<Russian>Таймаут обновления</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_UPDATEDELAYDESC">
-			<Original>Delay (min.) To update the count of units ("Update at losses" setting)</Original>
-			<English>Delay (min.) To update the count of units ("Update at losses" setting)</English>
-			<Russian>Задержка (мин.) для обновления количества юнитов (настройка "Обновлять при потерях")</Russian>
+			<Original>Delay (min.) To update the count of units (&quot;Update at losses&quot; setting)</Original>
+			<English>Delay (min.) To update the count of units (&quot;Update at losses&quot; setting)</English>
+			<Russian>Задержка (мин.) для обновления количества юнитов (настройка &quot;Обновлять при потерях&quot;)</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_CLEARDELAYDESC">
 			<Original>Delay (sec.) for delete body after died or by deactivating synchronized trigger</Original>
@@ -685,8 +685,8 @@
 			<Russian>Интеллект</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_TACTIFUL_DESC">
-			<Original>The intellect of spawned units. Has a major effect on the units\' behavior.</Original>
-			<English>The intellect of spawned units. Has a major effect on the units\' behavior.</English>
+			<Original>The intellect of spawned units. Has a major effect on the units&apos; behavior.</Original>
+			<English>The intellect of spawned units. Has a major effect on the units&apos; behavior.</English>
 			<Russian>Интеллект юнитов. Сильно влияет на поведение юнитов.</Russian>
 		</Key>            
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_COURAGE">
@@ -705,8 +705,8 @@
 			<Russian>Трусливость</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_COWARDICE_DESC">
-			<Original>The cowardice of spawned units. Has a major effect on the units\' behavior</Original>
-			<English>The cowardice of spawned units. Has a major effect on the units\' behavior</English>
+			<Original>The cowardice of spawned units. Has a major effect on the units&apos; behavior</Original>
+			<English>The cowardice of spawned units. Has a major effect on the units&apos; behavior</English>
 			<Russian>Трусливость юнитов. Сильно влияет на поведение юнитов.</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_CURIOUS">
@@ -715,8 +715,8 @@
 			<Russian>Любопытность</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_CURIOUS_DESC">
-			<Original>The curiosity of spawned units. Has an effect on the units' non-combat behavior.</Original>
-			<English>The curiosity of spawned units. Has an effect on the units' non-combat behavior.</English>
+			<Original>The curiosity of spawned units. Has an effect on the units&apos; non-combat behavior.</Original>
+			<English>The curiosity of spawned units. Has an effect on the units&apos; non-combat behavior.</English>
 			<Russian>Любопытность юнитов. Влияет на поведение юнитов вне боя.</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_SECRECY">
@@ -725,8 +725,8 @@
 			<Russian>Скрытность</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_SECRECY_DESC">
-			<Original>Units' stealth. Affects units' behaviour upon discovering an enemy.</Original>
-			<English>Units' stealth. Affects units' behaviour upon discovering an enemy.</English>
+			<Original>Units&apos; stealth. Affects units&apos; behaviour upon discovering an enemy.</Original>
+			<English>Units&apos; stealth. Affects units&apos; behaviour upon discovering an enemy.</English>
 			<Russian>Скрытность юнитов. Влияет на поведение юнитов при обнаружении противника.</Russian>
 		</Key>           
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_AGRESSIVE">
@@ -735,8 +735,8 @@
 			<Russian>Агрессивность</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_AGRESSIVE_DESC">
-			<Original>Units' overall aggressiveness. Affects units' behaviour in most situations.</Original>
-			<English>Units' overall aggressiveness. Affects units' behaviour in most situations.</English>
+			<Original>Units&apos; overall aggressiveness. Affects units&apos; behaviour in most situations.</Original>
+			<English>Units&apos; overall aggressiveness. Affects units&apos; behaviour in most situations.</English>
 			<Russian>Отражает общую агрессивность юнитов. Влияет на поведение юнитов в различных ситуациях.</Russian>
 		</Key>   
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_SOCIETAL">
@@ -745,8 +745,8 @@
 			<Russian>Социальность</Russian>
 		</Key> 
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_SOCIETAL_DESC">
-			<Original>Units' sociality affects the ability of the unit's to perform group maneuvers.</Original>
-			<English>Units' sociality affects the ability of the unit's to perform group maneuvers.</English>
+			<Original>Units&apos; sociality affects the ability of the unit to perform group maneuvers.</Original>
+			<English>Units&apos; sociality affects the ability of the unit to perform group maneuvers.</English>
 			<Russian>Социальность влияет на способность юнита совершать групповые маневры с другими юнитами.</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_DEBUGTYPE">
