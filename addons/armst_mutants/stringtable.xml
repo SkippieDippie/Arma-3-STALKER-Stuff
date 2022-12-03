@@ -9,9 +9,9 @@
 			<Russian>Модули мутантов</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_DESC">
-			<Original>Configuration of dynamic spawn monsters. Must be synchronized with one or more triggers. Applies to all synchronized triggers and their mutants modules</Original>
-			<English>Configuration of dynamic spawn monsters. Must be synchronized with one or more triggers. Applies to all synchronized triggers and their mutants modules</English>
-			<Russian>Конфигурация динамического спавна существ. Должен быть синхронизирован с одним или более триггеров. Настройки распространяются на все синхронизированные триггеры и их модули мутантов</Russian>
+			<Original>Configuration of dynamic mutants spawn. Must be synchronized with one or more triggers. Applies its paramaters to all synchronized triggers and mutants modules.</Original>
+			<English>Configuration of dynamic mutants spawn. Must be synchronized with one or more triggers. Applies its paramaters to all synchronized triggers and mutants modules.</English>
+			<Russian>Конфигурация динамического спавна мутантов. Должен быть синхронизирован с одним или более триггеров. Применяет свои параметры ко всем синхронизированным триггерам и модулям мутантов.</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_SYNCEDTRIGGER">
 			<Original>Any trigger with radius</Original>
@@ -44,56 +44,56 @@
 		<Key ID="STR_MUTANTS_MODULENAME_SPAWN">
 			<Original>Spawn</Original>
 			<English>Spawn </English>
-			<Russian>Порождение</Russian>
+			<Russian>Спавн</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_KROVOSOS_Strong">
-			<Original>Mutants: Bloodsuckers</Original>
-			<English>Mutants: Bloodsuckers </English>
+			<Original>Mutants: Stronglove</Original>
+			<English>Mutants: Stronglove</English>
 			<Russian>Мутанты: Стронглав</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_ZOMBIES">
 			<Original>Mutants: Zombies</Original>
-			<English>Mutants: Zommbies </English>
+			<English>Mutants: Zommbies</English>
 			<Russian>Мутанты: Зомби</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_CONTROLLER">
 			<Original>Mutants: Controller</Original>
-			<English>Mutants: Controller </English>
-			<Russian>Мутанты: Контроллер</Russian>
+			<English>Mutants: Controller</English>
+			<Russian>Мутанты: Контроллёр</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_KROVOSOS">
 			<Original>Mutants: Bloodsocker</Original>
-			<English>Mutants: Bloodsocker </English>
+			<English>Mutants: Bloodsocker</English>
 			<Russian>Мутанты: Кровосос</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_BigRat">
-			<Original>Mutants: Big Rat</Original>
-			<English>Mutants:  Big Rat </English>
+			<Original>Mutants: Big Rats</Original>
+			<English>Mutants:  Big Rats</English>
 			<Russian>Мутанты: Большие крысы</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_Kikimora">
 			<Original>Mutants: Kikimora</Original>
-			<English>Mutants: Kikimora </English>
+			<English>Mutants: Kikimora</English>
 			<Russian>Мутанты: Кикимора</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_Spiders">
 			<Original>Mutants: Spiders</Original>
-			<English>Mutants: Spiders </English>
+			<English>Mutants: Spiders</English>
 			<Russian>Мутанты: Пауки</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_Upir">
-			<Original>Mutants: Upir</Original>
-			<English>Mutants: Upir </English>
+			<Original>Mutants: Ghoul</Original>
+			<English>Mutants: Ghoul</English>
 			<Russian>Мутанты: Упырь</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_Watcher">
 			<Original>Mutants: Watcher</Original>
-			<English>Mutants: Watcher </English>
+			<English>Mutants: Watcher</English>
 			<Russian>Мутанты: Страж</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_BearMetro">
 			<Original>Mutants: Bear</Original>
-			<English>Mutants: Bear </English>
+			<English>Mutants: Bear</English>
 			<Russian>Мутанты: Медведь</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_FLESH">
@@ -112,9 +112,9 @@
 			<Russian>Мутанты: Полтергейст</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_Pauk">
-			<Original>Mutants: Spider</Original>
-			<English>Mutants: Spider</English>
-			<Russian>Мутанты: Паук</Russian>
+			<Original>Mutants: Spiders</Original>
+			<English>Mutants: Spiders</English>
+			<Russian>Мутанты: Пауки</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_Tark">
 			<Original>Mutants: Tark</Original>
@@ -122,8 +122,8 @@
 			<Russian>Мутанты: Тарк</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_Rat">
-			<Original>Mutants: Rat</Original>
-			<English>Mutants: Rat</English>
+			<Original>Mutants: Rats</Original>
+			<English>Mutants: Rats</English>
 			<Russian>Мутанты: Крыса</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_PSEUDOGIANT">
@@ -132,29 +132,29 @@
 			<Russian>Мутанты: Псевдогигант</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_JERBOA">
-			<Original>Mutants: Jerboa</Original>
-			<English>Mutants: Jerboa</English>
+			<Original>Mutants: Tushkano</Original>
+			<English>Mutants: Tushkano</English>
 			<Russian>Мутанты: Тушканчик</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_radJERBOA">
-			<Original>Mutants: Rad Jerboa</Original>
-			<English>Mutants: Rad Jerboa</English>
-			<Russian>Мутанты: Rad Тушканчик</Russian>
+			<Original>Mutants: Rad-tushkano</Original>
+			<English>Mutants: Rad-tushkano</English>
+			<Russian>Мутанты: Рад-тушканчик</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_CAT">
-			<Original>Mutants: Wild Cat</Original>
-			<English>Mutants: Wild Cat</English>
-			<Russian>Мутанты: Дикий кот</Russian>
+			<Original>Mutants: Wild cats</Original>
+			<English>Mutants: Wild cats</English>
+			<Russian>Мутанты: Дикие коты</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_BLINDDOG">
-			<Original>Mutants: Blind dog</Original>
-			<English>Mutants: Blind dog</English>
-			<Russian>Мутанты: Слепой пёс</Russian>
+			<Original>Mutants: Blind dogs</Original>
+			<English>Mutants: Blind dogs</English>
+			<Russian>Мутанты: Слепые псы</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_PSEUDODOG">
-			<Original>Mutants: Pseudo-dog</Original>
-			<English>Mutants: Pseudo-dog</English>
-			<Russian>Мутанты: Псевдо-пёс</Russian>
+			<Original>Mutants: Pseudodog</Original>
+			<English>Mutants: Pseudodog</English>
+			<Russian>Мутанты: Псевдопёс</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_SNORK">
 			<Original>Mutants: Snork</Original>
@@ -177,21 +177,21 @@
 			<Russian>Мутанты: Заноза</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULENAME_IZLOM">
-			<Original>Mutants: Izlom</Original>
-			<English>Mutants: Izlom</English>
+			<Original>Mutants: Fracture</Original>
+			<English>Mutants: Fracture</English>
 			<Russian>Мутанты: Излом</Russian>
 		</Key>
 		
 	<!-- Settings -->
 		<Key ID="STR_MUTANTS_MODULE_SET_CREATETYPE">
-			<Original>Create mode</Original>
-			<English>Create mode</English>
-			<Russian>Режим создания</Russian>
+			<Original>Spawn mode</Original>
+			<English>Spawn mode</English>
+			<Russian>Режим спавна</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_CREATETYPE_DESC">
-			<Original>Units creation mode</Original>
-			<English>Units creation mode</English>
-			<Russian>Режим создания юнитов</Russian>
+			<Original>Units spawn mode</Original>
+			<English>Units spawn mode</English>
+			<Russian>Режим спавна юнитов</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_CREATETYPE_SERVER">
 			<Original>Server</Original>
@@ -214,9 +214,9 @@
 			<Russian>Записывать в логи</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_DEBUGTYPE_SEE">
-			<Original>Display</Original>
-			<English>Display</English>
-			<Russian>Показать</Russian>
+			<Original>Display in chat</Original>
+			<English>Display in chat</English>
+			<Russian>Вывести в чат</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_ACTCOND">
 			<Original>Activation mode</Original>
@@ -274,9 +274,9 @@
 			<Russian>Все</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SPAWNMODE_ANY">
-			<Original>Anyone</Original>
-			<English>Всякий</English>
-			<Russian>Всякий</Russian>
+			<Original>Any</Original>
+			<English>Any</English>
+			<Russian>Любой</Russian>
 		</Key>
 		
 		<Key ID="STR_MUTANTS_MODULE_SET_ACTTIMEOUT">
@@ -430,8 +430,8 @@
 			<Russian>Количество</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_CNTDESC">
-			<Original>Count of units for each synced trigger</Original>
-			<English>Count of units for each synced trigger</English>
+			<Original>Maximum number of units for each synced trigger</Original>
+			<English>Maximum number of units for each synced trigger</English>
 			<Russian>Количество юнитов для каждого синхронизированного триггера</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CNTLIMIT">
@@ -440,9 +440,9 @@
 			<Russian>Лимит количества</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_CNT_TYPE_DESC">
-			<Original>For all or for each player in trigger, works only if the "Update at losses" setting is greater than 0%</Original>
-			<English>For all or for each player in trigger, works only if the "Update at losses" setting is greater than 0%</English>
-			<Russian>Общее или для каждого игрока в триггере, работает только если настройка "Обновлять при потерях" больше 0%</Russian>
+			<Original>For all or for each player in trigger, works only if the &quot;Update at losses&quot; setting is greater than 0%</Original>
+			<English>For all or for each player in trigger, works only if the &quot;Update at losses&quot; setting is greater than 0%</English>
+			<Russian>Общее или для каждого игрока в триггере, работает только если настройка &quot;Обновлять при потерях&quot; больше 0%</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_CNT_TYPE_ALL">
 			<Original>For all</Original>
@@ -485,8 +485,8 @@
 			<Russian>(метры) Радиус обнаружения жертвы</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_DAMMAGE">
-			<Original>Dammage</Original>
-			<English>Dammage</English>
+			<Original>Damage</Original>
+			<English>Damage</English>
 			<Russian>Урон</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_DAMMAGEDESC">
@@ -585,9 +585,9 @@
 			<Russian>Таймаут обновления</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_UPDATEDELAYDESC">
-			<Original>Delay (min.) To update the count of units ("Update at losses" setting)</Original>
-			<English>Delay (min.) To update the count of units ("Update at losses" setting)</English>
-			<Russian>Задержка (мин.) для обновления количества юнитов (настройка "Обновлять при потерях")</Russian>
+			<Original>Delay (min.) To update the count of units (&quot;Update at losses&quot; setting)</Original>
+			<English>Delay (min.) To update the count of units (&quot;Update at losses&quot; setting)</English>
+			<Russian>Задержка (мин.) для обновления количества юнитов (настройка &quot;Обновлять при потерях&quot;)</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_CLEARDELAYDESC">
 			<Original>Delay (sec.) for delete body after died or by deactivating synchronized trigger</Original>
@@ -620,29 +620,24 @@
 			<Russian>Время суток для появления</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_SUNRISE">
-			<Original>From sunrise to sunset</Original>
-			<English>From sunrise to sunset</English>
-			<Russian>От рассвета до заката</Russian>
+			<Original>Diurnal</Original>
+			<English>Diurnal</English>
+			<Russian>Дневной</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_SUNSET">
-			<Original>From sunset to sunrise</Original>
-			<English>From sunset to sunrise</English>
-			<Russian>От заката до рассвета</Russian>
+			<Original>Nocturnal</Original>
+			<English>Nocturnal</English>
+			<Russian>Ночной</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_CHANCE">
-			<Original>Probability of occurrence</Original>
-			<English>Probability of occurrence</English>
-			<Russian>Вероятность появления</Russian>
+			<Original>Spawn chance</Original>
+			<English>Spawn chance</English>
+			<Russian>Вероятность спавна</Russian>
 		</Key>		
 		<Key ID="STR_MUTANTS_MODULE_SET_BEHAVIOUR">
 			<Original>Behaviour</Original>
 			<English>Behaviour</English>
 			<Russian>Поведение</Russian>
-		</Key>
-		<Key ID="STR_MUTANTS_MODULE_SET_BEHAVIOUR_DESC">
-			<Original>Default behavior of mutants</Original>
-			<English>Default behavior of mutants</English>
-			<Russian>Поведение мутантов по умолчанию</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_BEHAVIOUR_DESC">
 			<Original>Default behavior of mutants</Original>
@@ -655,13 +650,13 @@
 			<Russian>Спокойное</Russian>
 		</Key>
 		<Key ID="STR_MUTANTS_MODULE_SET_BEHAVIOUR_COMBAT">
-			<Original>Attack</Original>
-			<English>Attack</English>
-			<Russian>Атаковать</Russian>
+			<Original>Aggressive</Original>
+			<English>Aggressive</English>
+			<Russian>Агрессивное</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_DAMMAGE">
-			<Original>Dammage</Original>
-			<English>Dammage</English>
+			<Original>Damage</Original>
+			<English>Damage</English>
 			<Russian>Урон</Russian>
 		</Key>  
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_ESCAPERADIUS">
@@ -685,14 +680,14 @@
 			<Russian>Радиус обитания</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_TACTIFUL">
-			<Original>Tactiful</Original>
-			<English>Tactiful</English>
-			<Russian>Тактичность</Russian>
+			<Original>Intellect</Original>
+			<English>Intellect</English>
+			<Russian>Интеллект</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_TACTIFUL_DESC">
-			<Original>The tactfulness of the unit. Fully affects the model of behavior (not only own forces are taken into account, but also the balance of forces)</Original>
-			<English>The tactfulness of the unit. Fully affects the model of behavior (not only own forces are taken into account, but also the balance of forces)</English>
-			<Russian>Тактичнеость юнита. Влияет полностью на модель поведения (учитываются не только собственные силы, но и соотношение сил)</Russian>
+			<Original>The intellect of spawned units. Has a major effect on the units&apos; behavior.</Original>
+			<English>The intellect of spawned units. Has a major effect on the units&apos; behavior.</English>
+			<Russian>Интеллект юнитов. Сильно влияет на поведение юнитов.</Russian>
 		</Key>            
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_COURAGE">
 			<Original>Courage</Original>
@@ -700,9 +695,9 @@
 			<Russian>Храбрость</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_COURAGE_DESC">
-			<Original>Unit сourage. Used in calculating aspect ratio forces. The value indicates how the unit evaluates its strength in relation to that of the enemy</Original>
-			<English>Unit сourage. Used in calculating aspect ratio forces. The value indicates how the unit evaluates its strength in relation to that of the enemy</English>
-			<Russian>Храбрость юнита. Использутся в расчете сил соотношения сторон. Значение указывает как юнит оценивает свои силы по отношению к силам противника</Russian>
+			<Original>The courage of spawned units. Major effect on the power ratio calculation.</Original>
+			<English>The courage of spawned units. Major effect on the power ratio calculation.</English>
+			<Russian>Храбрость юнитов. Сильно влияет на расчёт соотношения сил.</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_COWARDICE">
 			<Original>Cowardice</Original>
@@ -710,9 +705,9 @@
 			<Russian>Трусливость</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_COWARDICE_DESC">
-			<Original>Unit cowardice, affects most calculations (INSPECT, FOLLOW, AGGRESSIVE)</Original>
-			<English>Unit cowardice, affects most calculations (INSPECT, FOLLOW, AGGRESSIVE)</English>
-			<Russian>Трусливость юнита, влияет на большинство расчётов (INSPECT, FOLLOW, AGGRESSIVE)</Russian>
+			<Original>The cowardice of spawned units. Has a major effect on the units&apos; behavior</Original>
+			<English>The cowardice of spawned units. Has a major effect on the units&apos; behavior</English>
+			<Russian>Трусливость юнитов. Сильно влияет на поведение юнитов.</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_CURIOUS">
 			<Original>Curious</Original>
@@ -720,39 +715,39 @@
 			<Russian>Любопытность</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_CURIOUS_DESC">
-			<Original>Unit curiosity, used in calculating the behavior of events that do not directly threaten the unit (INSPECT)</Original>
-			<English>Unit curiosity, used in calculating the behavior of events that do not directly threaten the unit (INSPECT)</English>
-			<Russian>Любопытность юнита, используется в расчёте поведения при событиях напрямую не угрожающие юниту (INSPECT)</Russian>
+			<Original>The curiosity of spawned units. Has an effect on the units&apos; non-combat behavior.</Original>
+			<English>The curiosity of spawned units. Has an effect on the units&apos; non-combat behavior.</English>
+			<Russian>Любопытность юнитов. Влияет на поведение юнитов вне боя.</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_SECRECY">
-			<Original>Secrecy</Original>
-			<English>Secrecy</English>
+			<Original>Stealthiness</Original>
+			<English>Stealthiness</English>
 			<Russian>Скрытность</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_SECRECY_DESC">
-			<Original>Unit stealth, used in calculating enemy contact behavior (SECRECY)</Original>
-			<English>Unit stealth, used in calculating enemy contact behavior (SECRECY)</English>
-			<Russian>Скрытность юнита, используется в расчёте поведения при контакте с врагом (SECRECY)</Russian>
+			<Original>Units&apos; stealth. Affects units&apos; behaviour upon discovering an enemy.</Original>
+			<English>Units&apos; stealth. Affects units&apos; behaviour upon discovering an enemy.</English>
+			<Russian>Скрытность юнитов. Влияет на поведение юнитов при обнаружении противника.</Russian>
 		</Key>           
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_AGRESSIVE">
-			<Original>Agressive</Original>
-			<English>Agressive</English>
+			<Original>Agressiveness</Original>
+			<English>Agressiveness</English>
 			<Russian>Агрессивность</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_AGRESSIVE_DESC">
-			<Original>Reflects the overall aggressiveness of the unit. Affects most calculations (INSPECT, FOLLOW, SECRECY)</Original>
-			<English>Reflects the overall aggressiveness of the unit. Affects most calculations (INSPECT, FOLLOW, SECRECY)</English>
-			<Russian>Отражает общую агрессивность юнита. Влияет на большинство расчётов (INSPECT, FOLLOW, SECRECY)</Russian>
+			<Original>Units&apos; overall aggressiveness. Affects units&apos; behaviour in most situations.</Original>
+			<English>Units&apos; overall aggressiveness. Affects units&apos; behaviour in most situations.</English>
+			<Russian>Отражает общую агрессивность юнитов. Влияет на поведение юнитов в различных ситуациях.</Russian>
 		</Key>   
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_SOCIETAL">
-			<Original>Societal</Original>
-			<English>Societal</English>
+			<Original>Sociality</Original>
+			<English>Sociality</English>
 			<Russian>Социальность</Russian>
 		</Key> 
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_SOCIETAL_DESC">
-			<Original>The sociality of the unit affects the choice of the unit's waypoint at rest, as well as the choice of the victim in the combat state (GROUPMANEUVER).</Original>
-			<English>The sociality of the unit affects the choice of the unit's waypoint at rest, as well as the choice of the victim in the combat state (GROUPMANEUVER).</English>
-			<Russian>Социальность юнита, влияет на выбор маршрутной точки юнита в состоянии покоя, а так же выбор жертвы в состоянии боя (GROUPMANEUVER)</Russian>
+			<Original>Units&apos; sociality affects the ability of the unit to perform group maneuvers.</Original>
+			<English>Units&apos; sociality affects the ability of the unit to perform group maneuvers.</English>
+			<Russian>Социальность влияет на способность юнита совершать групповые маневры с другими юнитами.</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_DEBUGTYPE">
 			<Original>Debug</Original>
@@ -760,14 +755,14 @@
 			<Russian>Отладка</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_DEBUGTYPE_DISPLAY">
-			<Original>Display</Original>
-			<English>Display</English>
-			<Russian>Показать</Russian>
+			<Original>Display in chat</Original>
+			<English>Display in chat</English>
+			<Russian>Вывести в чат</Russian>
 		</Key>
         <Key ID="STR_MUTANTS_MODULE_SET_CHAR_DEBUGTYPE_DISPLAYLOG">
 			<Original>Display and write to log</Original>
 			<English>Display and write to log</English>
-			<Russian>Показать и записать в лог</Russian>
+			<Russian>Вывести в чат и записать в лог</Russian>
 		</Key>       
 	</Package>
 </Project>

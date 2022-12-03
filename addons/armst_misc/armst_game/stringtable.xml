@@ -7,31 +7,31 @@
 		<Russian>Нет места</Russian>
 	</Key>
 	<Key ID="STR_Campfire_burning">
-		<Original>Campfire burning</Original>
-		<English>Campfire burning</English>
+		<Original>Campfire (burning)</Original>
+		<English>Campfire (burning)</English>
 		<Russian>Костер (горит)</Russian>
 	</Key>
 	
 	<Key ID="str_remain_complete">
-		<Original>Completed...</Original>
-		<English>Completed...</English>
-		<Russian>Срезалось...</Russian>
+		<Original>Action completed</Original>
+		<English>Action completed</English>
+		<Russian>Действие завершено</Russian>
 	</Key>
 	<Key ID="str_remain_notcomplete">
-		<Original>Dont completed...</Original>
-		<English>Dont completed...</English>
-		<Russian>Не срезалось...</Russian>
+		<Original>Action failed</Original>
+		<English>Action failed</English>
+		<Russian>Действие провалилось</Russian>
 	</Key>
 	
 	<Key ID="STR_Campfire">
-		<Original>Campfire </Original>
-		<English>Campfire </English>
+		<Original>Campfire</Original>
+		<English>Campfire</English>
 		<Russian>Костер</Russian>
 	</Key>
 	<Key ID="STR_play_guitar">
-		<Original>Playing the guitar ></Original>
-		<English>Playing the guitar ></English>
-		<Russian>Играть на гитаре ></Russian>
+		<Original>Playing the guitar</Original>
+		<English>Playing the guitar</English>
+		<Russian>Играть на гитаре</Russian>
 	</Key>
 	<Key ID="STR_Unlockbackpack">
 		<Original>Unlock the backpack</Original>
@@ -54,14 +54,14 @@
 		<Russian>Нацепить</Russian>
 	</Key>
 	<Key ID="STR_bonfire">
-		<Original>Make a bonfire</Original>
-		<English>Make a bonfire</English>
+		<Original>Start a fire</Original>
+		<English>Start a fire</English>
 		<Russian>Развести костер</Russian>
 	</Key>
 	<Key ID="STR_list_melody">
-		<Original>List of melodies</Original>
-		<English>List of melodies</English>
-		<Russian>Список мелодий</Russian>
+		<Original>List of melodies &gt;</Original>
+		<English>List of melodies &gt;</English>
+		<Russian>Список мелодий &gt;</Russian>
 	</Key>
 	<Key ID="STR_melody1">
 		<Original>Play a melody 1</Original>
@@ -99,15 +99,15 @@
 		<Russian>Сыграть мелодию 7</Russian>
 	</Key>
 	<Key ID="STR_stopmelody">
-		<Original>Stop play</Original>
-		<English>Stop play</English>
+		<Original>Stop playing</Original>
+		<English>Stop playing</English>
 		<Russian>Прекратить играть</Russian>
 	</Key>
 	
 	<Key ID="STR_list_animations">
-		<Original>List of animations ></Original>
-		<English>List of animations ></English>
-		<Russian>Список анимаций ></Russian>
+		<Original>List of animations &gt;</Original>
+		<English>List of animations &gt;</English>
+		<Russian>Список анимаций &gt;</Russian>
 	</Key>
 	<Key ID="STR_anim1">
 		<Original>Pray</Original>
@@ -115,13 +115,13 @@
 		<Russian>Молиться</Russian>
 	</Key>
 	<Key ID="STR_anim2">
-		<Original>Stagger</Original>
-		<English>Stagger</English>
+		<Original>Warm up</Original>
+		<English>Warm up</English>
 		<Russian>Размяться</Russian>
 	</Key>
 	<Key ID="STR_anim3">
-		<Original>Respire</Original>
-		<English>Respire</English>
+		<Original>Catch breath</Original>
+		<English>Catch breath</English>
 		<Russian>Отдышаться</Russian>
 	</Key>
 	<Key ID="STR_anim4">
@@ -155,9 +155,9 @@
 		<Russian>Присесть</Russian>
 	</Key>
 	<Key ID="STR_anim10">
-		<Original>Down</Original>
-		<English>Down</English>
-		<Russian>Лежать</Russian>
+		<Original>Lie down</Original>
+		<English>Lie down</English>
+		<Russian>Леч</Russian>
 	</Key>
 	<Key ID="STR_anim11">
 		<Original>Repair</Original>
@@ -175,9 +175,9 @@
 		<Russian>Прекратить</Russian>
 	</Key>
 	<Key ID="STR_list_artefact">
-		<Original>List of artefacts ></Original>
-		<English>List of artefacts ></English>
-		<Russian>Список анимаций ></Russian>
+		<Original>List of artefacts &gt;</Original>
+		<English>List of artefacts &gt;</English>
+		<Russian>Список артефактов &gt;</Russian>
 	</Key>
 	<Key ID="STR_artefact_use1">
 		<Original>Use a Meat Chunk</Original>
@@ -236,19 +236,19 @@
 	</Key>
 	
 	<Key ID="STR_hard_drink">
-		<Original>I do not want to drink anymore</Original>
-		<English>I do not want to drink anymore</English>
-		<Russian>В меня больше не лезет!!!</Russian>
+		<Original>I can&apos;t drink anymore</Original>
+		<English>I can&apos;t drink anymore</English>
+		<Russian>В меня больше не лезет</Russian>
 	</Key>
 	<Key ID="STR_hard_drink_2">
-		<Original>You were watered with water</Original>
-		<English>You were watered with water</English>
+		<Original>You were given water</Original>
+		<English>You were given water</English>
 		<Russian>Вас напоили водой</Russian>
 	</Key>
 	<Key ID="STR_hard_eat">
-		<Original>I do not want to eat anymore</Original>
-		<English>I do not want to eat anymore</English>
-		<Russian>В меня больше не лезет!!!</Russian>
+		<Original>I can&apos;t eat anymore</Original>
+		<English>I can&apos;t eat anymore</English>
+		<Russian>В меня больше не лезет</Russian>
 	</Key>
 	<Key ID="STR_hard_eat2">
 		<Original>You were fed</Original>
@@ -263,9 +263,9 @@
 		<Russian>Ищу камни для костра</Russian>
 	</Key>
 	<Key ID="STR_fireplace_2">
-		<Original>Looking for sticks and chips for a fire</Original>
-		<English>Looking for sticks and chips for a fire</English>
-		<Russian>Ищу палки и щепки для костра</Russian>
+		<Original>Looking for fuel for a fire</Original>
+		<English>Looking for fuel for a fire</English>
+		<Russian>Ищу топливо для костра</Russian>
 	</Key>
 	<Key ID="STR_fireplace_3">
 		<Original>I'm trying to kindle a fire</Original>
@@ -285,36 +285,36 @@
 	
 	
 	<Key ID="STR_artefact_founded">
-		<Original>Nearby discovered an artifact</Original>
-		<English>Nearby discovered an artifact</English>
-		<Russian>Рядом обнаружен артефакт</Russian>
+		<Original>You have found an artifact</Original>
+		<English>You have found an artifact</English>
+		<Russian>Вы обнаружили артефакт</Russian>
 	</Key>
 	
 	<Key ID="STR_mutant_progress">
-		<Original>Cut off part of the mutant's body</Original>
-		<English>Cut off part of the mutant's body</English>
+		<Original>Cutting up the mutant body</Original>
+		<English>Cutting up the mutant body</English>
 		<Russian>Отрезаю часть тела мутанта</Russian>
 	</Key>
 	<Key ID="STR_man_progress">
-		<Original>Cut off part of the man's body</Original>
-		<English>Cut off part of the man's body</English>
+		<Original>Cutting off the patch</Original>
+		<English>Cutting off the patch</English>
 		<Russian>Срезаю нашивку</Russian>
 	</Key>
 	<Key ID="STR_medicine_int">
-		<Original>Medicine ></Original>
-		<English>Medicine ></English>
-		<Russian>Medicine ></Russian>
+		<Original>Medicine &gt;</Original>
+		<English>Medicine &gt;</English>
+		<Russian>Лечение &gt;</Russian>
 	</Key>
 	<Key ID="STR_eatwater_int">
-		<Original>Eat \ drink ></Original>
-		<English>Eat \ drink ></English>
-		<Russian>Еда / Вода ></Russian>
+		<Original>Eat/drink &gt;</Original>
+		<English>Eat/drink &gt;</English>
+		<Russian>Еда/Вода &gt;</Russian>
 	</Key>
 	
 	
 	<Key ID="STR_tie">
-		<Original>To tie</Original>
-		<English>To tie</English>
+		<Original>Tie up</Original>
+		<English>Tie up</English>
 		<Russian>Связать</Russian>
 	</Key>
 	<Key ID="STR_letgo">
@@ -325,11 +325,11 @@
 	<Key ID="STR_Putthebag">
 		<Original>Put the bag on the head</Original>
 		<English>Put the bag on the head</English>
-		<Russian>Надеть мешок</Russian>
+		<Russian>Надеть мешок на голову</Russian>
 	</Key>
 	<Key ID="STR_escortstop">
-		<Original>Escort stop</Original>
-		<English>Escort stop</English>
+		<Original>Stop escorting</Original>
+		<English>Stop escorting</English>
 		<Russian>Прекратить сопровождение</Russian>
 	</Key>
 	<Key ID="STR_escort">
@@ -365,56 +365,56 @@
 		<Russian>Диагностика</Russian>
 	</Key>
 	<Key ID="STR_FN_morphiy">
-		<Original>Sticking morphine</Original>
-		<English>Sticking morphine</English>
+		<Original>Use morphine</Original>
+		<English>Use morphine</English>
 		<Russian>Вколоть морфий</Russian>
 	</Key>
 	<Key ID="STR_FN_adrenaline">
-		<Original>Sticking adrenaline</Original>
-		<English>Sticking adrenaline</English>
+		<Original>Use adrenaline</Original>
+		<English>Use adrenaline</English>
 		<Russian>Вколоть адреналин</Russian>
 	</Key>
 	<Key ID="STR_FN_radx">
-		<Original>Sticking RadX</Original>
-		<English>Sticking RadX</English>
+		<Original>Use RadX</Original>
+		<English>Use RadX</English>
 		<Russian>Вколоть RadX</Russian>
 	</Key>
 	<Key ID="STR_FN_medkit">
-		<Original>To pour blood</Original>
-		<English>To pour blood</English>
+		<Original>Transfuse blood</Original>
+		<English>Transfuse blood</English>
 		<Russian>Перелить кровь</Russian>
 	</Key>
 	
 	<Key ID="STR_FN_heads">
-		<Original>Bandaging Head</Original>
-		<English>Bandaging Head</English>
+		<Original>Bandage head</Original>
+		<English>Bandage head</English>
 		<Russian>Перевязать голову</Russian>
 	</Key>
 	<Key ID="STR_FN_tors">
-		<Original>Bandaging the torso</Original>
-		<English>Bandaging the torso</English>
+		<Original>Bandage the torso</Original>
+		<English>Bandage the torso</English>
 		<Russian>Перевязать торс</Russian>
 	</Key>
 	<Key ID="STR_FN_arms">
-		<Original>Bandaging hands</Original>
-		<English>Bandaging hands</English>
+		<Original>Bandage hands</Original>
+		<English>Bandage hands</English>
 		<Russian>Перевязать руки</Russian>
 	</Key>
 	<Key ID="STR_FN_legs">
-		<Original>Bandaging feet</Original>
-		<English>Bandaging feet</English>
+		<Original>Bandage feet</Original>
+		<English>Bandage feet</English>
 		<Russian>Перевязать ноги</Russian>
 	</Key>
 	
 	<Key ID="STR_cutmutants">
-		<Original>Cut off part of the mutant's body</Original>
-		<English>Cut off part of the mutant's body</English>
+		<Original>Cut up the mutant&apos;s body</Original>
+		<English>Cut up the mutant&apos;s body</English>
 		<Russian>Отрезать часть мутанта</Russian>
 	</Key>
 	<Key ID="STR_cutstalker">
-		<Original>Cut off part of the human's body</Original>
-		<English>Cut off part of the human's body</English>
-		<Russian>Отрезать часть формы</Russian>
+		<Original>Cut off the patch</Original>
+		<English>Cut off the patch</English>
+		<Russian>Отрезать нашивку</Russian>
 	</Key>
 	
 	
@@ -458,7 +458,7 @@
 	<Key ID="STR_pda_SendAnonymous">
 		<Original>Send (Anonymous)</Original>
 		<English>Send (Anonymous)</English>
-		<Russian>Отправить(Анонимно)</Russian>
+		<Russian>Отправить (Анонимно)</Russian>
 	</Key>
 	<Key ID="STR_pda_Sendall">
 		<Original>Send to all</Original>
@@ -502,8 +502,8 @@
 		<Russian>Деньги:</Russian>
 	</Key>
 	<Key ID="STR_pda_kills">
-		<Original>Murders:</Original>
-		<English>Murders:</English>
+		<Original>Kills:</Original>
+		<English>Kills:</English>
 		<Russian>Убийства:</Russian>
 	</Key>
 	<Key ID="STR_pda_deads">
@@ -576,14 +576,14 @@
 		<Russian>Температура:</Russian>
 	</Key>
 	<Key ID="STR_CutBody">
-		<Original>Cut off part of the mutant's body...</Original>
-		<English>Cut off part of the mutant's body...</English>
-		<Russian>Отрезаю часть тела мутанта...</Russian>
+		<Original>Cutting up the mutant body</Original>
+		<English>Cutting up the mutant body</English>
+		<Russian>Отрезаю часть тела мутанта</Russian>
 	</Key>
 	<Key ID="STR_HideBody">
-		<Original>Wait 1 minute...</Original>
-		<English>Wait 1 minute...</English>
-		<Russian>Начата упаковка тела в мешок,ожидайте рядом с ним 1 минуту</Russian>
+		<Original>Packing up the body, wait one minute...</Original>
+		<English>Packing up the body, wait one minute...</English>
+		<Russian>Начата упаковка тела, ожидайте рядом с ним 1 минуту</Russian>
 	</Key>
 	<Key ID="str_stop">
 		<Original>I can not do it...</Original>

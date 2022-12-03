@@ -33,8 +33,8 @@
 		<Russian>Кикимора</Russian>
 	</Key>
 	<Key ID="STR_armst_biomassa">
-		<Original>Biohazard</Original>
-		<English>Biohazard</English>
+		<Original>Biomass</Original>
+		<English>Biomass</English>
 		<Russian>Биомасса</Russian>
 	</Key>
 	<Key ID="STR_armst_medved">
@@ -48,9 +48,9 @@
 		<Russian>Волк</Russian>
 	</Key>
 	<Key ID="STR_armst_wolfAlfa">
-		<Original>Alpha Wolf</Original>
-		<English>Alpha Wolf</English>
-		<Russian>Волк Альфа</Russian>
+		<Original>Alpha wolf</Original>
+		<English>Alpha wolf</English>
+		<Russian>Волк альфа</Russian>
 	</Key>
 	<Key ID="STR_armst_werewolf">
 		<Original>Werewolf</Original>
@@ -63,8 +63,8 @@
 		<Russian>Волкодав</Russian>
 	</Key>
 	<Key ID="STR_armst_upir">
-		<Original>Upir</Original>
-		<English>Upir</English>
+		<Original>Ghoul</Original>
+		<English>Ghoul</English>
 		<Russian>Упырь</Russian>
 	</Key>
 	<Key ID="STR_armst_boar">
@@ -103,8 +103,8 @@
 		<Russian>Контроллер</Russian>
 	</Key>
 	<Key ID="STR_armst_Izlom">
-		<Original>Izlom</Original>
-		<English>Izlom</English>
+		<Original>Fracture</Original>
+		<English>Fracture</English>
 		<Russian>Излом</Russian>
 	</Key>
 	<Key ID="STR_armst_Rat">
@@ -143,14 +143,14 @@
 		<Russian>Снорк</Russian>
 	</Key>
 	<Key ID="STR_armst_tushkano">
-		<Original>Rodent</Original>
-		<English>Rodent</English>
+		<Original>Tushkano</Original>
+		<English>Tushkano</English>
 		<Russian>Тушканчик</Russian>
 	</Key>
 	<Key ID="STR_armst_tushkano_uran">
-		<Original>Rad-Rodent</Original>
-		<English>Rad-Rodent</English>
-		<Russian>Радиоактивный тушкан/Russian>
+		<Original>Rad-tushkano</Original>
+		<English>Rad-tushkano</English>
+		<Russian>Рад-тушкан</Russian>
 	</Key>
 	
 	<Key ID="STR_armst_chimera">
@@ -164,18 +164,18 @@
 		<Russian>Животные</Russian>
 	</Key>
 	<Key ID="STR_armst_dog_pastor_black">
-		<Original>Alsatian (Black)</Original>
-		<English>Alsatian (Black)</English>
+		<Original>German Shepherd (Black)</Original>
+		<English>German Shepherd (Black)</English>
 		<Russian>Немецкая овчарка (Черный)</Russian>
 	</Key>
 	<Key ID="STR_armst_dog_pastor_sand">
-		<Original>Alsatian (Sand)</Original>
-		<English>Alsatian (Sand)</English>
+		<Original>German Shepherd (Sand)</Original>
+		<English>German Shepherd (Sand)</English>
 		<Russian>Немецкая овчарка (Песочный)</Russian>
 	</Key>
 	<Key ID="STR_armst_dog_pastor_sandblack">
-		<Original>Alsatian (Sand-Black)</Original>
-		<English>Alsatian (Sand-Black)</English>
+		<Original>German Shepherd (Sand-Black)</Original>
+		<English>German Shepherd (Sand-Black)</English>
 		<Russian>Немецкая овчарка (Черно-Песочный)</Russian>
 	</Key>
 	<Key ID="STR_armst_dog_fin_sand">
@@ -201,12 +201,12 @@
 	<Key ID="STR_armst_animal_affilation">
 		<Original>Affilation faction</Original>
 		<English>Affilation faction</English>
-		<Russian>Принадлежность фракции</Russian>
+		<Russian>Принадлежность группировке</Russian>
 	</Key>
 	<Key ID="STR_armst_animal_command_follow">
 		<Original>Command: Follow</Original>
 		<English>Command: Follow</English>
-		<Russian>Команда: Следование</Russian>
+		<Russian>Команда: Следовать</Russian>
 	</Key>
 	<Key ID="STR_armst_animal_follow">
 		<Original>Follow Me</Original>
@@ -239,9 +239,9 @@
 		<Russian>Сидеть</Russian>
 	</Key>
 	<Key ID="STR_armst_animal_search_distance">
-		<Original>Search distance</Original>
-		<English>Search distance</English>
-		<Russian>Дистанция поиска</Russian>
+		<Original>Search radius</Original>
+		<English>Search radius</English>
+		<Russian>Радиус поиска</Russian>
 	</Key>
 	<Key ID="STR_armst_animal_search_peaple_a">
 		<Original>Search people (allies)</Original>
@@ -291,7 +291,7 @@
 	<Key ID="STR_armst_animal_domesticated">
 		<Original>Domesticated</Original>
 		<English>Domesticated</English>
-		<Russian>Приручаемый</Russian>
+		<Russian>Прирученый</Russian>
 	</Key>
 	<Key ID="STR_armst_animal_eat">
 		<Original>Eat</Original>
@@ -349,13 +349,13 @@
 		<Russian>Состояние</Russian>
 	</Key>
 	<Key ID="STR_armst_animal_domesticating">
-		<Original>Taming</Original>
-		<English>Taming</English>
+		<Original>Tame</Original>
+		<English>Tame</English>
 		<Russian>Приручить</Russian>
 	</Key>
 	<Key ID="STR_armst_animal_domesticateConfirm">
-		<Original>Taming %1?</Original>
-		<English>Taming %1?</English>
+		<Original>Tame %1?</Original>
+		<English>Tame %1?</English>
 		<Russian>Приручить %1?</Russian>
 	</Key>
 	<Key ID="STR_armst_animal_name_pastor">
@@ -364,14 +364,14 @@
 		<Russian>Пастор</Russian>
 	</Key>
 	<Key ID="STR_armst_animal_surname">
-		<Original>Surname</Original>
-		<English>Surname</English>
+		<Original>Name</Original>
+		<English>Name</English>
 		<Russian>Кличка</Russian>
 	</Key>
 	<Key ID="STR_armst_animal_domesticatingHint">
-		<Original>Maximize your loyalty to tame&lt;br/&gt;&lt;t align='left'&gt;Tame:&lt;/t&gt; &lt;t align='right'&gt;%1&lt;/t&gt;</Original>
-		<English>Maximize your loyalty to tame&lt;br/&gt;&lt;t align='left'&gt;Tame:&lt;/t&gt; &lt;t align='right'&gt;%1&lt;/t&gt;</English>
-		<Russian>Для приручения добейтесь максимальной лояльности&lt;br/&gt;&lt;t align='left'&gt;Приручение:&lt;/t&gt; &lt;t align='right'&gt;%1&lt;/t&gt;</Russian>
+		<Original>Maximize your loyalty to tame&lt;br/&gt;&lt;t align='left'&gt;Loyalty:&lt;/t&gt; &lt;t align='right'&gt;%1&lt;/t&gt;</Original>
+		<English>Maximize your loyalty to tame&lt;br/&gt;&lt;t align='left'&gt;Loyalty:&lt;/t&gt; &lt;t align='right'&gt;%1&lt;/t&gt;</English>
+		<Russian>Для приручения добейтесь максимального доверия&lt;br/&gt;&lt;t align='left'&gt;Доверие:&lt;/t&gt; &lt;t align='right'&gt;%1&lt;/t&gt;</Russian>
 	</Key>
 </Package>
 </Project>

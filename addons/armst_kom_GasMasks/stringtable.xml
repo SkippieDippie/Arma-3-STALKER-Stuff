@@ -12,8 +12,8 @@
 		<Russian>Балаклава</Russian>
 	</Key>
 	<Key ID="STR_armst_balaclava3">
-		<Original>Balaclava</Original>
-		<English>Balaclava</English>
+		<Original>Helmet liner</Original>
+		<English>Helmet liner</English>
 		<Russian>Подшлемник</Russian>
 	</Key>
 	<Key ID="STR_respirator">
@@ -22,13 +22,8 @@
 		<Russian>Респиратор</Russian>
 	</Key>
 	<Key ID="STR_GasBal">
-		<Original>Gasmask Baloon</Original>
-		<English>Gasmask Baloon</English>
-		<Russian>Противогаз с баллоном</Russian>
-	</Key>
-	<Key ID="STR_GasBal">
-		<Original>Gasmask Baloon</Original>
-		<English>Gasmask Baloon</English>
+		<Original>Gasmask (air tank)</Original>
+		<English>Gasmask (air tank)</English>
 		<Russian>Противогаз с баллоном</Russian>
 	</Key>
 	<Key ID="STR_armst_CN2f">
@@ -52,9 +47,9 @@
 		<Russian>Повязка на глаз</Russian>
 	</Key>
 	<Key ID="STR_armst_gasmaskBastard">
-		<Original>Gasmask 'Bastard'</Original>
-		<English>Gasmask'Bastard'</English>
-		<Russian>Противогаз Ублюдок</Russian>
+		<Original>Gasmask &apos;Bastard&apos;</Original>
+		<English>Gasmask &apos;Bastard&apos;</English>
+		<Russian>Противогаз &apos;Ублюдок&apos;</Russian>
 	</Key>
 	<Key ID="STR_gasmaskM33">
 		<Original>Gasmask M33</Original>
@@ -94,22 +89,22 @@
 	<Key ID="STR_gasmaskGP5">
 		<Original>Gasmask GP5</Original>
 		<English>Gasmask GP5</English>
-		<Russian>Противогаз GP5</Russian>
+		<Russian>Противогаз ГП-5</Russian>
 	</Key>
 	<Key ID="STR_gasmaskGP7">
-		<Original>Gasmask GP7</Original>
-		<English>Gasmask GP7</English>
-		<Russian>Противогаз GP7</Russian>
+		<Original>Gasmask GP-7</Original>
+		<English>Gasmask GP-7</English>
+		<Russian>Противогаз ГП-7</Russian>
 	</Key>
 	<Key ID="STR_Gasslon">
-		<Original>Gasmask Elephant-G</Original>
-		<English>Gasmask Elephant-G</English>
-		<Russian>Противогаз Слон-Г</Russian>
+		<Original>Gasmask &apos;Elephant-G&apos;</Original>
+		<English>Gasmask &apos;Elephant-G&apos;</English>
+		<Russian>Противогаз &apos;Слон-Г&apos;</Russian>
 	</Key>
 	<Key ID="STR_gasmaskResearcher">
-		<Original>Gasmask Researcher</Original>
-		<English>Gasmask Researcher</English>
-		<Russian>Противогаз Исследователь</Russian>
+		<Original>Gasmask &apos;Researcher&apos;</Original>
+		<English>Gasmask &apos;Researcher&apos;</English>
+		<Russian>Противогаз &apos;Исследователь&apos;</Russian>
 	</Key>
 	<Key ID="STR_gasmaskM2">
 		<Original>Gasmask M2</Original>
@@ -134,32 +129,32 @@
 	<Key ID="STR_Bandana_cs">
 		<Original>Bandana with goggles</Original>
 		<English>Bandana with goggles</English>
-		<Russian>Бандана с защитными очками (Чистое небо)</Russian>
+		<Russian>Бандана с защитными очками</Russian>
 	</Key>
 	<Key ID="STR_Bandana_duty">
 		<Original>Bandana with goggles</Original>
 		<English>Bandana with goggles</English>
-		<Russian>Бандана с защитными очками (Долг)</Russian>
+		<Russian>Бандана с защитными очками</Russian>
 	</Key>
 	<Key ID="STR_Bandana_freedom">
 		<Original>Bandana with goggles</Original>
 		<English>Bandana with goggles</English>
-		<Russian>Бандана с защитными очками (Свобода)</Russian>
+		<Russian>Бандана с защитными очками</Russian>
 	</Key>
 	<Key ID="STR_Bandana_merc">
 		<Original>Bandana with goggles</Original>
 		<English>Bandana with goggles</English>
-		<Russian>Бандана с защитными очками (Наемник)</Russian>
+		<Russian>Бандана с защитными очками</Russian>
 	</Key>
 	<Key ID="STR_Bandana_monolith">
 		<Original>Bandana with goggles</Original>
 		<English>Bandana with goggles</English>
-		<Russian>Бандана с защитными очками (Монолит)</Russian>
+		<Russian>Бандана с защитными очками</Russian>
 	</Key>
 	<Key ID="STR_Bandana_army">
 		<Original>Bandana with goggles</Original>
 		<English>Bandana with goggles</English>
-		<Russian>Бандана с защитными очками (Военный)</Russian>
+		<Russian>Бандана с защитными очками</Russian>
 	</Key>
 	<Key ID="STR_MESHOK0">
 		<Original>Bag</Original>
@@ -172,18 +167,18 @@
 		<Russian>Стекло (СЕВА)</Russian>
 	</Key>
 	<Key ID="STR_gasmaskR5">
-		<Original>Respirator R5(non-filter)</Original>
-		<English>Respirator R5(non-filter)</English>
-		<Russian>Респиратор R5-Р (без фильтра)</Russian>
+		<Original>Respirator R5 (w/o filter)</Original>
+		<English>Respirator R5 (w/o filter)</English>
+		<Russian>Респиратор R5 (без фильтра)</Russian>
 	</Key>
 	<Key ID="STR_gasmaskR5Р">
-		<Original>Respirator R5-Р(non-filter)</Original>
-		<English>Respirator R5-Р(non-filter)</English>
+		<Original>Respirator R5-Р (w/o filter)</Original>
+		<English>Respirator R5-Р (w/o filter)</English>
 		<Russian>Респиратор R5-Р (без фильтра)</Russian>
 	</Key>
 	<Key ID="STR_gasmaskR5SH2">
-		<Original>Respirator R5-SH2(non-filter)</Original>
-		<English>Respirator R5-SH2(non-filter)</English>
+		<Original>Respirator R5-SH2 (w/o filter)</Original>
+		<English>Respirator R5-SH2 (w/o filter)</English>
 		<Russian>Респиратор R5-SH2 (без фильтра)</Russian>
 	</Key>
 	<Key ID="STR_gasmaskR51">

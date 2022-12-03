@@ -33,8 +33,8 @@
 		<Russian>Кикимора</Russian>
 	</Key>
 	<Key ID="STR_armst_biomassa">
-		<Original>Biohazard</Original>
-		<English>Biohazard</English>
+		<Original>Biomass</Original>
+		<English>Biomass</English>
 		<Russian>Биомасса</Russian>
 	</Key>
 	<Key ID="STR_armst_medved">
@@ -48,9 +48,9 @@
 		<Russian>Волк</Russian>
 	</Key>
 	<Key ID="STR_armst_wolfAlfa">
-		<Original>Alpha Wolf</Original>
-		<English>Alpha Wolf</English>
-		<Russian>Волк Альфа</Russian>
+		<Original>Alpha wolf</Original>
+		<English>Alpha wolf</English>
+		<Russian>Волк альфа</Russian>
 	</Key>
 	<Key ID="STR_armst_werewolf">
 		<Original>Werewolf</Original>
@@ -58,13 +58,13 @@
 		<Russian>Оборотень</Russian>
 	</Key>
 	<Key ID="STR_armst_wolfhound">
-		<Original>Wolfhoun</Original>
-		<English>Wolfhoun</English>
+		<Original>Wolfhound</Original>
+		<English>Wolfhound</English>
 		<Russian>Волкодав</Russian>
 	</Key>
 	<Key ID="STR_armst_upir">
-		<Original>Upir</Original>
-		<English>Upir</English>
+		<Original>Ghoul</Original>
+		<English>Ghoul</English>
 		<Russian>Упырь</Russian>
 	</Key>
 	<Key ID="STR_armst_boar">
@@ -103,8 +103,8 @@
 		<Russian>Контроллер</Russian>
 	</Key>
 	<Key ID="STR_armst_Izlom">
-		<Original>Izlom</Original>
-		<English>Izlom</English>
+		<Original>Fracture</Original>
+		<English>Fracture</English>
 		<Russian>Излом</Russian>
 	</Key>
 	<Key ID="STR_armst_Rat">
@@ -143,8 +143,8 @@
 		<Russian>Снорк</Russian>
 	</Key>
 	<Key ID="STR_armst_tushkano">
-		<Original>Rodent</Original>
-		<English>Rodent</English>
+		<Original>Tushkano</Original>
+		<English>Tushkano</English>
 		<Russian>Тушканчик</Russian>
 	</Key>
 	<Key ID="STR_armst_chimera">
