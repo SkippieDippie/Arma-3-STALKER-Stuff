@@ -1,0 +1,43 @@
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0.07,0.059999999,0.050000001,1};
+specularPower=70;
+PixelShaderID="Super";
+VertexShaderID="Super";
+class Stage1
+{
+    texture="stst_characters\facewear\gp5\data\gp5_nohq.paa";
+    uvSource="tex";
+};
+class Stage2
+{
+    texture="#(argb,8,8,3)color(0.5,0.5,0.5,0)";
+    uvSource="tex";
+};
+class Stage3
+{
+    texture="#(argb,8,8,3)color(0,0,0,0)";
+    uvSource="tex";
+};
+class Stage4
+{
+    texture="stst_characters\facewear\gp5\data\gp5_as.paa";
+    uvSource="tex";
+};
+class Stage5
+{
+    texture="stst_characters\facewear\gp5\data\gp5_smdi.paa";
+    uvSource="tex";
+};
+class Stage6
+{
+    texture="#(ai,64,64,1)fresnel(3.21,4.01)";
+    uvSource="none";
+};
+class Stage7
+{
+    texture="a3\data_f\env_land_co.paa";
+    uvSource="none";
+};
