@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project name='Arma 3 - STALKER Stuff'>
+	<Package name='Characters'>
+		<Key ID="STR_STST_goggles_gp5_name">
+			<Original>GP-5</Original>
+			<English>GP-5</English>
+			<Russian>ГП-5</Russian>
+		</Key>
+		<Key ID="STR_STST_goggles_gp5_black_name">
+			<Original>GP-5 (Black)</Original>
+			<English>GP-5 (Black)</English>
+			<Russian>ГП-5 (Чёрный)</Russian>
+		</Key>
+		<Key ID="STR_STST_goggles_gp5_old_name">
+			<Original>GP-5 (Old)</Original>
+			<English>GP-5 (Old)</English>
+			<Russian>ГП-5 (Старый)</Russian>
+		</Key>
+		<Key ID="STR_STST_goggles_gp5_nofilter_desc">
+			<Original>An old but still reliable soviet-produced gasmask. The GP-5 was designed to protect the wearer from poisonous, radioactive and biological threats.&lt;/br&gt;ATTENTION: NO FILTER INSTALLED.</Original>
+			<English>An old but still reliable soviet-produced gasmask. The GP-5 was designed to protect the wearer from poisonous, radioactive and biological threats.&lt;/br&gt;ATTENTION: NO FILTER INSTALLED.</English>
+			<Russian>Старый но всё еще надёжный советский противогаз. ГП-5 предназначен для защиты от попадания в органы дыхания, на глаза и лицо человека отравляющих, радиоактивных веществ и биологических средств.&lt;/br&gt;ВНИМАНИЕ: ФИЛЬТР ОТСУТСТВУЕТ.</Russian>
+		</Key>
+		<Key ID="STR_STST_goggles_gp5_filter1_desc">
+			<Original>An old but still reliable soviet-produced gasmask. The GP-5 was designed to protect the wearer from poisonous, radioactive and biological threats.&lt;/br&gt;STANDARD FILTER INSTALLED.</Original>
+			<English>An old but still reliable soviet-produced gasmask. The GP-5 was designed to protect the wearer from poisonous, radioactive and biological threats.&lt;/br&gt;STANDARD FILTER INSTALLED.</English>
+			<Russian>Старый но всё еще надёжный советский противогаз. ГП-5 предназначен для защиты от попадания в органы дыхания, на глаза и лицо человека отравляющих, радиоактивных веществ и биологических средств.&lt;/br&gt;УСТАНОВЛЕН СТАНДАРТНЫЙ ФИЛЬТР.</Russian>
+		</Key>
+		<Key ID="STR_STST_goggles_gp5_filter2_desc">
+			<Original>An old but still reliable soviet-produced gasmask. The GP-5 was designed to protect the wearer from poisonous, radioactive and biological threats.&lt;/br&gt;IMPROVED FILTER INSTALLED</Original>
+			<English>An old but still reliable soviet-produced gasmask. The GP-5 was designed to protect the wearer from poisonous, radioactive and biological threats.&lt;/br&gt;IMPROVED FILTER INSTALLED</English>
+			<Russian>Старый но всё еще надёжный советский противогаз. ГП-5 предназначен для защиты от попадания в органы дыхания, на глаза и лицо человека отравляющих, радиоактивных веществ и биологических средств.&lt;/br&gt;УСТАНОВЛЕН УЛУЧШЕННЫЙ ФИЛЬТР.</Russian>
+		</Key>
+		<Key ID="STR_STST_goggles_gp5_filter3_desc">
+			<Original>An old but still reliable soviet-produced gasmask. The GP-5 was designed to protect the wearer from poisonous, radioactive and biological threats.&lt;/br&gt;SCIENTIFIC FILTER INSTALLED</Original>
+			<English>An old but still reliable soviet-produced gasmask. The GP-5 was designed to protect the wearer from poisonous, radioactive and biological threats.&lt;/br&gt;SCIENTIFIC FILTER INSTALLED</English>
+			<Russian>Старый но всё еще надёжный советский противогаз. ГП-5 предназначен для защиты от попадания в органы дыхания, на глаза и лицо человека отравляющих, радиоактивных веществ и биологических средств.&lt;/br&gt;УСТАНОВЛЕН НАУЧНЫЙ ФИЛЬТР.</Russian>
+		</Key>
+	</Package>
+</Project>
